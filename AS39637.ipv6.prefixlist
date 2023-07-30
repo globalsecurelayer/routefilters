@@ -1,0 +1,35 @@
+no ipv6 prefix-list NN
+ipv6 prefix-list NN
+    seq 1 permit 2001:678:56c::/48
+    seq 2 permit 2001:67c:144::/48
+    seq 3 permit 2001:67c:22dc::/48
+    seq 4 permit 2001:15b8::/32 le 48
+    seq 5 permit 2a00:d00::/29 le 48
+    seq 6 permit 2a00:dc8::/32 le 48
+    seq 7 permit 2a00:1478::/32 le 48
+    seq 8 permit 2a00:4140::/29 le 48
+    seq 9 permit 2a00:a0c0::/32 le 48
+    seq 10 permit 2a00:d540::/29 le 48
+    seq 11 permit 2a01:9780::/32 le 48
+    seq 12 permit 2a01:a920::/32 le 48
+    seq 13 permit 2a02:120:2::/48
+    seq 14 permit 2a02:928::/32 le 48
+    seq 15 permit 2a02:5160::/32 le 48
+    seq 16 permit 2a03:1460::/32 le 48
+    seq 17 permit 2a03:7900::/32 le 48
+    seq 18 permit 2a03:8de0::/32 le 48
+    seq 19 permit 2a04:31c0::/29 le 48
+    seq 20 permit 2a04:ab80::/29 le 48
+    seq 21 permit 2a04:d940::/29 le 48
+    seq 22 permit 2a05:9280::/29 le 48
+    seq 23 permit 2a06:900::/29 le 48
+    seq 24 permit 2a06:7bc0::/29 le 48
+    seq 25 permit 2a07:3500:1100::/48
+    seq 26 permit 2a07:3500:1460::/48
+    seq 27 permit 2a07:3500:1778::/48
+    seq 28 permit 2a09:1640::/32 le 48
+    seq 29 permit 2a0b:57c0::/29 le 48
+    seq 30 permit 2a0b:ec00::/29 le 48
+    seq 31 permit 2a0c:eb00::/32 le 48
+    seq 32 permit 2a12:14c0::/29 le 48
+    seq 33 permit 2a13:7c0::/29 le 48
