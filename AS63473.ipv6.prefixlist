@@ -1,0 +1,54 @@
+no ipv6 prefix-list NN
+ipv6 prefix-list NN
+    seq 1 permit 2001:678:aec::/48
+    seq 2 permit 2001:678:c24::/48
+    seq 3 permit 2001:ac8:100a::/48
+    seq 4 permit 2400:c540::/32 le 48
+    seq 5 permit 2404:7bc0::/32 le 48
+    seq 6 permit 2405:84c0:fdfa::/47 le 48
+    seq 7 permit 2406:8dc0:2500::/40 le 48
+    seq 8 permit 2406:ef80:1::/48
+    seq 9 permit 2406:ef80:2::/47 ge 48 le 48
+    seq 10 permit 2406:ef80:4::/48
+    seq 11 permit 2406:ef80:100::/40 le 48
+    seq 12 permit 2407:9240:2500::/40 le 48
+    seq 13 permit 2602:fc52:310::/44 le 48
+    seq 14 permit 2602:fed2:7101::/48
+    seq 15 permit 2602:feda:e30::/44 le 48
+    seq 16 permit 2605:4840::/32 le 48
+    seq 17 permit 2605:f440:cafe::/48
+    seq 18 permit 2606:fdc0::/40 le 48
+    seq 19 permit 2a00:1a28:1157::/48
+    seq 20 permit 2a01:6f0:ffff::/48
+    seq 21 permit 2a04:bdc7:100::/48
+    seq 22 permit 2a05:4741:f::/48
+    seq 23 permit 2a06:e881:5500::/44 le 48
+    seq 24 permit 2a0d:2146:8040::/48
+    seq 25 permit 2a0d:2581::/32 le 48
+    seq 26 permit 2a0d:5600:30::/47 ge 48 le 48
+    seq 27 permit 2a0d:5600:33::/48
+    seq 28 permit 2a0e:dc0:2::/47 ge 48 le 48
+    seq 29 permit 2a0e:dc0:4::/46 ge 48 le 48
+    seq 30 permit 2a0e:dc0:8::/47 ge 48 le 48
+    seq 31 permit 2a0e:aa07:e500::/48
+    seq 32 permit 2a0e:b107:16fa::/48
+    seq 33 permit 2a0e:fd45:bee::/48
+    seq 34 permit 2a0f:600::/29 le 48
+    seq 35 permit 2a0f:9400:7801::/48
+    seq 36 permit 2a0f:9400:7802::/47 ge 48 le 48
+    seq 37 permit 2a0f:9400:7808::/48
+    seq 38 permit 2a0f:9400:780a::/47 ge 48 le 48
+    seq 39 permit 2a0f:9400:780e::/47 ge 48 le 48
+    seq 40 permit 2a0f:9400:7810::/44 le 48
+    seq 41 permit 2a0f:9400:7820::/44 le 48
+    seq 42 permit 2a0f:9400:7830::/45 ge 47 le 48
+    seq 43 permit 2a0f:9400:7838::/47 le 48
+    seq 44 permit 2a0f:9400:7840::/46 le 48
+    seq 45 permit 2a0f:9400:7844::/46 ge 47 le 48
+    seq 46 permit 2a0f:9400:7848::/47 le 48
+    seq 47 permit 2a0f:9400:7850::/44 le 48
+    seq 48 permit 2a0f:9400:8001::/48
+    seq 49 permit 2a0f:9400:8004::/48
+    seq 50 permit 2a10:9b80::/38 le 48
+    seq 51 permit 2a10:9b80:800::/48
+    seq 52 permit 2a12:84c0::/40 le 48
