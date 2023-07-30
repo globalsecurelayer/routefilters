@@ -1,0 +1,46 @@
+no ip prefix-list NN
+ip prefix-list NN
+    seq 1 permit 14.1.64.0/19 le 24
+    seq 2 permit 65.181.0.0/19 le 24
+    seq 3 permit 91.102.180.0/22 le 24
+    seq 4 permit 98.97.0.0/17 le 24
+    seq 5 permit 98.97.128.0/18 le 24
+    seq 6 permit 102.215.56.0/23 le 24
+    seq 7 permit 102.215.58.0/23 ge 24 le 24
+    seq 8 permit 103.152.126.0/23 le 24
+    seq 9 permit 103.235.92.0/22 le 24
+    seq 10 permit 129.222.0.0/16 le 24
+    seq 11 permit 129.224.192.0/19 le 24
+    seq 12 permit 135.129.0.0/18 le 24
+    seq 13 permit 135.129.112.0/20 le 24
+    seq 14 permit 135.129.240.0/20 le 24
+    seq 15 permit 138.84.32.0/19 le 24
+    seq 16 permit 143.131.0.0/20 le 24
+    seq 17 permit 145.224.64.0/18 le 24
+    seq 18 permit 149.19.108.0/23 le 24
+    seq 19 permit 149.19.160.0/23 ge 24 le 24
+    seq 20 permit 149.19.164.0/22 le 24
+    seq 21 permit 149.19.168.0/21 le 24
+    seq 22 permit 162.43.192.0/22 le 24
+    seq 23 permit 164.152.112.0/21 le 24
+    seq 24 permit 164.152.165.0/24
+    seq 25 permit 169.155.224.0/19 le 24
+    seq 26 permit 170.203.64.0/19 le 24
+    seq 27 permit 170.203.192.0/19 le 24
+    seq 28 permit 176.116.124.0/23 le 24
+    seq 29 permit 188.92.248.0/21 le 24
+    seq 30 permit 188.95.144.0/23 le 24
+    seq 31 permit 198.54.100.0/22 le 24
+    seq 32 permit 204.48.8.0/24
+    seq 33 permit 205.174.156.0/23 le 24
+    seq 34 permit 206.83.96.0/20 le 24
+    seq 35 permit 206.83.112.0/21 le 24
+    seq 36 permit 206.83.120.0/22 le 24
+    seq 37 permit 206.83.124.0/23 le 24
+    seq 38 permit 206.83.126.0/23 ge 24 le 24
+    seq 39 permit 206.214.224.0/20 le 24
+    seq 40 permit 206.224.64.0/19 le 24
+    seq 41 permit 209.198.128.0/19 le 24
+    seq 42 permit 216.128.0.0/19 le 24
+    seq 43 permit 216.147.120.0/21 le 24
+    seq 44 permit 217.65.136.0/21 le 24
