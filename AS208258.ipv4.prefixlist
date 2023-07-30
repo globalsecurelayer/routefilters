@@ -1,0 +1,40 @@
+no ip prefix-list NN
+ip prefix-list NN
+    seq 1 permit 37.221.124.0/22 le 24
+    seq 2 permit 45.91.204.0/22 le 24
+    seq 3 permit 45.128.16.0/22 le 24
+    seq 4 permit 45.128.158.0/23 le 24
+    seq 5 permit 45.130.52.0/24
+    seq 6 permit 45.135.96.0/22 ge 23 le 24
+    seq 7 permit 45.136.64.0/22 le 24
+    seq 8 permit 45.141.16.0/22 ge 23 le 24
+    seq 9 permit 45.141.62.0/23 le 24
+    seq 10 permit 45.144.244.0/23 le 24
+    seq 11 permit 45.144.246.0/24
+    seq 12 permit 45.151.112.0/22 le 24
+    seq 13 permit 45.151.156.0/23 le 24
+    seq 14 permit 45.151.158.0/23 ge 24 le 24
+    seq 15 permit 45.152.11.0/24
+    seq 16 permit 45.154.237.0/24
+    seq 17 permit 45.154.238.0/23 le 24
+    seq 18 permit 45.157.32.0/23 le 24
+    seq 19 permit 46.161.208.0/23 le 24
+    seq 20 permit 46.161.212.0/22 le 24
+    seq 21 permit 46.161.220.0/22 ge 23 le 24
+    seq 22 permit 91.244.204.0/22 le 24
+    seq 23 permit 93.89.23.0/24
+    seq 24 permit 94.232.244.0/22 le 24
+    seq 25 permit 185.208.208.0/22 ge 24 le 24
+    seq 26 permit 185.222.32.0/22 ge 23 le 24
+    seq 27 permit 185.227.81.0/24
+    seq 28 permit 185.227.82.0/24
+    seq 29 permit 185.228.83.0/24
+    seq 30 permit 185.232.84.0/23 le 24
+    seq 31 permit 185.243.112.0/23 ge 24 le 24
+    seq 32 permit 194.39.217.0/24
+    seq 33 permit 194.40.246.0/23 le 24
+    seq 34 permit 194.146.45.0/24
+    seq 35 permit 194.146.48.0/24
+    seq 36 permit 195.26.6.0/23 ge 24 le 24
+    seq 37 permit 195.60.176.0/23 ge 24 le 24
+    seq 38 permit 213.185.86.0/23 le 24
