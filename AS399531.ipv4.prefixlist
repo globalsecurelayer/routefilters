@@ -1,0 +1,6 @@
+no ip prefix-list NN
+ip prefix-list NN
+    seq 1 permit 162.218.156.0/24
+    seq 2 permit 172.110.130.0/24
+    seq 3 permit 185.167.182.0/24
+    seq 4 permit 198.169.173.0/24
