@@ -1,5 +1,5 @@
-
-
+no ipv6 prefix-list NN
+ipv6 prefix-list NN
     seq 1 permit 2001:678:aec::/48
     seq 2 permit 2001:678:c24::/48
     seq 3 permit 2001:ac8:100a::/48
