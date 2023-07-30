@@ -1,0 +1,12 @@
+no ip prefix-list NN
+ip prefix-list NN
+    seq 1 permit 45.248.48.0/22 le 24
+    seq 2 permit 87.121.72.0/22 le 24
+    seq 3 permit 87.121.92.0/22 le 24
+    seq 4 permit 87.121.248.0/22 le 24
+    seq 5 permit 103.158.51.0/24
+    seq 6 permit 103.175.233.0/24
+    seq 7 permit 103.205.28.0/23 le 24
+    seq 8 permit 103.214.220.0/22 le 24
+    seq 9 permit 103.216.190.0/23 le 24
+    seq 10 permit 203.12.0.0/20 le 24

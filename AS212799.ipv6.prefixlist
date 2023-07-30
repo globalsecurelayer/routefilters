@@ -1,0 +1,13 @@
+
+
+    seq 1 permit 2602:fd50:f10::/48
+    seq 2 permit 2602:fd50:f40::/44 le 48
+    seq 3 permit 2a07:54c2:b00b::/48
+    seq 4 permit 2a07:54c4:6::/48
+    seq 5 permit 2a07:54c4:1755::/48
+    seq 6 permit 2a0a:6040:700::/40 le 48
+    seq 7 permit 2a0e:97c0:1c0::/45 le 48
+    seq 8 permit 2a0e:97c0:1c8::/48
+    seq 9 permit 2a0e:b107:1660::/44 ge 45 le 48
+    seq 10 permit 2a0e:b107:1670::/45 le 48
+    seq 11 permit 2a12:bec0:74ef::/48
