@@ -1,0 +1,9 @@
+no ipv6 prefix-list NN
+ipv6 prefix-list NN
+    seq 1 permit 2a0e:1bc0::/33 ge 35 le 48
+    seq 2 permit 2a0e:1bc1::/34 ge 35 le 48
+    seq 3 permit 2a0e:1bc1:4000::/35 le 48
+    seq 4 permit 2a0e:1bc4::/35 le 48
+    seq 5 permit 2a0e:1bc5::/35 le 48
+    seq 6 permit 2a0e:1bc7::/35 le 48
+    seq 7 permit 2a0e:aa07:e017::/48
