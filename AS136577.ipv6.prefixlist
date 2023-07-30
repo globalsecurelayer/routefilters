@@ -1,4 +1,4 @@
-
-
+no ipv6 prefix-list NN
+ipv6 prefix-list NN
     seq 1 permit 2001:df4:5080::/48
     seq 2 permit 2401:26c0::/32 le 48
