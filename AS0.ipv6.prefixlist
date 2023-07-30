@@ -561,7 +561,7 @@
     seq 559 permit 2400:85e0::/32 le 48
     seq 560 permit 2400:87c0::/32 le 48
     seq 561 permit 2400:8a20:123::/48
-    seq 562 permit 2400:8a20:124::/48
+    seq 562 permit 2400:8a20:124::/47 ge 48 le 48
     seq 563 permit 2400:8d60:1::/48
     seq 564 permit 2400:8d60:2::/47 ge 48 le 48
     seq 565 permit 2400:8d60:4::/47 ge 48 le 48

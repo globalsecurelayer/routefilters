@@ -303,7 +303,7 @@
     seq 301 permit 2400:85e0::/32 le 48
     seq 302 permit 2400:87c0::/32 le 48
     seq 303 permit 2400:8a20:123::/48
-    seq 304 permit 2400:8a20:124::/48
+    seq 304 permit 2400:8a20:124::/47 ge 48 le 48
     seq 305 permit 2400:8d60:1::/48
     seq 306 permit 2400:8d60:2::/47 ge 48 le 48
     seq 307 permit 2400:8d60:4::/47 ge 48 le 48
