@@ -1,5 +1,5 @@
 
-ip prefix-list NN
+
     seq 1 permit 5.180.20.0/22 le 24
     seq 2 permit 5.180.24.0/21 ge 22 le 24
     seq 3 permit 5.180.40.0/21 ge 22 le 24
