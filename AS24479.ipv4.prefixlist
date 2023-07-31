@@ -33,7 +33,7 @@
     seq 31 permit 203.17.11.0/24
     seq 32 permit 203.17.70.0/24
     seq 33 permit 203.19.67.0/24
-    seq 34 permit 203.24.70.0/24
+    seq 34 permit 203.24.70.0/23 ge 24 le 24
     seq 35 permit 203.25.118.0/24
     seq 36 permit 203.26.66.0/23 le 24
     seq 37 permit 203.27.42.0/23 le 24
