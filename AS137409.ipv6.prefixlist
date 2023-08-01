@@ -2529,7 +2529,7 @@
     seq 2527 permit 2602:291::/40 le 48
     seq 2528 permit 2602:299::/36 le 48
     seq 2529 permit 2602:29c::/40 le 48
-    seq 2530 permit 2602:2a3::/40 le 48
+    seq 2530 permit 2602:2a3::/39 ge 40 le 48
     seq 2531 permit 2602:2a3:300::/40 le 48
     seq 2532 permit 2602:2a3:400::/38 le 48
     seq 2533 permit 2602:2a3:800::/37 le 48
