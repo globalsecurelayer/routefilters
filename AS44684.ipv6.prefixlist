@@ -324,7 +324,7 @@
     seq 322 permit 2a06:1e86::/32 le 48
     seq 323 permit 2a06:5ec0::/48
     seq 324 permit 2a06:8180:4::/48
-    seq 325 permit 2a06:8184::/32 le 48
+    seq 325 permit 2a06:8184:ff00::/40 le 48
     seq 326 permit 2a06:8187:be00::/46 le 48
     seq 327 permit 2a06:8187:fe14::/48
     seq 328 permit 2a06:82c2:2::/48

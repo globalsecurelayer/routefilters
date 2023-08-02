@@ -742,7 +742,7 @@
     seq 740 permit 2a06:7246:2::/47 ge 48 le 48
     seq 741 permit 2a06:7246:4::/48
     seq 742 permit 2a06:7246:6::/48
-    seq 743 permit 2a06:8184::/32 le 48
+    seq 743 permit 2a06:8184:ff00::/40 le 48
     seq 744 permit 2a06:82c5::/48
     seq 745 permit 2a06:9f40::/30 le 48
     seq 746 permit 2a06:9f45::/32 le 48
