@@ -7192,7 +7192,7 @@
     seq 7190 permit 185.84.241.0/24
     seq 7191 permit 185.86.225.0/24
     seq 7192 permit 185.86.226.0/24
-    seq 7193 permit 185.90.60.0/23 le 24
+    seq 7193 permit 185.90.60.0/22 ge 23 le 24
     seq 7194 permit 185.90.119.0/24
     seq 7195 permit 185.90.243.0/24
     seq 7196 permit 185.91.204.0/22 le 24

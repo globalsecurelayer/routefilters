@@ -856,7 +856,7 @@
     seq 854 permit 185.84.240.0/24
     seq 855 permit 185.86.225.0/24
     seq 856 permit 185.86.226.0/24
-    seq 857 permit 185.90.60.0/23 le 24
+    seq 857 permit 185.90.60.0/22 ge 23 le 24
     seq 858 permit 185.95.230.0/24
     seq 859 permit 185.97.79.0/24
     seq 860 permit 185.99.132.0/22 le 24
