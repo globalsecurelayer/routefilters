@@ -7906,7 +7906,7 @@
     seq 7904 permit 103.125.100.0/22 le 24
     seq 7905 permit 103.125.218.0/24
     seq 7906 permit 103.125.232.0/22 le 24
-    seq 7907 permit 103.126.4.0/24
+    seq 7907 permit 103.126.4.0/23 ge 24 le 24
     seq 7908 permit 103.126.88.0/24
     seq 7909 permit 103.126.100.0/22 le 24
     seq 7910 permit 103.126.132.0/22 le 24

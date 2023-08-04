@@ -1907,7 +1907,7 @@
     seq 1905 permit 103.125.100.0/22 le 24
     seq 1906 permit 103.125.218.0/24
     seq 1907 permit 103.125.232.0/22 le 24
-    seq 1908 permit 103.126.4.0/24
+    seq 1908 permit 103.126.4.0/23 ge 24 le 24
     seq 1909 permit 103.126.88.0/24
     seq 1910 permit 103.126.132.0/22 le 24
     seq 1911 permit 103.126.208.0/22 le 24
