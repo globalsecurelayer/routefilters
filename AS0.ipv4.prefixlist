@@ -5557,7 +5557,7 @@
     seq 5555 permit 154.12.40.0/22 le 24
     seq 5556 permit 154.12.52.0/22 ge 24 le 24
     seq 5557 permit 154.12.56.0/22 ge 24 le 24
-    seq 5558 permit 154.12.176.0/20 ge 24 le 24
+    seq 5558 permit 154.12.176.0/20 le 24
     seq 5559 permit 154.13.4.0/22 ge 24 le 24
     seq 5560 permit 154.16.1.0/24
     seq 5561 permit 154.16.4.0/23 ge 24 le 24
@@ -5625,7 +5625,7 @@
     seq 5623 permit 154.16.252.0/23 ge 24 le 24
     seq 5624 permit 154.16.255.0/24
     seq 5625 permit 154.17.0.0/19 le 24
-    seq 5626 permit 154.17.224.0/20 ge 24 le 24
+    seq 5626 permit 154.17.224.0/20 le 24
     seq 5627 permit 154.18.161.0/24
     seq 5628 permit 154.18.163.0/24
     seq 5629 permit 154.18.168.0/24
@@ -5633,7 +5633,7 @@
     seq 5631 permit 154.18.177.0/24
     seq 5632 permit 154.19.64.0/18 le 24
     seq 5633 permit 154.19.224.0/19 le 24
-    seq 5634 permit 154.21.80.0/20 ge 24 le 24
+    seq 5634 permit 154.21.80.0/20 le 24
     seq 5635 permit 154.21.117.0/24
     seq 5636 permit 154.22.96.0/19 le 24
     seq 5637 permit 154.22.160.0/19 le 24
@@ -5644,9 +5644,9 @@
     seq 5642 permit 154.23.192.0/20 ge 24 le 24
     seq 5643 permit 154.23.208.0/24
     seq 5644 permit 154.23.240.0/20 ge 24 le 24
-    seq 5645 permit 154.26.176.0/20 ge 24 le 24
+    seq 5645 permit 154.26.176.0/20 le 24
     seq 5646 permit 154.26.192.0/18 ge 24 le 24
-    seq 5647 permit 154.28.160.0/20 ge 24 le 24
+    seq 5647 permit 154.28.160.0/20 le 24
     seq 5648 permit 154.30.24.0/21 ge 22 le 24
     seq 5649 permit 154.31.0.0/18 le 24
     seq 5650 permit 154.31.112.0/20 le 24
