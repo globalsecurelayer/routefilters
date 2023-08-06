@@ -2352,7 +2352,7 @@
     seq 2350 permit 2602:fb1b:2::/48
     seq 2351 permit 2602:fb26:600::/39 ge 40 le 48
     seq 2352 permit 2602:fb26:820::/44 le 48
-    seq 2353 permit 2602:fb26:840::/44 le 48
+    seq 2353 permit 2602:fb26:840::/43 ge 44 le 48
     seq 2354 permit 2602:fb26:d00::/40 le 48
     seq 2355 permit 2602:fb2a::/40 le 48
     seq 2356 permit 2602:fb33::/40 le 48
