@@ -80,7 +80,7 @@
     seq 78 permit 2602:fafd:fb6::/48
     seq 79 permit 2602:fafe::/40 le 48
     seq 80 permit 2602:fb00::/40 le 48
-    seq 81 permit 2602:fb26:840::/44 le 48
+    seq 81 permit 2602:fb26:840::/43 ge 44 le 48
     seq 82 permit 2602:fb54::/36 le 48
     seq 83 permit 2602:fb56::/36 le 48
     seq 84 permit 2602:fbb6::/36 le 48
