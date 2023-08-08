@@ -2246,7 +2246,7 @@
     seq 2244 permit 2a0a:6043:b00b::/48
     seq 2245 permit 2a0a:6044:b00b::/48
     seq 2246 permit 2a0a:6045:b00b::/48
-    seq 2247 permit 2a0a:6046:b00b::/48
+    seq 2247 permit 2a0a:6046::/32 le 48
     seq 2248 permit 2a0a:6047:b00b::/48
     seq 2249 permit 2a0a:68c0::/40 le 48
     seq 2250 permit 2a0a:68c0:ff00::/40 le 48
