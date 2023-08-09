@@ -1837,7 +1837,7 @@
     seq 1835 permit 185.83.202.0/23 le 24
     seq 1836 permit 185.84.241.0/24
     seq 1837 permit 185.86.225.0/24
-    seq 1838 permit 185.86.226.0/24
+    seq 1838 permit 185.86.226.0/23 ge 24 le 24
     seq 1839 permit 185.100.0.0/22 ge 24 le 24
     seq 1840 permit 185.100.0.53/32
     seq 1841 permit 185.101.20.0/22 le 24
