@@ -363,7 +363,7 @@
     seq 361 permit 5.181.180.0/24
     seq 362 permit 5.181.185.0/24
     seq 363 permit 5.181.187.0/24
-    seq 364 permit 5.181.196.0/24
+    seq 364 permit 5.181.196.0/22 ge 24 le 24
     seq 365 permit 5.181.208.0/21 ge 22 le 24
     seq 366 permit 5.181.224.0/22 le 24
     seq 367 permit 5.182.4.0/22 le 24
