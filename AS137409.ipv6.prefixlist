@@ -5902,7 +5902,7 @@
     seq 5900 permit 2a03:90c0::/42 ge 44 le 48
     seq 5901 permit 2a03:90c0:35:2969::/64
     seq 5902 permit 2a03:90c0:40::/44 le 48
-    seq 5903 permit 2a03:90c0:60::/44 le 48
+    seq 5903 permit 2a03:90c0:60::/43 ge 44 le 48
     seq 5904 permit 2a03:90c0:80::/43 ge 44 le 48
     seq 5905 permit 2a03:90c0:b0::/44 le 48
     seq 5906 permit 2a03:90c0:c0::/42 ge 44 le 48
