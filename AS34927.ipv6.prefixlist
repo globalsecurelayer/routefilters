@@ -694,7 +694,7 @@
     seq 692 permit 2a05:dfc1:ff00::/40 le 48
     seq 693 permit 2a05:dfc2::/31 ge 32 le 48
     seq 694 permit 2a05:dfc4::/31 ge 32 le 48
-    seq 695 permit 2a05:dfc6:9000::/40 le 48
+    seq 695 permit 2a05:dfc6:9000::/39 ge 40 le 48
     seq 696 permit 2a05:dfc7::/32 le 48
     seq 697 permit 2a06:1280::/32 le 48
     seq 698 permit 2a06:1281:b00b::/48
