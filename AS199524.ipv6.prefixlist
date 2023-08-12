@@ -1195,7 +1195,7 @@
     seq 1193 permit 2602:fac2::/40 le 48
     seq 1194 permit 2602:facc::/36 le 48
     seq 1195 permit 2602:fad3::/40 le 48
-    seq 1196 permit 2602:fada::/44 le 48
+    seq 1196 permit 2602:fada::/36 le 48
     seq 1197 permit 2602:faf5::/40 le 48
     seq 1198 permit 2602:fafd::/36 le 48
     seq 1199 permit 2602:fb01::/40 le 48
@@ -4421,7 +4421,7 @@
     seq 4419 permit 2a0e:b107:127::/48
     seq 4420 permit 2a0e:b107:128::/48
     seq 4421 permit 2a0e:b107:12b::/48
-    seq 4422 permit 2a0e:b107:12c::/48
+    seq 4422 permit 2a0e:b107:12c::/47 ge 48 le 48
     seq 4423 permit 2a0e:b107:13f::/48
     seq 4424 permit 2a0e:b107:140::/43 ge 44 le 48
     seq 4425 permit 2a0e:b107:170::/44 le 48
@@ -5717,30 +5717,31 @@
     seq 5715 permit 2a13:a502::/32 le 48
     seq 5716 permit 2a13:a5c0::/32 le 48
     seq 5717 permit 2a13:a5c7:1000::/40 le 48
-    seq 5718 permit 2a13:b380::/32 le 48
-    seq 5719 permit 2a13:b480::/29 le 48
-    seq 5720 permit 2a13:c000::/29 le 48
-    seq 5721 permit 2a13:c280::/32 le 48
-    seq 5722 permit 2a13:d700::/29 le 48
-    seq 5723 permit 2a13:df80::/29 le 48
-    seq 5724 permit 2a13:f000::/32 le 48
-    seq 5725 permit 2a13:f180::/29 le 48
-    seq 5726 permit 2a13:f580:2::/48
-    seq 5727 permit 2a13:fc80::/32 le 48
-    seq 5728 permit 2c0f:140::/32 le 48
-    seq 5729 permit 2c0f:f00::/32 le 48
-    seq 5730 permit 2c0f:2800::/32 le 48
-    seq 5731 permit 2c0f:4e00::/32 le 48
-    seq 5732 permit 2c0f:ec00::/32 le 48
-    seq 5733 permit 2c0f:ec58::/32 le 48
-    seq 5734 permit 2c0f:ee78::/32 le 48
-    seq 5735 permit 2c0f:f530::/32 le 48
-    seq 5736 permit 2c0f:f598::/45 ge 48 le 48
-    seq 5737 permit 2c0f:f598:8::/47 ge 48 le 48
-    seq 5738 permit 2c0f:f598:10::/47 ge 48 le 48
-    seq 5739 permit 2c0f:f598:12::/48
-    seq 5740 permit 2c0f:f738::/32 le 48
-    seq 5741 permit 2c0f:fcb8::/32 le 48
-    seq 5742 permit 2c0f:fd20::/32 le 48
-    seq 5743 permit 2c0f:fda8::/32 le 48
-    seq 5744 permit 2c0f:fee0::/32 le 48
+    seq 5718 permit 2a13:a5c7:1200::/40 le 48
+    seq 5719 permit 2a13:b380::/32 le 48
+    seq 5720 permit 2a13:b480::/29 le 48
+    seq 5721 permit 2a13:c000::/29 le 48
+    seq 5722 permit 2a13:c280::/32 le 48
+    seq 5723 permit 2a13:d700::/29 le 48
+    seq 5724 permit 2a13:df80::/29 le 48
+    seq 5725 permit 2a13:f000::/32 le 48
+    seq 5726 permit 2a13:f180::/29 le 48
+    seq 5727 permit 2a13:f580:2::/48
+    seq 5728 permit 2a13:fc80::/32 le 48
+    seq 5729 permit 2c0f:140::/32 le 48
+    seq 5730 permit 2c0f:f00::/32 le 48
+    seq 5731 permit 2c0f:2800::/32 le 48
+    seq 5732 permit 2c0f:4e00::/32 le 48
+    seq 5733 permit 2c0f:ec00::/32 le 48
+    seq 5734 permit 2c0f:ec58::/32 le 48
+    seq 5735 permit 2c0f:ee78::/32 le 48
+    seq 5736 permit 2c0f:f530::/32 le 48
+    seq 5737 permit 2c0f:f598::/45 ge 48 le 48
+    seq 5738 permit 2c0f:f598:8::/47 ge 48 le 48
+    seq 5739 permit 2c0f:f598:10::/47 ge 48 le 48
+    seq 5740 permit 2c0f:f598:12::/48
+    seq 5741 permit 2c0f:f738::/32 le 48
+    seq 5742 permit 2c0f:fcb8::/32 le 48
+    seq 5743 permit 2c0f:fd20::/32 le 48
+    seq 5744 permit 2c0f:fda8::/32 le 48
+    seq 5745 permit 2c0f:fee0::/32 le 48

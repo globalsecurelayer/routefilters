@@ -597,7 +597,7 @@
     seq 595 permit 2602:fab0:20::/44 le 48
     seq 596 permit 2602:fab8::/36 le 48
     seq 597 permit 2602:fac2:6::/48
-    seq 598 permit 2602:fada::/44 le 48
+    seq 598 permit 2602:fada::/36 le 48
     seq 599 permit 2602:faf4::/40 le 48
     seq 600 permit 2602:faf7::/40 le 48
     seq 601 permit 2602:fafd::/36 le 48
@@ -1961,9 +1961,10 @@
     seq 1959 permit 2a13:5bc0::/29 le 48
     seq 1960 permit 2a13:7a40::/29 le 48
     seq 1961 permit 2a13:96c0::/29 le 48
-    seq 1962 permit 2a13:b480::/29 le 48
-    seq 1963 permit 2a13:c000::/29 le 48
-    seq 1964 permit 2a13:df82:ff00::/40 le 48
-    seq 1965 permit 2c0f:ec00::/32 le 48
-    seq 1966 permit 2c0f:f7a8::/29 le 48
-    seq 1967 permit 2c0f:fc88::/31 le 48
+    seq 1962 permit 2a13:a5c7:1200::/40 le 48
+    seq 1963 permit 2a13:b480::/29 le 48
+    seq 1964 permit 2a13:c000::/29 le 48
+    seq 1965 permit 2a13:df82:ff00::/40 le 48
+    seq 1966 permit 2c0f:ec00::/32 le 48
+    seq 1967 permit 2c0f:f7a8::/29 le 48
+    seq 1968 permit 2c0f:fc88::/31 le 48
