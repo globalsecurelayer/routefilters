@@ -663,7 +663,7 @@
     seq 661 permit 166.0.152.0/24
     seq 662 permit 166.0.165.0/24
     seq 663 permit 166.0.212.0/22 le 24
-    seq 664 permit 166.1.56.0/21 le 24
+    seq 664 permit 166.1.48.0/20 ge 21 le 24
     seq 665 permit 166.1.72.0/21 le 24
     seq 666 permit 166.90.186.0/24
     seq 667 permit 167.94.168.0/24
