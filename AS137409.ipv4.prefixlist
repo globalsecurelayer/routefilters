@@ -5758,7 +5758,7 @@
     seq 5756 permit 45.158.32.0/22 le 24
     seq 5757 permit 45.158.40.0/22 le 24
     seq 5758 permit 45.158.45.0/24
-    seq 5759 permit 45.158.56.0/24
+    seq 5759 permit 45.158.56.0/23 ge 24 le 24
     seq 5760 permit 45.158.76.0/23 ge 24 le 24
     seq 5761 permit 45.158.112.0/22 le 24
     seq 5762 permit 45.158.120.0/22 le 24
@@ -25776,7 +25776,7 @@
     seq 25774 permit 166.1.212.0/23 ge 24 le 24
     seq 25775 permit 166.1.214.0/24
     seq 25776 permit 166.1.224.0/24
-    seq 25777 permit 166.1.229.0/24
+    seq 25777 permit 166.1.228.0/23 ge 24 le 24
     seq 25778 permit 166.1.240.0/22 ge 24 le 24
     seq 25779 permit 166.1.245.0/24
     seq 25780 permit 166.1.251.0/24
