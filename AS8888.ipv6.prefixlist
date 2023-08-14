@@ -291,7 +291,7 @@
     seq 289 permit 2a05:4741:1::/48
     seq 290 permit 2a05:4741:9::/48
     seq 291 permit 2a05:4741:f::/48
-    seq 292 permit 2a05:b0c6:a000::/39 le 48
+    seq 292 permit 2a05:b0c6:a000::/38 ge 39 le 48
     seq 293 permit 2a05:b0c7:6000::/36 le 48
     seq 294 permit 2a05:b0c7:a000::/37 le 48
     seq 295 permit 2a05:dfc1:5000::/40 le 48

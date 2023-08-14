@@ -685,7 +685,7 @@
     seq 683 permit 2a05:b0c6:6000::/48
     seq 684 permit 2a05:b0c6:6006::/47 ge 48 le 48
     seq 685 permit 2a05:b0c6:8000::/38 le 48
-    seq 686 permit 2a05:b0c6:a000::/39 le 48
+    seq 686 permit 2a05:b0c6:a000::/38 ge 39 le 48
     seq 687 permit 2a05:b0c6:b00b::/48
     seq 688 permit 2a05:b0c7:1000::/39 le 48
     seq 689 permit 2a05:b0c7:4000::/36 le 48

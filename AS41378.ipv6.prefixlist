@@ -984,7 +984,7 @@
     seq 982 permit 2a05:b0c6:6000::/48
     seq 983 permit 2a05:b0c6:6006::/47 ge 48 le 48
     seq 984 permit 2a05:b0c6:8000::/38 le 48
-    seq 985 permit 2a05:b0c6:a000::/39 le 48
+    seq 985 permit 2a05:b0c6:a000::/38 ge 39 le 48
     seq 986 permit 2a05:b0c6:b00b::/48
     seq 987 permit 2a05:b0c7:300::/40 le 48
     seq 988 permit 2a05:b0c7:1000::/39 le 48
