@@ -738,7 +738,7 @@
     seq 736 permit 2602:fbf6::/32 le 48
     seq 737 permit 2602:fbfc::/36 le 48
     seq 738 permit 2602:fc01::/36 le 48
-    seq 739 permit 2602:fc15::/44 le 48
+    seq 739 permit 2602:fc15::/43 ge 44 le 48
     seq 740 permit 2602:fc1c::/36 le 48
     seq 741 permit 2602:fc1d:101::/48
     seq 742 permit 2602:fc23::/36 le 48

@@ -473,7 +473,7 @@
     seq 471 permit 2602:fbf1::/40 le 48
     seq 472 permit 2602:fbf6::/32 le 48
     seq 473 permit 2602:fbfc::/36 le 48
-    seq 474 permit 2602:fc15::/44 le 48
+    seq 474 permit 2602:fc15::/43 ge 44 le 48
     seq 475 permit 2602:fc1d:101::/48
     seq 476 permit 2602:fc23::/36 le 48
     seq 477 permit 2602:fc24::/36 le 48

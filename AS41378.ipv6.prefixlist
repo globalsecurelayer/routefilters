@@ -634,7 +634,7 @@
     seq 632 permit 2602:fbf6::/32 le 48
     seq 633 permit 2602:fbfc::/36 le 48
     seq 634 permit 2602:fc01::/36 le 48
-    seq 635 permit 2602:fc15::/44 le 48
+    seq 635 permit 2602:fc15::/43 ge 44 le 48
     seq 636 permit 2602:fc1d:101::/48
     seq 637 permit 2602:fc23::/36 le 48
     seq 638 permit 2602:fc24::/36 le 48
