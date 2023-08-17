@@ -254,7 +254,7 @@
     seq 252 permit 2001:df1:ee80::/48
     seq 253 permit 2001:df2:10c0::/48
     seq 254 permit 2001:df2:2e00::/48
-    seq 255 permit 2001:df2:45c0::/48
+    seq 255 permit 2001:df2:45c0::/47 ge 48 le 48
     seq 256 permit 2001:df2:5380::/48
     seq 257 permit 2001:df2:5740::/48
     seq 258 permit 2001:df2:7900::/48
