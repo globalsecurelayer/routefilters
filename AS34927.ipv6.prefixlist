@@ -1179,7 +1179,7 @@
     seq 1177 permit 2a0e:aa07:e04d::/48
     seq 1178 permit 2a0e:aa07:e04e::/48
     seq 1179 permit 2a0e:aa07:e050::/44 le 48
-    seq 1180 permit 2a0e:aa07:e0a0::/44 le 48
+    seq 1180 permit 2a0e:aa07:e0a0::/43 ge 44 le 48
     seq 1181 permit 2a0e:aa07:e200::/44 le 48
     seq 1182 permit 2a0e:aa07:e500::/48
     seq 1183 permit 2a0e:aa07:e600::/40 le 48
@@ -1321,7 +1321,7 @@
     seq 1319 permit 2a0e:b107:f28::/47 ge 48 le 48
     seq 1320 permit 2a0e:b107:f2a::/48
     seq 1321 permit 2a0e:b107:f2c::/47 le 48
-    seq 1322 permit 2a0e:b107:f50::/44 le 48
+    seq 1322 permit 2a0e:b107:f40::/43 ge 44 le 48
     seq 1323 permit 2a0e:b107:fa0::/43 ge 44 le 48
     seq 1324 permit 2a0e:b107:fd0::/44 le 48
     seq 1325 permit 2a0e:b107:ff0::/48
