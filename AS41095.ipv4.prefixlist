@@ -9634,7 +9634,7 @@
     seq 9632 permit 81.22.36.0/23 ge 24 le 24
     seq 9633 permit 81.22.44.0/24
     seq 9634 permit 81.22.46.0/23 le 24
-    seq 9635 permit 81.22.128.0/24
+    seq 9635 permit 81.22.128.0/23 ge 24 le 24
     seq 9636 permit 81.22.130.0/24
     seq 9637 permit 81.23.10.0/23 le 24
     seq 9638 permit 81.23.15.0/24
@@ -32401,7 +32401,7 @@
     seq 32399 permit 193.135.134.0/24
     seq 32400 permit 193.135.137.0/24
     seq 32401 permit 193.135.150.0/23 ge 24 le 24
-    seq 32402 permit 193.135.157.0/24
+    seq 32402 permit 193.135.156.0/23 ge 24 le 24
     seq 32403 permit 193.135.172.0/24
     seq 32404 permit 193.138.4.0/23 le 24
     seq 32405 permit 193.138.70.0/24
