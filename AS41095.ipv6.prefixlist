@@ -6015,7 +6015,7 @@
     seq 6013 permit 2a06:dc40::/29 le 48
     seq 6014 permit 2a06:dd00::/29 le 48
     seq 6015 permit 2a06:ddc0::/29 le 48
-    seq 6016 permit 2a06:de00:60::/44 le 48
+    seq 6016 permit 2a06:de00:60::/46 ge 48 le 48
     seq 6017 permit 2a06:de00:de00::/44 le 48
     seq 6018 permit 2a06:de01:70::/48
     seq 6019 permit 2a06:de01:7c::/46 ge 48 le 48

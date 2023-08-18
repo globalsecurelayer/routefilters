@@ -6843,7 +6843,7 @@
     seq 6841 permit 2a06:dc40::/29 le 48
     seq 6842 permit 2a06:dd00::/29 le 48
     seq 6843 permit 2a06:ddc0::/29 le 48
-    seq 6844 permit 2a06:de00:60::/44 le 48
+    seq 6844 permit 2a06:de00:60::/46 ge 48 le 48
     seq 6845 permit 2a06:de00:de00::/44 le 48
     seq 6846 permit 2a06:de01:70::/48
     seq 6847 permit 2a06:de01:7c::/46 ge 48 le 48
