@@ -206,7 +206,7 @@
     seq 204 permit 44.31.212.0/24
     seq 205 permit 44.31.217.0/24
     seq 206 permit 44.31.218.0/24
-    seq 207 permit 44.31.222.0/24
+    seq 207 permit 44.31.222.0/23 ge 24 le 24
     seq 208 permit 44.68.205.0/24
     seq 209 permit 44.70.48.0/23 ge 24 le 24
     seq 210 permit 44.70.50.0/24
