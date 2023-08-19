@@ -29782,7 +29782,7 @@
     seq 29780 permit 185.248.34.0/24
     seq 29781 permit 185.248.44.0/22 le 24
     seq 29782 permit 185.248.50.0/23 ge 24 le 24
-    seq 29783 permit 185.248.56.0/22 le 24
+    seq 29783 permit 185.248.56.0/22 ge 24 le 24
     seq 29784 permit 185.248.64.0/22 ge 24 le 24
     seq 29785 permit 185.248.84.0/22 le 24
     seq 29786 permit 185.248.94.0/23 ge 24 le 24
