@@ -670,7 +670,7 @@
     seq 668 permit 2a05:dfc1:600::/40 le 48
     seq 669 permit 2a05:dfc1:1000::/40 le 48
     seq 670 permit 2a05:dfc1:1400::/40 le 48
-    seq 671 permit 2a05:dfc1:1700::/40 le 48
+    seq 671 permit 2a05:dfc1:1600::/39 ge 40 le 48
     seq 672 permit 2a05:dfc1:1b00::/40 le 48
     seq 673 permit 2a05:dfc1:1f00::/43 le 48
     seq 674 permit 2a05:dfc1:1fd0::/44 le 48
