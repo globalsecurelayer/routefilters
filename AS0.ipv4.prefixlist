@@ -5049,7 +5049,7 @@
     seq 5047 permit 128.201.163.0/24
     seq 5048 permit 128.201.244.0/22 le 24
     seq 5049 permit 128.254.172.0/22 le 24
-    seq 5050 permit 128.254.185.0/24
+    seq 5050 permit 128.254.184.0/23 ge 24 le 24
     seq 5051 permit 128.254.186.0/24
     seq 5052 permit 128.254.192.0/22 le 24
     seq 5053 permit 128.254.204.0/22 le 24
