@@ -1042,7 +1042,7 @@
     seq 1040 permit 103.178.34.0/23 le 24
     seq 1041 permit 103.178.54.0/24
     seq 1042 permit 103.178.146.0/24
-    seq 1043 permit 103.179.29.0/24
+    seq 1043 permit 103.179.28.0/23 ge 24 le 24
     seq 1044 permit 103.179.37.0/24
     seq 1045 permit 103.179.142.0/23 ge 24 le 24
     seq 1046 permit 103.180.20.0/23 le 24
