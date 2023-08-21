@@ -5015,7 +5015,7 @@
     seq 5013 permit 2a0f:7800::/31 le 48
     seq 5014 permit 2a0f:7802:1000::/36 le 48
     seq 5015 permit 2a0f:7802:f000::/36 le 48
-    seq 5016 permit 2a0f:7803:ff10::/48
+    seq 5016 permit 2a0f:7803:ff10::/47 ge 48 le 48
     seq 5017 permit 2a0f:7803:ff30::/44 le 48
     seq 5018 permit 2a0f:7803:ff70::/44 le 48
     seq 5019 permit 2a0f:7803:ff80::/43 ge 44 le 48

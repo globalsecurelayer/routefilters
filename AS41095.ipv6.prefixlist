@@ -8664,7 +8664,7 @@
     seq 8662 permit 2a0f:7800::/31 le 48
     seq 8663 permit 2a0f:7802:1000::/36 le 48
     seq 8664 permit 2a0f:7802:f000::/36 le 48
-    seq 8665 permit 2a0f:7803:ff10::/48
+    seq 8665 permit 2a0f:7803:ff10::/47 ge 48 le 48
     seq 8666 permit 2a0f:7803:ff30::/44 le 48
     seq 8667 permit 2a0f:7803:ff70::/44 le 48
     seq 8668 permit 2a0f:7803:ff80::/43 ge 44 le 48
