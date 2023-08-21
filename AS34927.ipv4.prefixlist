@@ -844,7 +844,7 @@
     seq 842 permit 166.0.186.0/24
     seq 843 permit 166.0.226.0/24
     seq 844 permit 166.0.240.0/24
-    seq 845 permit 166.1.96.0/21 le 24
+    seq 845 permit 166.1.96.0/23 ge 24 le 24
     seq 846 permit 166.88.213.0/24
     seq 847 permit 167.88.48.0/22 le 24
     seq 848 permit 169.239.128.0/22 le 24
