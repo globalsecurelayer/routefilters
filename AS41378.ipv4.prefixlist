@@ -1790,7 +1790,7 @@
     seq 1788 permit 103.81.16.0/21 ge 22 le 24
     seq 1789 permit 103.82.142.0/23 le 24
     seq 1790 permit 103.83.124.0/24
-    seq 1791 permit 103.84.44.0/22 le 24
+    seq 1791 permit 103.84.44.0/22 ge 24 le 24
     seq 1792 permit 103.84.108.0/22 le 24
     seq 1793 permit 103.84.216.0/22 ge 23 le 24
     seq 1794 permit 103.85.20.0/22 le 24
@@ -1834,7 +1834,7 @@
     seq 1832 permit 103.97.64.0/21 le 24
     seq 1833 permit 103.97.72.0/22 le 24
     seq 1834 permit 103.97.128.0/22 le 24
-    seq 1835 permit 103.97.156.0/22 le 24
+    seq 1835 permit 103.97.156.0/22 ge 24 le 24
     seq 1836 permit 103.97.198.0/23 le 24
     seq 1837 permit 103.97.200.0/23 ge 24 le 24
     seq 1838 permit 103.97.228.0/23 le 24
