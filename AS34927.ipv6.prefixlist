@@ -733,7 +733,7 @@
     seq 731 permit 2a06:8187:fe14::/48
     seq 732 permit 2a06:89c3:5010::/48
     seq 733 permit 2a06:89c4:a000::/48
-    seq 734 permit 2a06:89c4:c000::/48
+    seq 734 permit 2a06:89c4:c000::/36 le 48
     seq 735 permit 2a06:8e01::/44 le 48
     seq 736 permit 2a06:9f42:b00b::/48
     seq 737 permit 2a06:9f43:b00b::/48
