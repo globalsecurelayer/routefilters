@@ -1,0 +1,13 @@
+
+
+    seq 1 permit 2401:3bc0::/32 le 48
+    seq 2 permit 2401:3cc0::/32 le 48
+    seq 3 permit 2402:5ac0::/32 le 48
+    seq 4 permit 2404:b9c0::/32 le 48
+    seq 5 permit 2606:f180:3::/48
+    seq 6 permit 2606:f180:4::/48
+    seq 7 permit 2606:f181::/32 le 48
+    seq 8 permit 2607:2300::/32 le 48
+    seq 9 permit 2a0c:b6c0::/32 le 48
+    seq 10 permit 2a0f:e383::/32 le 48
+    seq 11 permit 2a0f:e384::/31 ge 32 le 48

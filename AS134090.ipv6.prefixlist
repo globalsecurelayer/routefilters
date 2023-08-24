@@ -1,0 +1,17 @@
+
+
+    seq 1 permit 2001:df3:a00::/48
+    seq 2 permit 2001:df6:9000::/48
+    seq 3 permit 2001:df7:7580::/48
+    seq 4 permit 2400:a840::/31 ge 32 le 48
+    seq 5 permit 2400:a842::/31 le 48
+    seq 6 permit 2400:a844::/30 le 48
+    seq 7 permit 2401:9cc0:100::/48
+    seq 8 permit 2401:9cc0:200::/45 ge 48 le 48
+    seq 9 permit 2401:9cc0:208::/47 ge 48 le 48
+    seq 10 permit 2401:9cc0:210::/48
+    seq 11 permit 2401:9cc0:300::/40 le 48
+    seq 12 permit 2402:2c80::/32 le 48
+    seq 13 permit 2402:3fc0::/32 le 48
+    seq 14 permit 2402:7940::/32 le 48
+    seq 15 permit 2406:46c0::/32 le 48
