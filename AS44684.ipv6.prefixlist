@@ -911,7 +911,7 @@
     seq 909 permit 2a10:4646:1a0::/44 le 48
     seq 910 permit 2a10:4646:1f0::/44 le 48
     seq 911 permit 2a10:4705:831a::/48
-    seq 912 permit 2a10:4741:22::/48
+    seq 912 permit 2a10:4741:22::/47 ge 48 le 48
     seq 913 permit 2a10:4741:24::/48
     seq 914 permit 2a10:a642:aa00::/40 le 48
     seq 915 permit 2a10:adc0::/29 le 48
