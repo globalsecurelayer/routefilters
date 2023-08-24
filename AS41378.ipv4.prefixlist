@@ -1661,7 +1661,7 @@
     seq 1659 permit 103.5.54.0/23 le 24
     seq 1660 permit 103.5.218.0/23 le 24
     seq 1661 permit 103.5.230.0/23 le 24
-    seq 1662 permit 103.6.124.0/23 le 24
+    seq 1662 permit 103.6.124.0/22 ge 23 le 24
     seq 1663 permit 103.6.216.0/22 le 24
     seq 1664 permit 103.9.192.0/22 le 24
     seq 1665 permit 103.11.36.0/24
@@ -2453,7 +2453,7 @@
     seq 2451 permit 107.165.216.0/24
     seq 2452 permit 107.165.224.0/24
     seq 2453 permit 107.165.253.0/24
-    seq 2454 permit 107.180.192.0/19 le 24
+    seq 2454 permit 107.180.192.0/19 ge 20 le 24
     seq 2455 permit 107.182.16.0/20 le 24
     seq 2456 permit 107.182.176.0/20 le 24
     seq 2457 permit 107.186.4.0/24
