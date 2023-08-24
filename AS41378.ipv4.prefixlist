@@ -4101,7 +4101,7 @@
     seq 4099 permit 199.27.70.0/23 le 24
     seq 4100 permit 199.34.64.0/24
     seq 4101 permit 199.34.66.0/24
-    seq 4102 permit 199.38.0.0/21 le 24
+    seq 4102 permit 199.38.0.0/20 ge 21 le 24
     seq 4103 permit 199.43.186.0/23 le 24
     seq 4104 permit 199.43.189.0/24
     seq 4105 permit 199.43.190.0/23 le 24
