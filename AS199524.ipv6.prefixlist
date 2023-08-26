@@ -643,7 +643,7 @@
     seq 641 permit 2001:df2:d40::/48
     seq 642 permit 2001:df2:1000::/47 ge 48 le 48
     seq 643 permit 2001:df2:16c0::/48
-    seq 644 permit 2001:df2:45c0::/48
+    seq 644 permit 2001:df2:45c0::/47 ge 48 le 48
     seq 645 permit 2001:df2:50c0::/48
     seq 646 permit 2001:df2:51c0::/48
     seq 647 permit 2001:df2:5240::/47 ge 48 le 48
