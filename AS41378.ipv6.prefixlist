@@ -1859,7 +1859,7 @@
     seq 1857 permit 2a10:a642:aa00::/40 le 48
     seq 1858 permit 2a10:adc0::/29 le 48
     seq 1859 permit 2a10:b9c0:ffff::/48
-    seq 1860 permit 2a10:ba80::/29 le 48
+    seq 1860 permit 2a10:ba80::/31 le 48
     seq 1861 permit 2a10:cc40:120::/44 le 48
     seq 1862 permit 2a10:cc40:160::/44 le 48
     seq 1863 permit 2a10:cc40:180::/43 ge 44 le 48
@@ -1975,14 +1975,15 @@
     seq 1973 permit 2a13:7a40::/29 le 48
     seq 1974 permit 2a13:96c0::/29 le 48
     seq 1975 permit 2a13:a5c0::/32 le 48
-    seq 1976 permit 2a13:a5c7:1000::/40 le 48
-    seq 1977 permit 2a13:a5c7:1200::/40 le 48
-    seq 1978 permit 2a13:b480::/29 le 48
-    seq 1979 permit 2a13:c000::/29 le 48
-    seq 1980 permit 2a13:df80:c00::/38 le 48
-    seq 1981 permit 2a13:df80:1200::/40 le 48
-    seq 1982 permit 2a13:df81::/32 le 48
-    seq 1983 permit 2a13:df82:ff00::/40 le 48
-    seq 1984 permit 2c0f:ec00::/32 le 48
-    seq 1985 permit 2c0f:f7a8::/29 le 48
-    seq 1986 permit 2c0f:fc88::/31 le 48
+    seq 1976 permit 2a13:a5c5::/32 le 48
+    seq 1977 permit 2a13:a5c7:1000::/40 le 48
+    seq 1978 permit 2a13:a5c7:1200::/40 le 48
+    seq 1979 permit 2a13:b480::/29 le 48
+    seq 1980 permit 2a13:c000::/29 le 48
+    seq 1981 permit 2a13:df80:c00::/38 le 48
+    seq 1982 permit 2a13:df80:1200::/40 le 48
+    seq 1983 permit 2a13:df81::/32 le 48
+    seq 1984 permit 2a13:df82:ff00::/40 le 48
+    seq 1985 permit 2c0f:ec00::/32 le 48
+    seq 1986 permit 2c0f:f7a8::/29 le 48
+    seq 1987 permit 2c0f:fc88::/31 le 48
