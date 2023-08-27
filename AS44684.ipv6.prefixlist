@@ -1017,8 +1017,9 @@
     seq 1015 permit 2a13:2180::/48
     seq 1016 permit 2a13:5681::/40 le 48
     seq 1017 permit 2a13:5bc0::/29 le 48
-    seq 1018 permit 2a13:b487:1200::/39 ge 40 le 48
-    seq 1019 permit 2a13:b487:1600::/40 le 48
-    seq 1020 permit 2a13:c007:8070::/44 le 48
-    seq 1021 permit 2a13:df80:1200::/40 le 48
-    seq 1022 permit 2a13:df82:ff00::/40 le 48
+    seq 1018 permit 2a13:a5c6::/32 le 48
+    seq 1019 permit 2a13:b487:1200::/39 ge 40 le 48
+    seq 1020 permit 2a13:b487:1600::/40 le 48
+    seq 1021 permit 2a13:c007:8070::/44 le 48
+    seq 1022 permit 2a13:df80:1200::/40 le 48
+    seq 1023 permit 2a13:df82:ff00::/40 le 48
