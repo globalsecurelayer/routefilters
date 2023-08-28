@@ -4486,7 +4486,7 @@
     seq 4484 permit 2a0e:b107:d0::/44 le 48
     seq 4485 permit 2a0e:b107:e0::/43 ge 44 le 48
     seq 4486 permit 2a0e:b107:100::/43 ge 44 le 48
-    seq 4487 permit 2a0e:b107:120::/47 ge 48 le 48
+    seq 4487 permit 2a0e:b107:121::/48
     seq 4488 permit 2a0e:b107:125::/48
     seq 4489 permit 2a0e:b107:127::/48
     seq 4490 permit 2a0e:b107:128::/48
@@ -5763,7 +5763,7 @@
     seq 5761 permit 2a13:2187:9e00::/39 le 48
     seq 5762 permit 2a13:2200::/29 le 48
     seq 5763 permit 2a13:29c0::/29 le 48
-    seq 5764 permit 2a13:2d40::/29 le 48
+    seq 5764 permit 2a13:2d40::/29 ge 32 le 48
     seq 5765 permit 2a13:2dc0::/29 le 48
     seq 5766 permit 2a13:3304::/31 ge 32 le 48
     seq 5767 permit 2a13:3680::/33 ge 35 le 48
