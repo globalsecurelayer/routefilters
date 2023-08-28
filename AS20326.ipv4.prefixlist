@@ -924,7 +924,7 @@
     seq 922 permit 103.112.184.0/22 le 24
     seq 923 permit 103.112.240.0/22 le 24
     seq 924 permit 103.114.72.0/22 le 24
-    seq 925 permit 103.114.160.0/24
+    seq 925 permit 103.114.160.0/23 ge 24 le 24
     seq 926 permit 103.114.163.0/24
     seq 927 permit 103.115.3.0/24
     seq 928 permit 103.115.40.0/21 ge 22 le 24

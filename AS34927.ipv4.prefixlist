@@ -628,7 +628,7 @@
     seq 626 permit 103.102.6.0/24
     seq 627 permit 103.108.60.0/22 le 24
     seq 628 permit 103.113.68.0/22 le 24
-    seq 629 permit 103.114.160.0/24
+    seq 629 permit 103.114.160.0/23 ge 24 le 24
     seq 630 permit 103.114.163.0/24
     seq 631 permit 103.115.3.0/24
     seq 632 permit 103.118.174.0/23 ge 24 le 24

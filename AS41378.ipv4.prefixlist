@@ -1895,7 +1895,7 @@
     seq 1893 permit 103.113.60.0/22 le 24
     seq 1894 permit 103.113.92.0/22 le 24
     seq 1895 permit 103.114.72.0/22 le 24
-    seq 1896 permit 103.114.160.0/24
+    seq 1896 permit 103.114.160.0/23 ge 24 le 24
     seq 1897 permit 103.114.163.0/24
     seq 1898 permit 103.115.3.0/24
     seq 1899 permit 103.115.40.0/21 ge 22 le 24
