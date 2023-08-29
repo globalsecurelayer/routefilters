@@ -7983,7 +7983,7 @@
     seq 7981 permit 212.73.225.0/24
     seq 7982 permit 212.80.192.0/22 le 24
     seq 7983 permit 212.85.96.0/19 le 24
-    seq 7984 permit 212.87.196.0/22 le 24
+    seq 7984 permit 212.87.192.0/21 ge 22 le 24
     seq 7985 permit 212.90.100.0/22 le 24
     seq 7986 permit 212.102.114.0/24
     seq 7987 permit 212.103.42.0/23 le 24
