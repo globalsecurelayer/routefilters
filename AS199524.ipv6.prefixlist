@@ -5040,7 +5040,7 @@
     seq 5038 permit 2a0f:7800::/31 le 48
     seq 5039 permit 2a0f:7802:1000::/36 le 48
     seq 5040 permit 2a0f:7802:f000::/36 le 48
-    seq 5041 permit 2a0f:7803:fd00::/40 le 48
+    seq 5041 permit 2a0f:7803:fc00::/39 ge 40 le 48
     seq 5042 permit 2a0f:7803:fee0::/44 le 48
     seq 5043 permit 2a0f:7803:ff10::/47 ge 48 le 48
     seq 5044 permit 2a0f:7803:ff30::/44 le 48
