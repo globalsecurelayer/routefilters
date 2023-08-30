@@ -61,7 +61,7 @@
     seq 59 permit 23.141.112.0/24
     seq 60 permit 23.141.168.0/24
     seq 61 permit 23.141.248.0/24
-    seq 62 permit 23.142.24.0/22 le 24
+    seq 62 permit 23.142.24.0/22 ge 24 le 24
     seq 63 permit 23.142.200.0/24
     seq 64 permit 23.142.208.0/24
     seq 65 permit 23.142.232.0/24
