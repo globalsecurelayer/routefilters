@@ -3428,7 +3428,7 @@
     seq 3426 permit 2a0f:7800::/31 le 48
     seq 3427 permit 2a0f:7802:1000::/36 le 48
     seq 3428 permit 2a0f:7802:f000::/36 le 48
-    seq 3429 permit 2a0f:7803:fd00::/40 le 48
+    seq 3429 permit 2a0f:7803:fc00::/39 ge 40 le 48
     seq 3430 permit 2a0f:7803:fee0::/44 le 48
     seq 3431 permit 2a0f:7803:ff30::/44 le 48
     seq 3432 permit 2a0f:7803:ff70::/44 le 48
