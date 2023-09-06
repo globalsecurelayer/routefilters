@@ -5605,7 +5605,7 @@
     seq 5603 permit 45.252.72.0/22 le 24
     seq 5604 permit 45.252.100.0/22 le 24
     seq 5605 permit 45.252.144.0/22 le 24
-    seq 5606 permit 45.252.180.0/24
+    seq 5606 permit 45.252.180.0/22 ge 24 le 24
     seq 5607 permit 45.252.190.0/24
     seq 5608 permit 45.253.130.0/23 le 24
     seq 5609 permit 45.253.244.0/22 ge 24 le 24
