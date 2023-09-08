@@ -23,7 +23,7 @@
     seq 21 permit 2.58.12.0/23 le 24
     seq 22 permit 2.58.32.0/22 le 24
     seq 23 permit 2.58.58.0/24
-    seq 24 permit 2.58.64.0/23 le 24
+    seq 24 permit 2.58.64.0/23 ge 24 le 24
     seq 25 permit 2.58.75.0/24
     seq 26 permit 2.58.76.0/22 le 24
     seq 27 permit 2.58.84.0/24
