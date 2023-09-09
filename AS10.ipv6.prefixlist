@@ -663,7 +663,7 @@
     seq 661 permit 2602:fa43::/40 le 48
     seq 662 permit 2602:fa45::/40 le 48
     seq 663 permit 2602:fa47::/40 le 48
-    seq 664 permit 2602:fa4f::/40 le 48
+    seq 664 permit 2602:fa4f::/39 ge 40 le 48
     seq 665 permit 2602:fa56::/40 le 48
     seq 666 permit 2602:fa67::/36 le 48
     seq 667 permit 2602:fa6d:2::/47 le 48

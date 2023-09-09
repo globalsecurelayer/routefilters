@@ -2357,7 +2357,7 @@
     seq 2355 permit 2602:fa45::/40 le 48
     seq 2356 permit 2602:fa47::/40 le 48
     seq 2357 permit 2602:fa4a::/40 le 48
-    seq 2358 permit 2602:fa4f::/40 le 48
+    seq 2358 permit 2602:fa4f::/39 ge 40 le 48
     seq 2359 permit 2602:fa56::/40 le 48
     seq 2360 permit 2602:fa59::/40 le 48
     seq 2361 permit 2602:fa6d:2::/47 le 48
@@ -9905,7 +9905,7 @@
     seq 9903 permit 2a13:c400::/29 le 48
     seq 9904 permit 2a13:c500::/29 le 48
     seq 9905 permit 2a13:c700::/29 le 48
-    seq 9906 permit 2a13:ccc0::/32 le 48
+    seq 9906 permit 2a13:ccc0::/29 le 48
     seq 9907 permit 2a13:d700::/29 le 48
     seq 9908 permit 2a13:d900::/29 ge 32 le 48
     seq 9909 permit 2a13:db00::/30 le 48
