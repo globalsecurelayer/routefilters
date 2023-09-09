@@ -7566,7 +7566,7 @@
     seq 7564 permit 103.111.69.0/24
     seq 7565 permit 103.111.70.0/23 le 24
     seq 7566 permit 103.111.132.0/22 le 24
-    seq 7567 permit 103.112.0.0/24
+    seq 7567 permit 103.112.0.0/23 ge 24 le 24
     seq 7568 permit 103.112.4.0/24
     seq 7569 permit 103.112.32.0/22 le 24
     seq 7570 permit 103.112.68.0/22 le 24
@@ -18374,7 +18374,7 @@
     seq 18372 permit 217.195.200.0/23 ge 24 le 24
     seq 18373 permit 217.195.205.0/24
     seq 18374 permit 217.196.16.0/20 le 24
-    seq 18375 permit 217.196.96.0/24
+    seq 18375 permit 217.196.96.0/23 ge 24 le 24
     seq 18376 permit 217.196.98.0/24
     seq 18377 permit 217.196.100.0/22 ge 24 le 24
     seq 18378 permit 217.197.97.0/24
