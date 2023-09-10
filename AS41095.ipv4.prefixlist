@@ -40202,7 +40202,7 @@
     seq 40200 permit 212.29.160.0/19 le 24
     seq 40201 permit 212.30.32.0/24
     seq 40202 permit 212.30.34.0/24
-    seq 40203 permit 212.30.38.0/24
+    seq 40203 permit 212.30.38.0/23 ge 24 le 24
     seq 40204 permit 212.30.52.0/22 ge 24 le 24
     seq 40205 permit 212.30.60.0/24
     seq 40206 permit 212.30.128.0/18 le 24
