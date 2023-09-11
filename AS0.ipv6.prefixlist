@@ -3665,9 +3665,10 @@
     seq 3663 permit 2a13:aac0::/29 le 48
     seq 3664 permit 2a13:b480::/29 le 48
     seq 3665 permit 2a13:c000::/29 le 48
-    seq 3666 permit 2a13:df80::/29 le 48
-    seq 3667 permit 2c0f:ec00::/32 le 48
-    seq 3668 permit 2c0f:edb0::/32 le 48
-    seq 3669 permit 2c0f:f530::/32 le 48
-    seq 3670 permit 2c0f:f7a8::/29 le 48
-    seq 3671 permit 2c0f:fc88::/31 le 48
+    seq 3666 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 3667 permit 2a13:df80::/29 le 48
+    seq 3668 permit 2c0f:ec00::/32 le 48
+    seq 3669 permit 2c0f:edb0::/32 le 48
+    seq 3670 permit 2c0f:f530::/32 le 48
+    seq 3671 permit 2c0f:f7a8::/29 le 48
+    seq 3672 permit 2c0f:fc88::/31 le 48
