@@ -672,7 +672,7 @@
     seq 670 permit 2a05:b0c7:2000::/35 le 48
     seq 671 permit 2a05:b0c7:4000::/36 le 48
     seq 672 permit 2a05:b0c7:5000::/37 le 48
-    seq 673 permit 2a05:b0c7:6000::/35 ge 36 le 48
+    seq 673 permit 2a05:b0c7:7000::/36 le 48
     seq 674 permit 2a05:b0c7:8000::/35 le 48
     seq 675 permit 2a05:b0c7:a000::/37 le 48
     seq 676 permit 2a05:b0c7:b000::/38 le 48
@@ -2143,5 +2143,6 @@
     seq 2141 permit 2a13:c007:80b0::/44 le 48
     seq 2142 permit 2a13:c007:8300::/40 le 48
     seq 2143 permit 2a13:c007:8500::/40 le 48
-    seq 2144 permit 2a13:df80::/29 le 48
-    seq 2145 permit 2c0f:f530::/32 le 48
+    seq 2144 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 2145 permit 2a13:df80::/29 le 48
+    seq 2146 permit 2c0f:f530::/32 le 48

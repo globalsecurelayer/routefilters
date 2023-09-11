@@ -3139,7 +3139,7 @@
     seq 3137 permit 2a05:b0c7:2000::/35 le 48
     seq 3138 permit 2a05:b0c7:4000::/36 le 48
     seq 3139 permit 2a05:b0c7:5000::/37 le 48
-    seq 3140 permit 2a05:b0c7:6000::/35 ge 36 le 48
+    seq 3140 permit 2a05:b0c7:7000::/36 le 48
     seq 3141 permit 2a05:b0c7:8000::/35 le 48
     seq 3142 permit 2a05:b0c7:a000::/37 le 48
     seq 3143 permit 2a05:b0c7:b000::/38 le 48
@@ -5747,22 +5747,23 @@
     seq 5745 permit 2a13:c700::/29 le 48
     seq 5746 permit 2a13:ccc0::/29 le 48
     seq 5747 permit 2a13:d700::/29 le 48
-    seq 5748 permit 2a13:d900::/29 ge 32 le 48
-    seq 5749 permit 2a13:df80::/29 le 48
-    seq 5750 permit 2a13:f000::/32 le 48
-    seq 5751 permit 2a13:f180::/29 le 48
-    seq 5752 permit 2a13:f580:2::/48
-    seq 5753 permit 2a13:fc80::/32 le 48
-    seq 5754 permit 2c0f:140::/32 le 48
-    seq 5755 permit 2c0f:f00::/32 le 48
-    seq 5756 permit 2c0f:2800::/32 le 48
-    seq 5757 permit 2c0f:4e00::/32 le 48
-    seq 5758 permit 2c0f:ec00::/32 le 48
-    seq 5759 permit 2c0f:ec58::/32 le 48
-    seq 5760 permit 2c0f:ee78::/32 le 48
-    seq 5761 permit 2c0f:f530::/32 le 48
-    seq 5762 permit 2c0f:f738::/32 le 48
-    seq 5763 permit 2c0f:fcb8::/32 le 48
-    seq 5764 permit 2c0f:fd20::/32 le 48
-    seq 5765 permit 2c0f:fda8::/32 le 48
-    seq 5766 permit 2c0f:fee0::/32 le 48
+    seq 5748 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 5749 permit 2a13:d900::/29 ge 32 le 48
+    seq 5750 permit 2a13:df80::/29 le 48
+    seq 5751 permit 2a13:f000::/32 le 48
+    seq 5752 permit 2a13:f180::/29 le 48
+    seq 5753 permit 2a13:f580:2::/48
+    seq 5754 permit 2a13:fc80::/32 le 48
+    seq 5755 permit 2c0f:140::/32 le 48
+    seq 5756 permit 2c0f:f00::/32 le 48
+    seq 5757 permit 2c0f:2800::/32 le 48
+    seq 5758 permit 2c0f:4e00::/32 le 48
+    seq 5759 permit 2c0f:ec00::/32 le 48
+    seq 5760 permit 2c0f:ec58::/32 le 48
+    seq 5761 permit 2c0f:ee78::/32 le 48
+    seq 5762 permit 2c0f:f530::/32 le 48
+    seq 5763 permit 2c0f:f738::/32 le 48
+    seq 5764 permit 2c0f:fcb8::/32 le 48
+    seq 5765 permit 2c0f:fd20::/32 le 48
+    seq 5766 permit 2c0f:fda8::/32 le 48
+    seq 5767 permit 2c0f:fee0::/32 le 48
