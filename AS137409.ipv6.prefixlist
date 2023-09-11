@@ -10062,7 +10062,7 @@
     seq 10060 permit 2a10:2f00:18d::/48
     seq 10061 permit 2a10:2f00:18e::/47 ge 48 le 48
     seq 10062 permit 2a10:2f00:192::/47 ge 48 le 48
-    seq 10063 permit 2a10:2f00:198::/47 ge 48 le 48
+    seq 10063 permit 2a10:2f00:198::/48
     seq 10064 permit 2a10:2f01:100::/40 le 48
     seq 10065 permit 2a10:2f01:210::/44 le 48
     seq 10066 permit 2a10:2f01:220::/48
@@ -10899,7 +10899,7 @@
     seq 10897 permit 2a13:c700::/29 le 48
     seq 10898 permit 2a13:ccc0::/29 le 48
     seq 10899 permit 2a13:d700::/29 le 48
-    seq 10900 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 10900 permit 2a13:d8c0::/29 le 48
     seq 10901 permit 2a13:d900::/29 ge 32 le 48
     seq 10902 permit 2a13:db00::/30 le 48
     seq 10903 permit 2a13:df80::/29 le 48

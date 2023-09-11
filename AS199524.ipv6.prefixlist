@@ -5264,7 +5264,7 @@
     seq 5262 permit 2a10:2f00:18d::/48
     seq 5263 permit 2a10:2f00:18e::/47 ge 48 le 48
     seq 5264 permit 2a10:2f00:192::/47 ge 48 le 48
-    seq 5265 permit 2a10:2f00:198::/47 ge 48 le 48
+    seq 5265 permit 2a10:2f00:198::/48
     seq 5266 permit 2a10:2f01:100::/40 le 48
     seq 5267 permit 2a10:2f01:210::/47 ge 48 le 48
     seq 5268 permit 2a10:2f01:213::/48
@@ -5747,7 +5747,7 @@
     seq 5745 permit 2a13:c700::/29 le 48
     seq 5746 permit 2a13:ccc0::/29 le 48
     seq 5747 permit 2a13:d700::/29 le 48
-    seq 5748 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 5748 permit 2a13:d8c0::/29 le 48
     seq 5749 permit 2a13:d900::/29 ge 32 le 48
     seq 5750 permit 2a13:df80::/29 le 48
     seq 5751 permit 2a13:f000::/32 le 48
