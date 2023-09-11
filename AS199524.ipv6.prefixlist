@@ -5747,7 +5747,7 @@
     seq 5745 permit 2a13:c700::/29 le 48
     seq 5746 permit 2a13:ccc0::/29 le 48
     seq 5747 permit 2a13:d700::/29 le 48
-    seq 5748 permit 2a13:d8c0::/29 le 48
+    seq 5748 permit 2a13:d8c0::/29 ge 32 le 48
     seq 5749 permit 2a13:d900::/29 ge 32 le 48
     seq 5750 permit 2a13:df80::/29 le 48
     seq 5751 permit 2a13:f000::/32 le 48

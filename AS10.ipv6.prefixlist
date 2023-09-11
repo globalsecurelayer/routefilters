@@ -3135,9 +3135,10 @@
     seq 3133 permit 2a13:aac0::/29 le 48
     seq 3134 permit 2a13:b480::/29 le 48
     seq 3135 permit 2a13:c000::/29 le 48
-    seq 3136 permit 2a13:df80::/29 le 48
-    seq 3137 permit 2c0f:ec00::/32 le 48
-    seq 3138 permit 2c0f:edb0::/32 le 48
-    seq 3139 permit 2c0f:f530:b00b::/48
-    seq 3140 permit 2c0f:f7a8::/29 le 48
-    seq 3141 permit 2c0f:fc88::/31 le 48
+    seq 3136 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 3137 permit 2a13:df80::/29 le 48
+    seq 3138 permit 2c0f:ec00::/32 le 48
+    seq 3139 permit 2c0f:edb0::/32 le 48
+    seq 3140 permit 2c0f:f530:b00b::/48
+    seq 3141 permit 2c0f:f7a8::/29 le 48
+    seq 3142 permit 2c0f:fc88::/31 le 48

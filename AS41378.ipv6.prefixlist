@@ -2016,12 +2016,13 @@
     seq 2014 permit 2a13:aa00::/29 le 48
     seq 2015 permit 2a13:b480::/29 le 48
     seq 2016 permit 2a13:c000::/29 le 48
-    seq 2017 permit 2a13:df80:c00::/38 le 48
-    seq 2018 permit 2a13:df80:1200::/40 le 48
-    seq 2019 permit 2a13:df80:3806::/48
-    seq 2020 permit 2a13:df80:8800::/44 le 48
-    seq 2021 permit 2a13:df81::/32 le 48
-    seq 2022 permit 2a13:df82:ff00::/40 le 48
-    seq 2023 permit 2c0f:ec00::/32 le 48
-    seq 2024 permit 2c0f:f7a8::/29 le 48
-    seq 2025 permit 2c0f:fc88::/31 le 48
+    seq 2017 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 2018 permit 2a13:df80:c00::/38 le 48
+    seq 2019 permit 2a13:df80:1200::/40 le 48
+    seq 2020 permit 2a13:df80:3806::/48
+    seq 2021 permit 2a13:df80:8800::/44 le 48
+    seq 2022 permit 2a13:df81::/32 le 48
+    seq 2023 permit 2a13:df82:ff00::/40 le 48
+    seq 2024 permit 2c0f:ec00::/32 le 48
+    seq 2025 permit 2c0f:f7a8::/29 le 48
+    seq 2026 permit 2c0f:fc88::/31 le 48

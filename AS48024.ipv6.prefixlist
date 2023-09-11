@@ -1535,8 +1535,9 @@
     seq 1533 permit 2a13:aa00::/29 le 48
     seq 1534 permit 2a13:b480::/29 le 48
     seq 1535 permit 2a13:c000::/29 le 48
-    seq 1536 permit 2a13:df80:1200::/40 le 48
-    seq 1537 permit 2a13:df80:3806::/48
-    seq 1538 permit 2a13:df80:8800::/44 le 48
-    seq 1539 permit 2a13:df82:ff00::/40 le 48
-    seq 1540 permit 2c0f:ec00::/32 le 48
+    seq 1536 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 1537 permit 2a13:df80:1200::/40 le 48
+    seq 1538 permit 2a13:df80:3806::/48
+    seq 1539 permit 2a13:df80:8800::/44 le 48
+    seq 1540 permit 2a13:df82:ff00::/40 le 48
+    seq 1541 permit 2c0f:ec00::/32 le 48
