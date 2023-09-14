@@ -3275,7 +3275,7 @@
     seq 3273 permit 103.107.236.0/22 le 24
     seq 3274 permit 103.108.60.0/22 le 24
     seq 3275 permit 103.108.142.0/24
-    seq 3276 permit 103.108.160.0/22 le 24
+    seq 3276 permit 103.108.160.0/21 ge 22 le 24
     seq 3277 permit 103.108.240.0/22 le 24
     seq 3278 permit 103.109.4.0/23 le 24
     seq 3279 permit 103.109.106.0/23 le 24
