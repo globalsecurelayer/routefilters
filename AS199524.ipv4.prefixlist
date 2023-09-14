@@ -12468,7 +12468,7 @@
     seq 12466 permit 185.103.4.0/22 le 24
     seq 12467 permit 185.103.26.0/23 le 24
     seq 12468 permit 185.103.108.0/23 ge 24 le 24
-    seq 12469 permit 185.104.12.0/23 ge 24 le 24
+    seq 12469 permit 185.104.12.0/24
     seq 12470 permit 185.104.28.0/22 le 24
     seq 12471 permit 185.104.40.0/22 le 24
     seq 12472 permit 185.104.68.0/22 le 24
@@ -15517,7 +15517,7 @@
     seq 15515 permit 194.15.108.0/24
     seq 15516 permit 194.15.111.0/24
     seq 15517 permit 194.15.116.0/22 le 24
-    seq 15518 permit 194.15.154.0/23 ge 24 le 24
+    seq 15518 permit 194.15.155.0/24
     seq 15519 permit 194.24.166.0/23 le 24
     seq 15520 permit 194.24.172.0/24
     seq 15521 permit 194.26.4.0/22 le 24
