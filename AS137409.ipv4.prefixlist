@@ -29259,7 +29259,7 @@
     seq 29257 permit 185.39.8.0/24
     seq 29258 permit 185.39.16.0/23 le 24
     seq 29259 permit 185.39.19.0/24
-    seq 29260 permit 185.39.28.0/24
+    seq 29260 permit 185.39.28.0/23 ge 24 le 24
     seq 29261 permit 185.39.31.0/24
     seq 29262 permit 185.39.32.0/22 le 24
     seq 29263 permit 185.39.44.0/22 le 24
