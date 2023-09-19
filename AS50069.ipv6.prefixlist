@@ -772,7 +772,7 @@
     seq 770 permit 2a07:54c1:3200::/40 le 48
     seq 771 permit 2a07:54c1:6000::/36 le 48
     seq 772 permit 2a07:54c1:8000::/36 le 48
-    seq 773 permit 2a07:54c1:d000::/36 le 48
+    seq 773 permit 2a07:54c1:dead::/48
     seq 774 permit 2a07:54c2::/33 ge 36 le 48
     seq 775 permit 2a07:54c2:8000::/35 ge 36 le 48
     seq 776 permit 2a07:54c2:a000::/36 le 48

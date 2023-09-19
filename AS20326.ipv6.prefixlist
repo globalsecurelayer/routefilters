@@ -792,7 +792,7 @@
     seq 790 permit 2a07:54c1:3200::/40 le 48
     seq 791 permit 2a07:54c1:6000::/36 le 48
     seq 792 permit 2a07:54c1:8000::/36 le 48
-    seq 793 permit 2a07:54c1:d000::/36 le 48
+    seq 793 permit 2a07:54c1:dead::/48
     seq 794 permit 2a07:54c2::/33 ge 36 le 48
     seq 795 permit 2a07:54c2:8000::/35 ge 36 le 48
     seq 796 permit 2a07:54c2:a000::/36 le 48
