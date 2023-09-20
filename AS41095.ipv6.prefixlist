@@ -4302,7 +4302,7 @@
     seq 4300 permit 2a00:5140::/31 ge 32 le 48
     seq 4301 permit 2a00:51c0::/32 le 48
     seq 4302 permit 2a00:5300::/32 le 48
-    seq 4303 permit 2a00:5540::/32 le 48
+    seq 4303 permit 2a00:5540::/31 ge 32 le 48
     seq 4304 permit 2a00:5580::/29 le 48
     seq 4305 permit 2a00:55a0:12::/47 ge 48 le 48
     seq 4306 permit 2a00:56c0:600::/39 le 48

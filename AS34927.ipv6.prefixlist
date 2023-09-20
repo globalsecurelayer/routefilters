@@ -568,7 +568,7 @@
     seq 566 permit 2803:d010::/32 le 48
     seq 567 permit 2803:e190::/32 le 48
     seq 568 permit 2803:e7a0::/32 le 48
-    seq 569 permit 2a00:5540::/32 le 48
+    seq 569 permit 2a00:5540::/31 ge 32 le 48
     seq 570 permit 2a00:6340::/32 le 48
     seq 571 permit 2a00:8c60:1::/48
     seq 572 permit 2a00:8c60:2::/48
