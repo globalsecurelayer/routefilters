@@ -4449,7 +4449,7 @@
     seq 4447 permit 128.201.163.0/24
     seq 4448 permit 128.201.244.0/22 le 24
     seq 4449 permit 128.254.172.0/22 le 24
-    seq 4450 permit 128.254.184.0/24
+    seq 4450 permit 128.254.184.0/23 ge 24 le 24
     seq 4451 permit 128.254.192.0/22 le 24
     seq 4452 permit 128.254.204.0/22 le 24
     seq 4453 permit 128.254.224.0/22 le 24
