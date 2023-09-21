@@ -3246,7 +3246,7 @@
     seq 3244 permit 103.151.28.0/23 le 24
     seq 3245 permit 103.151.41.0/24
     seq 3246 permit 103.151.44.0/23 le 24
-    seq 3247 permit 103.151.172.0/24
+    seq 3247 permit 103.151.172.0/23 ge 24 le 24
     seq 3248 permit 103.151.178.0/23 le 24
     seq 3249 permit 103.151.190.0/24
     seq 3250 permit 103.151.210.0/24

@@ -2112,7 +2112,7 @@
     seq 2110 permit 103.150.214.0/23 le 24
     seq 2111 permit 103.151.28.0/23 le 24
     seq 2112 permit 103.151.44.0/23 le 24
-    seq 2113 permit 103.151.172.0/24
+    seq 2113 permit 103.151.172.0/23 ge 24 le 24
     seq 2114 permit 103.151.178.0/23 le 24
     seq 2115 permit 103.151.190.0/24
     seq 2116 permit 103.151.210.0/24
