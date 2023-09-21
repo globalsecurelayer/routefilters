@@ -1265,7 +1265,7 @@
     seq 1263 permit 185.228.59.0/24
     seq 1264 permit 185.228.168.0/22 le 24
     seq 1265 permit 185.230.13.0/24
-    seq 1266 permit 185.230.14.0/24
+    seq 1266 permit 185.230.14.0/23 ge 24 le 24
     seq 1267 permit 185.231.204.0/22 ge 24 le 24
     seq 1268 permit 185.232.117.0/24
     seq 1269 permit 185.234.9.0/24
