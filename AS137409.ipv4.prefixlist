@@ -11812,7 +11812,7 @@
     seq 11810 permit 85.234.240.0/23 le 24
     seq 11811 permit 85.235.72.0/21 ge 22 le 24
     seq 11812 permit 85.235.81.0/24
-    seq 11813 permit 85.235.83.0/24
+    seq 11813 permit 85.235.82.0/23 le 24
     seq 11814 permit 85.235.160.0/19 le 24
     seq 11815 permit 85.235.192.0/19 le 24
     seq 11816 permit 85.236.0.0/19 le 24
@@ -17918,7 +17918,7 @@
     seq 17916 permit 103.83.192.0/22 le 24
     seq 17917 permit 103.83.212.0/22 le 24
     seq 17918 permit 103.83.224.0/22 le 24
-    seq 17919 permit 103.84.44.0/22 ge 24 le 24
+    seq 17919 permit 103.84.44.0/22 le 24
     seq 17920 permit 103.84.88.0/22 le 24
     seq 17921 permit 103.84.97.0/24
     seq 17922 permit 103.84.100.0/22 le 24
@@ -18080,7 +18080,7 @@
     seq 18078 permit 103.97.80.0/22 le 24
     seq 18079 permit 103.97.88.0/23 le 24
     seq 18080 permit 103.97.128.0/22 le 24
-    seq 18081 permit 103.97.156.0/22 ge 24 le 24
+    seq 18081 permit 103.97.156.0/22 le 24
     seq 18082 permit 103.97.177.0/24
     seq 18083 permit 103.97.198.0/23 le 24
     seq 18084 permit 103.97.200.0/23 ge 24 le 24
@@ -37507,7 +37507,7 @@
     seq 37505 permit 194.87.96.0/22 ge 23 le 24
     seq 37506 permit 194.87.100.0/23 ge 24 le 24
     seq 37507 permit 194.87.102.0/23 le 24
-    seq 37508 permit 194.87.105.0/24
+    seq 37508 permit 194.87.104.0/23 ge 24 le 24
     seq 37509 permit 194.87.107.0/24
     seq 37510 permit 194.87.108.0/23 ge 24 le 24
     seq 37511 permit 194.87.110.0/23 le 24
