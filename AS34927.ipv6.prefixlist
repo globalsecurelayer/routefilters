@@ -1596,7 +1596,7 @@
     seq 1594 permit 2a0f:36c0::/29 le 48
     seq 1595 permit 2a0f:3740::/29 le 48
     seq 1596 permit 2a0f:3784:100::/40 le 48
-    seq 1597 permit 2a0f:4a80:4::/47 ge 48 le 48
+    seq 1597 permit 2a0f:4a80:4::/46 ge 48 le 48
     seq 1598 permit 2a0f:4ac0::/31 le 48
     seq 1599 permit 2a0f:4ac4::/40 le 48
     seq 1600 permit 2a0f:5300::/29 le 48
@@ -2146,4 +2146,5 @@
     seq 2144 permit 2a13:c007:8500::/40 le 48
     seq 2145 permit 2a13:d8c0::/29 ge 32 le 48
     seq 2146 permit 2a13:df80::/29 le 48
-    seq 2147 permit 2c0f:f530::/32 le 48
+    seq 2147 permit 2a13:ee47::/32 le 48
+    seq 2148 permit 2c0f:f530::/32 le 48
