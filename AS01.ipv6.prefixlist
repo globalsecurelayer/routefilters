@@ -8,7 +8,8 @@
     seq 6 permit 2606:f180:4::/48
     seq 7 permit 2606:f181::/32 le 48
     seq 8 permit 2607:2300::/32 le 48
-    seq 9 permit 2a0c:b6c0::/31 ge 32 le 48
-    seq 10 permit 2a0e:d785::/32 le 48
-    seq 11 permit 2a0f:e383::/32 le 48
-    seq 12 permit 2a0f:e384::/31 ge 32 le 48
+    seq 9 permit 2a05:dfc1:9a00::/40 le 48
+    seq 10 permit 2a0c:b6c0::/31 ge 32 le 48
+    seq 11 permit 2a0e:d785::/32 le 48
+    seq 12 permit 2a0f:e383::/32 le 48
+    seq 13 permit 2a0f:e384::/31 ge 32 le 48
