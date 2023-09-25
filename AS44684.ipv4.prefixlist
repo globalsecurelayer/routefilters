@@ -128,7 +128,7 @@
     seq 126 permit 45.129.95.0/24
     seq 127 permit 45.129.192.0/22 le 24
     seq 128 permit 45.132.1.0/24
-    seq 129 permit 45.133.74.0/24
+    seq 129 permit 45.133.74.0/23 ge 24 le 24
     seq 130 permit 45.136.0.0/22 ge 24 le 24
     seq 131 permit 45.137.17.0/24
     seq 132 permit 45.139.80.0/22 le 24
