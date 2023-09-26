@@ -792,7 +792,7 @@
     seq 790 permit 2a07:a8c0::/29 le 48
     seq 791 permit 2a07:aec0::/29 le 48
     seq 792 permit 2a07:d880::/29 le 48
-    seq 793 permit 2a07:e041::/32 le 48
+    seq 793 permit 2a07:e040::/31 ge 32 le 48
     seq 794 permit 2a07:e042::/32 le 48
     seq 795 permit 2a07:e340::/32 le 48
     seq 796 permit 2a07:e900::/29 le 48

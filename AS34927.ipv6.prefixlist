@@ -839,7 +839,7 @@
     seq 837 permit 2a07:6f40::/29 le 48
     seq 838 permit 2a07:6fc0:10::/44 le 48
     seq 839 permit 2a07:6fc6::/32 le 48
-    seq 840 permit 2a07:e041::/32 le 48
+    seq 840 permit 2a07:e040::/31 ge 32 le 48
     seq 841 permit 2a07:e042::/32 le 48
     seq 842 permit 2a07:e480:1::/48
     seq 843 permit 2a07:e480:2::/48
