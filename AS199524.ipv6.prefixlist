@@ -5570,7 +5570,7 @@
     seq 5568 permit 2a11:840:48::/48
     seq 5569 permit 2a11:840:50::/47 ge 48 le 48
     seq 5570 permit 2a11:840:52::/48
-    seq 5571 permit 2a11:840:54::/48
+    seq 5571 permit 2a11:840:54::/47 ge 48 le 48
     seq 5572 permit 2a11:bc0::/47 ge 48 le 48
     seq 5573 permit 2a11:f00::/29 le 48
     seq 5574 permit 2a11:1040::/29 le 48

@@ -9644,7 +9644,7 @@
     seq 9642 permit 2a11:840:48::/48
     seq 9643 permit 2a11:840:50::/47 ge 48 le 48
     seq 9644 permit 2a11:840:52::/48
-    seq 9645 permit 2a11:840:54::/48
+    seq 9645 permit 2a11:840:54::/47 ge 48 le 48
     seq 9646 permit 2a11:980::/29 le 48
     seq 9647 permit 2a11:a80::/29 le 48
     seq 9648 permit 2a11:b80::/29 le 48
