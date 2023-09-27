@@ -2725,7 +2725,7 @@
     seq 2723 permit 93.95.48.0/21 le 24
     seq 2724 permit 93.113.52.0/23 le 24
     seq 2725 permit 93.113.124.0/23 le 24
-    seq 2726 permit 93.113.178.0/24
+    seq 2726 permit 93.113.178.0/23 ge 24 le 24
     seq 2727 permit 93.114.0.0/20 le 24
     seq 2728 permit 93.114.136.0/23 le 24
     seq 2729 permit 93.114.180.0/23 le 24
