@@ -2502,7 +2502,7 @@
     seq 2500 permit 45.142.136.0/22 ge 24 le 24
     seq 2501 permit 45.142.164.0/22 ge 24 le 24
     seq 2502 permit 45.142.180.0/22 ge 24 le 24
-    seq 2503 permit 45.142.208.0/24
+    seq 2503 permit 45.142.208.0/23 ge 24 le 24
     seq 2504 permit 45.142.212.0/22 ge 24 le 24
     seq 2505 permit 45.142.220.0/22 le 24
     seq 2506 permit 45.142.244.0/23 ge 24 le 24
