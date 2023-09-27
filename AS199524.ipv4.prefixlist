@@ -1237,7 +1237,7 @@
     seq 1235 permit 38.9.36.0/22 le 24
     seq 1236 permit 38.9.96.0/20 le 24
     seq 1237 permit 38.9.120.0/22 le 24
-    seq 1238 permit 38.11.64.0/18 le 24
+    seq 1238 permit 38.11.0.0/17 ge 18 le 24
     seq 1239 permit 38.12.0.0/18 le 24
     seq 1240 permit 38.12.128.0/17 le 24
     seq 1241 permit 38.20.202.0/24
