@@ -11006,7 +11006,7 @@
     seq 11004 permit 2a12:bec0:390::/44 le 48
     seq 11005 permit 2a12:bec0:410::/44 le 48
     seq 11006 permit 2a12:bec0:430::/44 le 48
-    seq 11007 permit 2a12:bec0:500::/44 le 48
+    seq 11007 permit 2a12:bec0:500::/43 ge 44 le 48
     seq 11008 permit 2a12:bec0:de0::/44 le 48
     seq 11009 permit 2a12:bec0:e00::/47 ge 48 le 48
     seq 11010 permit 2a12:bec0:e03::/48

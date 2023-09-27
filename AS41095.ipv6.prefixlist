@@ -10010,7 +10010,7 @@
     seq 10008 permit 2a12:bec0:390::/44 le 48
     seq 10009 permit 2a12:bec0:410::/44 le 48
     seq 10010 permit 2a12:bec0:430::/44 le 48
-    seq 10011 permit 2a12:bec0:500::/44 le 48
+    seq 10011 permit 2a12:bec0:500::/43 ge 44 le 48
     seq 10012 permit 2a12:bec0:de0::/44 le 48
     seq 10013 permit 2a12:bec0:e00::/47 ge 48 le 48
     seq 10014 permit 2a12:bec0:e03::/48
