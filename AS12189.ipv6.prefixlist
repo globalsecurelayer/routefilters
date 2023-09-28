@@ -7,7 +7,7 @@
     seq 5 permit 2400:6b80::/32 le 48
     seq 6 permit 2400:a1c0::/32 le 48
     seq 7 permit 2401:bc40::/32 le 48
-    seq 8 permit 2401:fd80:404::/47 ge 48 le 48
+    seq 8 permit 2401:fd80:404::/48
     seq 9 permit 2402:7880::/32 le 48
     seq 10 permit 2403:2500::/32 le 48
     seq 11 permit 2404:3dc0:1::/48
