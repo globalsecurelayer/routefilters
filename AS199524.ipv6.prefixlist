@@ -5677,7 +5677,7 @@
     seq 5675 permit 2a11:f2c0:fe00::/40 le 48
     seq 5676 permit 2a11:f2c0:ffc0::/48
     seq 5677 permit 2a11:f2c0:ffc3::/48
-    seq 5678 permit 2a11:f2c0:ffc4::/48
+    seq 5678 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 5679 permit 2a11:f2c0:ffe0::/44 le 48
     seq 5680 permit 2a11:f2c0:fff0::/47 ge 48 le 48
     seq 5681 permit 2a11:f2c0:fff5::/48

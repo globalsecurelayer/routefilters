@@ -1953,7 +1953,7 @@
     seq 1951 permit 2a11:f2c0:fc00::/39 ge 40 le 48
     seq 1952 permit 2a11:f2c0:fe00::/40 le 48
     seq 1953 permit 2a11:f2c0:ffc0::/48
-    seq 1954 permit 2a11:f2c0:ffc4::/48
+    seq 1954 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 1955 permit 2a11:f2c0:fff0::/48
     seq 1956 permit 2a11:f2c0:fff5::/48
     seq 1957 permit 2a11:f2c0:fff6::/47 ge 48 le 48
