@@ -3363,7 +3363,7 @@
     seq 3361 permit 46.21.251.0/24
     seq 3362 permit 46.21.252.0/22 le 24
     seq 3363 permit 46.23.96.0/24
-    seq 3364 permit 46.23.98.0/24
+    seq 3364 permit 46.23.98.0/23 ge 24 le 24
     seq 3365 permit 46.23.100.0/22 le 24
     seq 3366 permit 46.23.108.0/24
     seq 3367 permit 46.23.110.0/24
