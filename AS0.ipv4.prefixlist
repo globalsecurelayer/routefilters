@@ -2003,7 +2003,7 @@
     seq 2001 permit 69.58.188.30/32
     seq 2002 permit 69.71.48.0/20 le 24
     seq 2003 permit 69.77.160.0/19 le 24
-    seq 2004 permit 69.80.226.0/24
+    seq 2004 permit 69.80.226.0/23 ge 24 le 24
     seq 2005 permit 69.90.15.0/24
     seq 2006 permit 69.90.118.0/24
     seq 2007 permit 69.94.128.0/19 le 24
