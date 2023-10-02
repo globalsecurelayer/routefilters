@@ -2004,7 +2004,7 @@
     seq 2002 permit 45.59.127.0/24
     seq 2003 permit 45.59.132.0/22 le 24
     seq 2004 permit 45.59.137.0/24
-    seq 2005 permit 45.59.140.0/24
+    seq 2005 permit 45.59.140.0/23 ge 24 le 24
     seq 2006 permit 45.59.152.0/22 le 24
     seq 2007 permit 45.59.168.0/24
     seq 2008 permit 45.59.171.0/24
@@ -5589,7 +5589,7 @@
     seq 5587 permit 89.23.112.0/21 le 24
     seq 5588 permit 89.31.48.0/21 ge 22 le 24
     seq 5589 permit 89.31.80.0/21 le 24
-    seq 5590 permit 89.31.104.0/22 le 24
+    seq 5590 permit 89.31.104.0/21 le 24
     seq 5591 permit 89.31.125.0/24
     seq 5592 permit 89.31.126.0/23 ge 24 le 24
     seq 5593 permit 89.31.192.0/21 le 24
@@ -13467,7 +13467,7 @@
     seq 13465 permit 185.124.12.0/22 le 24
     seq 13466 permit 185.124.64.0/24
     seq 13467 permit 185.124.148.0/22 ge 24 le 24
-    seq 13468 permit 185.124.160.0/22 le 24
+    seq 13468 permit 185.124.160.0/21 ge 22 le 24
     seq 13469 permit 185.124.212.0/22 le 24
     seq 13470 permit 185.124.247.0/24
     seq 13471 permit 185.125.16.0/22 le 24

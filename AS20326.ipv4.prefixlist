@@ -285,7 +285,7 @@
     seq 283 permit 45.59.119.0/24
     seq 284 permit 45.59.127.0/24
     seq 285 permit 45.59.137.0/24
-    seq 286 permit 45.59.140.0/24
+    seq 286 permit 45.59.140.0/23 ge 24 le 24
     seq 287 permit 45.59.152.0/22 le 24
     seq 288 permit 45.59.184.0/22 le 24
     seq 289 permit 45.61.161.0/24

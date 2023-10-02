@@ -352,7 +352,7 @@
     seq 350 permit 45.45.193.0/24
     seq 351 permit 45.45.208.0/22 le 24
     seq 352 permit 45.59.137.0/24
-    seq 353 permit 45.59.140.0/24
+    seq 353 permit 45.59.140.0/23 ge 24 le 24
     seq 354 permit 45.61.173.0/24
     seq 355 permit 45.61.174.0/24
     seq 356 permit 45.62.171.0/24
