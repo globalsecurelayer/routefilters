@@ -4903,7 +4903,7 @@
     seq 4901 permit 45.128.77.0/24
     seq 4902 permit 45.128.79.0/24
     seq 4903 permit 45.128.92.0/22 le 24
-    seq 4904 permit 45.128.97.0/24
+    seq 4904 permit 45.128.96.0/23 ge 24 le 24
     seq 4905 permit 45.128.99.0/24
     seq 4906 permit 45.128.100.0/22 le 24
     seq 4907 permit 45.128.120.0/22 le 24
@@ -7453,7 +7453,7 @@
     seq 7451 permit 62.76.210.0/23 ge 24 le 24
     seq 7452 permit 62.76.212.0/22 le 24
     seq 7453 permit 62.76.216.0/21 le 24
-    seq 7454 permit 62.76.226.0/24
+    seq 7454 permit 62.76.226.0/23 ge 24 le 24
     seq 7455 permit 62.76.228.0/24
     seq 7456 permit 62.76.231.0/24
     seq 7457 permit 62.76.235.0/24

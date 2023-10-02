@@ -2412,7 +2412,7 @@
     seq 2410 permit 45.128.77.0/24
     seq 2411 permit 45.128.79.0/24
     seq 2412 permit 45.128.92.0/22 le 24
-    seq 2413 permit 45.128.97.0/24
+    seq 2413 permit 45.128.96.0/23 ge 24 le 24
     seq 2414 permit 45.128.99.0/24
     seq 2415 permit 45.128.100.0/22 le 24
     seq 2416 permit 45.128.120.0/22 le 24
