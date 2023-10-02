@@ -1466,7 +1466,7 @@
     seq 1464 permit 93.185.152.0/22 le 24
     seq 1465 permit 93.187.128.0/22 le 24
     seq 1466 permit 94.103.4.0/22 le 24
-    seq 1467 permit 94.103.124.0/24
+    seq 1467 permit 94.103.124.0/23 ge 24 le 24
     seq 1468 permit 94.103.178.0/24
     seq 1469 permit 94.103.184.0/24
     seq 1470 permit 94.103.189.0/24
