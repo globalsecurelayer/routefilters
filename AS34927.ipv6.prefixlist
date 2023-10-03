@@ -1953,18 +1953,18 @@
     seq 1951 permit 2a11:e487:dead::/48
     seq 1952 permit 2a11:e487:fc01::/48
     seq 1953 permit 2a11:f2c0::/46 ge 48 le 48
-    seq 1954 permit 2a11:f2c0:acab::/48
-    seq 1955 permit 2a11:f2c0:acac::/48
+    seq 1954 permit 2a11:f2c0:aca0::/44 le 48
+    seq 1955 permit 2a11:f2c0:b00b::/48
     seq 1956 permit 2a11:f2c0:fc00::/39 ge 40 le 48
     seq 1957 permit 2a11:f2c0:fe00::/40 le 48
     seq 1958 permit 2a11:f2c0:ffc0::/48
     seq 1959 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 1960 permit 2a11:f2c0:fff0::/48
-    seq 1961 permit 2a11:f2c0:fff2::/48
+    seq 1961 permit 2a11:f2c0:fff5::/48
     seq 1962 permit 2a11:f2c0:fff6::/47 ge 48 le 48
     seq 1963 permit 2a11:f2c0:fffa::/48
     seq 1964 permit 2a11:f2c0:fffd::/48
-    seq 1965 permit 2a11:f2c0:ffff::/48
+    seq 1965 permit 2a11:f2c0:fffe::/47 ge 48 le 48
     seq 1966 permit 2a12:bc0::/29 le 48
     seq 1967 permit 2a12:3fc2::/32 le 48
     seq 1968 permit 2a12:3fc7::/48
