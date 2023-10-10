@@ -7279,7 +7279,7 @@
     seq 7277 permit 85.237.68.0/24
     seq 7278 permit 85.237.71.0/24
     seq 7279 permit 85.237.196.0/23 le 24
-    seq 7280 permit 85.237.205.0/24
+    seq 7280 permit 85.237.204.0/23 ge 24 le 24
     seq 7281 permit 85.237.208.0/24
     seq 7282 permit 85.237.214.0/23 ge 24 le 24
     seq 7283 permit 85.237.216.0/24
@@ -7648,7 +7648,7 @@
     seq 7646 permit 89.33.41.0/24
     seq 7647 permit 89.33.66.0/23 le 24
     seq 7648 permit 89.33.82.0/24
-    seq 7649 permit 89.33.85.0/24
+    seq 7649 permit 89.33.84.0/23 ge 24 le 24
     seq 7650 permit 89.33.104.0/24
     seq 7651 permit 89.33.195.0/24
     seq 7652 permit 89.34.26.0/24
