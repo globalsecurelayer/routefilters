@@ -3504,7 +3504,7 @@
     seq 3502 permit 103.240.180.0/22 le 24
     seq 3503 permit 103.240.198.0/24
     seq 3504 permit 103.240.200.0/22 le 24
-    seq 3505 permit 103.241.52.0/22 le 24
+    seq 3505 permit 103.241.48.0/21 ge 22 le 24
     seq 3506 permit 103.241.192.0/24
     seq 3507 permit 103.242.0.0/22 le 24
     seq 3508 permit 103.242.64.0/23 ge 24 le 24

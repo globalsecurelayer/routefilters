@@ -3907,7 +3907,7 @@
     seq 3905 permit 103.240.180.0/22 le 24
     seq 3906 permit 103.240.198.0/24
     seq 3907 permit 103.240.200.0/22 le 24
-    seq 3908 permit 103.241.52.0/22 le 24
+    seq 3908 permit 103.241.48.0/21 ge 22 le 24
     seq 3909 permit 103.241.192.0/24
     seq 3910 permit 103.242.0.0/22 le 24
     seq 3911 permit 103.242.64.0/23 ge 24 le 24
