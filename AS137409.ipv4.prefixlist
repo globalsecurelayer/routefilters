@@ -20277,7 +20277,7 @@
     seq 20275 permit 103.241.26.0/24
     seq 20276 permit 103.241.28.0/22 le 24
     seq 20277 permit 103.241.32.0/22 le 24
-    seq 20278 permit 103.241.52.0/22 le 24
+    seq 20278 permit 103.241.48.0/21 ge 22 le 24
     seq 20279 permit 103.241.76.0/22 le 24
     seq 20280 permit 103.241.80.0/22 le 24
     seq 20281 permit 103.241.84.0/24
