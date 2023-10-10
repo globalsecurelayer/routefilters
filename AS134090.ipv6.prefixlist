@@ -3,19 +3,21 @@
     seq 1 permit 2001:df3:a00::/48
     seq 2 permit 2001:df6:9000::/48
     seq 3 permit 2001:df7:7580::/48
-    seq 4 permit 2400:a840::/31 ge 32 le 48
-    seq 5 permit 2400:a842::/31 le 48
-    seq 6 permit 2400:a844::/30 le 48
-    seq 7 permit 2401:9cc0:100::/48
-    seq 8 permit 2401:9cc0:200::/45 ge 48 le 48
-    seq 9 permit 2401:9cc0:208::/47 ge 48 le 48
-    seq 10 permit 2401:9cc0:210::/48
-    seq 11 permit 2401:9cc0:300::/40 le 48
-    seq 12 permit 2402:2c80::/32 le 48
-    seq 13 permit 2402:3fc0::/32 le 48
-    seq 14 permit 2402:7940::/32 le 48
-    seq 15 permit 2406:46c0::/32 le 48
-    seq 16 permit 2a00:a160::/32 le 48
-    seq 17 permit 2a00:fea0::/32 le 48
-    seq 18 permit 2a03:6920::/32 le 48
-    seq 19 permit 2a0e:dbc0:3::/48
+    seq 4 permit 2400:a840::/30 ge 31 le 48
+    seq 5 permit 2400:a844::/30 le 48
+    seq 6 permit 2400:a848::/30 ge 31 le 48
+    seq 7 permit 2400:a84c::/31 le 48
+    seq 8 permit 2400:a84e::/32 le 48
+    seq 9 permit 2401:9cc0:100::/48
+    seq 10 permit 2401:9cc0:200::/45 ge 48 le 48
+    seq 11 permit 2401:9cc0:208::/47 ge 48 le 48
+    seq 12 permit 2401:9cc0:210::/48
+    seq 13 permit 2401:9cc0:300::/40 le 48
+    seq 14 permit 2402:2c80::/32 le 48
+    seq 15 permit 2402:3fc0::/32 le 48
+    seq 16 permit 2402:7940::/32 le 48
+    seq 17 permit 2406:46c0::/32 le 48
+    seq 18 permit 2a00:a160::/32 le 48
+    seq 19 permit 2a00:fea0::/32 le 48
+    seq 20 permit 2a03:6920::/32 le 48
+    seq 21 permit 2a0e:dbc0:3::/48
