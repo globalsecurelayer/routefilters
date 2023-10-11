@@ -1313,7 +1313,7 @@
     seq 1311 permit 2a0f:8ac1::/32 le 48
     seq 1312 permit 2a0f:9400:30::/44 le 48
     seq 1313 permit 2a0f:9400:6103::/48
-    seq 1314 permit 2a0f:9400:6111::/48
+    seq 1314 permit 2a0f:9400:6110::/47 ge 48 le 48
     seq 1315 permit 2a0f:9400:6161::/48
     seq 1316 permit 2a0f:9400:6162::/47 ge 48 le 48
     seq 1317 permit 2a0f:9400:6165::/48

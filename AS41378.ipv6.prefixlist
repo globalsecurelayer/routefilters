@@ -1781,7 +1781,7 @@
     seq 1779 permit 2a0f:9400:6000::/40 le 48
     seq 1780 permit 2a0f:9400:6103::/48
     seq 1781 permit 2a0f:9400:6107::/48
-    seq 1782 permit 2a0f:9400:6111::/48
+    seq 1782 permit 2a0f:9400:6110::/47 ge 48 le 48
     seq 1783 permit 2a0f:9400:6161::/48
     seq 1784 permit 2a0f:9400:6162::/47 ge 48 le 48
     seq 1785 permit 2a0f:9400:6165::/48
