@@ -7601,7 +7601,7 @@
     seq 7599 permit 103.69.140.0/22 le 24
     seq 7600 permit 103.69.144.0/22 le 24
     seq 7601 permit 103.69.224.0/22 le 24
-    seq 7602 permit 103.69.238.0/23 le 24
+    seq 7602 permit 103.69.238.0/23 ge 24 le 24
     seq 7603 permit 103.70.64.0/22 le 24
     seq 7604 permit 103.70.224.0/22 le 24
     seq 7605 permit 103.71.32.0/22 le 24
