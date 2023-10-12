@@ -328,7 +328,7 @@
     seq 326 permit 2a12:dd47:2000::/36 le 48
     seq 327 permit 2a12:dd47:3800::/39 ge 40 le 48
     seq 328 permit 2a12:dd47:5200::/40 le 48
-    seq 329 permit 2a12:dd47:5300::/48
+    seq 329 permit 2a12:dd47:5300::/47 ge 48 le 48
     seq 330 permit 2a12:dd47:5d00::/40 le 48
     seq 331 permit 2a12:dd47:8004::/48
     seq 332 permit 2a12:dd47:80d0::/44 le 48
