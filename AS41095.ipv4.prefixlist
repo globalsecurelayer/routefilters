@@ -502,7 +502,7 @@
     seq 500 permit 5.178.32.0/21 le 24
     seq 501 permit 5.178.64.0/21 le 24
     seq 502 permit 5.178.80.0/21 le 24
-    seq 503 permit 5.178.108.0/23 ge 24 le 24
+    seq 503 permit 5.178.109.0/24
     seq 504 permit 5.178.111.0/24
     seq 505 permit 5.178.112.0/21 le 24
     seq 506 permit 5.180.8.0/22 le 24
@@ -21893,7 +21893,7 @@
     seq 21891 permit 145.255.160.0/19 le 24
     seq 21892 permit 145.255.232.0/21 le 24
     seq 21893 permit 146.0.32.0/20 le 24
-    seq 21894 permit 146.0.48.0/21 le 24
+    seq 21894 permit 146.0.48.0/21 ge 24 le 24
     seq 21895 permit 146.0.60.0/22 le 24
     seq 21896 permit 146.0.72.0/21 le 24
     seq 21897 permit 146.0.192.0/20 le 24

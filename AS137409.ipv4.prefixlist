@@ -524,7 +524,7 @@
     seq 522 permit 5.178.32.0/21 le 24
     seq 523 permit 5.178.64.0/21 le 24
     seq 524 permit 5.178.80.0/21 le 24
-    seq 525 permit 5.178.108.0/23 ge 24 le 24
+    seq 525 permit 5.178.109.0/24
     seq 526 permit 5.178.111.0/24
     seq 527 permit 5.178.112.0/21 le 24
     seq 528 permit 5.180.8.0/22 le 24
@@ -24274,7 +24274,7 @@
     seq 24272 permit 145.255.160.0/19 le 24
     seq 24273 permit 145.255.232.0/21 le 24
     seq 24274 permit 146.0.32.0/20 le 24
-    seq 24275 permit 146.0.48.0/21 le 24
+    seq 24275 permit 146.0.48.0/21 ge 24 le 24
     seq 24276 permit 146.0.60.0/22 le 24
     seq 24277 permit 146.0.72.0/21 le 24
     seq 24278 permit 146.0.192.0/20 le 24
