@@ -1485,7 +1485,7 @@
     seq 1483 permit 170.39.203.0/24
     seq 1484 permit 170.39.224.0/22 le 24
     seq 1485 permit 170.39.232.0/22 le 24
-    seq 1486 permit 170.205.28.0/24
+    seq 1486 permit 170.205.28.0/23 ge 24 le 24
     seq 1487 permit 170.247.212.0/22 le 24
     seq 1488 permit 171.22.31.0/24
     seq 1489 permit 171.22.192.0/22 le 24
