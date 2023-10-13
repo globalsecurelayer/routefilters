@@ -629,7 +629,7 @@
     seq 627 permit 2a05:541:120::/45 ge 48 le 48
     seq 628 permit 2a05:541:128::/47 ge 48 le 48
     seq 629 permit 2a05:541:131::/48
-    seq 630 permit 2a05:541:132::/48
+    seq 630 permit 2a05:541:132::/47 ge 48 le 48
     seq 631 permit 2a05:1081::/32 le 48
     seq 632 permit 2a05:1082::/32 le 48
     seq 633 permit 2a05:1084:bad::/48

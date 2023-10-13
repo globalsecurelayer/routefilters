@@ -6669,7 +6669,7 @@
     seq 6667 permit 2a05:541:120::/45 ge 48 le 48
     seq 6668 permit 2a05:541:128::/47 ge 48 le 48
     seq 6669 permit 2a05:541:131::/48
-    seq 6670 permit 2a05:541:132::/48
+    seq 6670 permit 2a05:541:132::/47 ge 48 le 48
     seq 6671 permit 2a05:544::/32 le 48
     seq 6672 permit 2a05:546::/31 ge 32 le 48
     seq 6673 permit 2a05:840::/47 ge 48 le 48
