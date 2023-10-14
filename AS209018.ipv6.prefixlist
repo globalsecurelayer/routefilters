@@ -327,30 +327,29 @@
     seq 325 permit 2a12:5840:b00b::/48
     seq 326 permit 2a12:dd47:2000::/36 le 48
     seq 327 permit 2a12:dd47:3800::/39 ge 40 le 48
-    seq 328 permit 2a12:dd47:3b02::/48
-    seq 329 permit 2a12:dd47:3f00::/40 le 48
-    seq 330 permit 2a12:dd47:5200::/39 ge 40 le 48
-    seq 331 permit 2a12:dd47:5d00::/40 le 48
-    seq 332 permit 2a12:dd47:8004::/48
-    seq 333 permit 2a12:dd47:80d0::/44 le 48
-    seq 334 permit 2a12:dd47:8100::/44 le 48
-    seq 335 permit 2a12:dd47:84fd::/48
-    seq 336 permit 2a12:dd47:84fe::/48
-    seq 337 permit 2a12:dd47:d300::/40 le 48
-    seq 338 permit 2a12:dd47:d800::/40 le 48
-    seq 339 permit 2a12:dd47:dd00::/40 le 48
-    seq 340 permit 2a13:c80::/32 le 48
-    seq 341 permit 2a13:2187:9e00::/39 le 48
-    seq 342 permit 2a13:a5c5::/32 le 48
-    seq 343 permit 2a13:b487:1100::/40 le 48
-    seq 344 permit 2a13:b487:1700::/40 le 48
-    seq 345 permit 2a13:b487:4200::/40 le 48
-    seq 346 permit 2a13:df80:c00::/38 le 48
-    seq 347 permit 2a13:df80:3807::/48
-    seq 348 permit 2a13:df80:6801::/48
-    seq 349 permit 2a13:df80:6802::/48
-    seq 350 permit 2a13:df80:6808::/48
-    seq 351 permit 2a13:df81::/32 le 48
-    seq 352 permit 2a13:df82:ff00::/40 le 48
-    seq 353 permit 2a13:df86:1700::/40 le 48
-    seq 354 permit 2c0f:f530:b00b::/48
+    seq 328 permit 2a12:dd47:5200::/40 le 48
+    seq 329 permit 2a12:dd47:5300::/47 ge 48 le 48
+    seq 330 permit 2a12:dd47:5d00::/40 le 48
+    seq 331 permit 2a12:dd47:8004::/48
+    seq 332 permit 2a12:dd47:80d0::/44 le 48
+    seq 333 permit 2a12:dd47:8100::/44 le 48
+    seq 334 permit 2a12:dd47:84fd::/48
+    seq 335 permit 2a12:dd47:84fe::/48
+    seq 336 permit 2a12:dd47:d300::/40 le 48
+    seq 337 permit 2a12:dd47:d800::/40 le 48
+    seq 338 permit 2a12:dd47:dd00::/40 le 48
+    seq 339 permit 2a13:c80::/32 le 48
+    seq 340 permit 2a13:2187:9e00::/39 le 48
+    seq 341 permit 2a13:a5c5::/32 le 48
+    seq 342 permit 2a13:b487:1100::/40 le 48
+    seq 343 permit 2a13:b487:1700::/40 le 48
+    seq 344 permit 2a13:b487:4200::/40 le 48
+    seq 345 permit 2a13:df80:c00::/38 le 48
+    seq 346 permit 2a13:df80:3807::/48
+    seq 347 permit 2a13:df80:6801::/48
+    seq 348 permit 2a13:df80:6802::/48
+    seq 349 permit 2a13:df80:6808::/48
+    seq 350 permit 2a13:df81::/32 le 48
+    seq 351 permit 2a13:df82:ff00::/40 le 48
+    seq 352 permit 2a13:df86:1700::/40 le 48
+    seq 353 permit 2c0f:f530:b00b::/48
