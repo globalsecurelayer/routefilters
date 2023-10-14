@@ -1621,7 +1621,7 @@
     seq 1619 permit 2402:c500::/32 le 48
     seq 1620 permit 2402:c580::/32 le 48
     seq 1621 permit 2402:d0c0:10::/45 ge 48 le 48
-    seq 1622 permit 2402:d0c0:18::/48
+    seq 1622 permit 2402:d0c0:18::/47 ge 48 le 48
     seq 1623 permit 2402:d2c0::/32 le 48
     seq 1624 permit 2402:d2c0::/64
     seq 1625 permit 2402:d680::/32 le 48

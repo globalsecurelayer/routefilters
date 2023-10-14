@@ -912,7 +912,7 @@
     seq 910 permit 2402:bd80::/32 le 48
     seq 911 permit 2402:c340::/32 le 48
     seq 912 permit 2402:d0c0:10::/45 ge 48 le 48
-    seq 913 permit 2402:d0c0:18::/48
+    seq 913 permit 2402:d0c0:18::/47 ge 48 le 48
     seq 914 permit 2402:d680::/32 le 48
     seq 915 permit 2402:e380:100::/40 le 48
     seq 916 permit 2402:e380:302::/48

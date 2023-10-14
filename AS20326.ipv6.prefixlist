@@ -260,7 +260,7 @@
     seq 258 permit 2402:9e80:a00::/40 le 48
     seq 259 permit 2402:c340::/32 le 48
     seq 260 permit 2402:d0c0:10::/45 ge 48 le 48
-    seq 261 permit 2402:d0c0:18::/48
+    seq 261 permit 2402:d0c0:18::/47 ge 48 le 48
     seq 262 permit 2402:e380:302::/48
     seq 263 permit 2402:e380:309::/48
     seq 264 permit 2402:e380:31b::/48

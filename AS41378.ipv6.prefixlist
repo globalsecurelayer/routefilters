@@ -345,7 +345,7 @@
     seq 343 permit 2402:9e80:a00::/40 le 48
     seq 344 permit 2402:c340::/32 le 48
     seq 345 permit 2402:d0c0:10::/45 ge 48 le 48
-    seq 346 permit 2402:d0c0:18::/48
+    seq 346 permit 2402:d0c0:18::/47 ge 48 le 48
     seq 347 permit 2402:e380:19::/48
     seq 348 permit 2402:e380:302::/48
     seq 349 permit 2402:e380:308::/47 ge 48 le 48
