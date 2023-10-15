@@ -271,7 +271,7 @@
     seq 269 permit 103.94.63.0/24
     seq 270 permit 103.96.144.0/22 le 24
     seq 271 permit 103.102.53.0/24
-    seq 272 permit 103.102.231.0/24
+    seq 272 permit 103.102.230.0/23 ge 24 le 24
     seq 273 permit 103.106.108.0/23 le 24
     seq 274 permit 103.106.144.0/24
     seq 275 permit 103.107.196.0/22 le 24
