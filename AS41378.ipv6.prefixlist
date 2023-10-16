@@ -1015,7 +1015,7 @@
     seq 1013 permit 2a05:dfc1:9000::/40 le 48
     seq 1014 permit 2a05:dfc1:9500::/40 le 48
     seq 1015 permit 2a05:dfc1:ad00::/40 le 48
-    seq 1016 permit 2a05:dfc1:ae00::/40 le 48
+    seq 1016 permit 2a05:dfc1:ae00::/39 ge 40 le 48
     seq 1017 permit 2a05:dfc1:b00f::/48
     seq 1018 permit 2a05:dfc1:ff00::/40 le 48
     seq 1019 permit 2a05:dfc4::/30 ge 32 le 48

@@ -793,7 +793,7 @@
     seq 791 permit 2a05:dfc1:9000::/40 le 48
     seq 792 permit 2a05:dfc1:9500::/40 le 48
     seq 793 permit 2a05:dfc1:ad00::/40 le 48
-    seq 794 permit 2a05:dfc1:ae00::/40 le 48
+    seq 794 permit 2a05:dfc1:ae00::/39 ge 40 le 48
     seq 795 permit 2a05:dfc1:b00f::/48
     seq 796 permit 2a05:dfc1:ff00::/40 le 48
     seq 797 permit 2a05:dfc4::/30 ge 32 le 48

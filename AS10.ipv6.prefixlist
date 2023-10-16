@@ -1922,7 +1922,7 @@
     seq 1920 permit 2a05:dfc1:9500::/40 le 48
     seq 1921 permit 2a05:dfc1:9a00::/40 le 48
     seq 1922 permit 2a05:dfc1:ad00::/40 le 48
-    seq 1923 permit 2a05:dfc1:ae00::/40 le 48
+    seq 1923 permit 2a05:dfc1:ae00::/39 ge 40 le 48
     seq 1924 permit 2a05:dfc1:b00b::/48
     seq 1925 permit 2a05:dfc1:b00f::/48
     seq 1926 permit 2a05:dfc1:ff00::/40 le 48
