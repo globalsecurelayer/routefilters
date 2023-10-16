@@ -2193,10 +2193,11 @@
     seq 2191 permit 2a13:c007:80b0::/44 le 48
     seq 2192 permit 2a13:c007:8300::/40 le 48
     seq 2193 permit 2a13:c007:8500::/40 le 48
-    seq 2194 permit 2a13:c7c0::/29 le 48
-    seq 2195 permit 2a13:cc87:fc00::/48
-    seq 2196 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 2197 permit 2a13:df80::/29 le 48
-    seq 2198 permit 2a13:ee47::/32 le 48
-    seq 2199 permit 2a13:fc80::/32 le 48
-    seq 2200 permit 2c0f:f530::/32 le 48
+    seq 2194 permit 2a13:c7c0::/32 le 48
+    seq 2195 permit 2a13:c7c1:10::/44 le 48
+    seq 2196 permit 2a13:cc87:fc00::/48
+    seq 2197 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 2198 permit 2a13:df80::/29 le 48
+    seq 2199 permit 2a13:ee47::/32 le 48
+    seq 2200 permit 2a13:fc80::/32 le 48
+    seq 2201 permit 2c0f:f530::/32 le 48
