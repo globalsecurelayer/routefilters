@@ -2714,7 +2714,7 @@
     seq 2712 permit 185.89.248.0/22 le 24
     seq 2713 permit 185.90.61.0/24
     seq 2714 permit 185.92.24.0/22 le 24
-    seq 2715 permit 185.92.46.0/24
+    seq 2715 permit 185.92.46.0/23 ge 24 le 24
     seq 2716 permit 185.92.220.0/22 le 24
     seq 2717 permit 185.93.173.0/24
     seq 2718 permit 185.93.174.0/24
