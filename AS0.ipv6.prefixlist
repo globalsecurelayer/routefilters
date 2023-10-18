@@ -3609,7 +3609,7 @@
     seq 3607 permit 2a10:ccc0:420::/44 le 48
     seq 3608 permit 2a10:ccc0:cc0::/44 le 48
     seq 3609 permit 2a10:ccc0:ccc0::/44 le 48
-    seq 3610 permit 2a10:ccc1:ccc1::/48
+    seq 3610 permit 2a10:ccc1:ccc0::/47 ge 48 le 48
     seq 3611 permit 2a10:ccc3:ccc1::/48
     seq 3612 permit 2a10:ccc3:ccca::/47 le 48
     seq 3613 permit 2a10:ccc7:9000::/40 le 48
