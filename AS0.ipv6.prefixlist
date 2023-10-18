@@ -2511,7 +2511,7 @@
     seq 2509 permit 2a07:4980::/29 le 48
     seq 2510 permit 2a07:54c0:1000::/36 le 48
     seq 2511 permit 2a07:54c0:ffee::/48
-    seq 2512 permit 2a07:54c1:1000::/36 le 48
+    seq 2512 permit 2a07:54c1::/35 ge 36 le 48
     seq 2513 permit 2a07:54c1:2000::/36 le 48
     seq 2514 permit 2a07:54c1:3000::/40 le 48
     seq 2515 permit 2a07:54c1:3200::/39 ge 40 le 48

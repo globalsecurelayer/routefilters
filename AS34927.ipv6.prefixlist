@@ -820,7 +820,7 @@
     seq 818 permit 2a07:4680::/29 le 48
     seq 819 permit 2a07:54c0:1000::/36 le 48
     seq 820 permit 2a07:54c0:ffee::/48
-    seq 821 permit 2a07:54c1:1000::/36 le 48
+    seq 821 permit 2a07:54c1::/35 ge 36 le 48
     seq 822 permit 2a07:54c1:2000::/36 le 48
     seq 823 permit 2a07:54c1:3000::/40 le 48
     seq 824 permit 2a07:54c1:3200::/39 ge 40 le 48

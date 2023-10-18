@@ -490,7 +490,7 @@
     seq 488 permit 2001:67c:5c::/48
     seq 489 permit 2001:67c:64::/48
     seq 490 permit 2001:67c:64::/96
-    seq 491 permit 2001:67c:64:ffff:0:18b:449b:4b51/128
+    seq 491 permit 2001:67c:64:ffff:0:18b:44d1:805f/128
     seq 492 permit 2001:67c:78::/48
     seq 493 permit 2001:67c:94::/48
     seq 494 permit 2001:67c:98::/48
@@ -7438,7 +7438,7 @@
     seq 7436 permit 2a07:52c0::/29 le 48
     seq 7437 permit 2a07:54c0:1000::/36 le 48
     seq 7438 permit 2a07:54c0:ffee::/48
-    seq 7439 permit 2a07:54c1:1000::/36 le 48
+    seq 7439 permit 2a07:54c1::/35 ge 36 le 48
     seq 7440 permit 2a07:54c1:2000::/36 le 48
     seq 7441 permit 2a07:54c1:3000::/40 le 48
     seq 7442 permit 2a07:54c1:3200::/39 ge 40 le 48
