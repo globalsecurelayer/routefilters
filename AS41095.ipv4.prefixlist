@@ -22122,7 +22122,7 @@
     seq 22120 permit 146.19.14.0/24
     seq 22121 permit 146.19.19.0/24
     seq 22122 permit 146.19.21.0/24
-    seq 22123 permit 146.19.22.0/24
+    seq 22123 permit 146.19.22.0/23 ge 24 le 24
     seq 22124 permit 146.19.27.0/24
     seq 22125 permit 146.19.37.0/24
     seq 22126 permit 146.19.41.0/24
@@ -30544,7 +30544,7 @@
     seq 30542 permit 185.229.243.0/24
     seq 30543 permit 185.229.251.0/24
     seq 30544 permit 185.230.13.0/24
-    seq 30545 permit 185.230.14.0/23 ge 24 le 24
+    seq 30545 permit 185.230.14.0/24
     seq 30546 permit 185.230.36.0/23 le 24
     seq 30547 permit 185.230.38.0/24
     seq 30548 permit 185.230.40.0/22 le 24
@@ -31841,7 +31841,7 @@
     seq 31839 permit 191.96.60.0/24
     seq 31840 permit 191.96.63.0/24
     seq 31841 permit 191.96.64.0/23 le 24
-    seq 31842 permit 191.96.67.0/24
+    seq 31842 permit 191.96.66.0/23 ge 24 le 24
     seq 31843 permit 191.96.68.0/22 ge 23 le 24
     seq 31844 permit 191.96.73.0/24
     seq 31845 permit 191.96.74.0/24
