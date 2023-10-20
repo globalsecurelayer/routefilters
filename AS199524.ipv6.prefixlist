@@ -6058,38 +6058,40 @@
     seq 6056 permit 2a13:c7c0::/32 le 48
     seq 6057 permit 2a13:c7c1:10::/44 le 48
     seq 6058 permit 2a13:c900::/29 ge 32 le 48
-    seq 6059 permit 2a13:cc87:fc00::/48
-    seq 6060 permit 2a13:cc87:ff00::/40 le 48
-    seq 6061 permit 2a13:ccc0::/29 le 48
-    seq 6062 permit 2a13:d040::/48
-    seq 6063 permit 2a13:d046:fffd::/48
-    seq 6064 permit 2a13:d046:fffe::/47 ge 48 le 48
-    seq 6065 permit 2a13:d047::/48
-    seq 6066 permit 2a13:d700::/29 ge 32 le 48
-    seq 6067 permit 2a13:d7c0::/29 le 48
-    seq 6068 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 6069 permit 2a13:d900::/29 ge 32 le 48
-    seq 6070 permit 2a13:dac0::/29 le 48
-    seq 6071 permit 2a13:df80::/29 le 48
-    seq 6072 permit 2a13:e280:1::/48
-    seq 6073 permit 2a13:ee47::/32 le 48
-    seq 6074 permit 2a13:f000::/32 le 48
-    seq 6075 permit 2a13:f180::/29 le 48
-    seq 6076 permit 2a13:f580:2::/48
-    seq 6077 permit 2a13:f740::/48
-    seq 6078 permit 2a13:fb80::/32 le 48
-    seq 6079 permit 2a13:fc80::/32 le 48
-    seq 6080 permit 2a14::/32 le 48
-    seq 6081 permit 2c0f:140::/32 le 48
-    seq 6082 permit 2c0f:f00::/32 le 48
-    seq 6083 permit 2c0f:2800::/32 le 48
-    seq 6084 permit 2c0f:4e00::/32 le 48
-    seq 6085 permit 2c0f:ec00::/32 le 48
-    seq 6086 permit 2c0f:ec58::/32 le 48
-    seq 6087 permit 2c0f:ee78::/32 le 48
-    seq 6088 permit 2c0f:f530::/32 le 48
-    seq 6089 permit 2c0f:f738::/32 le 48
-    seq 6090 permit 2c0f:fcb8::/32 le 48
-    seq 6091 permit 2c0f:fd20::/32 le 48
-    seq 6092 permit 2c0f:fda8::/32 le 48
-    seq 6093 permit 2c0f:fee0::/32 le 48
+    seq 6059 permit 2a13:cc80::/31 ge 32 le 48
+    seq 6060 permit 2a13:cc82::/32 le 48
+    seq 6061 permit 2a13:cc87:fc00::/48
+    seq 6062 permit 2a13:cc87:ff00::/40 le 48
+    seq 6063 permit 2a13:ccc0::/29 le 48
+    seq 6064 permit 2a13:d040::/48
+    seq 6065 permit 2a13:d046:fffd::/48
+    seq 6066 permit 2a13:d046:fffe::/47 ge 48 le 48
+    seq 6067 permit 2a13:d047::/48
+    seq 6068 permit 2a13:d700::/29 ge 32 le 48
+    seq 6069 permit 2a13:d7c0::/29 le 48
+    seq 6070 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 6071 permit 2a13:d900::/29 ge 32 le 48
+    seq 6072 permit 2a13:dac0::/29 le 48
+    seq 6073 permit 2a13:df80::/29 le 48
+    seq 6074 permit 2a13:e280:1::/48
+    seq 6075 permit 2a13:ee47::/32 le 48
+    seq 6076 permit 2a13:f000::/32 le 48
+    seq 6077 permit 2a13:f180::/29 le 48
+    seq 6078 permit 2a13:f580:2::/48
+    seq 6079 permit 2a13:f740::/48
+    seq 6080 permit 2a13:fb80::/32 le 48
+    seq 6081 permit 2a13:fc80::/32 le 48
+    seq 6082 permit 2a14::/32 le 48
+    seq 6083 permit 2c0f:140::/32 le 48
+    seq 6084 permit 2c0f:f00::/32 le 48
+    seq 6085 permit 2c0f:2800::/32 le 48
+    seq 6086 permit 2c0f:4e00::/32 le 48
+    seq 6087 permit 2c0f:ec00::/32 le 48
+    seq 6088 permit 2c0f:ec58::/32 le 48
+    seq 6089 permit 2c0f:ee78::/32 le 48
+    seq 6090 permit 2c0f:f530::/32 le 48
+    seq 6091 permit 2c0f:f738::/32 le 48
+    seq 6092 permit 2c0f:fcb8::/32 le 48
+    seq 6093 permit 2c0f:fd20::/32 le 48
+    seq 6094 permit 2c0f:fda8::/32 le 48
+    seq 6095 permit 2c0f:fee0::/32 le 48
