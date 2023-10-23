@@ -1647,7 +1647,7 @@
     seq 1645 permit 2402:e500:f000::/48
     seq 1646 permit 2402:ee80::/32 le 48
     seq 1647 permit 2402:f200::/32 le 48
-    seq 1648 permit 2402:f740::/35 ge 36 le 48
+    seq 1648 permit 2402:f740:1000::/36 le 48
     seq 1649 permit 2402:f740:2000::/36 le 48
     seq 1650 permit 2402:fd40::/32 le 48
     seq 1651 permit 2403:600:a601::/48
