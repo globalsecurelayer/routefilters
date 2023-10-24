@@ -146,7 +146,7 @@
     seq 144 permit 23.152.56.0/24
     seq 145 permit 23.153.24.0/24
     seq 146 permit 23.154.8.0/24
-    seq 147 permit 23.154.81.0/24
+    seq 147 permit 23.154.80.0/23 ge 24 le 24
     seq 148 permit 23.155.104.0/24
     seq 149 permit 23.156.152.0/24
     seq 150 permit 23.156.200.0/24
@@ -4242,8 +4242,8 @@
     seq 4240 permit 203.83.8.0/22 ge 23 le 24
     seq 4241 permit 203.84.80.0/20 le 24
     seq 4242 permit 203.86.101.0/24
-    seq 4243 permit 203.86.109.0/24
-    seq 4244 permit 203.86.110.0/23 ge 24 le 24
+    seq 4243 permit 203.86.107.0/24
+    seq 4244 permit 203.86.108.0/22 ge 24 le 24
     seq 4245 permit 203.86.112.0/20 ge 24 le 24
     seq 4246 permit 203.88.224.0/22 le 24
     seq 4247 permit 203.88.235.0/24
