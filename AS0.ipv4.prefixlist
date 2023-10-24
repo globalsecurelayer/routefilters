@@ -286,7 +286,7 @@
     seq 284 permit 23.153.232.0/24
     seq 285 permit 23.154.8.0/24
     seq 286 permit 23.154.56.0/24
-    seq 287 permit 23.154.81.0/24
+    seq 287 permit 23.154.80.0/23 ge 24 le 24
     seq 288 permit 23.154.160.0/24
     seq 289 permit 23.154.177.0/24
     seq 290 permit 23.155.88.0/24
@@ -8067,8 +8067,8 @@
     seq 8065 permit 203.83.8.0/22 ge 23 le 24
     seq 8066 permit 203.84.80.0/20 le 24
     seq 8067 permit 203.86.101.0/24
-    seq 8068 permit 203.86.109.0/24
-    seq 8069 permit 203.86.110.0/23 ge 24 le 24
+    seq 8068 permit 203.86.107.0/24
+    seq 8069 permit 203.86.108.0/22 ge 24 le 24
     seq 8070 permit 203.86.112.0/20 ge 24 le 24
     seq 8071 permit 203.88.224.0/22 le 24
     seq 8072 permit 203.88.235.0/24
