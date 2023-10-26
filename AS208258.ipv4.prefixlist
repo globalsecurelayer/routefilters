@@ -19,7 +19,7 @@
     seq 17 permit 45.128.16.0/22 le 24
     seq 18 permit 45.128.158.0/23 le 24
     seq 19 permit 45.129.85.0/24
-    seq 20 permit 45.130.52.0/24
+    seq 20 permit 45.130.52.0/23 ge 24 le 24
     seq 21 permit 45.130.202.0/23 le 24
     seq 22 permit 45.132.224.0/23 le 24
     seq 23 permit 45.133.4.0/22 le 24
