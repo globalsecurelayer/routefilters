@@ -4209,11 +4209,12 @@
     seq 4207 permit 2a13:aac0::/29 le 48
     seq 4208 permit 2a13:b480::/29 le 48
     seq 4209 permit 2a13:c000::/29 le 48
-    seq 4210 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 4211 permit 2a13:df80::/29 le 48
-    seq 4212 permit 2c0f:ec00::/32 le 48
-    seq 4213 permit 2c0f:edb0::/32 le 48
-    seq 4214 permit 2c0f:f248::/32 le 48
-    seq 4215 permit 2c0f:f530::/32 le 48
-    seq 4216 permit 2c0f:f7a8::/29 le 48
-    seq 4217 permit 2c0f:fc88::/31 le 48
+    seq 4210 permit 2a13:ce40:6666::/48
+    seq 4211 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 4212 permit 2a13:df80::/29 le 48
+    seq 4213 permit 2c0f:ec00::/32 le 48
+    seq 4214 permit 2c0f:edb0::/32 le 48
+    seq 4215 permit 2c0f:f248::/32 le 48
+    seq 4216 permit 2c0f:f530::/32 le 48
+    seq 4217 permit 2c0f:f7a8::/29 le 48
+    seq 4218 permit 2c0f:fc88::/31 le 48
