@@ -300,7 +300,7 @@
     seq 298 permit 5.180.150.0/23 le 24
     seq 299 permit 5.180.154.0/24
     seq 300 permit 5.180.192.0/23 le 24
-    seq 301 permit 5.180.194.0/24
+    seq 301 permit 5.180.194.0/23 ge 24 le 24
     seq 302 permit 5.180.224.0/22 le 24
     seq 303 permit 5.180.232.0/22 le 24
     seq 304 permit 5.181.4.0/23 ge 24 le 24
@@ -12770,7 +12770,7 @@
     seq 12768 permit 185.39.76.0/22 le 24
     seq 12769 permit 185.39.88.0/22 ge 23 le 24
     seq 12770 permit 185.39.112.0/22 ge 23 le 24
-    seq 12771 permit 185.39.204.0/24
+    seq 12771 permit 185.39.204.0/23 ge 24 le 24
     seq 12772 permit 185.39.207.0/24
     seq 12773 permit 185.39.220.0/22 le 24
     seq 12774 permit 185.40.5.0/24
