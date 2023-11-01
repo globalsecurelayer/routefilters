@@ -29017,7 +29017,7 @@
     seq 29015 permit 176.119.223.0/24
     seq 29016 permit 176.119.224.0/21 le 24
     seq 29017 permit 176.120.24.0/21 le 24
-    seq 29018 permit 176.120.64.0/22 le 24
+    seq 29018 permit 176.120.64.0/21 ge 22 le 24
     seq 29019 permit 176.120.72.0/22 le 24
     seq 29020 permit 176.120.96.0/24
     seq 29021 permit 176.120.98.0/23 ge 24 le 24
