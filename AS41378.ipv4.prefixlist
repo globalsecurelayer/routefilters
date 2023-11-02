@@ -454,7 +454,7 @@
     seq 452 permit 44.127.16.0/20 le 24
     seq 453 permit 44.129.17.0/24
     seq 454 permit 44.151.228.0/22 le 24
-    seq 455 permit 44.151.232.0/24
+    seq 455 permit 44.151.232.0/22 ge 24 le 24
     seq 456 permit 44.159.68.0/23 ge 24 le 24
     seq 457 permit 44.159.70.0/24
     seq 458 permit 44.159.73.0/24

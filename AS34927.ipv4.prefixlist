@@ -298,7 +298,7 @@
     seq 296 permit 44.135.219.0/24
     seq 297 permit 44.150.160.0/24
     seq 298 permit 44.151.228.0/22 le 24
-    seq 299 permit 44.151.232.0/24
+    seq 299 permit 44.151.232.0/22 ge 24 le 24
     seq 300 permit 44.159.68.0/24
     seq 301 permit 44.161.204.0/23 le 24
     seq 302 permit 44.161.219.0/24
