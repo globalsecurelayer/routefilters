@@ -10409,13 +10409,13 @@
     seq 10407 permit 2a0f:85c1::/48
     seq 10408 permit 2a0f:85c1:10::/44 le 48
     seq 10409 permit 2a0f:85c1:21::/48
-    seq 10410 permit 2a0f:85c1:22::/48
+    seq 10410 permit 2a0f:85c1:22::/47 ge 48 le 48
     seq 10411 permit 2a0f:85c1:28::/48
     seq 10412 permit 2a0f:85c1:30::/47 ge 48 le 48
     seq 10413 permit 2a0f:85c1:40::/46 ge 48 le 48
     seq 10414 permit 2a0f:85c1:44::/48
     seq 10415 permit 2a0f:85c1:51::/48
-    seq 10416 permit 2a0f:85c1:70::/44 le 48
+    seq 10416 permit 2a0f:85c1:60::/43 ge 44 le 48
     seq 10417 permit 2a0f:85c1:80::/44 le 48
     seq 10418 permit 2a0f:85c1:100::/40 le 48
     seq 10419 permit 2a0f:85c1:200::/44 le 48
