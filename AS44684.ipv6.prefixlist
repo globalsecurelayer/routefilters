@@ -1001,17 +1001,19 @@
     seq 999 permit 2a12:dd47:df00::/44 le 48
     seq 1000 permit 2a12:dd47:df30::/44 le 48
     seq 1001 permit 2a12:dd47:f000::/40 le 48
-    seq 1002 permit 2a12:f8c1:10::/44 le 48
-    seq 1003 permit 2a12:f8c1:200::/40 le 48
-    seq 1004 permit 2a13:2180::/48
-    seq 1005 permit 2a13:5681::/40 le 48
-    seq 1006 permit 2a13:5bc0::/29 le 48
-    seq 1007 permit 2a13:89c0::/32 le 48
-    seq 1008 permit 2a13:a5c6::/32 le 48
-    seq 1009 permit 2a13:aac0::/29 le 48
-    seq 1010 permit 2a13:b487:1200::/39 ge 40 le 48
-    seq 1011 permit 2a13:b487:1600::/40 le 48
-    seq 1012 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 1013 permit 2a13:df80:1200::/40 le 48
-    seq 1014 permit 2a13:df82:ff00::/40 le 48
-    seq 1015 permit 2a13:df84:7003::/48
+    seq 1002 permit 2a12:f8c1:7::/48
+    seq 1003 permit 2a12:f8c1:8::/48
+    seq 1004 permit 2a12:f8c1:10::/44 le 48
+    seq 1005 permit 2a12:f8c1:200::/40 le 48
+    seq 1006 permit 2a13:2180::/48
+    seq 1007 permit 2a13:5681::/40 le 48
+    seq 1008 permit 2a13:5bc0::/29 le 48
+    seq 1009 permit 2a13:89c0::/32 le 48
+    seq 1010 permit 2a13:a5c6::/32 le 48
+    seq 1011 permit 2a13:aac0::/29 le 48
+    seq 1012 permit 2a13:b487:1200::/39 ge 40 le 48
+    seq 1013 permit 2a13:b487:1600::/40 le 48
+    seq 1014 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 1015 permit 2a13:df80:1200::/40 le 48
+    seq 1016 permit 2a13:df82:ff00::/40 le 48
+    seq 1017 permit 2a13:df84:7003::/48
