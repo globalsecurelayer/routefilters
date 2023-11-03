@@ -4171,7 +4171,7 @@
     seq 4169 permit 2a12:bec0:570::/44 le 48
     seq 4170 permit 2a12:bec0:df0::/44 le 48
     seq 4171 permit 2a12:bec0:e03::/48
-    seq 4172 permit 2a12:bec0:e20::/44 le 48
+    seq 4172 permit 2a12:bec0:e20::/43 ge 44 le 48
     seq 4173 permit 2a12:bec0:fc0::/42 le 48
     seq 4174 permit 2a12:bec0:74ef::/48
     seq 4175 permit 2a12:bec1::/32 le 48
