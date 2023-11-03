@@ -233,7 +233,7 @@
     seq 231 permit 43.229.8.0/22 le 24
     seq 232 permit 43.241.188.0/22 le 24
     seq 233 permit 43.252.252.0/22 le 24
-    seq 234 permit 43.254.128.0/22 le 24
+    seq 234 permit 43.254.128.0/22 ge 23 le 24
     seq 235 permit 43.254.167.0/24
     seq 236 permit 44.2.12.0/24
     seq 237 permit 44.4.44.0/24
@@ -1520,7 +1520,7 @@
     seq 1518 permit 103.188.182.0/23 le 24
     seq 1519 permit 103.189.3.0/24
     seq 1520 permit 103.198.92.0/24
-    seq 1521 permit 103.203.100.0/22 le 24
+    seq 1521 permit 103.203.100.0/22 ge 23 le 24
     seq 1522 permit 103.208.220.0/22 le 24
     seq 1523 permit 103.211.252.0/23 le 24
     seq 1524 permit 103.211.254.0/23 ge 24 le 24
@@ -1722,7 +1722,7 @@
     seq 1720 permit 113.29.240.0/22 le 24
     seq 1721 permit 113.203.228.0/22 le 24
     seq 1722 permit 114.31.192.0/20 le 24
-    seq 1723 permit 115.31.68.0/22 le 24
+    seq 1723 permit 115.31.68.0/22 ge 23 le 24
     seq 1724 permit 116.204.192.0/24
     seq 1725 permit 116.212.192.0/18 le 24
     seq 1726 permit 117.74.103.0/24
