@@ -9948,11 +9948,11 @@
     seq 9946 permit 2a13:a502::/32 le 48
     seq 9947 permit 2a13:a5c0::/32 le 48
     seq 9948 permit 2a13:a5c3::/32 le 48
-    seq 9949 permit 2a13:a5c5::/32 le 48
+    seq 9949 permit 2a13:a5c4::/31 ge 32 le 48
     seq 9950 permit 2a13:a5c6::/32 le 48
     seq 9951 permit 2a13:a5c7:1000::/39 ge 40 le 48
     seq 9952 permit 2a13:a5c7:1200::/40 le 48
-    seq 9953 permit 2a13:a5c7:1400::/40 le 48
+    seq 9953 permit 2a13:a5c7:1400::/39 ge 40 le 48
     seq 9954 permit 2a13:aac0::/29 le 48
     seq 9955 permit 2a13:b000::/29 le 48
     seq 9956 permit 2a13:b200::/29 le 48
