@@ -5670,11 +5670,11 @@
     seq 5668 permit 2a13:a502::/32 le 48
     seq 5669 permit 2a13:a5c0::/32 le 48
     seq 5670 permit 2a13:a5c3::/32 le 48
-    seq 5671 permit 2a13:a5c5::/32 le 48
+    seq 5671 permit 2a13:a5c4::/31 ge 32 le 48
     seq 5672 permit 2a13:a5c6::/32 le 48
     seq 5673 permit 2a13:a5c7:1000::/39 ge 40 le 48
     seq 5674 permit 2a13:a5c7:1200::/40 le 48
-    seq 5675 permit 2a13:a5c7:1400::/40 le 48
+    seq 5675 permit 2a13:a5c7:1400::/39 ge 40 le 48
     seq 5676 permit 2a13:aac0::/29 le 48
     seq 5677 permit 2a13:b380::/32 le 48
     seq 5678 permit 2a13:b480::/29 le 48

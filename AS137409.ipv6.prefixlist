@@ -11653,11 +11653,11 @@
     seq 11651 permit 2a13:a502::/32 le 48
     seq 11652 permit 2a13:a5c0::/32 le 48
     seq 11653 permit 2a13:a5c3::/32 le 48
-    seq 11654 permit 2a13:a5c5::/32 le 48
+    seq 11654 permit 2a13:a5c4::/31 ge 32 le 48
     seq 11655 permit 2a13:a5c6::/32 le 48
     seq 11656 permit 2a13:a5c7:1000::/39 ge 40 le 48
     seq 11657 permit 2a13:a5c7:1200::/40 le 48
-    seq 11658 permit 2a13:a5c7:1400::/40 le 48
+    seq 11658 permit 2a13:a5c7:1400::/39 ge 40 le 48
     seq 11659 permit 2a13:aac0::/29 le 48
     seq 11660 permit 2a13:b000::/29 le 48
     seq 11661 permit 2a13:b200::/29 le 48
