@@ -1623,7 +1623,7 @@
     seq 1621 permit 2402:cac0::/32 le 48
     seq 1622 permit 2402:d0c0:10::/45 ge 48 le 48
     seq 1623 permit 2402:d0c0:18::/47 ge 48 le 48
-    seq 1624 permit 2402:d0c0:20::/48
+    seq 1624 permit 2402:d0c0:20::/46 ge 48 le 48
     seq 1625 permit 2402:d2c0::/32 le 48
     seq 1626 permit 2402:d2c0::/64
     seq 1627 permit 2402:d680::/32 le 48
@@ -2596,7 +2596,7 @@
     seq 2594 permit 2602:fc1d:200::/40 le 48
     seq 2595 permit 2602:fc23::/36 le 48
     seq 2596 permit 2602:fc24::/36 le 48
-    seq 2597 permit 2602:fc26::/40 le 48
+    seq 2597 permit 2602:fc26::/36 le 48
     seq 2598 permit 2602:fc2f::/39 ge 40 le 48
     seq 2599 permit 2602:fc2f:f00::/48
     seq 2600 permit 2602:fc31:4::/48

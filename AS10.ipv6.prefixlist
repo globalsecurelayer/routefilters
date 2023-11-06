@@ -446,7 +446,7 @@
     seq 444 permit 2402:cf80::/32 le 48
     seq 445 permit 2402:d0c0:10::/45 ge 48 le 48
     seq 446 permit 2402:d0c0:18::/47 ge 48 le 48
-    seq 447 permit 2402:d0c0:20::/48
+    seq 447 permit 2402:d0c0:20::/46 ge 48 le 48
     seq 448 permit 2402:e380:19::/48
     seq 449 permit 2402:e380:301::/48
     seq 450 permit 2402:e380:302::/48
@@ -831,7 +831,7 @@
     seq 829 permit 2602:fc1d:200::/40 le 48
     seq 830 permit 2602:fc23::/36 le 48
     seq 831 permit 2602:fc24::/36 le 48
-    seq 832 permit 2602:fc26::/40 le 48
+    seq 832 permit 2602:fc26::/36 le 48
     seq 833 permit 2602:fc48::/36 le 48
     seq 834 permit 2602:fc51::/36 le 48
     seq 835 permit 2602:fc52::/36 le 48
