@@ -809,7 +809,7 @@
     seq 807 permit 2402:cf80::/32 le 48
     seq 808 permit 2402:d0c0:10::/45 ge 48 le 48
     seq 809 permit 2402:d0c0:18::/47 ge 48 le 48
-    seq 810 permit 2402:d0c0:20::/48
+    seq 810 permit 2402:d0c0:20::/46 ge 48 le 48
     seq 811 permit 2402:e380:19::/48
     seq 812 permit 2402:e380:301::/48
     seq 813 permit 2402:e380:302::/48
@@ -1261,7 +1261,7 @@
     seq 1259 permit 2602:fc1d:200::/40 le 48
     seq 1260 permit 2602:fc23::/36 le 48
     seq 1261 permit 2602:fc24::/36 le 48
-    seq 1262 permit 2602:fc26::/40 le 48
+    seq 1262 permit 2602:fc26::/36 le 48
     seq 1263 permit 2602:fc48::/36 le 48
     seq 1264 permit 2602:fc51::/36 le 48
     seq 1265 permit 2602:fc52::/36 le 48
