@@ -7306,7 +7306,7 @@
     seq 7304 permit 2a0c:dc40::/29 le 48
     seq 7305 permit 2a0c:dc80::/32 le 48
     seq 7306 permit 2a0c:dd80:1000::/47 ge 48 le 48
-    seq 7307 permit 2a0c:dd80:2000::/48
+    seq 7307 permit 2a0c:dd80:2000::/47 ge 48 le 48
     seq 7308 permit 2a0c:dd80:3000::/48
     seq 7309 permit 2a0c:df80::/29 le 48
     seq 7310 permit 2a0c:e100::/29 le 48

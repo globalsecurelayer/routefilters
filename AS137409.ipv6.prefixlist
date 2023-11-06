@@ -8904,7 +8904,7 @@
     seq 8902 permit 2a0c:dc40::/29 le 48
     seq 8903 permit 2a0c:dc80::/32 le 48
     seq 8904 permit 2a0c:dd80:1000::/47 ge 48 le 48
-    seq 8905 permit 2a0c:dd80:2000::/48
+    seq 8905 permit 2a0c:dd80:2000::/47 ge 48 le 48
     seq 8906 permit 2a0c:dd80:3000::/48
     seq 8907 permit 2a0c:df80::/29 le 48
     seq 8908 permit 2a0c:e100::/29 le 48
