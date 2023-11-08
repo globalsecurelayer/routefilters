@@ -6145,7 +6145,7 @@
     seq 6143 permit 45.175.184.0/22 le 24
     seq 6144 permit 45.175.208.0/22 le 24
     seq 6145 permit 45.176.8.0/22 le 24
-    seq 6146 permit 45.176.24.0/22 le 24
+    seq 6146 permit 45.176.24.0/21 ge 22 le 24
     seq 6147 permit 45.176.48.0/22 le 24
     seq 6148 permit 45.176.108.0/22 le 24
     seq 6149 permit 45.176.112.0/22 le 24
