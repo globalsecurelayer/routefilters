@@ -1387,5 +1387,6 @@
     seq 1385 permit 2a13:d8c0::/29 ge 32 le 48
     seq 1386 permit 2a13:df80:3806::/48
     seq 1387 permit 2a13:df80:8800::/44 le 48
-    seq 1388 permit 2a13:ef42::/32 le 48
-    seq 1389 permit 2c0f:ec00::/32 le 48
+    seq 1388 permit 2a13:ef41:b000::/39 le 48
+    seq 1389 permit 2a13:ef42::/31 ge 32 le 48
+    seq 1390 permit 2c0f:ec00::/32 le 48
