@@ -10280,7 +10280,7 @@
     seq 10278 permit 83.168.125.0/24
     seq 10279 permit 83.170.64.0/18 le 24
     seq 10280 permit 83.171.64.0/18 le 24
-    seq 10281 permit 83.171.204.0/22 le 24
+    seq 10281 permit 83.171.204.0/22 ge 24 le 24
     seq 10282 permit 83.171.212.0/22 le 24
     seq 10283 permit 83.171.224.0/22 ge 24 le 24
     seq 10284 permit 83.171.232.0/21 ge 22 le 24

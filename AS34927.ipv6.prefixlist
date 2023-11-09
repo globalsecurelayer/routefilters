@@ -1024,7 +1024,7 @@
     seq 1022 permit 2a0c:b642:1a0b::/48
     seq 1023 permit 2a0c:b642:1a0c::/48
     seq 1024 permit 2a0c:b642:1a0e::/48
-    seq 1025 permit 2a0c:b642:5000::/36 le 48
+    seq 1025 permit 2a0c:b642:4000::/35 ge 36 le 48
     seq 1026 permit 2a0c:e304:1::/48
     seq 1027 permit 2a0c:e640::/36 le 48
     seq 1028 permit 2a0c:e640:1000::/44 le 48

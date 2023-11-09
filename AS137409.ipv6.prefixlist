@@ -8922,7 +8922,7 @@
     seq 8920 permit 2a0c:b642:1a0c::/48
     seq 8921 permit 2a0c:b642:1a0e::/48
     seq 8922 permit 2a0c:b642:2000::/36 le 48
-    seq 8923 permit 2a0c:b642:5000::/36 le 48
+    seq 8923 permit 2a0c:b642:4000::/35 ge 36 le 48
     seq 8924 permit 2a0c:b6c0::/31 ge 32 le 48
     seq 8925 permit 2a0c:b6c7::/32 le 48
     seq 8926 permit 2a0c:b980:1000::/36 le 48
