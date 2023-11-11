@@ -22137,7 +22137,7 @@
     seq 22135 permit 109.248.54.0/23 le 24
     seq 22136 permit 109.248.56.0/23 ge 24 le 24
     seq 22137 permit 109.248.59.0/24
-    seq 22138 permit 109.248.60.0/24
+    seq 22138 permit 109.248.60.0/23 ge 24 le 24
     seq 22139 permit 109.248.64.0/19 le 24
     seq 22140 permit 109.248.96.0/19 ge 20 le 24
     seq 22141 permit 109.248.128.0/23 le 24
@@ -39518,7 +39518,7 @@
     seq 39516 permit 194.87.200.0/23 ge 24 le 24
     seq 39517 permit 194.87.203.0/24
     seq 39518 permit 194.87.205.0/24
-    seq 39519 permit 194.87.206.0/24
+    seq 39519 permit 194.87.206.0/23 ge 24 le 24
     seq 39520 permit 194.87.208.0/23 le 24
     seq 39521 permit 194.87.210.0/23 ge 24 le 24
     seq 39522 permit 194.87.213.0/24
