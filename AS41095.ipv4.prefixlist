@@ -19982,7 +19982,7 @@
     seq 19980 permit 109.248.54.0/23 le 24
     seq 19981 permit 109.248.56.0/23 ge 24 le 24
     seq 19982 permit 109.248.59.0/24
-    seq 19983 permit 109.248.60.0/24
+    seq 19983 permit 109.248.60.0/23 ge 24 le 24
     seq 19984 permit 109.248.64.0/19 le 24
     seq 19985 permit 109.248.96.0/19 ge 20 le 24
     seq 19986 permit 109.248.128.0/23 le 24
@@ -34944,7 +34944,7 @@
     seq 34942 permit 194.87.200.0/23 ge 24 le 24
     seq 34943 permit 194.87.203.0/24
     seq 34944 permit 194.87.205.0/24
-    seq 34945 permit 194.87.206.0/24
+    seq 34945 permit 194.87.206.0/23 ge 24 le 24
     seq 34946 permit 194.87.208.0/23 le 24
     seq 34947 permit 194.87.210.0/23 ge 24 le 24
     seq 34948 permit 194.87.213.0/24

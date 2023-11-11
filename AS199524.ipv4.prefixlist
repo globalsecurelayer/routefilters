@@ -9655,7 +9655,7 @@
     seq 9653 permit 109.248.35.0/24
     seq 9654 permit 109.248.42.0/24
     seq 9655 permit 109.248.44.0/23 ge 24 le 24
-    seq 9656 permit 109.248.60.0/24
+    seq 9656 permit 109.248.60.0/23 ge 24 le 24
     seq 9657 permit 109.248.64.0/19 le 24
     seq 9658 permit 109.248.112.0/20 le 24
     seq 9659 permit 109.248.133.0/24
@@ -16664,7 +16664,7 @@
     seq 16662 permit 194.87.200.0/23 ge 24 le 24
     seq 16663 permit 194.87.203.0/24
     seq 16664 permit 194.87.205.0/24
-    seq 16665 permit 194.87.206.0/24
+    seq 16665 permit 194.87.206.0/23 ge 24 le 24
     seq 16666 permit 194.87.208.0/23 le 24
     seq 16667 permit 194.87.210.0/23 ge 24 le 24
     seq 16668 permit 194.87.213.0/24
