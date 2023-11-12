@@ -5844,7 +5844,7 @@
     seq 5842 permit 2a06:1180:3::/48
     seq 5843 permit 2a06:1280::/32 le 48
     seq 5844 permit 2a06:1281:b00b::/48
-    seq 5845 permit 2a06:1282::/32 le 48
+    seq 5845 permit 2a06:1282::/31 ge 32 le 48
     seq 5846 permit 2a06:1284::/32 le 48
     seq 5847 permit 2a06:1285:b00b::/48
     seq 5848 permit 2a06:1286::/31 ge 32 le 48
