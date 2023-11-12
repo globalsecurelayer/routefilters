@@ -14,7 +14,7 @@
     seq 12 permit 2001:df2:c1c0::/48
     seq 13 permit 2400:54a0:2050::/48
     seq 14 permit 2404:3d80::/32 le 48
-    seq 15 permit 2602:fab0:20::/44 le 48
+    seq 15 permit 2602:fab0:20::/43 ge 44 le 48
     seq 16 permit 2602:fafd::/36 le 48
     seq 17 permit 2602:fba1::/36 le 48
     seq 18 permit 2602:fca7:a::/47 ge 48 le 48

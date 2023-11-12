@@ -767,7 +767,7 @@
     seq 765 permit 2602:faad::/40 le 48
     seq 766 permit 2602:faaf::/40 le 48
     seq 767 permit 2602:fab0:10::/44 le 48
-    seq 768 permit 2602:fab0:20::/44 le 48
+    seq 768 permit 2602:fab0:20::/43 ge 44 le 48
     seq 769 permit 2602:fab8::/36 le 48
     seq 770 permit 2602:fac2:6::/48
     seq 771 permit 2602:fac3::/40 le 48

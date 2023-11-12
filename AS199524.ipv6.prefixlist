@@ -1358,7 +1358,7 @@
     seq 1356 permit 2602:faad::/40 le 48
     seq 1357 permit 2602:faaf::/40 le 48
     seq 1358 permit 2602:fab0:10::/44 le 48
-    seq 1359 permit 2602:fab0:20::/44 le 48
+    seq 1359 permit 2602:fab0:20::/43 ge 44 le 48
     seq 1360 permit 2602:fab8::/36 le 48
     seq 1361 permit 2602:fabb::/40 le 48
     seq 1362 permit 2602:fac2::/40 le 48

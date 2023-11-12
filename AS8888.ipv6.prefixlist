@@ -185,7 +185,7 @@
     seq 183 permit 2602:faac:ff::/48
     seq 184 permit 2602:faaf::/40 le 48
     seq 185 permit 2602:fab0:10::/44 le 48
-    seq 186 permit 2602:fab0:20::/44 le 48
+    seq 186 permit 2602:fab0:20::/43 ge 44 le 48
     seq 187 permit 2602:fafd:901::/48
     seq 188 permit 2602:fafd:f10::/48
     seq 189 permit 2602:fafd:f20::/44 le 48

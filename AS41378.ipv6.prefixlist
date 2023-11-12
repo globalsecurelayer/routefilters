@@ -613,7 +613,7 @@
     seq 611 permit 2602:faad::/40 le 48
     seq 612 permit 2602:faaf::/40 le 48
     seq 613 permit 2602:fab0:10::/44 le 48
-    seq 614 permit 2602:fab0:20::/44 le 48
+    seq 614 permit 2602:fab0:20::/43 ge 44 le 48
     seq 615 permit 2602:fab8::/36 le 48
     seq 616 permit 2602:fac2:6::/48
     seq 617 permit 2602:fada::/36 le 48

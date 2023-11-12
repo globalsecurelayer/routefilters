@@ -453,7 +453,7 @@
     seq 451 permit 2602:faad::/40 le 48
     seq 452 permit 2602:faaf::/40 le 48
     seq 453 permit 2602:fab0:10::/44 le 48
-    seq 454 permit 2602:fab0:20::/44 le 48
+    seq 454 permit 2602:fab0:20::/43 ge 44 le 48
     seq 455 permit 2602:fada::/36 le 48
     seq 456 permit 2602:fafd:901::/48
     seq 457 permit 2602:fafd:f04::/48

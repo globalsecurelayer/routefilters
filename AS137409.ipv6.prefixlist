@@ -2862,7 +2862,7 @@
     seq 2860 permit 2602:faad::/40 le 48
     seq 2861 permit 2602:faaf::/40 le 48
     seq 2862 permit 2602:fab0:10::/44 le 48
-    seq 2863 permit 2602:fab0:20::/44 le 48
+    seq 2863 permit 2602:fab0:20::/43 ge 44 le 48
     seq 2864 permit 2602:fab8::/36 le 48
     seq 2865 permit 2602:fabb::/40 le 48
     seq 2866 permit 2602:fac2::/40 le 48
