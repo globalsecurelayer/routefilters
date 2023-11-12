@@ -7362,7 +7362,7 @@
     seq 7360 permit 2a06:1280::/32 le 48
     seq 7361 permit 2a06:1281::/44 le 48
     seq 7362 permit 2a06:1281:b00b::/48
-    seq 7363 permit 2a06:1282::/32 le 48
+    seq 7363 permit 2a06:1282::/31 ge 32 le 48
     seq 7364 permit 2a06:1284::/32 le 48
     seq 7365 permit 2a06:1285:b00b::/48
     seq 7366 permit 2a06:1286::/31 ge 32 le 48
