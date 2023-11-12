@@ -1190,7 +1190,7 @@
     seq 1188 permit 2602:faad::/40 le 48
     seq 1189 permit 2602:faaf::/40 le 48
     seq 1190 permit 2602:fab0:10::/44 le 48
-    seq 1191 permit 2602:fab0:20::/44 le 48
+    seq 1191 permit 2602:fab0:20::/43 ge 44 le 48
     seq 1192 permit 2602:fab8::/36 le 48
     seq 1193 permit 2602:fac2::/40 le 48
     seq 1194 permit 2602:fac3::/40 le 48
