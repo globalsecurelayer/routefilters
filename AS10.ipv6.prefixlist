@@ -314,7 +314,7 @@
     seq 312 permit 2400:72e0:9f00::/40 le 48
     seq 313 permit 2400:7420::/32 le 48
     seq 314 permit 2400:7a00::/32 le 48
-    seq 315 permit 2400:7ba0::/32 le 48
+    seq 315 permit 2400:7ba0::/47 ge 48 le 48
     seq 316 permit 2400:85e0::/32 le 48
     seq 317 permit 2400:87c0::/32 le 48
     seq 318 permit 2400:8a20:123::/48

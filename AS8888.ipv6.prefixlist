@@ -100,7 +100,7 @@
     seq 98 permit 2001:df6:a680::/48
     seq 99 permit 2400:70e0:bae::/48
     seq 100 permit 2400:70e0:fe00::/40 le 48
-    seq 101 permit 2400:7ba0::/32 le 48
+    seq 101 permit 2400:7ba0::/47 ge 48 le 48
     seq 102 permit 2400:8d60:1::/48
     seq 103 permit 2400:8d60:2::/47 ge 48 le 48
     seq 104 permit 2400:8d60:4::/46 ge 48 le 48
