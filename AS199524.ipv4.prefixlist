@@ -11995,7 +11995,7 @@
     seq 11993 permit 176.106.240.0/20 le 24
     seq 11994 permit 176.107.8.0/21 le 24
     seq 11995 permit 176.107.160.0/21 le 24
-    seq 11996 permit 176.108.176.0/21 le 24
+    seq 11996 permit 176.108.176.0/21 ge 23 le 24
     seq 11997 permit 176.109.96.0/20 le 24
     seq 11998 permit 176.110.119.0/24
     seq 11999 permit 176.111.96.0/21 ge 22 le 24
