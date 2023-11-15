@@ -7,16 +7,19 @@
     seq 5 permit 2606:f180:3::/48
     seq 6 permit 2606:f180:4::/48
     seq 7 permit 2606:f181::/32 le 48
-    seq 8 permit 2606:f185::/32 le 48
-    seq 9 permit 2607:2300::/32 le 48
-    seq 10 permit 2a05:dfc1:9a00::/40 le 48
-    seq 11 permit 2a0c:b6c0::/31 ge 32 le 48
-    seq 12 permit 2a0e:4201::/32 le 48
-    seq 13 permit 2a0e:4202::/32 le 48
-    seq 14 permit 2a0e:4205::/32 le 48
-    seq 15 permit 2a0e:d785::/32 le 48
-    seq 16 permit 2a0e:d786::/32 le 48
-    seq 17 permit 2a0f:2740::/29 le 48
-    seq 18 permit 2a0f:e383::/32 le 48
-    seq 19 permit 2a0f:e384::/31 ge 32 le 48
-    seq 20 permit 2a0f:e387::/32 le 48
+    seq 8 permit 2606:f182:1::/48
+    seq 9 permit 2606:f182:2::/47 ge 48 le 48
+    seq 10 permit 2606:f182:6::/48
+    seq 11 permit 2606:f185::/32 le 48
+    seq 12 permit 2607:2300::/32 le 48
+    seq 13 permit 2a05:dfc1:9a00::/40 le 48
+    seq 14 permit 2a0c:b6c0::/31 ge 32 le 48
+    seq 15 permit 2a0e:4201::/32 le 48
+    seq 16 permit 2a0e:4202::/32 le 48
+    seq 17 permit 2a0e:4205::/32 le 48
+    seq 18 permit 2a0e:d785::/32 le 48
+    seq 19 permit 2a0e:d786::/32 le 48
+    seq 20 permit 2a0f:2740::/29 le 48
+    seq 21 permit 2a0f:e383::/32 le 48
+    seq 22 permit 2a0f:e384::/31 ge 32 le 48
+    seq 23 permit 2a0f:e387::/32 le 48
