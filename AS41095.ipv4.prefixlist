@@ -7335,7 +7335,7 @@
     seq 7333 permit 64.112.84.0/22 le 24
     seq 7334 permit 64.112.117.0/24
     seq 7335 permit 64.112.125.0/24
-    seq 7336 permit 64.112.126.0/24
+    seq 7336 permit 64.112.126.0/23 ge 24 le 24
     seq 7337 permit 64.113.0.0/23 le 24
     seq 7338 permit 64.113.9.0/24
     seq 7339 permit 64.113.11.0/24

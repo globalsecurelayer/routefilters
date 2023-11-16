@@ -575,7 +575,7 @@
     seq 573 permit 63.175.74.0/24
     seq 574 permit 63.175.222.0/24
     seq 575 permit 64.112.125.0/24
-    seq 576 permit 64.112.126.0/24
+    seq 576 permit 64.112.126.0/23 ge 24 le 24
     seq 577 permit 64.187.208.0/23 le 24
     seq 578 permit 64.250.144.0/20 le 24
     seq 579 permit 64.251.78.0/23 le 24
