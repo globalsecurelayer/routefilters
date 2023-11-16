@@ -2050,7 +2050,7 @@
     seq 2048 permit 64.112.84.0/22 le 24
     seq 2049 permit 64.112.97.0/24
     seq 2050 permit 64.112.125.0/24
-    seq 2051 permit 64.112.126.0/24
+    seq 2051 permit 64.112.126.0/23 ge 24 le 24
     seq 2052 permit 64.113.11.0/24
     seq 2053 permit 64.130.0.0/18 le 24
     seq 2054 permit 64.135.64.0/24
