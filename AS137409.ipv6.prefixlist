@@ -9633,7 +9633,7 @@
     seq 9631 permit 2a0e:97c0:d90::/44 le 48
     seq 9632 permit 2a0e:97c0:dd0::/44 le 48
     seq 9633 permit 2a0e:97c0:de0::/44 le 48
-    seq 9634 permit 2a0e:97c0:e30::/48
+    seq 9634 permit 2a0e:97c0:e30::/44 le 48
     seq 9635 permit 2a0e:97c0:4b00::/40 le 48
     seq 9636 permit 2a0e:97c0:97c1::/48
     seq 9637 permit 2a0e:97c1:110::/44 le 48
@@ -11086,7 +11086,7 @@
     seq 11084 permit 2a10:ccc0:110::/44 le 48
     seq 11085 permit 2a10:ccc0:420::/44 le 48
     seq 11086 permit 2a10:ccc0:cc0::/44 le 48
-    seq 11087 permit 2a10:ccc0:3001::/48
+    seq 11087 permit 2a10:ccc0:3000::/44 le 48
     seq 11088 permit 2a10:ccc0:ccc0::/44 le 48
     seq 11089 permit 2a10:ccc1:ccc0::/47 ge 48 le 48
     seq 11090 permit 2a10:ccc2:10::/44 le 48
