@@ -1071,7 +1071,7 @@
     seq 1069 permit 2a0d:2406:400::/39 le 48
     seq 1070 permit 2a0d:2580::/35 ge 36 le 48
     seq 1071 permit 2a0d:2580:a000::/36 le 48
-    seq 1072 permit 2a0d:2580:db00::/48
+    seq 1072 permit 2a0d:2580:db00::/43 ge 48 le 48
     seq 1073 permit 2a0d:2583::/32 le 48
     seq 1074 permit 2a0d:2585::/32 le 48
     seq 1075 permit 2a0d:2586::/31 ge 32 le 48

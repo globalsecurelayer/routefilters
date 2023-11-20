@@ -7421,7 +7421,7 @@
     seq 7419 permit 2a0d:2580::/35 ge 36 le 48
     seq 7420 permit 2a0d:2580:2000::/35 le 48
     seq 7421 permit 2a0d:2580:a000::/36 le 48
-    seq 7422 permit 2a0d:2580:db00::/48
+    seq 7422 permit 2a0d:2580:db00::/43 ge 48 le 48
     seq 7423 permit 2a0d:2580:ff0c::/46 le 48
     seq 7424 permit 2a0d:2581::/32 le 48
     seq 7425 permit 2a0d:2582::/31 ge 32 le 48
