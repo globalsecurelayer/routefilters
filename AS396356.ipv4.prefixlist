@@ -695,7 +695,7 @@
     seq 693 permit 45.149.166.0/24
     seq 694 permit 45.149.196.0/22 le 24
     seq 695 permit 45.150.4.0/24
-    seq 696 permit 45.150.7.0/24
+    seq 696 permit 45.150.6.0/23 ge 24 le 24
     seq 697 permit 45.150.48.0/22 ge 23 le 24
     seq 698 permit 45.150.52.0/22 le 24
     seq 699 permit 45.150.175.0/24
