@@ -6810,12 +6810,12 @@
     seq 6808 permit 188.132.153.0/24
     seq 6809 permit 188.132.165.0/24
     seq 6810 permit 188.132.168.0/24
-    seq 6811 permit 188.132.185.0/24
+    seq 6811 permit 188.132.184.0/23 ge 24 le 24
     seq 6812 permit 188.132.186.0/24
     seq 6813 permit 188.132.199.0/24
     seq 6814 permit 188.132.201.0/24
     seq 6815 permit 188.132.202.0/24
-    seq 6816 permit 188.132.206.0/24
+    seq 6816 permit 188.132.206.0/23 ge 24 le 24
     seq 6817 permit 188.164.136.0/21 le 24
     seq 6818 permit 188.164.160.0/19 le 24
     seq 6819 permit 188.190.0.0/19 ge 24 le 24
