@@ -746,7 +746,7 @@
     seq 744 permit 89.38.40.0/24
     seq 745 permit 89.40.176.0/22 le 24
     seq 746 permit 89.42.89.0/24
-    seq 747 permit 89.42.93.0/24
+    seq 747 permit 89.42.92.0/23 ge 24 le 24
     seq 748 permit 89.43.142.0/24
     seq 749 permit 89.46.4.0/24
     seq 750 permit 89.46.43.0/24

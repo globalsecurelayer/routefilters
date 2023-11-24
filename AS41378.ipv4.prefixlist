@@ -1501,7 +1501,7 @@
     seq 1499 permit 89.42.82.0/24
     seq 1500 permit 89.42.86.0/24
     seq 1501 permit 89.42.89.0/24
-    seq 1502 permit 89.42.93.0/24
+    seq 1502 permit 89.42.92.0/23 ge 24 le 24
     seq 1503 permit 89.43.142.0/24
     seq 1504 permit 89.46.4.0/24
     seq 1505 permit 89.46.43.0/24
