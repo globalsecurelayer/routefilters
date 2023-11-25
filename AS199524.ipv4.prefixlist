@@ -1402,7 +1402,7 @@
     seq 1400 permit 45.132.156.0/24
     seq 1401 permit 45.132.176.0/23 le 24
     seq 1402 permit 45.132.238.0/23 ge 24 le 24
-    seq 1403 permit 45.132.254.0/24
+    seq 1403 permit 45.132.254.0/23 ge 24 le 24
     seq 1404 permit 45.133.74.0/23 ge 24 le 24
     seq 1405 permit 45.133.116.0/22 ge 24 le 24
     seq 1406 permit 45.133.132.0/23 ge 24 le 24
