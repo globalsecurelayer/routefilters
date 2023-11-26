@@ -95,7 +95,7 @@
     seq 93 permit 2a12:bec0:168::/48
     seq 94 permit 2a12:bec0:16b::/48
     seq 95 permit 2a12:bec0:16d::/48
-    seq 96 permit 2a12:bec0:16f::/48
+    seq 96 permit 2a12:bec0:16e::/47 ge 48 le 48
     seq 97 permit 2a12:dd46:1000::/36 le 48
     seq 98 permit 2a12:dd47:200::/40 le 48
     seq 99 permit 2a12:dd47:8001::/48
