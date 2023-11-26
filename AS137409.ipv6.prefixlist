@@ -7194,8 +7194,8 @@
     seq 7192 permit 2a07:54c7:5000::/36 le 48
     seq 7193 permit 2a07:54c7:6001::/48
     seq 7194 permit 2a07:54c7:6002::/47 ge 48 le 48
-    seq 7195 permit 2a07:54c7:6004::/48
-    seq 7196 permit 2a07:54c7:6f00::/40 le 48
+    seq 7195 permit 2a07:54c7:6004::/47 ge 48 le 48
+    seq 7196 permit 2a07:54c7:6e00::/39 ge 40 le 48
     seq 7197 permit 2a07:57c0::/32 le 48
     seq 7198 permit 2a07:5980::/29 le 48
     seq 7199 permit 2a07:5b40::/29 le 48

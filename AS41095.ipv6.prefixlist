@@ -5359,8 +5359,8 @@
     seq 5357 permit 2a07:54c7:5000::/36 le 48
     seq 5358 permit 2a07:54c7:6001::/48
     seq 5359 permit 2a07:54c7:6002::/47 ge 48 le 48
-    seq 5360 permit 2a07:54c7:6004::/48
-    seq 5361 permit 2a07:54c7:6f00::/40 le 48
+    seq 5360 permit 2a07:54c7:6004::/47 ge 48 le 48
+    seq 5361 permit 2a07:54c7:6e00::/39 ge 40 le 48
     seq 5362 permit 2a07:57c0::/32 le 48
     seq 5363 permit 2a07:5980::/29 le 48
     seq 5364 permit 2a07:5b40::/29 le 48

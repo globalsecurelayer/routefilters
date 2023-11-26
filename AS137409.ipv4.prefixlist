@@ -8272,7 +8272,7 @@
     seq 8270 permit 67.209.128.0/19 le 24
     seq 8271 permit 67.209.176.0/20 le 24
     seq 8272 permit 67.209.224.0/20 le 24
-    seq 8273 permit 67.210.102.0/24
+    seq 8273 permit 67.210.102.0/23 ge 24 le 24
     seq 8274 permit 67.210.108.0/22 le 24
     seq 8275 permit 67.210.124.0/23 le 24
     seq 8276 permit 67.210.127.0/24
