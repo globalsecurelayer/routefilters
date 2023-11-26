@@ -501,7 +501,7 @@
     seq 499 permit 2602:fc8b::/36 le 48
     seq 500 permit 2602:fcb5::/36 le 48
     seq 501 permit 2602:fcd3:1::/48
-    seq 502 permit 2602:fcd3:2::/48
+    seq 502 permit 2602:fcd3:2::/47 ge 48 le 48
     seq 503 permit 2602:fcd3:5::/48
     seq 504 permit 2602:fcd3:6::/48
     seq 505 permit 2602:fcd3:8::/48

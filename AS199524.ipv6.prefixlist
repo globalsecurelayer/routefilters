@@ -997,7 +997,7 @@
     seq 995 permit 2602:fcb5::/36 le 48
     seq 996 permit 2602:fcc3::/36 le 48
     seq 997 permit 2602:fcd3:1::/48
-    seq 998 permit 2602:fcd3:2::/48
+    seq 998 permit 2602:fcd3:2::/47 ge 48 le 48
     seq 999 permit 2602:fcd3:5::/48
     seq 1000 permit 2602:fcd3:6::/48
     seq 1001 permit 2602:fcd3:8::/48

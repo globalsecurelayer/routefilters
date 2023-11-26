@@ -677,7 +677,7 @@
     seq 675 permit 2602:fc80::/40 le 48
     seq 676 permit 2602:fcb5::/36 le 48
     seq 677 permit 2602:fcd3:1::/48
-    seq 678 permit 2602:fcd3:2::/48
+    seq 678 permit 2602:fcd3:2::/47 ge 48 le 48
     seq 679 permit 2602:fcd3:5::/48
     seq 680 permit 2602:fcd3:10::/44 le 48
     seq 681 permit 2602:fcd3:130::/48

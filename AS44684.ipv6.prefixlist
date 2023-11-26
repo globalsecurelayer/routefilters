@@ -227,7 +227,7 @@
     seq 225 permit 2602:fc24::/36 le 48
     seq 226 permit 2602:fc59::/40 le 48
     seq 227 permit 2602:fcd3:1::/48
-    seq 228 permit 2602:fcd3:2::/48
+    seq 228 permit 2602:fcd3:2::/47 ge 48 le 48
     seq 229 permit 2602:fcd3:5::/48
     seq 230 permit 2602:fcd3:10::/44 le 48
     seq 231 permit 2602:fcd3:130::/48
