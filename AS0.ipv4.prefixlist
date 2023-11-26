@@ -3330,7 +3330,7 @@
     seq 3328 permit 89.46.242.0/24
     seq 3329 permit 89.47.89.0/24
     seq 3330 permit 89.47.123.0/24
-    seq 3331 permit 89.47.124.0/24
+    seq 3331 permit 89.47.124.0/23 ge 24 le 24
     seq 3332 permit 89.47.249.0/24
     seq 3333 permit 89.104.100.0/23 le 24
     seq 3334 permit 89.104.110.0/23 le 24
