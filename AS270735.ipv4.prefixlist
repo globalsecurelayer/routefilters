@@ -1798,7 +1798,7 @@
     seq 1796 permit 172.84.79.0/24
     seq 1797 permit 172.84.92.0/24
     seq 1798 permit 172.96.4.0/22 le 24
-    seq 1799 permit 172.99.23.0/24
+    seq 1799 permit 172.99.22.0/23 ge 24 le 24
     seq 1800 permit 173.46.80.0/23 le 24
     seq 1801 permit 173.46.84.0/24
     seq 1802 permit 173.211.22.0/24
