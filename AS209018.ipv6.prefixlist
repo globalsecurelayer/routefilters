@@ -83,7 +83,7 @@
     seq 81 permit 2a06:1287:300::/40 le 48
     seq 82 permit 2a06:1287:3900::/40 le 48
     seq 83 permit 2a06:9f43:b00b::/48
-    seq 84 permit 2a06:9f44:b00b::/48
+    seq 84 permit 2a06:9f44::/32 le 48
     seq 85 permit 2a06:9f47:b00b::/48
     seq 86 permit 2a06:9f81:1500::/40 le 48
     seq 87 permit 2a06:9f81:2200::/40 le 48
