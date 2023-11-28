@@ -8530,7 +8530,7 @@
     seq 8528 permit 2a11:200:4000::/34 ge 36 le 48
     seq 8529 permit 2a11:200:8000::/35 ge 36 le 48
     seq 8530 permit 2a11:200:a000::/36 le 48
-    seq 8531 permit 2a11:200:c000::/36 le 48
+    seq 8531 permit 2a11:200:c000::/35 ge 36 le 48
     seq 8532 permit 2a11:201::/32 le 48
     seq 8533 permit 2a11:202::/31 ge 32 le 48
     seq 8534 permit 2a11:204::/30 ge 32 le 48
