@@ -883,7 +883,7 @@
     seq 881 permit 2602:f9fa::/40 le 48
     seq 882 permit 2602:fa11:10::/44 le 48
     seq 883 permit 2602:fa11:20::/43 ge 44 le 48
-    seq 884 permit 2602:fa11:40::/44 le 48
+    seq 884 permit 2602:fa11:40::/43 ge 44 le 48
     seq 885 permit 2602:fa15::/40 le 48
     seq 886 permit 2602:fa19::/40 le 48
     seq 887 permit 2602:fa1c:120::/47 ge 48 le 48
@@ -1681,7 +1681,7 @@
     seq 1679 permit 2a05:dfc1:ff00::/40 le 48
     seq 1680 permit 2a05:dfc2::/31 ge 32 le 48
     seq 1681 permit 2a05:dfc4::/31 ge 32 le 48
-    seq 1682 permit 2a05:dfc6:9000::/40 le 48
+    seq 1682 permit 2a05:dfc6:9000::/39 ge 40 le 48
     seq 1683 permit 2a05:dfc7:5::/48
     seq 1684 permit 2a05:dfc7:44::/48
     seq 1685 permit 2a05:dfc7:46::/48
