@@ -196,7 +196,7 @@
     seq 194 permit 2a0a:6040:c300::/40 le 48
     seq 195 permit 2a0a:6040:d300::/40 le 48
     seq 196 permit 2a0a:6040:d800::/40 le 48
-    seq 197 permit 2a0a:6045:1000::/36 le 48
+    seq 197 permit 2a0a:6045::/35 ge 36 le 48
     seq 198 permit 2a0a:6045:c000::/34 le 48
     seq 199 permit 2a0a:6047:b00b::/48
     seq 200 permit 2a0b:9e40:b00b::/48
