@@ -594,7 +594,7 @@
     seq 592 permit 2606:d440::/64
     seq 593 permit 2606:fdc0:100::/40 le 48
     seq 594 permit 2607:7c80:53::/48
-    seq 595 permit 2607:8140::/39 ge 40 le 48
+    seq 595 permit 2607:8140::/32 le 48
     seq 596 permit 2607:8700::/32 le 48
     seq 597 permit 2607:f510::/32 le 48
     seq 598 permit 2607:f740:e005::/48
