@@ -1689,7 +1689,7 @@
     seq 1687 permit 165.98.233.0/24
     seq 1688 permit 165.98.250.0/24
     seq 1689 permit 166.0.0.0/22 le 24
-    seq 1690 permit 166.0.4.0/23 ge 24 le 24
+    seq 1690 permit 166.0.4.0/23 le 24
     seq 1691 permit 166.0.6.0/24
     seq 1692 permit 166.0.8.0/24
     seq 1693 permit 166.0.10.0/23 le 24
@@ -3018,71 +3018,69 @@
     seq 3016 permit 213.109.169.0/24
     seq 3017 permit 213.139.65.0/24
     seq 3018 permit 213.139.72.0/23 ge 24 le 24
-    seq 3019 permit 213.139.76.0/23 le 24
-    seq 3020 permit 213.139.78.0/23 ge 24 le 24
-    seq 3021 permit 213.139.80.0/22 ge 23 le 24
-    seq 3022 permit 213.139.84.0/22 le 24
-    seq 3023 permit 213.139.90.0/23 le 24
-    seq 3024 permit 213.139.92.0/23 le 24
-    seq 3025 permit 213.145.72.0/21 le 24
-    seq 3026 permit 213.145.88.0/21 le 24
-    seq 3027 permit 213.152.42.0/24
-    seq 3028 permit 213.170.203.0/24
-    seq 3029 permit 213.232.239.0/24
-    seq 3030 permit 216.10.8.0/22 le 24
-    seq 3031 permit 216.24.208.0/24
-    seq 3032 permit 216.24.220.0/23 le 24
-    seq 3033 permit 216.24.223.0/24
-    seq 3034 permit 216.74.104.0/22 le 24
-    seq 3035 permit 216.74.110.0/23 le 24
-    seq 3036 permit 216.74.121.0/24
-    seq 3037 permit 216.74.122.0/23 le 24
-    seq 3038 permit 216.74.124.0/22 le 24
-    seq 3039 permit 216.82.224.0/20 le 24
-    seq 3040 permit 216.97.228.0/22 le 24
-    seq 3041 permit 216.97.236.0/22 le 24
-    seq 3042 permit 216.98.212.0/22 le 24
-    seq 3043 permit 216.98.216.0/22 le 24
-    seq 3044 permit 216.105.164.0/23 le 24
-    seq 3045 permit 216.105.166.0/24
-    seq 3046 permit 216.107.128.0/22 le 24
-    seq 3047 permit 216.107.138.0/24
-    seq 3048 permit 216.122.160.0/19 le 24
-    seq 3049 permit 216.227.216.0/21 ge 22 le 24
-    seq 3050 permit 216.246.28.0/22 le 24
-    seq 3051 permit 216.246.56.0/24
-    seq 3052 permit 216.246.90.0/23 le 24
-    seq 3053 permit 216.246.122.0/23 le 24
-    seq 3054 permit 216.247.96.0/20 le 24
-    seq 3055 permit 216.252.144.0/23 ge 24 le 24
-    seq 3056 permit 216.252.146.0/24
-    seq 3057 permit 216.252.219.0/24
-    seq 3058 permit 217.25.3.0/24
-    seq 3059 permit 217.25.12.0/24
-    seq 3060 permit 217.28.129.0/24
-    seq 3061 permit 217.77.24.0/21 le 24
-    seq 3062 permit 217.113.22.0/23 le 24
-    seq 3063 permit 217.114.33.0/24
-    seq 3064 permit 217.119.133.0/24
-    seq 3065 permit 218.33.64.0/18 le 24
-    seq 3066 permit 221.128.0.0/18 le 24
-    seq 3067 permit 221.128.71.0/24
-    seq 3068 permit 221.128.73.0/24
-    seq 3069 permit 221.128.77.0/24
-    seq 3070 permit 221.128.79.0/24
-    seq 3071 permit 221.128.81.0/24
-    seq 3072 permit 221.128.87.0/24
-    seq 3073 permit 221.128.88.0/22 le 24
-    seq 3074 permit 221.128.97.0/24
-    seq 3075 permit 221.128.98.0/23 le 24
-    seq 3076 permit 221.128.104.0/22 le 24
-    seq 3077 permit 221.128.108.0/23 le 24
-    seq 3078 permit 221.128.110.0/24
-    seq 3079 permit 221.128.115.0/24
-    seq 3080 permit 221.128.116.0/24
-    seq 3081 permit 221.128.118.0/23 le 24
-    seq 3082 permit 221.128.121.0/24
-    seq 3083 permit 221.128.123.0/24
-    seq 3084 permit 223.27.48.0/20 le 24
-    seq 3085 permit 223.27.114.0/24
-    seq 3086 permit 223.29.252.0/24
+    seq 3019 permit 213.139.80.0/22 ge 23 le 24
+    seq 3020 permit 213.139.84.0/22 le 24
+    seq 3021 permit 213.139.90.0/23 le 24
+    seq 3022 permit 213.139.92.0/23 le 24
+    seq 3023 permit 213.145.72.0/21 le 24
+    seq 3024 permit 213.145.88.0/21 le 24
+    seq 3025 permit 213.152.42.0/24
+    seq 3026 permit 213.170.203.0/24
+    seq 3027 permit 213.232.239.0/24
+    seq 3028 permit 216.10.8.0/22 le 24
+    seq 3029 permit 216.24.208.0/24
+    seq 3030 permit 216.24.220.0/23 le 24
+    seq 3031 permit 216.24.223.0/24
+    seq 3032 permit 216.74.104.0/22 le 24
+    seq 3033 permit 216.74.110.0/23 le 24
+    seq 3034 permit 216.74.121.0/24
+    seq 3035 permit 216.74.122.0/23 le 24
+    seq 3036 permit 216.74.124.0/22 le 24
+    seq 3037 permit 216.82.224.0/20 le 24
+    seq 3038 permit 216.97.228.0/22 le 24
+    seq 3039 permit 216.97.236.0/22 le 24
+    seq 3040 permit 216.98.212.0/22 le 24
+    seq 3041 permit 216.98.216.0/22 le 24
+    seq 3042 permit 216.105.164.0/23 le 24
+    seq 3043 permit 216.105.166.0/24
+    seq 3044 permit 216.107.128.0/22 le 24
+    seq 3045 permit 216.107.138.0/24
+    seq 3046 permit 216.122.160.0/19 le 24
+    seq 3047 permit 216.227.216.0/21 ge 22 le 24
+    seq 3048 permit 216.246.28.0/22 le 24
+    seq 3049 permit 216.246.56.0/24
+    seq 3050 permit 216.246.90.0/23 le 24
+    seq 3051 permit 216.246.122.0/23 le 24
+    seq 3052 permit 216.247.96.0/20 le 24
+    seq 3053 permit 216.252.144.0/23 ge 24 le 24
+    seq 3054 permit 216.252.146.0/24
+    seq 3055 permit 216.252.219.0/24
+    seq 3056 permit 217.25.3.0/24
+    seq 3057 permit 217.25.12.0/24
+    seq 3058 permit 217.28.129.0/24
+    seq 3059 permit 217.77.24.0/21 le 24
+    seq 3060 permit 217.113.22.0/23 le 24
+    seq 3061 permit 217.114.33.0/24
+    seq 3062 permit 217.119.133.0/24
+    seq 3063 permit 218.33.64.0/18 le 24
+    seq 3064 permit 221.128.0.0/18 le 24
+    seq 3065 permit 221.128.71.0/24
+    seq 3066 permit 221.128.73.0/24
+    seq 3067 permit 221.128.77.0/24
+    seq 3068 permit 221.128.79.0/24
+    seq 3069 permit 221.128.81.0/24
+    seq 3070 permit 221.128.87.0/24
+    seq 3071 permit 221.128.88.0/22 le 24
+    seq 3072 permit 221.128.97.0/24
+    seq 3073 permit 221.128.98.0/23 le 24
+    seq 3074 permit 221.128.104.0/22 le 24
+    seq 3075 permit 221.128.108.0/23 le 24
+    seq 3076 permit 221.128.110.0/24
+    seq 3077 permit 221.128.115.0/24
+    seq 3078 permit 221.128.116.0/24
+    seq 3079 permit 221.128.118.0/23 le 24
+    seq 3080 permit 221.128.121.0/24
+    seq 3081 permit 221.128.123.0/24
+    seq 3082 permit 223.27.48.0/20 le 24
+    seq 3083 permit 223.27.114.0/24
+    seq 3084 permit 223.29.252.0/24
