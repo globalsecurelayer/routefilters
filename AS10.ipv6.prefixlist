@@ -2641,7 +2641,7 @@
     seq 2639 permit 2a0a:6040:fc00::/39 ge 40 le 48
     seq 2640 permit 2a0a:6043::/32 le 48
     seq 2641 permit 2a0a:6044::/32 le 48
-    seq 2642 permit 2a0a:6045:ff00::/40 le 48
+    seq 2642 permit 2a0a:6045:c000::/34 le 48
     seq 2643 permit 2a0a:6047:b00b::/48
     seq 2644 permit 2a0a:68c0::/40 le 48
     seq 2645 permit 2a0a:68c0:ff00::/40 le 48
@@ -2959,7 +2959,7 @@
     seq 2957 permit 2a0e:97c0:514::/47 le 48
     seq 2958 permit 2a0e:97c0:532::/48
     seq 2959 permit 2a0e:97c0:550::/44 le 48
-    seq 2960 permit 2a0e:97c0:5d0::/44 le 48
+    seq 2960 permit 2a0e:97c0:5c0::/43 ge 44 le 48
     seq 2961 permit 2a0e:97c0:5e0::/44 le 48
     seq 2962 permit 2a0e:97c0:5f0::/47 ge 48 le 48
     seq 2963 permit 2a0e:97c0:600::/44 le 48

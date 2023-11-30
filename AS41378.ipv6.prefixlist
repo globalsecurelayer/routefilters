@@ -1245,7 +1245,7 @@
     seq 1243 permit 2a0a:6040:fc00::/39 ge 40 le 48
     seq 1244 permit 2a0a:6043::/32 le 48
     seq 1245 permit 2a0a:6044:b00b::/48
-    seq 1246 permit 2a0a:6045:ff00::/40 le 48
+    seq 1246 permit 2a0a:6045:c000::/34 le 48
     seq 1247 permit 2a0a:68c0::/40 le 48
     seq 1248 permit 2a0a:68c0:ff00::/40 le 48
     seq 1249 permit 2a0a:acc0::/29 ge 32 le 48
@@ -1479,7 +1479,7 @@
     seq 1477 permit 2a0e:97c0:514::/47 le 48
     seq 1478 permit 2a0e:97c0:532::/48
     seq 1479 permit 2a0e:97c0:550::/44 le 48
-    seq 1480 permit 2a0e:97c0:5d0::/44 le 48
+    seq 1480 permit 2a0e:97c0:5c0::/43 ge 44 le 48
     seq 1481 permit 2a0e:97c0:5e0::/44 le 48
     seq 1482 permit 2a0e:97c0:5f0::/47 ge 48 le 48
     seq 1483 permit 2a0e:97c0:600::/44 le 48
