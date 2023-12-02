@@ -604,7 +604,7 @@
     seq 602 permit 2602:fa6e:100::/40 le 48
     seq 603 permit 2602:fa78::/40 le 48
     seq 604 permit 2602:fa7a::/44 le 48
-    seq 605 permit 2602:fa7e:10::/48
+    seq 605 permit 2602:fa7e:10::/47 ge 48 le 48
     seq 606 permit 2602:fa90::/36 le 48
     seq 607 permit 2602:fa94::/36 le 48
     seq 608 permit 2602:fa9b:c0::/48

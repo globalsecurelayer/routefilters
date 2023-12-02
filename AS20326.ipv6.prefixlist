@@ -466,7 +466,7 @@
     seq 464 permit 2602:fa6d:60::/46 le 48
     seq 465 permit 2602:fa6d:80::/46 le 48
     seq 466 permit 2602:fa6d:200::/42 le 48
-    seq 467 permit 2602:fa7e:10::/48
+    seq 467 permit 2602:fa7e:10::/47 ge 48 le 48
     seq 468 permit 2602:fa90::/36 le 48
     seq 469 permit 2602:fa94::/36 le 48
     seq 470 permit 2602:faa5:f08::/48
