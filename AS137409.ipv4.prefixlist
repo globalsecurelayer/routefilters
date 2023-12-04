@@ -25521,7 +25521,7 @@
     seq 25519 permit 166.0.196.0/24
     seq 25520 permit 166.0.198.0/23 le 24
     seq 25521 permit 166.0.203.0/24
-    seq 25522 permit 166.0.204.0/24
+    seq 25522 permit 166.0.204.0/23 ge 24 le 24
     seq 25523 permit 166.0.206.0/23 le 24
     seq 25524 permit 166.0.208.0/23 ge 24 le 24
     seq 25525 permit 166.0.210.0/24
