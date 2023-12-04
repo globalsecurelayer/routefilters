@@ -5544,7 +5544,7 @@
     seq 5542 permit 176.101.96.96/27
     seq 5543 permit 176.101.97.128/27 ge 28 le 28
     seq 5544 permit 176.101.184.0/22 le 24
-    seq 5545 permit 176.101.188.0/22 ge 23 le 24
+    seq 5545 permit 176.101.190.0/23 le 24
     seq 5546 permit 176.101.192.0/19 le 24
     seq 5547 permit 176.102.0.0/19 ge 24 le 24
     seq 5548 permit 176.103.208.0/22 le 24
@@ -7993,7 +7993,7 @@
     seq 7991 permit 195.19.93.0/24
     seq 7992 permit 195.19.118.0/23 le 24
     seq 7993 permit 195.19.201.0/24
-    seq 7994 permit 195.20.17.0/24
+    seq 7994 permit 195.20.16.0/23 ge 24 le 24
     seq 7995 permit 195.20.19.0/24
     seq 7996 permit 195.20.28.0/22 ge 24 le 24
     seq 7997 permit 195.20.118.0/23 ge 24 le 24
