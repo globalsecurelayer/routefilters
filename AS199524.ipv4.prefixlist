@@ -5864,7 +5864,7 @@
     seq 5862 permit 185.21.44.0/22 le 24
     seq 5863 permit 185.21.136.0/22 le 24
     seq 5864 permit 185.21.253.0/24
-    seq 5865 permit 185.21.255.0/24
+    seq 5865 permit 185.21.254.0/23 ge 24 le 24
     seq 5866 permit 185.22.16.0/22 le 24
     seq 5867 permit 185.22.96.0/22 le 24
     seq 5868 permit 185.23.72.0/24

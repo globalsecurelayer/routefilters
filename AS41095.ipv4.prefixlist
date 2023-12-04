@@ -8325,7 +8325,7 @@
     seq 8323 permit 80.71.159.0/24
     seq 8324 permit 80.71.208.0/20 le 24
     seq 8325 permit 80.71.230.0/24
-    seq 8326 permit 80.72.22.0/23 le 24
+    seq 8326 permit 80.72.22.0/24
     seq 8327 permit 80.72.176.0/20 le 24
     seq 8328 permit 80.72.214.0/24
     seq 8329 permit 80.72.216.0/21 le 24
@@ -23608,7 +23608,7 @@
     seq 23606 permit 185.21.184.0/24
     seq 23607 permit 185.21.188.0/22 le 24
     seq 23608 permit 185.21.253.0/24
-    seq 23609 permit 185.21.255.0/24
+    seq 23609 permit 185.21.254.0/23 ge 24 le 24
     seq 23610 permit 185.22.16.0/22 le 24
     seq 23611 permit 185.22.56.0/22 ge 24 le 24
     seq 23612 permit 185.22.60.0/22 le 24
