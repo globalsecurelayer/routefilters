@@ -7304,7 +7304,7 @@
     seq 7302 permit 193.124.94.0/24
     seq 7303 permit 193.124.124.0/24
     seq 7304 permit 193.124.201.0/24
-    seq 7305 permit 193.124.203.0/24
+    seq 7305 permit 193.124.202.0/23 ge 24 le 24
     seq 7306 permit 193.124.226.0/23 ge 24 le 24
     seq 7307 permit 193.124.254.0/24
     seq 7308 permit 193.134.251.0/24
@@ -8748,7 +8748,7 @@
     seq 8746 permit 212.192.250.0/24
     seq 8747 permit 212.192.255.0/24
     seq 8748 permit 212.193.10.0/23 ge 24 le 24
-    seq 8749 permit 212.193.12.0/24
+    seq 8749 permit 212.193.12.0/23 ge 24 le 24
     seq 8750 permit 212.193.15.0/24
     seq 8751 permit 212.193.31.0/24
     seq 8752 permit 212.193.101.0/24
