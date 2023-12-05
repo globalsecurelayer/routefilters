@@ -1747,7 +1747,7 @@
     seq 1745 permit 89.167.128.0/17 le 24
     seq 1746 permit 89.185.0.0/22 le 24
     seq 1747 permit 89.185.22.0/23 le 24
-    seq 1748 permit 89.185.24.0/22 le 24
+    seq 1748 permit 89.185.24.0/21 ge 22 le 24
     seq 1749 permit 89.185.77.0/24
     seq 1750 permit 89.185.79.0/24
     seq 1751 permit 89.185.86.0/23 le 24
