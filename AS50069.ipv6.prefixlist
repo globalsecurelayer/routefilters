@@ -965,7 +965,7 @@
     seq 963 permit 2a0a:6040:a400::/40 le 48
     seq 964 permit 2a0a:6040:a900::/40 le 48
     seq 965 permit 2a0a:6040:ad00::/40 le 48
-    seq 966 permit 2a0a:6040:b600::/40 le 48
+    seq 966 permit 2a0a:6040:b600::/39 ge 40 le 48
     seq 967 permit 2a0a:6040:c300::/40 le 48
     seq 968 permit 2a0a:6040:c600::/39 ge 40 le 48
     seq 969 permit 2a0a:6040:cf00::/40 le 48
