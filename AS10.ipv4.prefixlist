@@ -2205,7 +2205,7 @@
     seq 2203 permit 64.50.95.0/24
     seq 2204 permit 64.50.160.0/22 le 24
     seq 2205 permit 64.50.164.0/23 le 24
-    seq 2206 permit 64.50.166.0/24
+    seq 2206 permit 64.50.166.0/23 ge 24 le 24
     seq 2207 permit 64.50.168.0/22 le 24
     seq 2208 permit 64.50.172.0/24
     seq 2209 permit 64.50.174.0/23 le 24
