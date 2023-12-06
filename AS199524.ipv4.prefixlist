@@ -908,7 +908,7 @@
     seq 906 permit 45.11.231.0/24
     seq 907 permit 45.11.248.0/22 ge 24 le 24
     seq 908 permit 45.12.68.0/22 le 24
-    seq 909 permit 45.12.80.0/24
+    seq 909 permit 45.12.80.0/23 ge 24 le 24
     seq 910 permit 45.12.82.0/24
     seq 911 permit 45.12.89.0/24
     seq 912 permit 45.12.100.0/22 le 24
