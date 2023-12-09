@@ -1656,7 +1656,7 @@
     seq 1654 permit 154.86.0.0/24
     seq 1655 permit 154.86.12.0/22 le 24
     seq 1656 permit 154.86.16.0/20 le 24
-    seq 1657 permit 154.86.112.0/20 le 24
+    seq 1657 permit 154.86.112.0/21 ge 22 le 24
     seq 1658 permit 154.91.0.0/24
     seq 1659 permit 154.91.4.0/23 ge 24 le 24
     seq 1660 permit 154.91.7.0/24
