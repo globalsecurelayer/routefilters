@@ -626,7 +626,7 @@
     seq 624 permit 5.144.112.0/21 le 24
     seq 625 permit 5.144.128.0/21 le 24
     seq 626 permit 5.144.179.0/24
-    seq 627 permit 5.144.181.0/24
+    seq 627 permit 5.144.180.0/23 ge 24 le 24
     seq 628 permit 5.144.183.0/24
     seq 629 permit 5.145.0.0/18 ge 19 le 24
     seq 630 permit 5.145.64.0/19 le 24
@@ -57460,7 +57460,7 @@
     seq 57458 permit 185.250.28.0/22 ge 23 le 24
     seq 57459 permit 185.250.38.0/23 ge 24 le 24
     seq 57460 permit 185.250.44.0/24
-    seq 57461 permit 185.250.46.0/24
+    seq 57461 permit 185.250.46.0/23 ge 24 le 24
     seq 57462 permit 185.250.56.0/21 ge 22 le 24
     seq 57463 permit 185.250.104.0/22 le 24
     seq 57464 permit 185.250.116.0/22 ge 24 le 24
