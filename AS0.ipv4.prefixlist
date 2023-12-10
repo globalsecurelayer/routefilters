@@ -10181,7 +10181,7 @@
     seq 10179 permit 217.74.235.0/24
     seq 10180 permit 217.74.237.0/24
     seq 10181 permit 217.74.238.0/23 le 24
-    seq 10182 permit 217.77.16.0/21 le 24
+    seq 10182 permit 217.77.16.0/20 ge 21 le 24
     seq 10183 permit 217.77.101.0/24
     seq 10184 permit 217.77.103.0/24
     seq 10185 permit 217.113.22.0/23 le 24
