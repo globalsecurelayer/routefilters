@@ -1649,8 +1649,8 @@
     seq 1647 permit 191.101.192.0/23 le 24
     seq 1648 permit 192.26.105.0/24
     seq 1649 permit 192.31.196.0/24
-    seq 1650 permit 192.35.52.0/24
-    seq 1651 permit 192.35.52.0/26
+    seq 1650 permit 192.35.52.0/23 ge 24 le 24
+    seq 1651 permit 192.35.54.0/24
     seq 1652 permit 192.41.102.0/24
     seq 1653 permit 192.54.225.0/24
     seq 1654 permit 192.64.152.0/22 le 24

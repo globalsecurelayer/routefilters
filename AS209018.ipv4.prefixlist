@@ -36,8 +36,8 @@
     seq 34 permit 185.140.54.0/23 le 24
     seq 35 permit 185.224.30.0/24
     seq 36 permit 192.31.196.0/24
-    seq 37 permit 192.35.52.0/24
-    seq 38 permit 192.35.52.0/26
+    seq 37 permit 192.35.52.0/23 ge 24 le 24
+    seq 38 permit 192.35.54.0/24
     seq 39 permit 192.54.225.0/24
     seq 40 permit 192.92.141.0/24
     seq 41 permit 192.112.246.0/24

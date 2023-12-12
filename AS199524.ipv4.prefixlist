@@ -6182,8 +6182,8 @@
     seq 6180 permit 192.34.238.0/24
     seq 6181 permit 192.35.51.0/24
     seq 6182 permit 192.35.51.30/32
-    seq 6183 permit 192.35.52.0/24
-    seq 6184 permit 192.35.52.0/26
+    seq 6183 permit 192.35.52.0/23 ge 24 le 24
+    seq 6184 permit 192.35.54.0/24
     seq 6185 permit 192.41.102.0/24
     seq 6186 permit 192.41.162.0/24
     seq 6187 permit 192.41.162.30/32

@@ -59336,8 +59336,8 @@
     seq 59334 permit 192.35.48.0/23 ge 24 le 24
     seq 59335 permit 192.35.51.0/24
     seq 59336 permit 192.35.51.30/32
-    seq 59337 permit 192.35.52.0/24
-    seq 59338 permit 192.35.52.0/26
+    seq 59337 permit 192.35.52.0/23 ge 24 le 24
+    seq 59338 permit 192.35.54.0/24
     seq 59339 permit 192.35.59.0/24
     seq 59340 permit 192.35.61.0/24
     seq 59341 permit 192.35.79.0/24
