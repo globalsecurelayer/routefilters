@@ -189,7 +189,7 @@
     seq 187 permit 2a0a:280:1500::/40 le 48
     seq 188 permit 2a0a:280:1800::/40 le 48
     seq 189 permit 2a0a:280:2300::/40 le 48
-    seq 190 permit 2a0a:280:2b00::/40 le 48
+    seq 190 permit 2a0a:280:2a00::/39 ge 40 le 48
     seq 191 permit 2a0a:280:2e00::/39 le 48
     seq 192 permit 2a0a:6040:1e00::/40 le 48
     seq 193 permit 2a0a:6040:3000::/40 le 48

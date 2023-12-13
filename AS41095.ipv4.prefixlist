@@ -2183,7 +2183,7 @@
     seq 2181 permit 23.26.40.0/24
     seq 2182 permit 23.26.42.0/23 le 24
     seq 2183 permit 23.26.60.0/24
-    seq 2184 permit 23.26.64.0/23 le 24
+    seq 2184 permit 23.26.64.0/22 ge 23 le 24
     seq 2185 permit 23.26.74.0/23 le 24
     seq 2186 permit 23.26.78.0/24
     seq 2187 permit 23.26.84.0/22 le 24
@@ -65188,7 +65188,7 @@
     seq 65186 permit 194.87.208.0/23 le 24
     seq 65187 permit 194.87.210.0/23 ge 24 le 24
     seq 65188 permit 194.87.213.0/24
-    seq 65189 permit 194.87.214.0/23 ge 24 le 24
+    seq 65189 permit 194.87.214.0/24
     seq 65190 permit 194.87.216.0/22 ge 24 le 24
     seq 65191 permit 194.87.221.0/24
     seq 65192 permit 194.87.222.0/23 le 24
