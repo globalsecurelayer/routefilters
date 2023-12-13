@@ -2749,7 +2749,7 @@
     seq 2747 permit 2a0e:97c0:d30::/44 le 48
     seq 2748 permit 2a0e:97c0:d40::/44 le 48
     seq 2749 permit 2a0e:97c0:db0::/48
-    seq 2750 permit 2a0e:97c1:130::/48
+    seq 2750 permit 2a0e:97c1:130::/44 le 48
     seq 2751 permit 2a0e:a6c7::/32 le 48
     seq 2752 permit 2a0e:aa00::/29 le 48
     seq 2753 permit 2a0e:b101::/32 le 48
@@ -3014,7 +3014,7 @@
     seq 3012 permit 2a0e:b107:27a0::/45 le 48
     seq 3013 permit 2a0e:b107:27b0::/45 ge 47 le 48
     seq 3014 permit 2a0e:b107:27e8::/45 le 48
-    seq 3015 permit 2a0e:b107:27f0::/48
+    seq 3015 permit 2a0e:b107:27f0::/46 le 48
     seq 3016 permit 2a0e:b107:2830::/45 ge 46 le 48
     seq 3017 permit 2a0e:b607:a6c9::/48
     seq 3018 permit 2a0e:c640::/29 le 48
