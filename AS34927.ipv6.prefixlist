@@ -1683,7 +1683,7 @@
     seq 1681 permit 2a0e:b107:27c8::/45 ge 46 le 48
     seq 1682 permit 2a0e:b107:27e8::/45 le 48
     seq 1683 permit 2a0e:b107:27f0::/48
-    seq 1684 permit 2a0e:b107:2830::/45 le 48
+    seq 1684 permit 2a0e:b107:2830::/45 ge 46 le 48
     seq 1685 permit 2a0e:b107:2880::/45 le 48
     seq 1686 permit 2a0e:b607:a6c9::/48
     seq 1687 permit 2a0e:bac0::/29 le 48
@@ -2282,7 +2282,7 @@
     seq 2280 permit 2a13:1500::/29 le 48
     seq 2281 permit 2a13:1bc0::/29 le 48
     seq 2282 permit 2a13:1c47:ffd0::/44 le 48
-    seq 2283 permit 2a13:2180::/48
+    seq 2283 permit 2a13:2180::/29 le 48
     seq 2284 permit 2a13:49c0::/29 le 48
     seq 2285 permit 2a13:5681::/40 le 48
     seq 2286 permit 2a13:5bc0::/29 le 48
@@ -2306,16 +2306,17 @@
     seq 2304 permit 2a13:a5c7:1600::/40 le 48
     seq 2305 permit 2a13:aac0::/29 le 48
     seq 2306 permit 2a13:b480::/29 le 48
-    seq 2307 permit 2a13:c007:8014::/48
+    seq 2307 permit 2a13:c007:8014::/47 ge 48 le 48
     seq 2308 permit 2a13:c007:80b0::/44 le 48
     seq 2309 permit 2a13:c007:8300::/40 le 48
     seq 2310 permit 2a13:c007:8500::/40 le 48
-    seq 2311 permit 2a13:c7c0::/32 le 48
-    seq 2312 permit 2a13:cc87:fc00::/48
-    seq 2313 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 2314 permit 2a13:df80::/29 le 48
-    seq 2315 permit 2a13:ee47::/32 le 48
-    seq 2316 permit 2a13:ef44::/32 le 48
-    seq 2317 permit 2a13:ef46:b00b::/48
-    seq 2318 permit 2a13:fc80::/32 le 48
-    seq 2319 permit 2c0f:f530::/32 le 48
+    seq 2311 permit 2a13:c007:8700::/40 le 48
+    seq 2312 permit 2a13:c7c0::/32 le 48
+    seq 2313 permit 2a13:cc87:fc00::/48
+    seq 2314 permit 2a13:d8c0::/29 ge 32 le 48
+    seq 2315 permit 2a13:df80::/29 le 48
+    seq 2316 permit 2a13:ee47::/32 le 48
+    seq 2317 permit 2a13:ef44::/32 le 48
+    seq 2318 permit 2a13:ef46:b00b::/48
+    seq 2319 permit 2a13:fc80::/32 le 48
+    seq 2320 permit 2c0f:f530::/32 le 48

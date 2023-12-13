@@ -17491,7 +17491,7 @@
     seq 17489 permit 2a0e:b107:2800::/45 le 48
     seq 17490 permit 2a0e:b107:2810::/44 ge 45 le 48
     seq 17491 permit 2a0e:b107:2820::/44 ge 45 le 48
-    seq 17492 permit 2a0e:b107:2830::/45 le 48
+    seq 17492 permit 2a0e:b107:2830::/45 ge 46 le 48
     seq 17493 permit 2a0e:b107:2880::/45 le 48
     seq 17494 permit 2a0e:b240::/48
     seq 17495 permit 2a0e:b340::/32 le 48
@@ -19682,7 +19682,7 @@
     seq 19680 permit 2a13:1ec0::/44 le 48
     seq 19681 permit 2a13:1ec0:1000::/43 ge 44 le 48
     seq 19682 permit 2a13:2001:869f::/48
-    seq 19683 permit 2a13:2180::/48
+    seq 19683 permit 2a13:2180::/29 le 48
     seq 19684 permit 2a13:2200::/29 le 48
     seq 19685 permit 2a13:2301::/48
     seq 19686 permit 2a13:23c0::/29 le 48
