@@ -2737,7 +2737,7 @@
     seq 2735 permit 81.200.68.0/25
     seq 2736 permit 81.200.77.0/24
     seq 2737 permit 82.97.204.0/24
-    seq 2738 permit 82.115.3.0/24
+    seq 2738 permit 82.115.0.0/21 le 24
     seq 2739 permit 82.115.8.0/23 le 24
     seq 2740 permit 82.115.14.0/24
     seq 2741 permit 82.115.30.0/23 le 24
@@ -8572,7 +8572,7 @@
     seq 8570 permit 195.180.136.0/22 le 24
     seq 8571 permit 195.180.148.0/22 le 24
     seq 8572 permit 195.180.152.0/21 ge 22 le 24
-    seq 8573 permit 195.180.178.0/23 ge 24 le 24
+    seq 8573 permit 195.180.179.0/24
     seq 8574 permit 195.182.14.0/24
     seq 8575 permit 195.182.218.0/23 le 24
     seq 8576 permit 195.189.158.0/23 le 24
