@@ -8052,7 +8052,7 @@
     seq 8050 permit 45.91.124.0/22 le 24
     seq 8051 permit 45.91.132.0/22 le 24
     seq 8052 permit 45.91.136.0/24
-    seq 8053 permit 45.91.139.0/24
+    seq 8053 permit 45.91.138.0/23 ge 24 le 24
     seq 8054 permit 45.91.148.0/22 ge 24 le 24
     seq 8055 permit 45.91.160.0/23 ge 24 le 24
     seq 8056 permit 45.91.162.0/24
@@ -10663,7 +10663,7 @@
     seq 10661 permit 46.37.108.0/22 ge 24 le 24
     seq 10662 permit 46.37.112.0/22 ge 24 le 24
     seq 10663 permit 46.37.117.0/24
-    seq 10664 permit 46.37.118.0/24
+    seq 10664 permit 46.37.118.0/23 ge 24 le 24
     seq 10665 permit 46.37.120.0/23 ge 24 le 24
     seq 10666 permit 46.37.123.0/24
     seq 10667 permit 46.37.126.0/23 ge 24 le 24
