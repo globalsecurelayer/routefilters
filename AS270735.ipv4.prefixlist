@@ -184,7 +184,7 @@
     seq 182 permit 45.155.255.0/24
     seq 183 permit 45.156.144.0/24
     seq 184 permit 45.157.92.0/23 ge 24 le 24
-    seq 185 permit 45.157.211.0/24
+    seq 185 permit 45.157.210.0/23 ge 24 le 24
     seq 186 permit 45.158.10.0/23 le 24
     seq 187 permit 45.158.60.0/22 ge 23 le 24
     seq 188 permit 45.158.170.0/23 le 24
@@ -664,7 +664,7 @@
     seq 662 permit 92.50.0.0/18 ge 19 le 24
     seq 663 permit 92.53.160.0/20 ge 22 le 24
     seq 664 permit 92.53.180.0/22 le 24
-    seq 665 permit 92.53.184.0/21 ge 22 le 24
+    seq 665 permit 92.53.184.0/22 le 24
     seq 666 permit 93.92.22.0/23 le 24
     seq 667 permit 93.95.114.0/24
     seq 668 permit 93.95.119.0/24
