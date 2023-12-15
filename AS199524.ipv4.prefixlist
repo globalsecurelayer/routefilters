@@ -2566,7 +2566,7 @@
     seq 2564 permit 89.163.128.0/17 le 24
     seq 2565 permit 89.169.96.0/19 le 24
     seq 2566 permit 89.185.0.0/24
-    seq 2567 permit 89.185.28.0/22 le 24
+    seq 2567 permit 89.185.24.0/21 ge 22 le 24
     seq 2568 permit 89.185.77.0/24
     seq 2569 permit 89.185.78.0/23 ge 24 le 24
     seq 2570 permit 89.185.80.0/22 le 24
