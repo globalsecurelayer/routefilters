@@ -34664,7 +34664,7 @@
     seq 34662 permit 103.212.67.0/24
     seq 34663 permit 103.212.68.0/22 le 24
     seq 34664 permit 103.212.72.0/22 le 24
-    seq 34665 permit 103.212.80.0/24
+    seq 34665 permit 103.212.80.0/23 ge 24 le 24
     seq 34666 permit 103.212.104.0/21 ge 22 le 24
     seq 34667 permit 103.212.115.0/24
     seq 34668 permit 103.212.132.0/22 le 24
