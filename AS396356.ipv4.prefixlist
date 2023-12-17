@@ -256,7 +256,7 @@
     seq 254 permit 37.143.128.0/24
     seq 255 permit 37.143.130.0/24
     seq 256 permit 37.148.218.0/23 le 24
-    seq 257 permit 37.230.48.0/23 ge 24 le 24
+    seq 257 permit 37.230.48.0/23 le 24
     seq 258 permit 37.230.50.0/24
     seq 259 permit 37.230.52.0/22 ge 24 le 24
     seq 260 permit 37.230.56.0/21 le 24
@@ -4008,7 +4008,7 @@
     seq 4006 permit 190.93.79.0/24
     seq 4007 permit 190.93.80.0/24
     seq 4008 permit 190.93.82.0/23 ge 24 le 24
-    seq 4009 permit 190.93.90.0/23 ge 24 le 24
+    seq 4009 permit 190.93.90.0/24
     seq 4010 permit 190.93.95.0/24
     seq 4011 permit 190.93.176.0/22 le 24
     seq 4012 permit 190.93.184.0/22 le 24
