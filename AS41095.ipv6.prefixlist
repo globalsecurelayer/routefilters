@@ -5368,7 +5368,7 @@
     seq 5366 permit 2407:30c0:200::/44 ge 48 le 48
     seq 5367 permit 2407:30c0:211::/48
     seq 5368 permit 2407:3280::/32 le 48
-    seq 5369 permit 2407:3380::/32 le 48
+    seq 5369 permit 2407:3380::/32 ge 36 le 48
     seq 5370 permit 2407:3640::/31 ge 32 le 48
     seq 5371 permit 2407:3880::/32 le 48
     seq 5372 permit 2407:3880:101::/63 ge 64 le 64

@@ -598,7 +598,7 @@
     seq 596 permit 185.241.58.0/24
     seq 597 permit 185.244.26.0/24
     seq 598 permit 185.244.29.0/24
-    seq 599 permit 185.244.31.0/24
+    seq 599 permit 185.244.30.0/23 ge 24 le 24
     seq 600 permit 185.248.84.0/22 le 24
     seq 601 permit 185.253.5.0/24
     seq 602 permit 185.254.72.0/22 ge 24 le 24
