@@ -1691,9 +1691,9 @@
     seq 1689 permit 2a0e:b107:27c8::/45 ge 46 le 48
     seq 1690 permit 2a0e:b107:27d0::/45 ge 46 le 48
     seq 1691 permit 2a0e:b107:27e8::/45 le 48
-    seq 1692 permit 2a0e:b107:27f4::/46 le 48
-    seq 1693 permit 2a0e:b107:27f8::/45 ge 46 le 48
-    seq 1694 permit 2a0e:b107:2800::/45 ge 46 le 48
+    seq 1692 permit 2a0e:b107:27f0::/44 ge 46 le 48
+    seq 1693 permit 2a0e:b107:2800::/45 ge 46 le 48
+    seq 1694 permit 2a0e:b107:2830::/45 ge 46 le 48
     seq 1695 permit 2a0e:b107:2880::/45 le 48
     seq 1696 permit 2a0e:b107:28a8::/47 ge 48 le 48
     seq 1697 permit 2a0e:b607:a6c9::/48
@@ -2330,5 +2330,6 @@
     seq 2328 permit 2a13:ef44::/32 le 48
     seq 2329 permit 2a13:ef46::/32 le 48
     seq 2330 permit 2a13:fc80::/32 le 48
-    seq 2331 permit 2a14:4480::/29 le 48
-    seq 2332 permit 2c0f:f530::/32 le 48
+    seq 2331 permit 2a14:4080::/29 le 48
+    seq 2332 permit 2a14:4480::/29 le 48
+    seq 2333 permit 2c0f:f530::/32 le 48

@@ -3020,9 +3020,9 @@
     seq 3018 permit 2a0e:b107:27b0::/45 ge 47 le 48
     seq 3019 permit 2a0e:b107:27d0::/45 ge 46 le 48
     seq 3020 permit 2a0e:b107:27e8::/45 le 48
-    seq 3021 permit 2a0e:b107:27f4::/46 le 48
-    seq 3022 permit 2a0e:b107:27f8::/45 ge 46 le 48
-    seq 3023 permit 2a0e:b107:2800::/45 ge 46 le 48
+    seq 3021 permit 2a0e:b107:27f0::/44 ge 46 le 48
+    seq 3022 permit 2a0e:b107:2800::/45 ge 46 le 48
+    seq 3023 permit 2a0e:b107:2830::/45 ge 46 le 48
     seq 3024 permit 2a0e:b607:a6c9::/48
     seq 3025 permit 2a0e:c640::/29 le 48
     seq 3026 permit 2a0e:c6c1::/32 le 48
@@ -3477,10 +3477,11 @@
     seq 3475 permit 2a13:ef44:f008::/47 ge 48 le 48
     seq 3476 permit 2a14:1f80::/29 le 48
     seq 3477 permit 2a14:3001::/32 le 48
-    seq 3478 permit 2a14:4480::/29 le 48
-    seq 3479 permit 2a14:4d00::/29 le 48
-    seq 3480 permit 2c0f:ec00::/32 le 48
-    seq 3481 permit 2c0f:edb0::/32 le 48
-    seq 3482 permit 2c0f:f530:b00b::/48
-    seq 3483 permit 2c0f:f7a8::/29 le 48
-    seq 3484 permit 2c0f:fc88::/31 le 48
+    seq 3478 permit 2a14:4080::/29 le 48
+    seq 3479 permit 2a14:4480::/29 le 48
+    seq 3480 permit 2a14:4d00::/29 le 48
+    seq 3481 permit 2c0f:ec00::/32 le 48
+    seq 3482 permit 2c0f:edb0::/32 le 48
+    seq 3483 permit 2c0f:f530:b00b::/48
+    seq 3484 permit 2c0f:f7a8::/29 le 48
+    seq 3485 permit 2c0f:fc88::/31 le 48
