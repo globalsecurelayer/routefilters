@@ -1088,7 +1088,7 @@
     seq 1086 permit 2407:b9c0::/32 le 48
     seq 1087 permit 2407:c940::/32 le 48
     seq 1088 permit 2407:cdc0::/32 le 48
-    seq 1089 permit 2407:d240::/32 le 48
+    seq 1089 permit 2407:d240::/31 ge 32 le 48
     seq 1090 permit 2407:d840:20::/47 ge 48 le 48
     seq 1091 permit 2407:d840:200::/40 le 48
     seq 1092 permit 2407:dcc0::/32 le 48
