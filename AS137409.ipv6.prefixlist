@@ -4562,7 +4562,7 @@
     seq 4560 permit 2404:4400::/28 le 48
     seq 4561 permit 2404:44c0::/32 le 48
     seq 4562 permit 2404:4580::/32 le 48
-    seq 4563 permit 2404:4780::/32 le 48
+    seq 4563 permit 2404:4780::/47 ge 48 le 48
     seq 4564 permit 2404:4880::/32 le 48
     seq 4565 permit 2404:48c0::/32 le 48
     seq 4566 permit 2404:49c0:a::/48
