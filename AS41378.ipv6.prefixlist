@@ -552,7 +552,7 @@
     seq 550 permit 2407:b9c0::/32 le 48
     seq 551 permit 2407:c940::/32 le 48
     seq 552 permit 2407:cdc0::/32 le 48
-    seq 553 permit 2407:d240::/32 le 48
+    seq 553 permit 2407:d240::/31 ge 32 le 48
     seq 554 permit 2407:d840:20::/47 ge 48 le 48
     seq 555 permit 2407:d840:200::/40 le 48
     seq 556 permit 2407:dcc0::/32 le 48

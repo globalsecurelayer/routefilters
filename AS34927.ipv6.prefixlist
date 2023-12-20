@@ -390,7 +390,7 @@
     seq 388 permit 2407:9740:fe00::/40 ge 44 le 48
     seq 389 permit 2407:a0c0::/32 le 48
     seq 390 permit 2407:acc0::/32 le 48
-    seq 391 permit 2407:d240::/32 le 48
+    seq 391 permit 2407:d240::/31 ge 32 le 48
     seq 392 permit 2407:d840:20::/47 ge 48 le 48
     seq 393 permit 2407:d840:200::/40 le 48
     seq 394 permit 2407:dcc0::/32 le 48
