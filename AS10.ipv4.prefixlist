@@ -2606,7 +2606,7 @@
     seq 2604 permit 82.153.136.0/22 le 24
     seq 2605 permit 82.153.231.0/24
     seq 2606 permit 82.153.242.0/24
-    seq 2607 permit 82.206.48.0/20 le 24
+    seq 2607 permit 82.206.48.0/20 ge 21 le 24
     seq 2608 permit 82.206.64.0/20 le 24
     seq 2609 permit 83.97.96.0/22 le 24
     seq 2610 permit 83.136.208.0/22 le 24
