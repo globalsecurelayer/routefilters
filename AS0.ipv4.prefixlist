@@ -2769,7 +2769,7 @@
     seq 2767 permit 82.153.136.0/22 le 24
     seq 2768 permit 82.153.231.0/24
     seq 2769 permit 82.153.242.0/24
-    seq 2770 permit 82.206.48.0/20 le 24
+    seq 2770 permit 82.206.48.0/20 ge 21 le 24
     seq 2771 permit 82.206.64.0/20 le 24
     seq 2772 permit 83.97.96.0/22 le 24
     seq 2773 permit 83.136.208.0/22 le 24
