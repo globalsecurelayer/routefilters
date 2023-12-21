@@ -6745,7 +6745,7 @@
     seq 6743 permit 2602:fd6f:1::/48
     seq 6744 permit 2602:fd6f:2::/48
     seq 6745 permit 2602:fd6f:e::/48
-    seq 6746 permit 2602:fd6f:20::/44 le 48
+    seq 6746 permit 2602:fd6f:20::/43 ge 44 le 48
     seq 6747 permit 2602:fd6f:40::/44 le 48
     seq 6748 permit 2602:fd6f:aaa::/47 ge 48 le 48
     seq 6749 permit 2602:fd6f:aac::/46 ge 48 le 48

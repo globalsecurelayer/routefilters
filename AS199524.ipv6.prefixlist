@@ -1038,7 +1038,7 @@
     seq 1036 permit 2602:fd63:3::/48
     seq 1037 permit 2602:fd6f:1::/48
     seq 1038 permit 2602:fd6f:2::/48
-    seq 1039 permit 2602:fd6f:20::/44 le 48
+    seq 1039 permit 2602:fd6f:20::/43 ge 44 le 48
     seq 1040 permit 2602:fd6f:40::/44 le 48
     seq 1041 permit 2602:fd6f:aaa::/47 ge 48 le 48
     seq 1042 permit 2602:fd6f:aac::/46 ge 48 le 48
