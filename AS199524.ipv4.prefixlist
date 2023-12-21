@@ -7860,8 +7860,8 @@
     seq 7858 permit 212.192.206.0/24
     seq 7859 permit 212.192.210.0/23 ge 24 le 24
     seq 7860 permit 212.192.212.0/24
-    seq 7861 permit 212.192.214.0/24
-    seq 7862 permit 212.192.222.0/24
+    seq 7861 permit 212.192.214.0/23 ge 24 le 24
+    seq 7862 permit 212.192.222.0/23 ge 24 le 24
     seq 7863 permit 212.192.241.0/24
     seq 7864 permit 212.192.244.0/24
     seq 7865 permit 212.192.247.0/24
