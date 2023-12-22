@@ -557,7 +557,7 @@
     seq 555 permit 45.86.200.0/22 le 24
     seq 556 permit 45.87.48.0/22 le 24
     seq 557 permit 45.87.160.0/22 ge 24 le 24
-    seq 558 permit 45.87.184.0/23 le 24
+    seq 558 permit 45.87.185.0/24
     seq 559 permit 45.88.101.0/24
     seq 560 permit 45.88.132.0/22 le 24
     seq 561 permit 45.88.221.0/24
@@ -4017,7 +4017,7 @@
     seq 4015 permit 191.101.11.0/24
     seq 4016 permit 191.101.20.0/24
     seq 4017 permit 191.101.58.0/24
-    seq 4018 permit 191.101.82.0/23 ge 24 le 24
+    seq 4018 permit 191.101.82.0/24
     seq 4019 permit 191.101.89.0/24
     seq 4020 permit 191.101.123.0/24
     seq 4021 permit 191.101.136.0/23 ge 24 le 24
