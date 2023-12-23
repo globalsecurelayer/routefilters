@@ -1640,7 +1640,7 @@
     seq 1638 permit 2a05:dfc1:c300::/40 le 48
     seq 1639 permit 2a05:dfc1:c420::/47 ge 48 le 48
     seq 1640 permit 2a05:dfc1:c423::/48
-    seq 1641 permit 2a05:dfc1:c42c::/47 ge 48 le 48
+    seq 1641 permit 2a05:dfc1:c42c::/46 ge 48 le 48
     seq 1642 permit 2a05:dfc1:c500::/40 le 48
     seq 1643 permit 2a05:dfc1:c600::/40 le 48
     seq 1644 permit 2a05:dfc1:d100::/40 le 48
@@ -3955,26 +3955,22 @@
     seq 3953 permit 2a13:e280:1::/48
     seq 3954 permit 2a13:ee40:400::/40 le 48
     seq 3955 permit 2a13:ee47::/32 le 48
-    seq 3956 permit 2a13:ef40::/32 le 48
-    seq 3957 permit 2a13:ef41:b000::/36 le 48
-    seq 3958 permit 2a13:ef42::/31 ge 32 le 48
-    seq 3959 permit 2a13:ef44::/31 ge 32 le 48
-    seq 3960 permit 2a13:ef46::/32 le 48
-    seq 3961 permit 2a13:f180::/29 le 48
-    seq 3962 permit 2a13:fc80::/32 le 48
-    seq 3963 permit 2a14::/32 le 48
-    seq 3964 permit 2a14:7::/32 le 48
-    seq 3965 permit 2a14:1900::/29 le 48
-    seq 3966 permit 2a14:1f80::/29 le 48
-    seq 3967 permit 2a14:4080::/29 le 48
-    seq 3968 permit 2a14:4480::/29 le 48
-    seq 3969 permit 2a14:4d00::/29 le 48
-    seq 3970 permit 2c0f:f00::/32 le 48
-    seq 3971 permit 2c0f:4e00::/32 le 48
-    seq 3972 permit 2c0f:5c00::/32 le 48
-    seq 3973 permit 2c0f:ec00::/32 le 48
-    seq 3974 permit 2c0f:f530::/32 le 48
-    seq 3975 permit 2c0f:f7d8::/32 le 48
-    seq 3976 permit 2c0f:fd20::/32 le 48
-    seq 3977 permit 2c0f:fda8::/32 le 48
-    seq 3978 permit 2c0f:fee0::/32 le 48
+    seq 3956 permit 2a13:ef40::/29 le 48
+    seq 3957 permit 2a13:f180::/29 le 48
+    seq 3958 permit 2a13:fc80::/32 le 48
+    seq 3959 permit 2a14::/32 le 48
+    seq 3960 permit 2a14:7::/32 le 48
+    seq 3961 permit 2a14:1900::/29 le 48
+    seq 3962 permit 2a14:1f80::/29 le 48
+    seq 3963 permit 2a14:4080::/29 le 48
+    seq 3964 permit 2a14:4480::/29 le 48
+    seq 3965 permit 2a14:4d00::/29 le 48
+    seq 3966 permit 2c0f:f00::/32 le 48
+    seq 3967 permit 2c0f:4e00::/32 le 48
+    seq 3968 permit 2c0f:5c00::/32 le 48
+    seq 3969 permit 2c0f:ec00::/32 le 48
+    seq 3970 permit 2c0f:f530::/32 le 48
+    seq 3971 permit 2c0f:f7d8::/32 le 48
+    seq 3972 permit 2c0f:fd20::/32 le 48
+    seq 3973 permit 2c0f:fda8::/32 le 48
+    seq 3974 permit 2c0f:fee0::/32 le 48

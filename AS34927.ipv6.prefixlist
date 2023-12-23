@@ -789,7 +789,7 @@
     seq 787 permit 2a05:dfc1:c300::/40 le 48
     seq 788 permit 2a05:dfc1:c420::/47 ge 48 le 48
     seq 789 permit 2a05:dfc1:c423::/48
-    seq 790 permit 2a05:dfc1:c42c::/47 ge 48 le 48
+    seq 790 permit 2a05:dfc1:c42c::/46 ge 48 le 48
     seq 791 permit 2a05:dfc1:c500::/40 le 48
     seq 792 permit 2a05:dfc1:c600::/40 le 48
     seq 793 permit 2a05:dfc1:d100::/40 le 48
@@ -2338,10 +2338,8 @@
     seq 2336 permit 2a13:d8c0::/29 ge 32 le 48
     seq 2337 permit 2a13:df80::/29 le 48
     seq 2338 permit 2a13:ee47::/32 le 48
-    seq 2339 permit 2a13:ef41:b000::/36 le 48
-    seq 2340 permit 2a13:ef44::/31 ge 32 le 48
-    seq 2341 permit 2a13:ef46::/32 le 48
-    seq 2342 permit 2a13:fc80::/32 le 48
-    seq 2343 permit 2a14:4080::/29 le 48
-    seq 2344 permit 2a14:4480::/29 le 48
-    seq 2345 permit 2c0f:f530::/32 le 48
+    seq 2339 permit 2a13:ef40::/29 le 48
+    seq 2340 permit 2a13:fc80::/32 le 48
+    seq 2341 permit 2a14:4080::/29 le 48
+    seq 2342 permit 2a14:4480::/29 le 48
+    seq 2343 permit 2c0f:f530::/32 le 48
