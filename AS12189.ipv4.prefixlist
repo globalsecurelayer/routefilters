@@ -539,7 +539,7 @@
     seq 537 permit 155.63.88.0/24
     seq 538 permit 156.235.90.0/24
     seq 539 permit 157.254.156.0/24
-    seq 540 permit 157.254.226.0/24
+    seq 540 permit 157.254.226.0/23 ge 24 le 24
     seq 541 permit 157.254.238.0/23 le 24
     seq 542 permit 158.51.13.0/24
     seq 543 permit 158.51.36.0/22 le 24
@@ -1033,60 +1033,61 @@
     seq 1031 permit 209.66.65.0/24
     seq 1032 permit 209.124.64.0/19 le 24
     seq 1033 permit 209.140.16.0/20 le 24
-    seq 1034 permit 209.182.104.0/24
-    seq 1035 permit 209.182.106.0/24
-    seq 1036 permit 209.182.108.0/24
-    seq 1037 permit 209.182.110.0/23 ge 24 le 24
-    seq 1038 permit 209.182.208.0/21 le 24
-    seq 1039 permit 209.182.219.0/24
-    seq 1040 permit 209.188.0.0/19 le 24
-    seq 1041 permit 209.188.2.192/26
-    seq 1042 permit 209.188.7.128/25
-    seq 1043 permit 209.188.18.0/26
-    seq 1044 permit 209.188.18.128/25
-    seq 1045 permit 209.188.31.0/26
-    seq 1046 permit 209.189.192.0/19 le 24
-    seq 1047 permit 209.197.19.0/24
-    seq 1048 permit 209.250.0.0/19 le 24
-    seq 1049 permit 212.18.116.0/24
-    seq 1050 permit 212.50.224.0/19 le 24
-    seq 1051 permit 212.52.20.0/24
-    seq 1052 permit 213.139.64.0/20 ge 21 le 24
-    seq 1053 permit 213.139.88.0/21 le 24
-    seq 1054 permit 213.173.32.0/22 le 24
-    seq 1055 permit 216.21.8.0/22 le 24
-    seq 1056 permit 216.24.176.0/20 le 24
-    seq 1057 permit 216.24.214.0/24
-    seq 1058 permit 216.24.217.0/24
-    seq 1059 permit 216.25.227.0/24
-    seq 1060 permit 216.41.208.0/20 le 24
-    seq 1061 permit 216.52.245.0/24
-    seq 1062 permit 216.74.81.0/24
-    seq 1063 permit 216.74.120.0/24
-    seq 1064 permit 216.105.164.0/22 le 24
-    seq 1065 permit 216.117.222.0/24
-    seq 1066 permit 216.119.128.0/20 le 24
-    seq 1067 permit 216.119.156.0/24
-    seq 1068 permit 216.119.159.0/24
-    seq 1069 permit 216.122.172.0/24
-    seq 1070 permit 216.122.182.0/24
-    seq 1071 permit 216.122.191.0/24
-    seq 1072 permit 216.137.176.0/20 le 24
-    seq 1073 permit 216.151.44.0/23 le 24
-    seq 1074 permit 216.173.127.0/24
-    seq 1075 permit 216.176.32.0/22 le 24
-    seq 1076 permit 216.177.131.0/24
-    seq 1077 permit 216.181.108.0/24
-    seq 1078 permit 216.185.34.0/24
-    seq 1079 permit 216.185.37.0/24
-    seq 1080 permit 216.185.48.0/23 ge 24 le 24
-    seq 1081 permit 216.185.51.0/24
-    seq 1082 permit 216.185.52.0/24
-    seq 1083 permit 216.185.58.0/24
-    seq 1084 permit 216.185.60.0/24
-    seq 1085 permit 216.185.62.0/24
-    seq 1086 permit 216.190.44.0/23 le 24
-    seq 1087 permit 216.201.80.0/20 le 24
-    seq 1088 permit 216.229.148.0/24
-    seq 1089 permit 216.234.124.0/24
-    seq 1090 permit 216.247.111.0/24
+    seq 1034 permit 209.142.102.0/24
+    seq 1035 permit 209.182.104.0/24
+    seq 1036 permit 209.182.106.0/24
+    seq 1037 permit 209.182.108.0/24
+    seq 1038 permit 209.182.110.0/23 ge 24 le 24
+    seq 1039 permit 209.182.208.0/21 le 24
+    seq 1040 permit 209.182.219.0/24
+    seq 1041 permit 209.188.0.0/19 le 24
+    seq 1042 permit 209.188.2.192/26
+    seq 1043 permit 209.188.7.128/25
+    seq 1044 permit 209.188.18.0/26
+    seq 1045 permit 209.188.18.128/25
+    seq 1046 permit 209.188.31.0/26
+    seq 1047 permit 209.189.192.0/19 le 24
+    seq 1048 permit 209.197.19.0/24
+    seq 1049 permit 209.250.0.0/19 le 24
+    seq 1050 permit 212.18.116.0/24
+    seq 1051 permit 212.50.224.0/19 le 24
+    seq 1052 permit 212.52.20.0/24
+    seq 1053 permit 213.139.64.0/20 ge 21 le 24
+    seq 1054 permit 213.139.88.0/21 le 24
+    seq 1055 permit 213.173.32.0/22 le 24
+    seq 1056 permit 216.21.8.0/22 le 24
+    seq 1057 permit 216.24.176.0/20 le 24
+    seq 1058 permit 216.24.214.0/24
+    seq 1059 permit 216.24.217.0/24
+    seq 1060 permit 216.25.227.0/24
+    seq 1061 permit 216.41.208.0/20 le 24
+    seq 1062 permit 216.52.245.0/24
+    seq 1063 permit 216.74.81.0/24
+    seq 1064 permit 216.74.120.0/24
+    seq 1065 permit 216.105.164.0/22 le 24
+    seq 1066 permit 216.117.222.0/24
+    seq 1067 permit 216.119.128.0/20 le 24
+    seq 1068 permit 216.119.156.0/24
+    seq 1069 permit 216.119.159.0/24
+    seq 1070 permit 216.122.172.0/24
+    seq 1071 permit 216.122.182.0/24
+    seq 1072 permit 216.122.191.0/24
+    seq 1073 permit 216.137.176.0/20 le 24
+    seq 1074 permit 216.151.44.0/23 le 24
+    seq 1075 permit 216.173.127.0/24
+    seq 1076 permit 216.176.32.0/22 le 24
+    seq 1077 permit 216.177.131.0/24
+    seq 1078 permit 216.181.108.0/24
+    seq 1079 permit 216.185.34.0/24
+    seq 1080 permit 216.185.37.0/24
+    seq 1081 permit 216.185.48.0/23 ge 24 le 24
+    seq 1082 permit 216.185.51.0/24
+    seq 1083 permit 216.185.52.0/24
+    seq 1084 permit 216.185.58.0/24
+    seq 1085 permit 216.185.60.0/24
+    seq 1086 permit 216.185.62.0/24
+    seq 1087 permit 216.190.44.0/23 le 24
+    seq 1088 permit 216.201.80.0/20 le 24
+    seq 1089 permit 216.229.148.0/24
+    seq 1090 permit 216.234.124.0/24
+    seq 1091 permit 216.247.111.0/24
