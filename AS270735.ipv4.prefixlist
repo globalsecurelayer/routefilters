@@ -725,7 +725,7 @@
     seq 723 permit 109.122.46.0/24
     seq 724 permit 109.122.218.0/24
     seq 725 permit 109.236.61.0/24
-    seq 726 permit 109.238.160.0/20 ge 21 le 24
+    seq 726 permit 109.238.160.0/21 le 24
     seq 727 permit 110.44.108.0/22 ge 23 le 24
     seq 728 permit 128.90.1.0/24
     seq 729 permit 128.90.2.0/23 le 24
@@ -944,7 +944,7 @@
     seq 942 permit 163.5.106.0/24
     seq 943 permit 163.5.110.0/23 ge 24 le 24
     seq 944 permit 163.5.112.0/23 ge 24 le 24
-    seq 945 permit 163.5.121.0/24
+    seq 945 permit 163.5.120.0/23 ge 24 le 24
     seq 946 permit 163.5.126.0/24
     seq 947 permit 163.5.128.0/24
     seq 948 permit 163.5.134.0/24
