@@ -977,7 +977,7 @@
     seq 975 permit 62.132.114.0/23 le 24
     seq 976 permit 62.132.116.0/23 le 24
     seq 977 permit 62.132.132.0/23 le 24
-    seq 978 permit 62.182.168.0/22 le 24
+    seq 978 permit 62.182.168.0/22 ge 24 le 24
     seq 979 permit 62.182.173.0/24
     seq 980 permit 62.182.174.0/24
     seq 981 permit 62.192.96.0/19 le 24
@@ -1690,163 +1690,163 @@
     seq 1688 permit 89.202.128.0/17 le 24
     seq 1689 permit 89.213.41.0/24
     seq 1690 permit 89.213.136.0/24
-    seq 1691 permit 89.213.147.0/24
-    seq 1692 permit 89.213.148.0/22 le 24
-    seq 1693 permit 89.213.152.0/21 ge 22 le 24
-    seq 1694 permit 89.213.165.0/24
-    seq 1695 permit 89.213.172.0/22 le 24
-    seq 1696 permit 89.213.176.0/24
-    seq 1697 permit 89.213.180.0/23 le 24
-    seq 1698 permit 89.213.183.0/24
-    seq 1699 permit 89.248.66.0/24
-    seq 1700 permit 89.248.160.0/20 ge 24 le 24
-    seq 1701 permit 89.249.192.0/21 le 24
-    seq 1702 permit 89.251.25.0/24
-    seq 1703 permit 89.251.30.0/24
-    seq 1704 permit 89.251.192.0/20 le 24
-    seq 1705 permit 91.103.120.0/21 le 24
-    seq 1706 permit 91.108.192.0/22 ge 24 le 24
-    seq 1707 permit 91.108.196.0/22 le 24
-    seq 1708 permit 91.108.200.0/21 ge 22 le 24
-    seq 1709 permit 91.108.208.0/20 ge 21 le 24
-    seq 1710 permit 91.108.224.0/19 le 24
-    seq 1711 permit 91.132.126.0/24
-    seq 1712 permit 91.143.176.0/20 le 24
-    seq 1713 permit 91.148.134.0/23 ge 24 le 24
-    seq 1714 permit 91.186.208.0/22 le 24
-    seq 1715 permit 91.186.216.0/22 le 24
-    seq 1716 permit 91.188.200.0/22 le 24
-    seq 1717 permit 91.188.253.0/24
-    seq 1718 permit 91.188.254.0/23 ge 24 le 24
-    seq 1719 permit 91.189.184.0/22 le 24
-    seq 1720 permit 91.190.168.0/21 le 24
-    seq 1721 permit 91.190.185.0/24
-    seq 1722 permit 91.190.188.0/24
-    seq 1723 permit 91.192.240.0/22 le 24
-    seq 1724 permit 91.193.253.0/24
-    seq 1725 permit 91.196.69.0/24
-    seq 1726 permit 91.196.221.0/24
-    seq 1727 permit 91.196.222.0/23 ge 24 le 24
-    seq 1728 permit 91.199.44.0/24
-    seq 1729 permit 91.199.47.0/24
-    seq 1730 permit 91.199.106.0/24
-    seq 1731 permit 91.199.172.0/24
-    seq 1732 permit 91.200.221.0/24
-    seq 1733 permit 91.202.232.0/23 ge 24 le 24
-    seq 1734 permit 91.204.180.0/23 ge 24 le 24
-    seq 1735 permit 91.204.182.0/23 le 24
-    seq 1736 permit 91.205.106.0/23 ge 24 le 24
-    seq 1737 permit 91.206.48.0/24
-    seq 1738 permit 91.206.208.0/23 ge 24 le 24
-    seq 1739 permit 91.207.0.0/23 ge 24 le 24
-    seq 1740 permit 91.208.32.0/24
-    seq 1741 permit 91.208.61.0/24
-    seq 1742 permit 91.208.95.0/24
-    seq 1743 permit 91.213.174.0/24
-    seq 1744 permit 91.213.186.0/24
-    seq 1745 permit 91.213.218.0/24
-    seq 1746 permit 91.214.64.0/22 ge 24 le 24
-    seq 1747 permit 91.214.116.0/24
-    seq 1748 permit 91.217.162.0/24
-    seq 1749 permit 91.217.167.0/24
-    seq 1750 permit 91.218.139.0/24
-    seq 1751 permit 91.218.176.0/22 le 24
-    seq 1752 permit 91.221.12.0/23 le 24
-    seq 1753 permit 91.221.232.0/24
-    seq 1754 permit 91.222.220.0/22 le 24
-    seq 1755 permit 91.228.168.0/24
-    seq 1756 permit 91.229.134.0/23 le 24
-    seq 1757 permit 91.229.244.0/24
-    seq 1758 permit 91.232.8.0/22 le 24
-    seq 1759 permit 91.232.103.0/24
-    seq 1760 permit 91.234.36.0/24
-    seq 1761 permit 91.236.118.0/23 le 24
-    seq 1762 permit 91.238.71.0/24
-    seq 1763 permit 91.238.93.0/24
-    seq 1764 permit 91.238.213.0/24
-    seq 1765 permit 91.239.211.0/24
-    seq 1766 permit 91.241.15.0/24
-    seq 1767 permit 91.242.70.0/24
-    seq 1768 permit 91.242.72.0/22 ge 23 le 24
-    seq 1769 permit 91.242.103.0/24
-    seq 1770 permit 91.242.214.0/23 le 24
-    seq 1771 permit 91.242.248.0/24
-    seq 1772 permit 91.243.176.0/24
-    seq 1773 permit 91.245.237.0/24
-    seq 1774 permit 91.245.239.0/24
-    seq 1775 permit 91.246.35.0/24
-    seq 1776 permit 91.247.77.0/24
-    seq 1777 permit 91.247.178.0/24
-    seq 1778 permit 91.247.184.0/22 le 24
-    seq 1779 permit 92.50.0.0/18 ge 19 le 24
-    seq 1780 permit 92.51.44.0/22 le 24
-    seq 1781 permit 92.53.160.0/20 ge 22 le 24
-    seq 1782 permit 92.54.128.0/18 le 24
-    seq 1783 permit 92.60.240.0/20 le 24
-    seq 1784 permit 92.61.102.0/24
-    seq 1785 permit 92.63.196.0/24
-    seq 1786 permit 92.71.0.0/17 le 24
-    seq 1787 permit 92.71.128.0/18 le 24
-    seq 1788 permit 92.118.62.0/23 ge 24 le 24
-    seq 1789 permit 92.119.129.0/24
-    seq 1790 permit 92.119.148.0/22 le 24
-    seq 1791 permit 92.119.157.0/24
-    seq 1792 permit 92.240.148.0/22 le 24
-    seq 1793 permit 92.240.196.0/22 ge 24 le 24
-    seq 1794 permit 92.240.200.0/24
-    seq 1795 permit 92.240.204.0/22 le 24
-    seq 1796 permit 92.240.214.0/23 le 24
-    seq 1797 permit 92.240.217.0/24
-    seq 1798 permit 92.243.80.0/24
-    seq 1799 permit 92.244.160.0/19 le 24
-    seq 1800 permit 93.89.211.0/24
-    seq 1801 permit 93.89.217.0/24
-    seq 1802 permit 93.92.18.0/24
-    seq 1803 permit 93.92.20.0/24
-    seq 1804 permit 93.92.22.0/23 le 24
-    seq 1805 permit 93.92.112.0/24
-    seq 1806 permit 93.113.176.0/22 ge 24 le 24
-    seq 1807 permit 93.113.183.0/24
-    seq 1808 permit 93.114.61.0/24
-    seq 1809 permit 93.114.69.0/24
-    seq 1810 permit 93.114.169.0/24
-    seq 1811 permit 93.115.111.0/24
-    seq 1812 permit 93.115.155.0/24
-    seq 1813 permit 93.119.106.0/24
-    seq 1814 permit 93.123.74.0/23 le 24
-    seq 1815 permit 93.152.0.0/17 le 24
-    seq 1816 permit 93.157.216.0/21 le 24
-    seq 1817 permit 93.174.88.0/21 ge 24 le 24
-    seq 1818 permit 93.177.84.0/22 le 24
-    seq 1819 permit 93.177.92.0/23 le 24
-    seq 1820 permit 93.177.114.0/23 le 24
-    seq 1821 permit 93.185.152.0/22 le 24
-    seq 1822 permit 94.101.114.0/24
-    seq 1823 permit 94.102.48.0/20 ge 24 le 24
-    seq 1824 permit 94.103.178.0/24
-    seq 1825 permit 94.103.184.0/24
-    seq 1826 permit 94.103.189.0/24
-    seq 1827 permit 94.103.191.0/24
-    seq 1828 permit 94.124.72.0/24
-    seq 1829 permit 94.131.24.0/22 le 24
-    seq 1830 permit 94.131.48.0/20 le 24
-    seq 1831 permit 94.131.64.0/20 le 24
-    seq 1832 permit 94.131.176.0/20 ge 22 le 24
-    seq 1833 permit 94.140.8.0/22 ge 24 le 24
-    seq 1834 permit 94.140.12.0/23 le 24
-    seq 1835 permit 94.140.20.0/22 le 24
-    seq 1836 permit 94.140.26.0/23 le 24
-    seq 1837 permit 94.154.118.0/24
-    seq 1838 permit 94.177.113.0/24
-    seq 1839 permit 94.177.118.0/24
-    seq 1840 permit 94.185.128.0/17 le 24
-    seq 1841 permit 94.199.100.0/22 le 24
-    seq 1842 permit 94.231.198.0/24
-    seq 1843 permit 94.241.138.0/23 le 24
-    seq 1844 permit 94.241.140.0/22 le 24
-    seq 1845 permit 94.241.166.0/23 le 24
-    seq 1846 permit 94.241.168.0/21 le 24
-    seq 1847 permit 95.82.32.0/21 le 24
+    seq 1691 permit 89.213.143.0/24
+    seq 1692 permit 89.213.147.0/24
+    seq 1693 permit 89.213.148.0/22 le 24
+    seq 1694 permit 89.213.152.0/21 ge 22 le 24
+    seq 1695 permit 89.213.165.0/24
+    seq 1696 permit 89.213.172.0/22 le 24
+    seq 1697 permit 89.213.176.0/24
+    seq 1698 permit 89.213.180.0/23 le 24
+    seq 1699 permit 89.213.183.0/24
+    seq 1700 permit 89.248.66.0/24
+    seq 1701 permit 89.248.160.0/20 ge 24 le 24
+    seq 1702 permit 89.249.192.0/21 le 24
+    seq 1703 permit 89.251.25.0/24
+    seq 1704 permit 89.251.30.0/24
+    seq 1705 permit 89.251.192.0/20 le 24
+    seq 1706 permit 91.103.120.0/21 le 24
+    seq 1707 permit 91.108.192.0/22 ge 24 le 24
+    seq 1708 permit 91.108.196.0/22 le 24
+    seq 1709 permit 91.108.200.0/21 ge 22 le 24
+    seq 1710 permit 91.108.208.0/20 ge 21 le 24
+    seq 1711 permit 91.108.224.0/19 le 24
+    seq 1712 permit 91.132.126.0/24
+    seq 1713 permit 91.143.176.0/20 le 24
+    seq 1714 permit 91.148.134.0/23 ge 24 le 24
+    seq 1715 permit 91.186.208.0/22 le 24
+    seq 1716 permit 91.186.216.0/22 le 24
+    seq 1717 permit 91.188.200.0/22 le 24
+    seq 1718 permit 91.188.253.0/24
+    seq 1719 permit 91.188.254.0/23 ge 24 le 24
+    seq 1720 permit 91.189.184.0/22 le 24
+    seq 1721 permit 91.190.168.0/21 le 24
+    seq 1722 permit 91.190.185.0/24
+    seq 1723 permit 91.190.188.0/24
+    seq 1724 permit 91.192.240.0/22 le 24
+    seq 1725 permit 91.193.253.0/24
+    seq 1726 permit 91.196.69.0/24
+    seq 1727 permit 91.196.221.0/24
+    seq 1728 permit 91.196.222.0/23 ge 24 le 24
+    seq 1729 permit 91.199.44.0/24
+    seq 1730 permit 91.199.47.0/24
+    seq 1731 permit 91.199.106.0/24
+    seq 1732 permit 91.199.172.0/24
+    seq 1733 permit 91.200.221.0/24
+    seq 1734 permit 91.202.232.0/23 ge 24 le 24
+    seq 1735 permit 91.204.180.0/23 ge 24 le 24
+    seq 1736 permit 91.204.182.0/23 le 24
+    seq 1737 permit 91.205.106.0/23 ge 24 le 24
+    seq 1738 permit 91.206.48.0/24
+    seq 1739 permit 91.206.208.0/23 ge 24 le 24
+    seq 1740 permit 91.207.0.0/23 ge 24 le 24
+    seq 1741 permit 91.208.32.0/24
+    seq 1742 permit 91.208.61.0/24
+    seq 1743 permit 91.208.95.0/24
+    seq 1744 permit 91.213.174.0/24
+    seq 1745 permit 91.213.186.0/24
+    seq 1746 permit 91.213.218.0/24
+    seq 1747 permit 91.214.64.0/22 ge 24 le 24
+    seq 1748 permit 91.214.116.0/24
+    seq 1749 permit 91.217.162.0/24
+    seq 1750 permit 91.217.167.0/24
+    seq 1751 permit 91.218.139.0/24
+    seq 1752 permit 91.218.176.0/22 le 24
+    seq 1753 permit 91.221.12.0/23 le 24
+    seq 1754 permit 91.221.232.0/24
+    seq 1755 permit 91.222.220.0/22 le 24
+    seq 1756 permit 91.228.168.0/24
+    seq 1757 permit 91.229.134.0/23 le 24
+    seq 1758 permit 91.229.244.0/24
+    seq 1759 permit 91.232.8.0/22 le 24
+    seq 1760 permit 91.232.103.0/24
+    seq 1761 permit 91.234.36.0/24
+    seq 1762 permit 91.236.118.0/23 le 24
+    seq 1763 permit 91.238.71.0/24
+    seq 1764 permit 91.238.93.0/24
+    seq 1765 permit 91.238.213.0/24
+    seq 1766 permit 91.239.211.0/24
+    seq 1767 permit 91.241.15.0/24
+    seq 1768 permit 91.242.70.0/24
+    seq 1769 permit 91.242.72.0/22 ge 23 le 24
+    seq 1770 permit 91.242.103.0/24
+    seq 1771 permit 91.242.214.0/23 le 24
+    seq 1772 permit 91.242.248.0/24
+    seq 1773 permit 91.243.176.0/24
+    seq 1774 permit 91.245.237.0/24
+    seq 1775 permit 91.245.239.0/24
+    seq 1776 permit 91.246.35.0/24
+    seq 1777 permit 91.247.77.0/24
+    seq 1778 permit 91.247.178.0/24
+    seq 1779 permit 91.247.184.0/22 le 24
+    seq 1780 permit 92.50.0.0/18 ge 19 le 24
+    seq 1781 permit 92.51.44.0/22 le 24
+    seq 1782 permit 92.53.160.0/20 ge 22 le 24
+    seq 1783 permit 92.54.128.0/18 le 24
+    seq 1784 permit 92.60.240.0/20 le 24
+    seq 1785 permit 92.61.102.0/24
+    seq 1786 permit 92.63.196.0/24
+    seq 1787 permit 92.71.0.0/17 le 24
+    seq 1788 permit 92.71.128.0/18 le 24
+    seq 1789 permit 92.118.62.0/23 ge 24 le 24
+    seq 1790 permit 92.119.129.0/24
+    seq 1791 permit 92.119.148.0/22 le 24
+    seq 1792 permit 92.119.157.0/24
+    seq 1793 permit 92.240.148.0/22 le 24
+    seq 1794 permit 92.240.196.0/22 ge 24 le 24
+    seq 1795 permit 92.240.200.0/24
+    seq 1796 permit 92.240.204.0/22 le 24
+    seq 1797 permit 92.240.214.0/23 le 24
+    seq 1798 permit 92.240.217.0/24
+    seq 1799 permit 92.243.80.0/24
+    seq 1800 permit 92.244.160.0/19 le 24
+    seq 1801 permit 93.89.211.0/24
+    seq 1802 permit 93.89.217.0/24
+    seq 1803 permit 93.92.18.0/24
+    seq 1804 permit 93.92.20.0/24
+    seq 1805 permit 93.92.22.0/23 le 24
+    seq 1806 permit 93.92.112.0/24
+    seq 1807 permit 93.113.176.0/22 ge 24 le 24
+    seq 1808 permit 93.113.183.0/24
+    seq 1809 permit 93.114.61.0/24
+    seq 1810 permit 93.114.69.0/24
+    seq 1811 permit 93.114.169.0/24
+    seq 1812 permit 93.115.111.0/24
+    seq 1813 permit 93.115.155.0/24
+    seq 1814 permit 93.119.106.0/24
+    seq 1815 permit 93.123.74.0/23 le 24
+    seq 1816 permit 93.152.0.0/17 le 24
+    seq 1817 permit 93.157.216.0/21 le 24
+    seq 1818 permit 93.174.88.0/21 ge 24 le 24
+    seq 1819 permit 93.177.84.0/22 le 24
+    seq 1820 permit 93.177.92.0/23 le 24
+    seq 1821 permit 93.177.114.0/23 le 24
+    seq 1822 permit 93.185.152.0/22 le 24
+    seq 1823 permit 94.101.114.0/24
+    seq 1824 permit 94.102.48.0/20 ge 24 le 24
+    seq 1825 permit 94.103.178.0/24
+    seq 1826 permit 94.103.184.0/24
+    seq 1827 permit 94.103.189.0/24
+    seq 1828 permit 94.103.191.0/24
+    seq 1829 permit 94.124.72.0/24
+    seq 1830 permit 94.131.24.0/22 le 24
+    seq 1831 permit 94.131.48.0/20 le 24
+    seq 1832 permit 94.131.64.0/20 le 24
+    seq 1833 permit 94.131.176.0/20 ge 22 le 24
+    seq 1834 permit 94.140.8.0/22 ge 24 le 24
+    seq 1835 permit 94.140.12.0/23 le 24
+    seq 1836 permit 94.140.20.0/22 le 24
+    seq 1837 permit 94.140.26.0/23 le 24
+    seq 1838 permit 94.154.118.0/24
+    seq 1839 permit 94.177.113.0/24
+    seq 1840 permit 94.177.118.0/24
+    seq 1841 permit 94.185.128.0/17 le 24
+    seq 1842 permit 94.199.100.0/22 le 24
+    seq 1843 permit 94.231.198.0/24
+    seq 1844 permit 94.241.138.0/23 le 24
+    seq 1845 permit 94.241.140.0/22 le 24
+    seq 1846 permit 94.241.166.0/23 le 24
+    seq 1847 permit 94.241.168.0/21 le 24
     seq 1848 permit 95.111.128.0/19 ge 20 le 24
     seq 1849 permit 95.152.192.0/18 le 24
     seq 1850 permit 95.164.44.0/22 le 24
@@ -4285,7 +4285,7 @@
     seq 4283 permit 194.15.108.0/24
     seq 4284 permit 194.15.111.0/24
     seq 4285 permit 194.15.153.0/24
-    seq 4286 permit 194.15.154.0/23 le 24
+    seq 4286 permit 194.15.154.0/23 ge 24 le 24
     seq 4287 permit 194.24.192.0/19 le 24
     seq 4288 permit 194.26.211.0/24
     seq 4289 permit 194.26.215.0/24
@@ -5129,7 +5129,7 @@
     seq 5127 permit 213.159.14.0/23 le 24
     seq 5128 permit 213.160.96.0/19 le 24
     seq 5129 permit 213.169.192.0/18 le 24
-    seq 5130 permit 213.170.203.0/24
+    seq 5130 permit 213.170.202.0/23 ge 24 le 24
     seq 5131 permit 213.170.220.0/23 le 24
     seq 5132 permit 213.170.223.0/24
     seq 5133 permit 213.177.224.0/19 le 24
