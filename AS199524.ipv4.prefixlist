@@ -5992,7 +5992,7 @@
     seq 5990 permit 185.229.203.0/24
     seq 5991 permit 185.229.204.0/24
     seq 5992 permit 185.230.13.0/24
-    seq 5993 permit 185.230.14.0/24
+    seq 5993 permit 185.230.14.0/23 ge 24 le 24
     seq 5994 permit 185.230.139.0/24
     seq 5995 permit 185.231.4.0/22 le 24
     seq 5996 permit 185.231.59.0/24

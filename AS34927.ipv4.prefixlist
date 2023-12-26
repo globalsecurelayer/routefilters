@@ -1617,7 +1617,7 @@
     seq 1615 permit 185.228.168.0/22 le 24
     seq 1616 permit 185.229.203.0/24
     seq 1617 permit 185.230.13.0/24
-    seq 1618 permit 185.230.14.0/24
+    seq 1618 permit 185.230.14.0/23 ge 24 le 24
     seq 1619 permit 185.231.204.0/22 ge 24 le 24
     seq 1620 permit 185.232.117.0/24
     seq 1621 permit 185.233.201.0/24
