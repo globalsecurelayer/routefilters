@@ -955,7 +955,7 @@
     seq 953 permit 45.12.203.0/24
     seq 954 permit 45.12.217.0/24
     seq 955 permit 45.12.218.0/24
-    seq 956 permit 45.12.252.0/24
+    seq 956 permit 45.12.252.0/23 ge 24 le 24
     seq 957 permit 45.12.254.0/24
     seq 958 permit 45.13.20.0/22 le 24
     seq 959 permit 45.13.118.0/24
