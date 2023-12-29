@@ -44503,7 +44503,7 @@
     seq 44501 permit 141.11.228.0/23 le 24
     seq 44502 permit 141.11.232.0/22 le 24
     seq 44503 permit 141.11.236.0/23 le 24
-    seq 44504 permit 141.11.240.0/23 le 24
+    seq 44504 permit 141.11.240.0/23 ge 24 le 24
     seq 44505 permit 141.11.242.0/24
     seq 44506 permit 141.11.246.0/24
     seq 44507 permit 141.11.248.0/24
