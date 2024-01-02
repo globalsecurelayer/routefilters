@@ -6997,7 +6997,7 @@
     seq 6995 permit 194.87.78.0/24
     seq 6996 permit 194.87.82.0/24
     seq 6997 permit 194.87.85.0/24
-    seq 6998 permit 194.87.86.0/24
+    seq 6998 permit 194.87.86.0/23 ge 24 le 24
     seq 6999 permit 194.87.91.0/24
     seq 7000 permit 194.87.105.0/24
     seq 7001 permit 194.87.116.0/23 ge 24 le 24
