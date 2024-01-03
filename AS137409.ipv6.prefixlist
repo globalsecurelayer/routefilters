@@ -20985,12 +20985,13 @@
     seq 20983 permit 2c0f:feb8::/32 le 48
     seq 20984 permit 2c0f:fed8:2::/48
     seq 20985 permit 2c0f:fee0::/32 le 48
-    seq 20986 permit 2c0f:fef0::/32 le 48
-    seq 20987 permit 2c0f:fef8::/32 le 48
-    seq 20988 permit 2c0f:ff00::/32 le 48
-    seq 20989 permit 2c0f:ff10::/32 le 48
-    seq 20990 permit 2c0f:ff20::/32 le 48
-    seq 20991 permit 2c0f:ff90::/32 le 48
-    seq 20992 permit 2c0f:ffd8::/32 le 48
-    seq 20993 permit 2c0f:ffe8::/32 le 48
-    seq 20994 permit 2c0f:fff0::/32 le 48
+    seq 20986 permit 2c0f:fee0::/64
+    seq 20987 permit 2c0f:fef0::/32 le 48
+    seq 20988 permit 2c0f:fef8::/32 le 48
+    seq 20989 permit 2c0f:ff00::/32 le 48
+    seq 20990 permit 2c0f:ff10::/32 le 48
+    seq 20991 permit 2c0f:ff20::/32 le 48
+    seq 20992 permit 2c0f:ff90::/32 le 48
+    seq 20993 permit 2c0f:ffd8::/32 le 48
+    seq 20994 permit 2c0f:ffe8::/32 le 48
+    seq 20995 permit 2c0f:fff0::/32 le 48

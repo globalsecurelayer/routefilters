@@ -19769,12 +19769,13 @@
     seq 19767 permit 2c0f:feb8::/32 le 48
     seq 19768 permit 2c0f:fed8:2::/48
     seq 19769 permit 2c0f:fee0::/32 le 48
-    seq 19770 permit 2c0f:fef0::/32 le 48
-    seq 19771 permit 2c0f:fef8::/32 le 48
-    seq 19772 permit 2c0f:ff00::/32 le 48
-    seq 19773 permit 2c0f:ff10::/32 le 48
-    seq 19774 permit 2c0f:ff20::/32 le 48
-    seq 19775 permit 2c0f:ff90::/32 le 48
-    seq 19776 permit 2c0f:ffd8::/32 le 48
-    seq 19777 permit 2c0f:ffe8::/32 le 48
-    seq 19778 permit 2c0f:fff0::/32 le 48
+    seq 19770 permit 2c0f:fee0::/64
+    seq 19771 permit 2c0f:fef0::/32 le 48
+    seq 19772 permit 2c0f:fef8::/32 le 48
+    seq 19773 permit 2c0f:ff00::/32 le 48
+    seq 19774 permit 2c0f:ff10::/32 le 48
+    seq 19775 permit 2c0f:ff20::/32 le 48
+    seq 19776 permit 2c0f:ff90::/32 le 48
+    seq 19777 permit 2c0f:ffd8::/32 le 48
+    seq 19778 permit 2c0f:ffe8::/32 le 48
+    seq 19779 permit 2c0f:fff0::/32 le 48
