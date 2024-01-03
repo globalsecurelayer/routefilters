@@ -1415,7 +1415,7 @@
     seq 1413 permit 2a12:bc0::/29 le 48
     seq 1414 permit 2a12:1701::/32 le 48
     seq 1415 permit 2a12:2780::/29 le 48
-    seq 1416 permit 2a12:3fc2::/32 le 48
+    seq 1416 permit 2a12:3fc2::/31 ge 32 le 48
     seq 1417 permit 2a12:4940::/32 le 48
     seq 1418 permit 2a12:4942::/31 le 48
     seq 1419 permit 2a12:4946:46::/48

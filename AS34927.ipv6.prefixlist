@@ -2153,7 +2153,7 @@
     seq 2151 permit 2a11:f2c0:fffe::/47 ge 48 le 48
     seq 2152 permit 2a12:bc0::/29 le 48
     seq 2153 permit 2a12:3e80:401::/48
-    seq 2154 permit 2a12:3fc2::/32 le 48
+    seq 2154 permit 2a12:3fc2::/31 ge 32 le 48
     seq 2155 permit 2a12:3fc7::/48
     seq 2156 permit 2a12:3fc7:8000::/33 le 48
     seq 2157 permit 2a12:4040::/29 le 48
