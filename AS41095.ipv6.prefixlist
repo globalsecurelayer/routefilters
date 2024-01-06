@@ -19055,7 +19055,7 @@
     seq 19053 permit 2a12:7b80::/29 le 48
     seq 19054 permit 2a12:7bc0::/32 le 48
     seq 19055 permit 2a12:7c00:1000::/36 le 48
-    seq 19056 permit 2a12:7c00:2000::/36 le 48
+    seq 19056 permit 2a12:7c00:2000::/35 ge 36 le 48
     seq 19057 permit 2a12:7c01::/32 le 48
     seq 19058 permit 2a12:7c02::/31 ge 32 le 48
     seq 19059 permit 2a12:7c04::/31 ge 32 le 48

@@ -20264,7 +20264,7 @@
     seq 20262 permit 2a12:7b80::/29 le 48
     seq 20263 permit 2a12:7bc0::/32 le 48
     seq 20264 permit 2a12:7c00:1000::/36 le 48
-    seq 20265 permit 2a12:7c00:2000::/36 le 48
+    seq 20265 permit 2a12:7c00:2000::/35 ge 36 le 48
     seq 20266 permit 2a12:7c01::/32 le 48
     seq 20267 permit 2a12:7c02::/31 ge 32 le 48
     seq 20268 permit 2a12:7c04::/31 ge 32 le 48
