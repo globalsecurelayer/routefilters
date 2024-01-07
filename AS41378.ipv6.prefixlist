@@ -2046,7 +2046,7 @@
     seq 2044 permit 2a11:8080::/29 le 48
     seq 2045 permit 2a11:8880::/29 le 48
     seq 2046 permit 2a11:e487:1::/48
-    seq 2047 permit 2a11:e487:2::/48
+    seq 2047 permit 2a11:e487:2::/47 ge 48 le 48
     seq 2048 permit 2a11:e487:42::/48
     seq 2049 permit 2a11:e487:affe::/48
     seq 2050 permit 2a11:e487:beef::/48

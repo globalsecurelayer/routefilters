@@ -18899,7 +18899,7 @@
     seq 18897 permit 2a11:e380::/29 le 48
     seq 18898 permit 2a11:e480::/32 le 48
     seq 18899 permit 2a11:e487:1::/48
-    seq 18900 permit 2a11:e487:2::/48
+    seq 18900 permit 2a11:e487:2::/47 ge 48 le 48
     seq 18901 permit 2a11:e487:42::/48
     seq 18902 permit 2a11:e487:affe::/48
     seq 18903 permit 2a11:e487:beef::/48
