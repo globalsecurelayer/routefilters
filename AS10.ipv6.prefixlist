@@ -3372,15 +3372,61 @@
     seq 3370 permit 2a13:c000::/29 le 48
     seq 3371 permit 2a13:ce40:6666::/48
     seq 3372 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 3373 permit 2a13:df80::/29 le 48
-    seq 3374 permit 2a13:ef40::/29 le 48
-    seq 3375 permit 2a14:1f80::/29 le 48
-    seq 3376 permit 2a14:3001::/32 le 48
-    seq 3377 permit 2a14:4080::/29 le 48
-    seq 3378 permit 2a14:4480::/29 le 48
-    seq 3379 permit 2a14:4d00::/29 le 48
-    seq 3380 permit 2c0f:ec00::/32 le 48
-    seq 3381 permit 2c0f:edb0::/32 le 48
-    seq 3382 permit 2c0f:f530::/32 le 48
-    seq 3383 permit 2c0f:f7a8::/29 le 48
-    seq 3384 permit 2c0f:fc88::/31 le 48
+    seq 3373 permit 2a13:df80:54::/48
+    seq 3374 permit 2a13:df80:71::/48
+    seq 3375 permit 2a13:df80:80::/44 le 48
+    seq 3376 permit 2a13:df80:c0::/44 le 48
+    seq 3377 permit 2a13:df80:3f0::/44 le 48
+    seq 3378 permit 2a13:df80:c00::/38 le 48
+    seq 3379 permit 2a13:df80:1200::/40 le 48
+    seq 3380 permit 2a13:df80:1330::/44 le 48
+    seq 3381 permit 2a13:df80:1350::/44 le 48
+    seq 3382 permit 2a13:df80:2500::/48
+    seq 3383 permit 2a13:df80:3806::/47 ge 48 le 48
+    seq 3384 permit 2a13:df80:3810::/47 ge 48 le 48
+    seq 3385 permit 2a13:df80:3815::/48
+    seq 3386 permit 2a13:df80:3821::/48
+    seq 3387 permit 2a13:df80:3e00::/40 le 48
+    seq 3388 permit 2a13:df80:5800::/48
+    seq 3389 permit 2a13:df80:5802::/47 ge 48 le 48
+    seq 3390 permit 2a13:df80:6801::/48
+    seq 3391 permit 2a13:df80:6802::/48
+    seq 3392 permit 2a13:df80:6805::/48
+    seq 3393 permit 2a13:df80:6808::/48
+    seq 3394 permit 2a13:df80:6810::/47 ge 48 le 48
+    seq 3395 permit 2a13:df80:8800::/44 le 48
+    seq 3396 permit 2a13:df80:8880::/44 le 48
+    seq 3397 permit 2a13:df80:9c00::/40 le 48
+    seq 3398 permit 2a13:df80:b000::/36 le 48
+    seq 3399 permit 2a13:df80:c000::/38 le 48
+    seq 3400 permit 2a13:df80:dc00::/40 le 48
+    seq 3401 permit 2a13:df80:e800::/38 le 48
+    seq 3402 permit 2a13:df81::/32 le 48
+    seq 3403 permit 2a13:df82::/31 ge 32 le 48
+    seq 3404 permit 2a13:df84:7003::/48
+    seq 3405 permit 2a13:df84:b00b::/48
+    seq 3406 permit 2a13:df85::/32 le 48
+    seq 3407 permit 2a13:df86:37f0::/44 le 48
+    seq 3408 permit 2a13:df86:4120::/44 le 48
+    seq 3409 permit 2a13:df86:7000::/44 le 48
+    seq 3410 permit 2a13:df86:92a0::/44 le 48
+    seq 3411 permit 2a13:df86:a670::/44 le 48
+    seq 3412 permit 2a13:df86:b00b::/48
+    seq 3413 permit 2a13:df87:1000::/36 le 48
+    seq 3414 permit 2a13:df87:2000::/35 ge 36 le 48
+    seq 3415 permit 2a13:df87:9800::/38 le 48
+    seq 3416 permit 2a13:df87:a000::/37 ge 38 le 48
+    seq 3417 permit 2a13:df87:b00b::/48
+    seq 3418 permit 2a13:df87:b400::/38 ge 39 le 48
+    seq 3419 permit 2a13:df87:f800::/38 le 48
+    seq 3420 permit 2a13:ef40::/29 le 48
+    seq 3421 permit 2a14:1f80::/29 le 48
+    seq 3422 permit 2a14:3001::/32 le 48
+    seq 3423 permit 2a14:4080::/29 le 48
+    seq 3424 permit 2a14:4480::/29 le 48
+    seq 3425 permit 2a14:4d00::/29 le 48
+    seq 3426 permit 2c0f:ec00::/32 le 48
+    seq 3427 permit 2c0f:edb0::/32 le 48
+    seq 3428 permit 2c0f:f530::/32 le 48
+    seq 3429 permit 2c0f:f7a8::/29 le 48
+    seq 3430 permit 2c0f:fc88::/31 le 48
