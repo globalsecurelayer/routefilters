@@ -3643,7 +3643,7 @@
     seq 3641 permit 103.136.60.0/23 le 24
     seq 3642 permit 103.136.124.0/22 le 24
     seq 3643 permit 103.136.144.0/21 ge 22 le 24
-    seq 3644 permit 103.136.178.0/23 le 24
+    seq 3644 permit 103.136.178.0/23 ge 24 le 24
     seq 3645 permit 103.136.184.0/24 le 32
     seq 3646 permit 103.136.185.0/24
     seq 3647 permit 103.136.186.0/23 le 24
