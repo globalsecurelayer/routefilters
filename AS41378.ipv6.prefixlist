@@ -253,7 +253,7 @@
     seq 251 permit 2400:51a0:e081::/48
     seq 252 permit 2400:54a0:20a0::/44 le 48
     seq 253 permit 2400:54a0:2100::/44 le 48
-    seq 254 permit 2400:54a0:2120::/44 le 48
+    seq 254 permit 2400:54a0:2120::/43 ge 44 le 48
     seq 255 permit 2400:58a0::/32 le 48
     seq 256 permit 2400:5ea0::/32 le 48
     seq 257 permit 2400:61a0::/32 le 48
