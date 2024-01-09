@@ -7615,7 +7615,7 @@
     seq 7613 permit 185.242.217.0/24
     seq 7614 permit 185.243.4.0/23 le 24
     seq 7615 permit 185.243.42.0/24
-    seq 7616 permit 185.243.154.0/23 le 24
+    seq 7616 permit 185.243.154.0/23 ge 24 le 24
     seq 7617 permit 185.243.240.0/22 le 24
     seq 7618 permit 185.244.8.0/23 le 24
     seq 7619 permit 185.244.10.0/23 ge 24 le 24
