@@ -3866,7 +3866,7 @@
     seq 3864 permit 185.241.68.0/22 le 24
     seq 3865 permit 185.243.57.0/24
     seq 3866 permit 185.243.58.0/24
-    seq 3867 permit 185.243.154.0/23 le 24
+    seq 3867 permit 185.243.154.0/23 ge 24 le 24
     seq 3868 permit 185.243.244.0/22 le 24
     seq 3869 permit 185.245.254.0/23 ge 24 le 24
     seq 3870 permit 185.246.112.0/24
