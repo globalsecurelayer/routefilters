@@ -1841,7 +1841,7 @@
     seq 1839 permit 64.113.16.0/24
     seq 1840 permit 64.128.14.0/24
     seq 1841 permit 64.130.0.0/19 le 24
-    seq 1842 permit 64.130.32.0/20 le 24
+    seq 1842 permit 64.130.32.0/19 ge 20 le 24
     seq 1843 permit 64.135.64.0/24
     seq 1844 permit 64.140.128.0/20 le 24
     seq 1845 permit 64.140.200.0/24
