@@ -3460,7 +3460,7 @@
     seq 3458 permit 181.214.195.0/24
     seq 3459 permit 181.214.196.0/24
     seq 3460 permit 181.214.204.0/23 le 24
-    seq 3461 permit 181.214.206.0/24
+    seq 3461 permit 181.214.206.0/23 ge 24 le 24
     seq 3462 permit 181.214.211.0/24
     seq 3463 permit 181.214.212.0/23 ge 24 le 24
     seq 3464 permit 181.214.221.0/24
