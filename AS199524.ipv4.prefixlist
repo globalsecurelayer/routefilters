@@ -2212,7 +2212,7 @@
     seq 2210 permit 81.29.144.0/20 le 24
     seq 2211 permit 81.30.144.0/20 le 24
     seq 2212 permit 81.31.199.0/24
-    seq 2213 permit 81.31.212.0/24
+    seq 2213 permit 81.31.212.0/23 ge 24 le 24
     seq 2214 permit 81.31.247.0/24
     seq 2215 permit 81.31.252.0/22 le 24
     seq 2216 permit 81.88.16.0/20 le 24
