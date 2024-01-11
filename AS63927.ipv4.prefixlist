@@ -571,7 +571,7 @@
     seq 569 permit 170.248.77.0/24
     seq 570 permit 170.248.83.0/24
     seq 571 permit 170.248.88.0/24
-    seq 572 permit 170.248.90.0/24
+    seq 572 permit 170.248.90.0/23 ge 24 le 24
     seq 573 permit 170.248.96.0/23 ge 24 le 24
     seq 574 permit 170.248.98.0/23 le 24
     seq 575 permit 170.248.124.0/23 le 24
