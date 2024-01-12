@@ -893,7 +893,7 @@
     seq 891 permit 2a0f:9400:b00b::/48
     seq 892 permit 2a0f:9401::/32 le 48
     seq 893 permit 2a0f:9403::/32 le 48
-    seq 894 permit 2a0f:9405::/32 le 48
+    seq 894 permit 2a0f:9404::/31 ge 32 le 48
     seq 895 permit 2a0f:9407::/32 le 48
     seq 896 permit 2a0f:cdc6:100::/44 le 48
     seq 897 permit 2a0f:cdc6:200::/44 le 48

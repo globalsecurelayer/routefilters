@@ -1966,7 +1966,7 @@
     seq 1964 permit 2a0f:9400:b00b::/48
     seq 1965 permit 2a0f:9401::/32 le 48
     seq 1966 permit 2a0f:9403::/32 le 48
-    seq 1967 permit 2a0f:9405::/32 le 48
+    seq 1967 permit 2a0f:9404::/31 ge 32 le 48
     seq 1968 permit 2a0f:9407::/32 le 48
     seq 1969 permit 2a0f:a300::/31 ge 32 le 48
     seq 1970 permit 2a0f:a302:500::/40 le 48

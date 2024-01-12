@@ -3850,7 +3850,7 @@
     seq 3848 permit 2a0f:9400:b00b::/48
     seq 3849 permit 2a0f:9401::/32 le 48
     seq 3850 permit 2a0f:9403::/32 le 48
-    seq 3851 permit 2a0f:9405::/32 le 48
+    seq 3851 permit 2a0f:9404::/31 ge 32 le 48
     seq 3852 permit 2a0f:9407::/32 le 48
     seq 3853 permit 2a0f:9700::/29 le 48
     seq 3854 permit 2a0f:be40::/29 le 48
