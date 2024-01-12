@@ -1622,7 +1622,7 @@
     seq 1620 permit 46.175.135.0/24
     seq 1621 permit 46.182.168.0/22 le 24
     seq 1622 permit 46.183.25.0/24
-    seq 1623 permit 46.183.26.0/23 le 24
+    seq 1623 permit 46.183.26.0/23 ge 24 le 24
     seq 1624 permit 46.229.54.0/24
     seq 1625 permit 46.232.6.0/24
     seq 1626 permit 46.232.20.0/24

@@ -343,7 +343,7 @@
     seq 341 permit 46.37.113.0/24
     seq 342 permit 46.102.174.0/24
     seq 343 permit 46.183.25.0/24
-    seq 344 permit 46.183.26.0/23 le 24
+    seq 344 permit 46.183.26.0/23 ge 24 le 24
     seq 345 permit 46.233.38.0/24
     seq 346 permit 46.233.42.0/23 le 24
     seq 347 permit 46.249.112.0/22 le 24
