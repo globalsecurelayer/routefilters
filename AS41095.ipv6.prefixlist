@@ -14401,7 +14401,7 @@
     seq 14399 permit 2a07:54c1:c000::/36 le 48
     seq 14400 permit 2a07:54c1:dead::/48
     seq 14401 permit 2a07:54c1:f000::/36 le 48
-    seq 14402 permit 2a07:54c2::/32 le 48
+    seq 14402 permit 2a07:54c2::/31 ge 32 le 48
     seq 14403 permit 2a07:54c4::/44 le 48
     seq 14404 permit 2a07:54c4:10::/47 ge 48 le 48
     seq 14405 permit 2a07:54c4:a60::/44 le 48
