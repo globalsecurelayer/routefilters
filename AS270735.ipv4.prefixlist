@@ -696,7 +696,7 @@
     seq 694 permit 108.165.238.0/23 le 24
     seq 695 permit 108.165.248.0/22 le 24
     seq 696 permit 108.165.254.0/23 le 24
-    seq 697 permit 109.72.112.0/23 le 24
+    seq 697 permit 109.72.112.0/23 ge 24 le 24
     seq 698 permit 109.72.116.0/22 le 24
     seq 699 permit 109.72.123.0/24
     seq 700 permit 109.72.124.0/22 le 24
