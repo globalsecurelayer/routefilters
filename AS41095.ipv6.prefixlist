@@ -16738,7 +16738,7 @@
     seq 16736 permit 2a0e:ac80::/29 le 48
     seq 16737 permit 2a0e:acc0::/29 le 48
     seq 16738 permit 2a0e:b040::/29 le 48
-    seq 16739 permit 2a0e:b084::/30 le 48
+    seq 16739 permit 2a0e:b080::/29 ge 30 le 48
     seq 16740 permit 2a0e:b100:1::/48
     seq 16741 permit 2a0e:b101::/32 le 48
     seq 16742 permit 2a0e:b102:100::/43 ge 44 le 48
