@@ -1464,7 +1464,7 @@
     seq 1462 permit 2a13:a5c5::/32 le 48
     seq 1463 permit 2a13:a5c6::/32 le 48
     seq 1464 permit 2a13:a5c7:1000::/40 le 48
-    seq 1465 permit 2a13:a5c7:1600::/40 le 48
+    seq 1465 permit 2a13:a5c7:1600::/39 ge 40 le 48
     seq 1466 permit 2a13:a5c7:1800::/40 le 48
     seq 1467 permit 2a13:b480::/29 le 48
     seq 1468 permit 2a13:c000::/29 le 48
