@@ -2974,7 +2974,7 @@
     seq 2972 permit 166.1.16.0/20 le 24
     seq 2973 permit 166.1.32.0/20 le 24
     seq 2974 permit 166.1.48.0/21 le 24
-    seq 2975 permit 166.1.64.0/21 le 24
+    seq 2975 permit 166.1.64.0/20 ge 21 le 24
     seq 2976 permit 166.1.80.0/20 le 24
     seq 2977 permit 166.1.96.0/21 le 24
     seq 2978 permit 166.1.112.0/20 le 24
