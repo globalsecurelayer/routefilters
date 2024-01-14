@@ -3392,7 +3392,7 @@
     seq 3390 permit 2a13:a5c6::/32 le 48
     seq 3391 permit 2a13:a5c7:1000::/39 ge 40 le 48
     seq 3392 permit 2a13:a5c7:1200::/40 le 48
-    seq 3393 permit 2a13:a5c7:1600::/40 le 48
+    seq 3393 permit 2a13:a5c7:1600::/39 ge 40 le 48
     seq 3394 permit 2a13:a5c7:1800::/40 le 48
     seq 3395 permit 2a13:aac0::/29 le 48
     seq 3396 permit 2a13:b480::/29 le 48
