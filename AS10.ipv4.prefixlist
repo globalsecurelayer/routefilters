@@ -1671,7 +1671,7 @@
     seq 1669 permit 50.114.81.0/24
     seq 1670 permit 50.114.101.0/24
     seq 1671 permit 50.114.110.0/23 le 24
-    seq 1672 permit 50.114.152.0/21 le 24
+    seq 1672 permit 50.114.152.0/21 ge 22 le 24
     seq 1673 permit 50.114.196.0/22 le 24
     seq 1674 permit 50.114.200.0/24
     seq 1675 permit 50.114.202.0/24
