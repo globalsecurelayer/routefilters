@@ -2337,7 +2337,7 @@
     seq 2335 permit 207.34.36.0/24
     seq 2336 permit 207.34.39.0/24
     seq 2337 permit 207.60.128.0/17 le 24
-    seq 2338 permit 207.167.80.0/22 le 24
+    seq 2338 permit 207.167.80.0/21 ge 22 le 24
     seq 2339 permit 207.170.88.0/22 le 24
     seq 2340 permit 207.174.106.0/24
     seq 2341 permit 207.183.230.0/23 le 24
