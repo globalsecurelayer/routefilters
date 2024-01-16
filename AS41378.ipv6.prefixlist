@@ -1791,7 +1791,7 @@
     seq 1789 permit 2a0e:b107:2090::/48
     seq 1790 permit 2a0e:b107:20a0::/44 le 48
     seq 1791 permit 2a0e:b107:2140::/43 ge 44 le 48
-    seq 1792 permit 2a0e:b107:2170::/48
+    seq 1792 permit 2a0e:b107:2170::/47 ge 48 le 48
     seq 1793 permit 2a0e:b107:21a0::/44 le 48
     seq 1794 permit 2a0e:b107:2440::/44 le 48
     seq 1795 permit 2a0e:b107:24f0::/44 le 48

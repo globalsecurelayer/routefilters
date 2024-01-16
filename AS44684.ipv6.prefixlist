@@ -772,7 +772,7 @@
     seq 770 permit 2a0e:b107:1fd0::/47 le 48
     seq 771 permit 2a0e:b107:2090::/48
     seq 772 permit 2a0e:b107:20a0::/44 le 48
-    seq 773 permit 2a0e:b107:2170::/48
+    seq 773 permit 2a0e:b107:2170::/47 ge 48 le 48
     seq 774 permit 2a0e:b107:21a0::/44 le 48
     seq 775 permit 2a0e:b107:24f0::/44 le 48
     seq 776 permit 2a0e:b107:2691::/48
