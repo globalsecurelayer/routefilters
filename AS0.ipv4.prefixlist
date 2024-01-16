@@ -826,7 +826,7 @@
     seq 824 permit 44.31.83.0/24
     seq 825 permit 44.31.89.0/24
     seq 826 permit 44.31.92.0/22 le 24
-    seq 827 permit 44.31.96.0/24
+    seq 827 permit 44.31.96.0/23 ge 24 le 24
     seq 828 permit 44.31.100.0/24
     seq 829 permit 44.31.103.0/24
     seq 830 permit 44.31.104.0/23 ge 24 le 24
