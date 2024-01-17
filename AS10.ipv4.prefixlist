@@ -3927,7 +3927,7 @@
     seq 3925 permit 103.189.190.0/23 le 24
     seq 3926 permit 103.190.168.0/23 le 24
     seq 3927 permit 103.190.178.0/23 le 24
-    seq 3928 permit 103.190.232.0/24
+    seq 3928 permit 103.190.232.0/23 ge 24 le 24
     seq 3929 permit 103.192.44.0/22 le 24
     seq 3930 permit 103.192.224.0/23 ge 24 le 24
     seq 3931 permit 103.192.227.0/24

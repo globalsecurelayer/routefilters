@@ -2365,7 +2365,7 @@
     seq 2363 permit 103.189.190.0/23 le 24
     seq 2364 permit 103.190.168.0/23 le 24
     seq 2365 permit 103.190.178.0/23 le 24
-    seq 2366 permit 103.190.232.0/24
+    seq 2366 permit 103.190.232.0/23 ge 24 le 24
     seq 2367 permit 103.192.44.0/22 le 24
     seq 2368 permit 103.192.224.0/23 ge 24 le 24
     seq 2369 permit 103.192.227.0/24
