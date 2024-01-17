@@ -4375,7 +4375,7 @@
     seq 4373 permit 103.190.0.0/23 le 24
     seq 4374 permit 103.190.168.0/23 le 24
     seq 4375 permit 103.190.178.0/23 le 24
-    seq 4376 permit 103.190.232.0/24
+    seq 4376 permit 103.190.232.0/23 ge 24 le 24
     seq 4377 permit 103.191.70.0/23 le 24
     seq 4378 permit 103.192.44.0/22 le 24
     seq 4379 permit 103.192.224.0/23 ge 24 le 24
