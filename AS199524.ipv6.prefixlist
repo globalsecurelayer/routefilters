@@ -3702,8 +3702,8 @@
     seq 3700 permit 2a11:8f85::/32 le 48
     seq 3701 permit 2a11:c5c0::/32 le 48
     seq 3702 permit 2a11:e100::/30 ge 32 le 48
-    seq 3703 permit 2a11:e104:0:1::/64
-    seq 3704 permit 2a11:e104:0:2::/64
+    seq 3703 permit 2a11:e104:1::/48
+    seq 3704 permit 2a11:e104:2::/48
     seq 3705 permit 2a11:e480::/32 le 48
     seq 3706 permit 2a11:e487:1::/48
     seq 3707 permit 2a11:e487:2::/47 ge 48 le 48
