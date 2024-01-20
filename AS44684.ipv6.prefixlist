@@ -1023,9 +1023,5 @@
     seq 1021 permit 2a13:df80:c000::/38 le 48
     seq 1022 permit 2a13:df82:ff00::/40 le 48
     seq 1023 permit 2a13:df84:7003::/48
-    seq 1024 permit 2a13:df86:37f0::/44 le 48
-    seq 1025 permit 2a13:df86:4120::/44 le 48
-    seq 1026 permit 2a13:df86:7000::/44 le 48
-    seq 1027 permit 2a13:df86:92a0::/44 le 48
-    seq 1028 permit 2a13:df86:a670::/44 le 48
-    seq 1029 permit 2a13:df87:a000::/38 le 48
+    seq 1024 permit 2a13:df86::/32 le 48
+    seq 1025 permit 2a13:df87:a000::/38 le 48
