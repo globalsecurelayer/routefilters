@@ -866,7 +866,7 @@
     seq 864 permit 44.151.228.0/22 le 24
     seq 865 permit 44.151.232.0/22 ge 24 le 24
     seq 866 permit 44.151.236.0/22 le 24
-    seq 867 permit 44.151.240.0/22 le 24
+    seq 867 permit 44.151.240.0/20 ge 22 le 24
     seq 868 permit 44.155.200.0/24
     seq 869 permit 44.159.68.0/24
     seq 870 permit 44.161.204.0/23 le 24
