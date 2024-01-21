@@ -1022,6 +1022,7 @@
     seq 1020 permit 2a13:df80:9c00::/40 le 48
     seq 1021 permit 2a13:df80:c000::/38 le 48
     seq 1022 permit 2a13:df82:ff00::/40 le 48
-    seq 1023 permit 2a13:df84:7003::/48
+    seq 1023 permit 2a13:df84::/32 le 48
     seq 1024 permit 2a13:df86::/32 le 48
     seq 1025 permit 2a13:df87:a000::/38 le 48
+    seq 1026 permit 2a14:4086::/31 ge 32 le 48
