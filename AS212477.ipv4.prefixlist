@@ -557,7 +557,7 @@
     seq 555 permit 44.136.227.0/24
     seq 556 permit 44.144.0.0/16 le 24
     seq 557 permit 44.150.160.0/24
-    seq 558 permit 44.151.228.0/22 le 24
+    seq 558 permit 44.151.224.0/21 ge 22 le 24
     seq 559 permit 44.151.232.0/22 ge 24 le 24
     seq 560 permit 44.151.236.0/22 le 24
     seq 561 permit 44.151.240.0/20 ge 22 le 24

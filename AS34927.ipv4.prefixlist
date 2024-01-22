@@ -319,7 +319,7 @@
     seq 317 permit 44.135.180.0/24
     seq 318 permit 44.135.219.0/24
     seq 319 permit 44.150.160.0/24
-    seq 320 permit 44.151.228.0/22 le 24
+    seq 320 permit 44.151.224.0/21 ge 22 le 24
     seq 321 permit 44.151.232.0/22 ge 24 le 24
     seq 322 permit 44.151.236.0/22 le 24
     seq 323 permit 44.151.240.0/20 ge 22 le 24
