@@ -27,7 +27,7 @@
     seq 25 permit 91.190.155.0/24
     seq 26 permit 102.141.217.0/24
     seq 27 permit 102.141.219.0/24
-    seq 28 permit 103.69.129.0/24
+    seq 28 permit 103.69.128.0/23 ge 24 le 24
     seq 29 permit 103.73.64.0/23 le 24
     seq 30 permit 103.73.66.0/23 ge 24 le 24
     seq 31 permit 103.135.108.0/22 le 24
