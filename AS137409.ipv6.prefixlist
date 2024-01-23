@@ -456,7 +456,7 @@
     seq 454 permit 2001:67c:58::/48 le 49
     seq 455 permit 2001:67c:5c::/48
     seq 456 permit 2001:67c:64::/48
-    seq 457 permit 2001:67c:64:ffff:0:18d:3522:4cca/128
+    seq 457 permit 2001:67c:64:ffff:0:18d:3590:4004/128
     seq 458 permit 2001:67c:78::/48
     seq 459 permit 2001:67c:94::/48
     seq 460 permit 2001:67c:98::/48
@@ -7401,7 +7401,7 @@
     seq 7399 permit 2a0a:4587:2030::/46 le 48
     seq 7400 permit 2a0a:4600::/32 le 48
     seq 7401 permit 2a0a:4780::/30 ge 32 le 48
-    seq 7402 permit 2a0a:4785::/32 le 48
+    seq 7402 permit 2a0a:4784::/31 ge 32 le 48
     seq 7403 permit 2a0a:4787::/32 le 48
     seq 7404 permit 2a0a:47c0::/29 le 48
     seq 7405 permit 2a0a:4a40::/29 le 48
