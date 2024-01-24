@@ -825,7 +825,7 @@
     seq 823 permit 140.99.86.0/24
     seq 824 permit 140.99.88.0/22 le 24
     seq 825 permit 140.99.92.0/23 le 24
-    seq 826 permit 140.99.96.0/19 le 24
+    seq 826 permit 140.99.114.0/23 le 24
     seq 827 permit 140.99.136.0/21 ge 22 le 24
     seq 828 permit 140.99.148.0/23 ge 24 le 24
     seq 829 permit 140.99.150.0/24
@@ -1200,7 +1200,7 @@
     seq 1198 permit 177.221.142.0/23 le 24
     seq 1199 permit 177.222.0.0/20 le 24
     seq 1200 permit 178.210.228.0/24
-    seq 1201 permit 178.210.230.0/23 le 24
+    seq 1201 permit 178.210.230.0/23 ge 24 le 24
     seq 1202 permit 178.211.159.0/24
     seq 1203 permit 178.236.184.0/24
     seq 1204 permit 178.253.26.0/23 ge 24 le 24

@@ -2491,7 +2491,7 @@
     seq 2489 permit 140.99.86.0/24
     seq 2490 permit 140.99.88.0/22 le 24
     seq 2491 permit 140.99.92.0/23 le 24
-    seq 2492 permit 140.99.96.0/19 le 24
+    seq 2492 permit 140.99.114.0/23 le 24
     seq 2493 permit 140.99.136.0/21 ge 22 le 24
     seq 2494 permit 140.99.148.0/23 ge 24 le 24
     seq 2495 permit 140.99.150.0/24
@@ -3448,7 +3448,7 @@
     seq 3446 permit 178.171.123.0/24
     seq 3447 permit 178.171.124.0/22 le 24
     seq 3448 permit 178.210.228.0/24
-    seq 3449 permit 178.210.230.0/23 le 24
+    seq 3449 permit 178.210.230.0/23 ge 24 le 24
     seq 3450 permit 178.211.159.0/24
     seq 3451 permit 178.213.182.0/23 ge 24 le 24
     seq 3452 permit 178.236.184.0/24
