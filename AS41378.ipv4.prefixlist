@@ -143,7 +143,7 @@
     seq 141 permit 23.149.232.0/24
     seq 142 permit 23.149.248.0/24
     seq 143 permit 23.150.8.0/22 le 24
-    seq 144 permit 23.150.40.0/24
+    seq 144 permit 23.150.40.0/23 ge 24 le 24
     seq 145 permit 23.151.120.0/24
     seq 146 permit 23.151.184.0/24
     seq 147 permit 23.151.216.0/24

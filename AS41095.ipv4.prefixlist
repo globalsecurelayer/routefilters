@@ -1195,7 +1195,7 @@
     seq 1193 permit 23.150.8.0/22 le 24
     seq 1194 permit 23.150.24.0/24
     seq 1195 permit 23.150.32.0/24
-    seq 1196 permit 23.150.40.0/24
+    seq 1196 permit 23.150.40.0/23 ge 24 le 24
     seq 1197 permit 23.150.56.0/24
     seq 1198 permit 23.150.240.0/24
     seq 1199 permit 23.151.40.0/24
