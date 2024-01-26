@@ -4156,14 +4156,16 @@
     seq 4154 permit 2a14:4480::/29 le 48
     seq 4155 permit 2a14:4b80::/29 le 48
     seq 4156 permit 2a14:4d00::/29 le 48
-    seq 4157 permit 2a14:7e00::/29 le 48
-    seq 4158 permit 2c0f:f00::/32 le 48
-    seq 4159 permit 2c0f:4e00::/32 le 48
-    seq 4160 permit 2c0f:5c00::/32 le 48
-    seq 4161 permit 2c0f:ec00::/32 le 48
-    seq 4162 permit 2c0f:f530::/32 le 48
-    seq 4163 permit 2c0f:f7d8::/32 le 48
-    seq 4164 permit 2c0f:fd20::/32 le 48
-    seq 4165 permit 2c0f:fda8::/32 le 48
-    seq 4166 permit 2c0f:fee0::/32 le 48
-    seq 4167 permit 2c0f:fee0::/64
+    seq 4157 permit 2a14:7580:c::/48
+    seq 4158 permit 2a14:7580:8888::/48
+    seq 4159 permit 2a14:7e00::/29 le 48
+    seq 4160 permit 2c0f:f00::/32 le 48
+    seq 4161 permit 2c0f:4e00::/32 le 48
+    seq 4162 permit 2c0f:5c00::/32 le 48
+    seq 4163 permit 2c0f:ec00::/32 le 48
+    seq 4164 permit 2c0f:f530::/32 le 48
+    seq 4165 permit 2c0f:f7d8::/32 le 48
+    seq 4166 permit 2c0f:fd20::/32 le 48
+    seq 4167 permit 2c0f:fda8::/32 le 48
+    seq 4168 permit 2c0f:fee0::/32 le 48
+    seq 4169 permit 2c0f:fee0::/64
