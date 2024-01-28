@@ -5311,7 +5311,7 @@
     seq 5309 permit 50.93.192.0/20 le 24
     seq 5310 permit 50.97.0.0/16 le 24
     seq 5311 permit 50.114.10.0/23 le 24
-    seq 5312 permit 50.114.16.0/24
+    seq 5312 permit 50.114.16.0/23 ge 24 le 24
     seq 5313 permit 50.114.23.0/24
     seq 5314 permit 50.114.25.0/24
     seq 5315 permit 50.114.46.0/23 le 24
