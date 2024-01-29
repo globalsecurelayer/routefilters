@@ -4364,7 +4364,7 @@
     seq 4362 permit 2a14:4b80::/29 le 48
     seq 4363 permit 2a14:4d00::/29 le 48
     seq 4364 permit 2a14:7580:a::/48
-    seq 4365 permit 2a14:7580:c::/48
+    seq 4365 permit 2a14:7580:c::/47 ge 48 le 48
     seq 4366 permit 2a14:7580:8888::/48
     seq 4367 permit 2c0f:ec00::/32 le 48
     seq 4368 permit 2c0f:edb0::/32 le 48

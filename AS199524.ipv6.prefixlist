@@ -857,7 +857,7 @@
     seq 855 permit 2602:815:f000::/44 le 48
     seq 856 permit 2602:816:3000::/44 le 48
     seq 857 permit 2602:817:1000::/45 ge 48 le 48
-    seq 858 permit 2602:817:1008::/48
+    seq 858 permit 2602:817:1008::/47 ge 48 le 48
     seq 859 permit 2602:f99b::/47 ge 48 le 48
     seq 860 permit 2602:f99b:2::/48
     seq 861 permit 2602:f99b:a::/48
@@ -4164,7 +4164,7 @@
     seq 4162 permit 2a14:4480::/29 le 48
     seq 4163 permit 2a14:4b80::/29 le 48
     seq 4164 permit 2a14:4d00::/29 le 48
-    seq 4165 permit 2a14:7580:c::/48
+    seq 4165 permit 2a14:7580:c::/47 ge 48 le 48
     seq 4166 permit 2a14:7580:8888::/48
     seq 4167 permit 2a14:7e00::/29 le 48
     seq 4168 permit 2c0f:f00::/32 le 48
