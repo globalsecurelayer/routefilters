@@ -3869,7 +3869,7 @@
     seq 3867 permit 185.220.21.0/24
     seq 3868 permit 185.220.146.0/23 le 24
     seq 3869 permit 185.220.250.0/23 le 24
-    seq 3870 permit 185.221.24.0/23 le 24
+    seq 3870 permit 185.221.24.0/23 ge 24 le 24
     seq 3871 permit 185.221.134.0/23 le 24
     seq 3872 permit 185.221.196.0/23 le 24
     seq 3873 permit 185.222.29.0/24
