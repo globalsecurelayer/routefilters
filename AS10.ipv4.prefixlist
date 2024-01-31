@@ -5653,7 +5653,7 @@
     seq 5651 permit 163.5.30.0/24
     seq 5652 permit 163.5.33.0/24
     seq 5653 permit 163.5.79.0/24
-    seq 5654 permit 163.5.83.0/24
+    seq 5654 permit 163.5.82.0/23 ge 24 le 24
     seq 5655 permit 163.5.89.0/24
     seq 5656 permit 163.5.92.0/24
     seq 5657 permit 163.5.110.0/23 ge 24 le 24
