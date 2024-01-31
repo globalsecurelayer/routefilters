@@ -3142,7 +3142,7 @@
     seq 3140 permit 94.143.164.0/22 le 24
     seq 3141 permit 94.154.1.0/24
     seq 3142 permit 94.154.1.1/32
-    seq 3143 permit 94.154.40.0/24
+    seq 3143 permit 94.154.40.0/23 ge 24 le 24
     seq 3144 permit 94.154.123.0/24
     seq 3145 permit 94.154.127.0/24
     seq 3146 permit 94.154.136.0/22 le 24
@@ -4523,7 +4523,7 @@
     seq 4521 permit 147.45.40.0/22 le 24
     seq 4522 permit 147.45.44.0/24
     seq 4523 permit 147.45.47.0/24
-    seq 4524 permit 147.45.68.0/22 ge 24 le 24
+    seq 4524 permit 147.45.68.0/22 le 24
     seq 4525 permit 147.45.102.0/24
     seq 4526 permit 147.45.196.0/22 ge 24 le 24
     seq 4527 permit 147.45.224.0/19 le 24
