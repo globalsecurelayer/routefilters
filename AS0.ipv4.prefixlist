@@ -5514,7 +5514,7 @@
     seq 5512 permit 144.48.220.0/22 le 24
     seq 5513 permit 144.48.240.0/22 le 24
     seq 5514 permit 144.168.0.0/22 le 24
-    seq 5515 permit 144.168.16.0/21 le 24
+    seq 5515 permit 144.168.16.0/21 ge 22 le 24
     seq 5516 permit 144.168.56.0/21 le 24
     seq 5517 permit 144.172.72.0/24
     seq 5518 permit 144.172.80.0/24
