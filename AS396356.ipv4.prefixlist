@@ -2606,7 +2606,7 @@
     seq 2604 permit 143.255.140.0/22 le 24
     seq 2605 permit 143.255.188.0/22 le 24
     seq 2606 permit 144.168.0.0/22 le 24
-    seq 2607 permit 144.168.16.0/21 le 24
+    seq 2607 permit 144.168.16.0/21 ge 22 le 24
     seq 2608 permit 144.202.0.0/17 le 24
     seq 2609 permit 144.208.109.0/24
     seq 2610 permit 145.8.0.0/16 le 24

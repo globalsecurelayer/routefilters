@@ -4986,7 +4986,7 @@
     seq 4984 permit 144.48.220.0/22 le 24
     seq 4985 permit 144.48.240.0/22 le 24
     seq 4986 permit 144.168.0.0/22 le 24
-    seq 4987 permit 144.168.16.0/21 le 24
+    seq 4987 permit 144.168.16.0/21 ge 22 le 24
     seq 4988 permit 144.168.56.0/21 le 24
     seq 4989 permit 144.172.72.0/24
     seq 4990 permit 144.172.112.0/24
