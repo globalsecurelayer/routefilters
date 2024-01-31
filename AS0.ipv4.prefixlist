@@ -6232,7 +6232,7 @@
     seq 6230 permit 163.5.54.0/24
     seq 6231 permit 163.5.56.0/24
     seq 6232 permit 163.5.79.0/24
-    seq 6233 permit 163.5.83.0/24
+    seq 6233 permit 163.5.82.0/23 ge 24 le 24
     seq 6234 permit 163.5.89.0/24
     seq 6235 permit 163.5.92.0/24
     seq 6236 permit 163.5.110.0/23 ge 24 le 24
