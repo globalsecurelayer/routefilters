@@ -13611,7 +13611,7 @@
     seq 13609 permit 103.11.228.0/22 le 24
     seq 13610 permit 103.12.8.0/22 le 24
     seq 13611 permit 103.12.23.0/24
-    seq 13612 permit 103.12.40.0/24
+    seq 13612 permit 103.12.40.0/23 ge 24 le 24
     seq 13613 permit 103.12.42.0/24
     seq 13614 permit 103.12.68.0/22 le 24
     seq 13615 permit 103.12.76.0/22 le 24
