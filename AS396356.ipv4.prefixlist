@@ -2077,7 +2077,7 @@
     seq 2075 permit 104.128.16.0/20 le 24
     seq 2076 permit 104.128.128.0/20 le 24
     seq 2077 permit 104.129.164.0/22 le 24
-    seq 2078 permit 104.129.244.0/24
+    seq 2078 permit 104.129.244.0/23 ge 24 le 24
     seq 2079 permit 104.129.248.0/23 le 24
     seq 2080 permit 104.129.254.0/23 le 24
     seq 2081 permit 104.143.16.0/20 le 24
