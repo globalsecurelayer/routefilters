@@ -1977,7 +1977,7 @@
     seq 1975 permit 2a07:54c7:3000::/36 le 48
     seq 1976 permit 2a07:54c7:6004::/48
     seq 1977 permit 2a07:54c7:6006::/48
-    seq 1978 permit 2a07:54c7:6008::/48
+    seq 1978 permit 2a07:54c7:6008::/47 ge 48 le 48
     seq 1979 permit 2a07:54c7:6100::/44 le 48
     seq 1980 permit 2a07:54c7:6e00::/40 le 48
     seq 1981 permit 2a07:6fc6::/32 le 48
