@@ -3404,7 +3404,7 @@
     seq 3402 permit 2a0f:b241:9::/48
     seq 3403 permit 2a0f:b241:a::/47 ge 48 le 48
     seq 3404 permit 2a0f:b241:c::/48
-    seq 3405 permit 2a0f:b241:e::/48
+    seq 3405 permit 2a0f:b241:e::/47 ge 48 le 48
     seq 3406 permit 2a0f:b241:b00b::/48
     seq 3407 permit 2a0f:b340::/29 le 48
     seq 3408 permit 2a0f:b4c4::/32 le 48
