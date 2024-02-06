@@ -4857,7 +4857,7 @@
     seq 4855 permit 166.0.192.0/23 le 24
     seq 4856 permit 166.0.226.0/24
     seq 4857 permit 166.0.244.0/24
-    seq 4858 permit 166.1.0.0/24
+    seq 4858 permit 166.1.0.0/23 ge 24 le 24
     seq 4859 permit 166.1.30.0/24
     seq 4860 permit 166.1.96.0/21 ge 24 le 24
     seq 4861 permit 166.1.160.0/24

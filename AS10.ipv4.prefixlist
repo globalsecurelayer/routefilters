@@ -6240,7 +6240,7 @@
     seq 6238 permit 192.141.192.0/22 le 24
     seq 6239 permit 192.142.29.0/24
     seq 6240 permit 192.142.31.0/24
-    seq 6241 permit 192.145.52.0/24
+    seq 6241 permit 192.145.52.0/22 ge 24 le 24
     seq 6242 permit 192.148.103.0/24
     seq 6243 permit 192.149.21.0/24
     seq 6244 permit 192.149.43.0/24
