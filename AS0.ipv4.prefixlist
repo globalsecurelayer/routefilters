@@ -6981,7 +6981,7 @@
     seq 6979 permit 192.142.29.0/24
     seq 6980 permit 192.142.31.0/24
     seq 6981 permit 192.142.136.0/23 le 24
-    seq 6982 permit 192.145.52.0/24
+    seq 6982 permit 192.145.52.0/22 ge 24 le 24
     seq 6983 permit 192.148.103.0/24
     seq 6984 permit 192.149.21.0/24
     seq 6985 permit 192.149.43.0/24
