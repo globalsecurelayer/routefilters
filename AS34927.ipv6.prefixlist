@@ -2019,15 +2019,15 @@
     seq 2017 permit 2a0f:9403::/32 le 48
     seq 2018 permit 2a0f:9404::/31 ge 32 le 48
     seq 2019 permit 2a0f:9407::/32 le 48
-    seq 2020 permit 2a0f:a300::/31 ge 32 le 48
-    seq 2021 permit 2a0f:a302:500::/40 le 48
-    seq 2022 permit 2a0f:a304::/32 le 48
-    seq 2023 permit 2a0f:a307::/32 le 48
-    seq 2024 permit 2a0f:b241:1::/48
-    seq 2025 permit 2a0f:b241:2::/48
-    seq 2026 permit 2a0f:b241:4::/47 ge 48 le 48
-    seq 2027 permit 2a0f:b241:6::/48
-    seq 2028 permit 2a0f:b241:9::/48
+    seq 2020 permit 2a0f:a300::/29 le 48
+    seq 2021 permit 2a0f:b241:1::/48
+    seq 2022 permit 2a0f:b241:2::/48
+    seq 2023 permit 2a0f:b241:4::/47 ge 48 le 48
+    seq 2024 permit 2a0f:b241:6::/48
+    seq 2025 permit 2a0f:b241:9::/48
+    seq 2026 permit 2a0f:b241:a::/47 ge 48 le 48
+    seq 2027 permit 2a0f:b241:c::/48
+    seq 2028 permit 2a0f:b241:e::/48
     seq 2029 permit 2a0f:b241:b00b::/48
     seq 2030 permit 2a0f:ca81:1330::/44 le 48
     seq 2031 permit 2a0f:ca81:6960::/44 le 48
