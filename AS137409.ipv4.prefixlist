@@ -7432,7 +7432,7 @@
     seq 7430 permit 64.125.207.0/24
     seq 7431 permit 64.128.14.0/24
     seq 7432 permit 64.130.0.0/19 le 24
-    seq 7433 permit 64.130.40.0/21 le 24
+    seq 7433 permit 64.130.32.0/20 le 24
     seq 7434 permit 64.130.63.0/24
     seq 7435 permit 64.130.240.0/20 le 24
     seq 7436 permit 64.131.64.0/19 le 24
@@ -39651,7 +39651,7 @@
     seq 39649 permit 203.32.30.0/23 le 24
     seq 39650 permit 203.32.32.0/24
     seq 39651 permit 203.32.35.0/24
-    seq 39652 permit 203.32.39.0/24
+    seq 39652 permit 203.32.38.0/23 ge 24 le 24
     seq 39653 permit 203.32.44.0/23 le 24
     seq 39654 permit 203.32.46.0/23 ge 24 le 24
     seq 39655 permit 203.32.50.0/24
