@@ -7104,7 +7104,7 @@
     seq 7102 permit 2a09:fb86::/32 le 48
     seq 7103 permit 2a09:ff00:100::/47 ge 48 le 48
     seq 7104 permit 2a09:ff00:102::/48
-    seq 7105 permit 2a09:ff00:8800::/37 le 48
+    seq 7105 permit 2a09:ff00:8000::/36 ge 37 le 48
     seq 7106 permit 2a0a:40:100::/40 le 48
     seq 7107 permit 2a0a:40:200::/40 le 48
     seq 7108 permit 2a0a:280:1000::/36 ge 40 le 48
