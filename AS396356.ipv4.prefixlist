@@ -4134,7 +4134,7 @@
     seq 4132 permit 191.96.248.0/23 le 24
     seq 4133 permit 191.101.20.0/24
     seq 4134 permit 191.101.58.0/24
-    seq 4135 permit 191.101.82.0/24
+    seq 4135 permit 191.101.82.0/23 ge 24 le 24
     seq 4136 permit 191.101.89.0/24
     seq 4137 permit 191.101.136.0/23 ge 24 le 24
     seq 4138 permit 191.101.144.0/23 ge 24 le 24
