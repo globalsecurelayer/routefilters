@@ -4005,7 +4005,7 @@
     seq 4003 permit 2a12:bec0:630::/44 le 48
     seq 4004 permit 2a12:bec0:670::/44 le 48
     seq 4005 permit 2a12:bec0:680::/45 le 48
-    seq 4006 permit 2a12:bec0:6a0::/44 le 48
+    seq 4006 permit 2a12:bec0:6a0::/43 ge 44 le 48
     seq 4007 permit 2a12:bec0:de0::/43 ge 44 le 48
     seq 4008 permit 2a12:bec0:e03::/48
     seq 4009 permit 2a12:bec0:e20::/43 ge 44 le 48
