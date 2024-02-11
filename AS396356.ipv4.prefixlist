@@ -4304,7 +4304,7 @@
     seq 4302 permit 192.255.64.0/18 le 24
     seq 4303 permit 193.0.158.0/24
     seq 4304 permit 193.0.255.0/24
-    seq 4305 permit 193.8.112.0/23 le 24
+    seq 4305 permit 193.8.112.0/23 ge 24 le 24
     seq 4306 permit 193.8.115.0/24
     seq 4307 permit 193.8.236.0/23 le 24
     seq 4308 permit 193.9.32.0/22 ge 24 le 24
