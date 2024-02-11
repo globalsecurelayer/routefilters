@@ -8447,7 +8447,7 @@
     seq 8445 permit 206.231.227.0/24
     seq 8446 permit 206.233.128.0/17 le 24
     seq 8447 permit 206.237.64.0/19 le 24
-    seq 8448 permit 206.237.115.0/24
+    seq 8448 permit 206.237.114.0/23 ge 24 le 24
     seq 8449 permit 206.237.126.0/24
     seq 8450 permit 206.245.192.0/18 le 24
     seq 8451 permit 206.253.88.0/22 le 24
