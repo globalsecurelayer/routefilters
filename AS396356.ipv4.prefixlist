@@ -1596,7 +1596,7 @@
     seq 1594 permit 87.119.64.0/18 le 24
     seq 1595 permit 87.120.68.0/23 le 24
     seq 1596 permit 87.120.192.0/23 le 24
-    seq 1597 permit 87.121.146.0/23 le 24
+    seq 1597 permit 87.121.146.0/23 ge 24 le 24
     seq 1598 permit 87.239.48.0/22 le 24
     seq 1599 permit 87.251.0.0/23 le 24
     seq 1600 permit 87.251.2.0/24
@@ -2097,9 +2097,9 @@
     seq 2095 permit 104.128.16.0/20 le 24
     seq 2096 permit 104.128.128.0/20 le 24
     seq 2097 permit 104.129.164.0/22 le 24
-    seq 2098 permit 104.129.244.0/23 ge 24 le 24
+    seq 2098 permit 104.129.244.0/23 le 24
     seq 2099 permit 104.129.248.0/23 le 24
-    seq 2100 permit 104.129.254.0/23 ge 24 le 24
+    seq 2100 permit 104.129.254.0/23 le 24
     seq 2101 permit 104.143.16.0/20 le 24
     seq 2102 permit 104.143.192.0/19 le 24
     seq 2103 permit 104.153.72.0/22 le 24
@@ -2667,7 +2667,7 @@
     seq 2665 permit 147.160.158.0/24
     seq 2666 permit 147.185.34.0/24
     seq 2667 permit 147.185.107.0/24
-    seq 2668 permit 147.189.152.0/23 ge 24 le 24
+    seq 2668 permit 147.189.152.0/23 le 24
     seq 2669 permit 147.189.163.0/24
     seq 2670 permit 148.59.129.0/24
     seq 2671 permit 148.59.146.0/24
@@ -5205,7 +5205,7 @@
     seq 5203 permit 209.234.253.0/24
     seq 5204 permit 209.240.8.0/21 le 24
     seq 5205 permit 209.240.24.0/22 le 24
-    seq 5206 permit 209.240.28.0/23 ge 24 le 24
+    seq 5206 permit 209.240.28.0/23 le 24
     seq 5207 permit 209.246.142.0/23 le 24
     seq 5208 permit 209.246.170.0/24
     seq 5209 permit 209.250.64.0/18 ge 19 le 24
@@ -5323,7 +5323,7 @@
     seq 5321 permit 216.46.64.0/19 le 24
     seq 5322 permit 216.73.172.0/22 le 24
     seq 5323 permit 216.74.64.0/21 le 24
-    seq 5324 permit 216.74.84.0/23 ge 24 le 24
+    seq 5324 permit 216.74.84.0/23 le 24
     seq 5325 permit 216.74.104.0/22 le 24
     seq 5326 permit 216.74.109.0/24
     seq 5327 permit 216.74.121.0/24
