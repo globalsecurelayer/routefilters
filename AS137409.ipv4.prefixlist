@@ -12434,7 +12434,7 @@
     seq 12432 permit 91.108.54.0/24
     seq 12433 permit 91.108.60.0/22 le 24
     seq 12434 permit 91.108.168.0/21 le 24
-    seq 12435 permit 91.108.187.0/24
+    seq 12435 permit 91.108.186.0/23 ge 24 le 24
     seq 12436 permit 91.108.188.0/24
     seq 12437 permit 91.108.190.0/24
     seq 12438 permit 91.108.192.0/18 le 24
