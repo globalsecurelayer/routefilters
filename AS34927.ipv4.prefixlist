@@ -2172,7 +2172,7 @@
     seq 2170 permit 212.18.104.0/24
     seq 2171 permit 212.24.125.0/24
     seq 2172 permit 212.30.38.0/24
-    seq 2173 permit 212.30.44.0/22 le 24
+    seq 2173 permit 212.30.44.0/23 ge 24 le 24
     seq 2174 permit 212.46.55.0/24
     seq 2175 permit 212.52.1.0/24
     seq 2176 permit 212.52.6.0/24

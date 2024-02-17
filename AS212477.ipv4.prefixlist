@@ -5558,7 +5558,7 @@
     seq 5556 permit 212.23.198.0/24
     seq 5557 permit 212.24.125.0/24
     seq 5558 permit 212.30.38.0/24
-    seq 5559 permit 212.30.44.0/22 le 24
+    seq 5559 permit 212.30.44.0/23 ge 24 le 24
     seq 5560 permit 212.46.55.0/24
     seq 5561 permit 212.46.61.0/24
     seq 5562 permit 212.47.82.0/23 le 24
