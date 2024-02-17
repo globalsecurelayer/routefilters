@@ -1464,7 +1464,7 @@
     seq 1462 permit 82.180.148.0/24
     seq 1463 permit 82.180.150.0/23 ge 24 le 24
     seq 1464 permit 82.197.76.0/22 ge 24 le 24
-    seq 1465 permit 82.206.8.0/21 ge 22 le 24
+    seq 1465 permit 82.206.8.0/21 le 24
     seq 1466 permit 82.206.64.0/20 ge 21 le 24
     seq 1467 permit 83.136.180.0/24
     seq 1468 permit 83.136.183.0/24
@@ -5435,21 +5435,22 @@
     seq 5433 permit 217.145.112.0/20 le 24
     seq 5434 permit 217.145.236.0/24
     seq 5435 permit 217.145.238.0/23 ge 24 le 24
-    seq 5436 permit 217.163.11.0/24
-    seq 5437 permit 217.163.22.0/23 le 24
-    seq 5438 permit 217.163.28.0/23 le 24
-    seq 5439 permit 217.163.30.0/24
-    seq 5440 permit 217.195.224.0/19 le 24
-    seq 5441 permit 217.204.0.0/14 le 24
-    seq 5442 permit 218.33.64.0/18 le 24
-    seq 5443 permit 218.42.0.0/17 le 24
-    seq 5444 permit 218.100.80.0/22 le 24
-    seq 5445 permit 218.227.0.0/16 le 24
-    seq 5446 permit 219.83.80.0/23 le 24
-    seq 5447 permit 219.107.0.0/16 le 24
-    seq 5448 permit 220.102.0.0/16 le 24
-    seq 5449 permit 220.144.0.0/16 le 24
-    seq 5450 permit 221.170.0.0/15 le 24
-    seq 5451 permit 223.27.96.0/21 le 24
-    seq 5452 permit 223.29.252.0/24
-    seq 5453 permit 223.165.4.0/24
+    seq 5436 permit 217.147.167.0/24
+    seq 5437 permit 217.163.11.0/24
+    seq 5438 permit 217.163.22.0/23 le 24
+    seq 5439 permit 217.163.28.0/23 le 24
+    seq 5440 permit 217.163.30.0/24
+    seq 5441 permit 217.195.224.0/19 le 24
+    seq 5442 permit 217.204.0.0/14 le 24
+    seq 5443 permit 218.33.64.0/18 le 24
+    seq 5444 permit 218.42.0.0/17 le 24
+    seq 5445 permit 218.100.80.0/22 le 24
+    seq 5446 permit 218.227.0.0/16 le 24
+    seq 5447 permit 219.83.80.0/23 le 24
+    seq 5448 permit 219.107.0.0/16 le 24
+    seq 5449 permit 220.102.0.0/16 le 24
+    seq 5450 permit 220.144.0.0/16 le 24
+    seq 5451 permit 221.170.0.0/15 le 24
+    seq 5452 permit 223.27.96.0/21 le 24
+    seq 5453 permit 223.29.252.0/24
+    seq 5454 permit 223.165.4.0/24
