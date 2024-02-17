@@ -3030,7 +3030,7 @@
     seq 3028 permit 163.5.146.0/24
     seq 3029 permit 163.5.148.0/24
     seq 3030 permit 163.5.151.0/24
-    seq 3031 permit 163.5.160.0/24
+    seq 3031 permit 163.5.160.0/23 ge 24 le 24
     seq 3032 permit 163.5.165.0/24
     seq 3033 permit 163.5.167.0/24
     seq 3034 permit 163.5.178.0/24
