@@ -2328,8 +2328,8 @@
     seq 2326 permit 146.88.192.0/22 le 24
     seq 2327 permit 147.45.48.0/24
     seq 2328 permit 147.78.35.0/24
-    seq 2329 permit 147.78.100.0/23 le 24
-    seq 2330 permit 147.78.102.0/24
+    seq 2329 permit 147.78.100.0/24
+    seq 2330 permit 147.78.102.0/23 ge 24 le 24
     seq 2331 permit 147.78.176.0/22 le 24
     seq 2332 permit 147.78.240.0/21 le 24
     seq 2333 permit 147.108.201.0/24
@@ -4470,98 +4470,97 @@
     seq 4468 permit 212.192.14.0/24
     seq 4469 permit 212.192.31.0/24
     seq 4470 permit 212.192.205.0/24
-    seq 4471 permit 212.192.212.0/24
-    seq 4472 permit 212.192.249.0/24
-    seq 4473 permit 212.193.3.0/24
-    seq 4474 permit 213.137.84.0/22 le 24
-    seq 4475 permit 213.139.64.0/22 le 24
-    seq 4476 permit 213.142.154.0/23 le 24
-    seq 4477 permit 213.142.157.0/24
-    seq 4478 permit 213.146.96.0/19 le 24
-    seq 4479 permit 213.152.43.0/24
-    seq 4480 permit 213.156.67.0/24
-    seq 4481 permit 213.156.93.0/24
-    seq 4482 permit 213.159.14.0/23 le 24
-    seq 4483 permit 213.164.128.0/19 le 24
-    seq 4484 permit 213.170.142.0/24
-    seq 4485 permit 213.178.136.0/22 le 24
-    seq 4486 permit 213.178.212.0/24
-    seq 4487 permit 213.178.214.0/24
-    seq 4488 permit 213.202.192.0/18 le 24
-    seq 4489 permit 213.217.9.0/24
-    seq 4490 permit 213.232.112.0/21 ge 22 le 24
-    seq 4491 permit 213.238.180.0/24
-    seq 4492 permit 213.240.148.0/24
-    seq 4493 permit 216.24.176.0/20 le 24
-    seq 4494 permit 216.38.169.0/24
-    seq 4495 permit 216.39.248.0/22 ge 24 le 24
-    seq 4496 permit 216.59.224.0/19 le 24
-    seq 4497 permit 216.73.152.0/21 ge 22 le 24
-    seq 4498 permit 216.75.160.0/19 le 24
-    seq 4499 permit 216.87.128.0/20 ge 24 le 24
-    seq 4500 permit 216.87.144.0/22 ge 24 le 24
-    seq 4501 permit 216.87.145.53/32
-    seq 4502 permit 216.87.149.0/24
-    seq 4503 permit 216.87.150.0/23 ge 24 le 24
-    seq 4504 permit 216.87.152.0/21 ge 24 le 24
-    seq 4505 permit 216.93.237.0/24
-    seq 4506 permit 216.99.219.0/24
-    seq 4507 permit 216.105.167.0/24
-    seq 4508 permit 216.107.160.0/20 le 24
-    seq 4509 permit 216.146.24.0/22 le 24
-    seq 4510 permit 216.162.40.0/21 le 24
-    seq 4511 permit 216.168.225.0/24
-    seq 4512 permit 216.168.227.0/24
-    seq 4513 permit 216.168.228.0/22 ge 24 le 24
-    seq 4514 permit 216.168.228.53/32
-    seq 4515 permit 216.168.232.0/21 ge 24 le 24
-    seq 4516 permit 216.168.240.0/20 le 24
-    seq 4517 permit 216.174.160.0/20 le 24
-    seq 4518 permit 216.176.216.0/21 le 24
-    seq 4519 permit 216.190.188.0/22 le 24
-    seq 4520 permit 216.194.49.0/24
-    seq 4521 permit 216.207.115.0/24
-    seq 4522 permit 216.208.40.0/24
-    seq 4523 permit 216.246.18.0/24
-    seq 4524 permit 216.250.96.0/23 ge 24 le 24
-    seq 4525 permit 217.15.117.0/24
-    seq 4526 permit 217.15.118.0/23 le 24
-    seq 4527 permit 217.15.120.0/22 le 24
-    seq 4528 permit 217.18.81.0/24
-    seq 4529 permit 217.18.96.0/19 le 24
-    seq 4530 permit 217.30.80.0/21 ge 24 le 24
-    seq 4531 permit 217.30.88.0/22 le 24
-    seq 4532 permit 217.30.92.0/22 ge 24 le 24
-    seq 4533 permit 217.64.160.0/20 le 24
-    seq 4534 permit 217.74.235.0/24
-    seq 4535 permit 217.74.237.0/24
-    seq 4536 permit 217.74.238.0/23 le 24
-    seq 4537 permit 217.76.192.0/20 le 24
-    seq 4538 permit 217.79.176.0/20 le 24
-    seq 4539 permit 217.114.43.0/24
-    seq 4540 permit 217.118.0.0/20 le 24
-    seq 4541 permit 217.119.131.0/24
-    seq 4542 permit 217.119.132.0/24
-    seq 4543 permit 217.144.128.0/20 le 24
-    seq 4544 permit 217.197.100.0/24
-    seq 4545 permit 220.152.116.0/22 le 24
-    seq 4546 permit 220.157.68.0/24
-    seq 4547 permit 220.157.74.0/23 le 24
-    seq 4548 permit 220.233.4.0/22 le 24
-    seq 4549 permit 220.233.8.0/22 le 24
-    seq 4550 permit 220.233.36.0/22 le 24
-    seq 4551 permit 220.233.44.0/22 le 24
-    seq 4552 permit 220.247.176.0/21 le 24
-    seq 4553 permit 223.25.224.0/21 le 24
-    seq 4554 permit 223.27.64.0/22 le 24
-    seq 4555 permit 223.27.178.0/23 le 24
-    seq 4556 permit 223.165.6.0/24
-    seq 4557 permit 223.165.112.0/20 le 24
-    seq 4558 permit 223.252.0.0/17 le 24
-    seq 4559 permit 233.160.91.0/24
-    seq 4560 permit 233.162.194.0/24
-    seq 4561 permit 233.170.87.0/24
-    seq 4562 permit 233.173.49.0/24
-    seq 4563 permit 233.184.222.0/24
-    seq 4564 permit 233.199.75.0/24
-    seq 4565 permit 233.227.187.0/24
+    seq 4471 permit 212.192.249.0/24
+    seq 4472 permit 212.193.3.0/24
+    seq 4473 permit 213.137.84.0/22 le 24
+    seq 4474 permit 213.139.64.0/22 le 24
+    seq 4475 permit 213.142.154.0/23 le 24
+    seq 4476 permit 213.142.157.0/24
+    seq 4477 permit 213.146.96.0/19 le 24
+    seq 4478 permit 213.152.43.0/24
+    seq 4479 permit 213.156.67.0/24
+    seq 4480 permit 213.156.93.0/24
+    seq 4481 permit 213.159.14.0/23 le 24
+    seq 4482 permit 213.164.128.0/19 le 24
+    seq 4483 permit 213.170.142.0/24
+    seq 4484 permit 213.178.136.0/22 le 24
+    seq 4485 permit 213.178.212.0/24
+    seq 4486 permit 213.178.214.0/24
+    seq 4487 permit 213.202.192.0/18 le 24
+    seq 4488 permit 213.217.9.0/24
+    seq 4489 permit 213.232.112.0/21 ge 22 le 24
+    seq 4490 permit 213.238.180.0/24
+    seq 4491 permit 213.240.148.0/24
+    seq 4492 permit 216.24.176.0/20 le 24
+    seq 4493 permit 216.38.169.0/24
+    seq 4494 permit 216.39.248.0/22 ge 24 le 24
+    seq 4495 permit 216.59.224.0/19 le 24
+    seq 4496 permit 216.73.152.0/21 ge 22 le 24
+    seq 4497 permit 216.75.160.0/19 le 24
+    seq 4498 permit 216.87.128.0/20 ge 24 le 24
+    seq 4499 permit 216.87.144.0/22 ge 24 le 24
+    seq 4500 permit 216.87.145.53/32
+    seq 4501 permit 216.87.149.0/24
+    seq 4502 permit 216.87.150.0/23 ge 24 le 24
+    seq 4503 permit 216.87.152.0/21 ge 24 le 24
+    seq 4504 permit 216.93.237.0/24
+    seq 4505 permit 216.99.219.0/24
+    seq 4506 permit 216.105.167.0/24
+    seq 4507 permit 216.107.160.0/20 le 24
+    seq 4508 permit 216.146.24.0/22 le 24
+    seq 4509 permit 216.162.40.0/21 le 24
+    seq 4510 permit 216.168.225.0/24
+    seq 4511 permit 216.168.227.0/24
+    seq 4512 permit 216.168.228.0/22 ge 24 le 24
+    seq 4513 permit 216.168.228.53/32
+    seq 4514 permit 216.168.232.0/21 ge 24 le 24
+    seq 4515 permit 216.168.240.0/20 le 24
+    seq 4516 permit 216.174.160.0/20 le 24
+    seq 4517 permit 216.176.216.0/21 le 24
+    seq 4518 permit 216.190.188.0/22 le 24
+    seq 4519 permit 216.194.49.0/24
+    seq 4520 permit 216.207.115.0/24
+    seq 4521 permit 216.208.40.0/24
+    seq 4522 permit 216.246.18.0/24
+    seq 4523 permit 216.250.96.0/23 ge 24 le 24
+    seq 4524 permit 217.15.117.0/24
+    seq 4525 permit 217.15.118.0/23 le 24
+    seq 4526 permit 217.15.120.0/22 le 24
+    seq 4527 permit 217.18.81.0/24
+    seq 4528 permit 217.18.96.0/19 le 24
+    seq 4529 permit 217.30.80.0/21 ge 24 le 24
+    seq 4530 permit 217.30.88.0/22 le 24
+    seq 4531 permit 217.30.92.0/22 ge 24 le 24
+    seq 4532 permit 217.64.160.0/20 le 24
+    seq 4533 permit 217.74.235.0/24
+    seq 4534 permit 217.74.237.0/24
+    seq 4535 permit 217.74.238.0/23 le 24
+    seq 4536 permit 217.76.192.0/20 le 24
+    seq 4537 permit 217.79.176.0/20 le 24
+    seq 4538 permit 217.114.43.0/24
+    seq 4539 permit 217.118.0.0/20 le 24
+    seq 4540 permit 217.119.131.0/24
+    seq 4541 permit 217.119.132.0/24
+    seq 4542 permit 217.144.128.0/20 le 24
+    seq 4543 permit 217.197.100.0/24
+    seq 4544 permit 220.152.116.0/22 le 24
+    seq 4545 permit 220.157.68.0/24
+    seq 4546 permit 220.157.74.0/23 le 24
+    seq 4547 permit 220.233.4.0/22 le 24
+    seq 4548 permit 220.233.8.0/22 le 24
+    seq 4549 permit 220.233.36.0/22 le 24
+    seq 4550 permit 220.233.44.0/22 le 24
+    seq 4551 permit 220.247.176.0/21 le 24
+    seq 4552 permit 223.25.224.0/21 le 24
+    seq 4553 permit 223.27.64.0/22 le 24
+    seq 4554 permit 223.27.178.0/23 le 24
+    seq 4555 permit 223.165.6.0/24
+    seq 4556 permit 223.165.112.0/20 le 24
+    seq 4557 permit 223.252.0.0/17 le 24
+    seq 4558 permit 233.160.91.0/24
+    seq 4559 permit 233.162.194.0/24
+    seq 4560 permit 233.170.87.0/24
+    seq 4561 permit 233.173.49.0/24
+    seq 4562 permit 233.184.222.0/24
+    seq 4563 permit 233.199.75.0/24
+    seq 4564 permit 233.227.187.0/24
