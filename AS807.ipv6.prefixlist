@@ -107,15 +107,17 @@
     seq 105 permit 2a0f:9400:7b00::/40 le 48
     seq 106 permit 2a0f:9400:8003::/48
     seq 107 permit 2a0f:9400:800a::/48
-    seq 108 permit 2a0f:9400:8011::/48
-    seq 109 permit 2a0f:9400:8024::/48
-    seq 110 permit 2a0f:9400:8027::/48
-    seq 111 permit 2a0f:9400:802b::/48
-    seq 112 permit 2a0f:9400:b00b::/48
-    seq 113 permit 2a0f:9401::/32 le 48
-    seq 114 permit 2a0f:9403::/32 le 48
-    seq 115 permit 2a0f:9404::/30 ge 32 le 48
-    seq 116 permit 2a0f:b241:4::/48
-    seq 117 permit 2a0f:b241:4b::/48
-    seq 118 permit 2a0f:b241:8a::/48
-    seq 119 permit 2a0f:db85:388a::/48
+    seq 108 permit 2a0f:9400:800e::/48
+    seq 109 permit 2a0f:9400:8011::/48
+    seq 110 permit 2a0f:9400:8024::/48
+    seq 111 permit 2a0f:9400:8027::/48
+    seq 112 permit 2a0f:9400:802b::/48
+    seq 113 permit 2a0f:9400:b00b::/48
+    seq 114 permit 2a0f:9401::/32 le 48
+    seq 115 permit 2a0f:9403::/32 le 48
+    seq 116 permit 2a0f:9405::/32 le 48
+    seq 117 permit 2a0f:9406::/31 ge 32 le 48
+    seq 118 permit 2a0f:b241:4::/48
+    seq 119 permit 2a0f:b241:4b::/48
+    seq 120 permit 2a0f:b241:8a::/48
+    seq 121 permit 2a0f:db85:388a::/48
