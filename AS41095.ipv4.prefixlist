@@ -4271,7 +4271,7 @@
     seq 4269 permit 45.143.40.0/22 le 24
     seq 4270 permit 45.143.60.0/23 ge 24 le 24
     seq 4271 permit 45.143.62.0/23 le 24
-    seq 4272 permit 45.143.68.0/22 le 24
+    seq 4272 permit 45.143.68.0/22 ge 24 le 24
     seq 4273 permit 45.143.82.0/24
     seq 4274 permit 45.143.88.0/23 ge 24 le 24
     seq 4275 permit 45.143.90.0/24
@@ -28538,7 +28538,7 @@
     seq 28536 permit 193.201.162.0/24
     seq 28537 permit 193.201.198.0/23 le 24
     seq 28538 permit 193.201.208.0/22 le 24
-    seq 28539 permit 193.201.248.0/22 le 24
+    seq 28539 permit 193.201.248.0/22 ge 24 le 24
     seq 28540 permit 193.201.252.0/24
     seq 28541 permit 193.201.255.0/24
     seq 28542 permit 193.202.32.0/23 le 24
