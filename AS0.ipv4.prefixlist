@@ -5185,7 +5185,7 @@
     seq 5183 permit 147.72.132.0/24
     seq 5184 permit 147.78.48.0/22 le 24
     seq 5185 permit 147.78.100.0/24
-    seq 5186 permit 147.78.102.0/24
+    seq 5186 permit 147.78.102.0/23 ge 24 le 24
     seq 5187 permit 147.78.132.0/23 le 24
     seq 5188 permit 147.78.135.0/24
     seq 5189 permit 147.78.176.0/22 le 24
