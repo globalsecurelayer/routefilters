@@ -4607,8 +4607,9 @@
     seq 4605 permit 2a14:7580:c::/47 ge 48 le 48
     seq 4606 permit 2a14:7580:f::/48
     seq 4607 permit 2a14:7580:8888::/48
-    seq 4608 permit 2c0f:ec00::/32 le 48
-    seq 4609 permit 2c0f:edb0::/32 le 48
-    seq 4610 permit 2c0f:f530::/32 le 48
-    seq 4611 permit 2c0f:f7a8::/29 le 48
-    seq 4612 permit 2c0f:fc88::/31 le 48
+    seq 4608 permit 2a14:7581::/44 le 48
+    seq 4609 permit 2c0f:ec00::/32 le 48
+    seq 4610 permit 2c0f:edb0::/32 le 48
+    seq 4611 permit 2c0f:f530::/32 le 48
+    seq 4612 permit 2c0f:f7a8::/29 le 48
+    seq 4613 permit 2c0f:fc88::/31 le 48
