@@ -6239,7 +6239,7 @@
     seq 6237 permit 46.151.176.0/21 ge 24 le 24
     seq 6238 permit 46.151.192.0/21 ge 24 le 24
     seq 6239 permit 46.158.0.0/15 ge 16 le 24
-    seq 6240 permit 46.160.88.0/21 le 24
+    seq 6240 permit 46.160.64.0/18 le 24
     seq 6241 permit 46.160.128.0/19 ge 21 le 24
     seq 6242 permit 46.160.160.0/19 ge 22 le 24
     seq 6243 permit 46.160.192.0/18 le 24
@@ -22862,7 +22862,7 @@
     seq 22860 permit 149.126.16.0/21 le 24
     seq 22861 permit 149.126.48.0/20 ge 21 le 24
     seq 22862 permit 149.126.64.0/21 le 24
-    seq 22863 permit 149.126.92.0/22 le 24
+    seq 22863 permit 149.126.88.0/21 ge 22 le 24
     seq 22864 permit 149.126.96.0/20 ge 21 le 24
     seq 22865 permit 149.126.192.0/18 le 24
     seq 22866 permit 149.127.128.0/17 le 24
