@@ -1065,7 +1065,7 @@
     seq 1063 permit 80.66.77.0/24
     seq 1064 permit 80.66.78.0/24
     seq 1065 permit 80.66.81.0/24
-    seq 1066 permit 80.66.85.0/24
+    seq 1066 permit 80.66.84.0/23 ge 24 le 24
     seq 1067 permit 80.66.87.0/24
     seq 1068 permit 80.66.89.0/24
     seq 1069 permit 80.66.196.0/22 le 24
