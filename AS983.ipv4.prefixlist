@@ -32,7 +32,7 @@
     seq 30 permit 43.250.107.0/24
     seq 31 permit 43.255.118.0/23 le 24
     seq 32 permit 43.255.122.0/24
-    seq 33 permit 43.255.158.0/23 le 24
+    seq 33 permit 43.255.158.0/23 ge 24 le 24
     seq 34 permit 44.31.69.0/24
     seq 35 permit 44.31.73.0/24
     seq 36 permit 45.8.186.0/24
