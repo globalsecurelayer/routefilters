@@ -7999,11 +7999,11 @@
     seq 7997 permit 2605:9cc0:c20::/48
     seq 7998 permit 2605:9cc0:2110::/44 le 48
     seq 7999 permit 2605:9cc0:f001::/48
-    seq 8000 permit 2605:9cc0:f002::/48
-    seq 8001 permit 2605:9cc0:f005::/48
-    seq 8002 permit 2605:9cc0:f006::/48
-    seq 8003 permit 2605:9cc0:f00c::/48
-    seq 8004 permit 2605:9cc0:f00e::/47 ge 48 le 48
+    seq 8000 permit 2605:9cc0:f002::/47 ge 48 le 48
+    seq 8001 permit 2605:9cc0:f004::/46 ge 48 le 48
+    seq 8002 permit 2605:9cc0:f008::/45 ge 48 le 48
+    seq 8003 permit 2605:9cc0:f010::/47 ge 48 le 48
+    seq 8004 permit 2605:9cc0:f012::/48
     seq 8005 permit 2605:9cc0:ffff::/48
     seq 8006 permit 2605:9d80:9000::/36 le 48
     seq 8007 permit 2605:9f80::/32 le 48
