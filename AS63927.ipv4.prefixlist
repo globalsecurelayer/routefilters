@@ -723,7 +723,7 @@
     seq 721 permit 172.111.112.128/26
     seq 722 permit 172.111.114.0/26 ge 27 le 27
     seq 723 permit 172.111.114.64/26
-    seq 724 permit 172.111.114.192/26
+    seq 724 permit 172.111.114.128/25 ge 26 le 26
     seq 725 permit 172.111.115.16/28
     seq 726 permit 172.111.115.32/27 ge 28 le 28
     seq 727 permit 172.111.115.128/25
