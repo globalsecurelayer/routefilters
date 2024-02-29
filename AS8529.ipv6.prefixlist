@@ -7099,10 +7099,10 @@
     seq 7097 permit 2605:9cc0:2110::/44 le 48
     seq 7098 permit 2605:9cc0:f001::/48
     seq 7099 permit 2605:9cc0:f002::/47 ge 48 le 48
-    seq 7100 permit 2605:9cc0:f004::/47 ge 48 le 48
-    seq 7101 permit 2605:9cc0:f006::/48
-    seq 7102 permit 2605:9cc0:f008::/48
-    seq 7103 permit 2605:9cc0:f010::/48
+    seq 7100 permit 2605:9cc0:f004::/46 ge 48 le 48
+    seq 7101 permit 2605:9cc0:f008::/45 ge 48 le 48
+    seq 7102 permit 2605:9cc0:f010::/47 ge 48 le 48
+    seq 7103 permit 2605:9cc0:f012::/48
     seq 7104 permit 2605:9cc0:ffff::/48
     seq 7105 permit 2605:9d80:9000::/36 le 48
     seq 7106 permit 2605:a500::/32 le 48
