@@ -662,7 +662,7 @@
     seq 660 permit 45.140.184.0/24
     seq 661 permit 45.140.186.0/23 le 24
     seq 662 permit 45.140.211.0/24
-    seq 663 permit 45.141.20.0/23 le 24
+    seq 663 permit 45.141.20.0/23 ge 24 le 24
     seq 664 permit 45.141.23.0/24
     seq 665 permit 45.141.123.0/24
     seq 666 permit 45.141.144.0/22 le 24
@@ -4034,7 +4034,7 @@
     seq 4032 permit 185.230.103.0/24
     seq 4033 permit 185.230.120.0/24
     seq 4034 permit 185.230.123.0/24
-    seq 4035 permit 185.230.136.0/23 le 24
+    seq 4035 permit 185.230.136.0/23 ge 24 le 24
     seq 4036 permit 185.230.139.0/24
     seq 4037 permit 185.230.222.0/24
     seq 4038 permit 185.231.172.0/22 ge 24 le 24
