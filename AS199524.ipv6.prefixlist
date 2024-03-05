@@ -5490,23 +5490,25 @@
     seq 5488 permit 2a14:7580:8888::/48
     seq 5489 permit 2a14:7581::/44 le 48
     seq 5490 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 5491 permit 2a14:7e00::/29 le 48
-    seq 5492 permit 2c0f:f00::/32 le 48
-    seq 5493 permit 2c0f:4e00::/32 le 48
-    seq 5494 permit 2c0f:5c00::/32 le 48
-    seq 5495 permit 2c0f:ec00::/32 le 48
-    seq 5496 permit 2c0f:ef78::/47 ge 48 le 48
-    seq 5497 permit 2c0f:ef78:3::/48
-    seq 5498 permit 2c0f:ef78:5::/48
-    seq 5499 permit 2c0f:ef78:6::/48
-    seq 5500 permit 2c0f:ef78:9::/48
-    seq 5501 permit 2c0f:ef78:c::/46 ge 48 le 48
-    seq 5502 permit 2c0f:ef78:10::/47 ge 48 le 48
-    seq 5503 permit 2c0f:ef78:12::/48
-    seq 5504 permit 2c0f:f248::/32 le 48
-    seq 5505 permit 2c0f:f530::/32 le 48
-    seq 5506 permit 2c0f:f7d8::/32 le 48
-    seq 5507 permit 2c0f:fd20::/32 le 48
-    seq 5508 permit 2c0f:fda8::/32 le 48
-    seq 5509 permit 2c0f:fee0::/32 le 48
-    seq 5510 permit 2c0f:fee0::/64
+    seq 5491 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 5492 permit 2a14:7581:2180::/48
+    seq 5493 permit 2a14:7e00::/29 le 48
+    seq 5494 permit 2c0f:f00::/32 le 48
+    seq 5495 permit 2c0f:4e00::/32 le 48
+    seq 5496 permit 2c0f:5c00::/32 le 48
+    seq 5497 permit 2c0f:ec00::/32 le 48
+    seq 5498 permit 2c0f:ef78::/47 ge 48 le 48
+    seq 5499 permit 2c0f:ef78:3::/48
+    seq 5500 permit 2c0f:ef78:5::/48
+    seq 5501 permit 2c0f:ef78:6::/48
+    seq 5502 permit 2c0f:ef78:9::/48
+    seq 5503 permit 2c0f:ef78:c::/46 ge 48 le 48
+    seq 5504 permit 2c0f:ef78:10::/47 ge 48 le 48
+    seq 5505 permit 2c0f:ef78:12::/48
+    seq 5506 permit 2c0f:f248::/32 le 48
+    seq 5507 permit 2c0f:f530::/32 le 48
+    seq 5508 permit 2c0f:f7d8::/32 le 48
+    seq 5509 permit 2c0f:fd20::/32 le 48
+    seq 5510 permit 2c0f:fda8::/32 le 48
+    seq 5511 permit 2c0f:fee0::/32 le 48
+    seq 5512 permit 2c0f:fee0::/64

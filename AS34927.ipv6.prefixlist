@@ -2748,4 +2748,6 @@
     seq 2746 permit 2a14:7580:8888::/48
     seq 2747 permit 2a14:7581::/44 le 48
     seq 2748 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 2749 permit 2c0f:f530::/32 le 48
+    seq 2749 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 2750 permit 2a14:7581:2180::/48
+    seq 2751 permit 2c0f:f530::/32 le 48
