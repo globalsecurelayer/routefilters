@@ -544,10 +544,11 @@
     seq 542 permit 2a13:df81::/32 le 48
     seq 543 permit 2a13:df82:ff00::/40 le 48
     seq 544 permit 2a13:df85:b100::/40 le 48
-    seq 545 permit 2a13:df85:e800::/38 le 48
-    seq 546 permit 2a13:df87:7f00::/40 le 48
-    seq 547 permit 2a14:7581::/44 le 48
-    seq 548 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 549 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 550 permit 2a14:7581:2180::/48
-    seq 551 permit 2c0f:f530:b00b::/48
+    seq 545 permit 2a13:df85:e000::/38 le 48
+    seq 546 permit 2a13:df85:e800::/38 le 48
+    seq 547 permit 2a13:df87:7f00::/40 le 48
+    seq 548 permit 2a14:7581::/44 le 48
+    seq 549 permit 2a14:7581:100::/46 ge 48 le 48
+    seq 550 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 551 permit 2a14:7581:2180::/48
+    seq 552 permit 2c0f:f530:b00b::/48
