@@ -4049,7 +4049,7 @@
     seq 4047 permit 104.244.82.0/23 ge 24 le 24
     seq 4048 permit 104.244.88.0/21 le 24
     seq 4049 permit 104.244.152.0/21 le 24
-    seq 4050 permit 104.245.8.0/21 le 24
+    seq 4050 permit 104.245.8.0/21 ge 24 le 24
     seq 4051 permit 104.245.40.0/21 le 24
     seq 4052 permit 104.245.96.0/21 le 24
     seq 4053 permit 104.245.104.0/24
@@ -4876,7 +4876,7 @@
     seq 4874 permit 142.131.21.0/24
     seq 4875 permit 142.131.246.0/23 le 24
     seq 4876 permit 142.131.254.0/23 le 24
-    seq 4877 permit 142.147.88.0/21 le 24
+    seq 4877 permit 142.147.88.0/21 ge 24 le 24
     seq 4878 permit 142.147.128.0/17 le 24
     seq 4879 permit 142.202.65.0/24
     seq 4880 permit 142.202.82.0/23 le 24

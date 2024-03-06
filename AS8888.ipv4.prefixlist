@@ -478,7 +478,7 @@
     seq 476 permit 104.237.80.0/20 le 24
     seq 477 permit 104.243.16.0/20 le 24
     seq 478 permit 104.244.88.0/21 le 24
-    seq 479 permit 104.245.8.0/21 le 24
+    seq 479 permit 104.245.8.0/21 ge 24 le 24
     seq 480 permit 104.245.40.0/21 le 24
     seq 481 permit 104.245.96.0/21 le 24
     seq 482 permit 104.245.104.0/24
@@ -534,7 +534,7 @@
     seq 532 permit 141.105.120.0/21 le 24
     seq 533 permit 142.0.32.0/20 le 24
     seq 534 permit 142.111.135.0/24
-    seq 535 permit 142.147.88.0/21 le 24
+    seq 535 permit 142.147.88.0/21 ge 24 le 24
     seq 536 permit 144.34.128.0/17 le 24
     seq 537 permit 144.48.196.0/22 le 24
     seq 538 permit 144.168.56.0/21 le 24

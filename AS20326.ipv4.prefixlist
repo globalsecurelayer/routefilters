@@ -1416,7 +1416,7 @@
     seq 1414 permit 104.237.80.0/20 le 24
     seq 1415 permit 104.243.16.0/20 le 24
     seq 1416 permit 104.244.88.0/21 le 24
-    seq 1417 permit 104.245.8.0/21 le 24
+    seq 1417 permit 104.245.8.0/21 ge 24 le 24
     seq 1418 permit 104.245.40.0/21 le 24
     seq 1419 permit 104.245.96.0/21 le 24
     seq 1420 permit 104.245.104.0/24
@@ -1571,7 +1571,7 @@
     seq 1569 permit 141.193.4.0/24
     seq 1570 permit 142.0.32.0/20 le 24
     seq 1571 permit 142.111.135.0/24
-    seq 1572 permit 142.147.88.0/21 le 24
+    seq 1572 permit 142.147.88.0/21 ge 24 le 24
     seq 1573 permit 144.34.128.0/17 le 24
     seq 1574 permit 144.48.4.0/22 le 24
     seq 1575 permit 144.48.8.0/22 le 24
