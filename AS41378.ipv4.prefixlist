@@ -1898,7 +1898,7 @@
     seq 1896 permit 103.17.8.0/22 le 24
     seq 1897 permit 103.17.116.0/22 le 24
     seq 1898 permit 103.18.186.0/23 ge 24 le 24
-    seq 1899 permit 103.19.0.0/22 le 24
+    seq 1899 permit 103.19.0.0/22 ge 24 le 24
     seq 1900 permit 103.19.8.0/23 le 24
     seq 1901 permit 103.20.98.0/23 le 24
     seq 1902 permit 103.20.192.0/22 le 24
@@ -2049,7 +2049,7 @@
     seq 2047 permit 103.87.8.0/22 ge 24 le 24
     seq 2048 permit 103.87.68.0/24
     seq 2049 permit 103.87.108.0/22 ge 24 le 24
-    seq 2050 permit 103.88.44.0/22 le 24
+    seq 2050 permit 103.88.44.0/22 ge 24 le 24
     seq 2051 permit 103.88.92.0/23 le 24
     seq 2052 permit 103.88.188.0/22 le 24
     seq 2053 permit 103.89.152.0/23 ge 24 le 24

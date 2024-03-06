@@ -371,7 +371,7 @@
     seq 369 permit 102.130.48.0/22 le 24
     seq 370 permit 103.1.0.0/22 le 24
     seq 371 permit 103.1.4.0/24
-    seq 372 permit 103.19.0.0/22 le 24
+    seq 372 permit 103.19.0.0/22 ge 24 le 24
     seq 373 permit 103.27.184.0/22 ge 24 le 24
     seq 374 permit 103.43.173.0/24
     seq 375 permit 103.43.175.0/24
@@ -384,7 +384,7 @@
     seq 382 permit 103.72.148.0/22 ge 24 le 24
     seq 383 permit 103.85.24.0/22 le 24
     seq 384 permit 103.87.108.0/22 ge 24 le 24
-    seq 385 permit 103.88.44.0/22 le 24
+    seq 385 permit 103.88.44.0/22 ge 24 le 24
     seq 386 permit 103.91.144.0/23 le 24
     seq 387 permit 103.99.76.0/22 le 24
     seq 388 permit 103.99.178.0/23 le 24

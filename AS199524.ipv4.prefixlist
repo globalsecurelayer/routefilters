@@ -3706,7 +3706,7 @@
     seq 3704 permit 103.14.170.0/23 le 24
     seq 3705 permit 103.15.14.0/23 le 24
     seq 3706 permit 103.18.156.0/22 le 24
-    seq 3707 permit 103.19.0.0/22 le 24
+    seq 3707 permit 103.19.0.0/22 ge 24 le 24
     seq 3708 permit 103.19.8.0/23 le 24
     seq 3709 permit 103.20.184.0/22 le 24
     seq 3710 permit 103.20.222.0/24
@@ -3788,7 +3788,7 @@
     seq 3786 permit 103.87.68.0/24
     seq 3787 permit 103.87.108.0/22 ge 24 le 24
     seq 3788 permit 103.87.172.0/24
-    seq 3789 permit 103.88.44.0/22 le 24
+    seq 3789 permit 103.88.44.0/22 ge 24 le 24
     seq 3790 permit 103.88.176.0/22 le 24
     seq 3791 permit 103.89.144.0/22 le 24
     seq 3792 permit 103.89.152.0/23 ge 24 le 24
