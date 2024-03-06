@@ -167,7 +167,7 @@
     seq 165 permit 2604:2880::/32 le 48
     seq 166 permit 2604:4540:80::/44 le 48
     seq 167 permit 2604:d6c0::/32 le 48
-    seq 168 permit 2604:e4c0:110::/44 le 48
+    seq 168 permit 2604:e4c0:100::/43 ge 44 le 48
     seq 169 permit 2604:e4c0:120::/44 le 48
     seq 170 permit 2605:1a00::/48
     seq 171 permit 2605:4c40::/32 le 48
