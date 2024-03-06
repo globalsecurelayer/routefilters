@@ -77,7 +77,7 @@
     seq 75 permit 2402:f740:2000::/36 le 48
     seq 76 permit 2403:fc0::/32 le 48
     seq 77 permit 2403:27c0:c03::/48
-    seq 78 permit 2403:2c80::/31 le 48
+    seq 78 permit 2403:2c80::/31 ge 32 le 48
     seq 79 permit 2403:3d80::/32 le 48
     seq 80 permit 2403:4a00:4001:13::/64
     seq 81 permit 2403:4a00:4001:19::/64
