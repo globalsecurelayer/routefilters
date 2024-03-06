@@ -62762,7 +62762,7 @@
     seq 62760 permit 199.36.4.0/24
     seq 62761 permit 199.36.7.0/24
     seq 62762 permit 199.36.104.0/21 le 24
-    seq 62763 permit 199.36.121.0/24
+    seq 62763 permit 199.36.120.0/23 ge 24 le 24
     seq 62764 permit 199.36.122.0/23 le 24
     seq 62765 permit 199.36.128.0/22 le 24
     seq 62766 permit 199.36.154.0/23 le 24
@@ -73787,7 +73787,7 @@
     seq 73785 permit 216.246.212.0/22 le 24
     seq 73786 permit 216.247.70.0/23 le 24
     seq 73787 permit 216.247.76.0/23 ge 24 le 24
-    seq 73788 permit 216.247.99.0/24
+    seq 73788 permit 216.247.98.0/23 ge 24 le 24
     seq 73789 permit 216.247.106.0/23 ge 24 le 24
     seq 73790 permit 216.247.108.0/24
     seq 73791 permit 216.247.110.0/23 ge 24 le 24
