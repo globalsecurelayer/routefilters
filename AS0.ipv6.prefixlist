@@ -1705,7 +1705,7 @@
     seq 1703 permit 2606:a980:0:7::/64
     seq 1704 permit 2606:a980:0:8::/63 ge 64 le 64
     seq 1705 permit 2606:b0c0::/32 le 48
-    seq 1706 permit 2606:b740:1::/48
+    seq 1706 permit 2606:b740::/32 le 48
     seq 1707 permit 2606:b940::/32 le 48
     seq 1708 permit 2606:c740::/32 le 48
     seq 1709 permit 2606:d3c0::/32 le 48
