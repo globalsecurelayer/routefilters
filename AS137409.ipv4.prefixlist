@@ -61445,7 +61445,7 @@
     seq 61443 permit 199.36.4.0/24
     seq 61444 permit 199.36.7.0/24
     seq 61445 permit 199.36.104.0/21 le 24
-    seq 61446 permit 199.36.121.0/24
+    seq 61446 permit 199.36.120.0/23 ge 24 le 24
     seq 61447 permit 199.36.122.0/23 le 24
     seq 61448 permit 199.36.128.0/22 le 24
     seq 61449 permit 199.36.154.0/23 le 24
