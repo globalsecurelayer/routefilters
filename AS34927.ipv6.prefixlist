@@ -2719,6 +2719,8 @@
     seq 2717 permit 2a14:7580:8888::/48
     seq 2718 permit 2a14:7581::/44 le 48
     seq 2719 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 2720 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 2721 permit 2a14:7581:2180::/48
-    seq 2722 permit 2c0f:f530::/32 le 48
+    seq 2720 permit 2a14:7581:ff0::/48
+    seq 2721 permit 2a14:7581:1000::/48
+    seq 2722 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 2723 permit 2a14:7581:2180::/48
+    seq 2724 permit 2c0f:f530::/32 le 48

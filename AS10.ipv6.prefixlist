@@ -4081,21 +4081,23 @@
     seq 4079 permit 2a14:7580:8888::/48
     seq 4080 permit 2a14:7581::/44 le 48
     seq 4081 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 4082 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 4083 permit 2a14:7581:2180::/48
-    seq 4084 permit 2c0f:ec00::/32 le 48
-    seq 4085 permit 2c0f:edb0::/32 le 48
-    seq 4086 permit 2c0f:f530::/32 le 48
-    seq 4087 permit 2c0f:f7a8::/29 le 48
-    seq 4088 permit 2c0f:fc88::/31 le 48
-    seq 4089 permit 2c0f:fc88::/63 ge 64 le 64
-    seq 4090 permit 2c0f:fc88:0:2::/64
-    seq 4091 permit 2c0f:fc88:4:7::/64
-    seq 4092 permit 2c0f:fc88:4:41::/64
-    seq 4093 permit 2c0f:fc88:4:42::/64
-    seq 4094 permit 2c0f:fc89:0:b::/64
-    seq 4095 permit 2c0f:fc89:0:17::/64
-    seq 4096 permit 2c0f:fc89:0:4a::/64
-    seq 4097 permit 2c0f:fc89:0:4d::/64
-    seq 4098 permit 2c0f:fc89:0:70::/64
-    seq 4099 permit 2c0f:fc89:0:80::/64
+    seq 4082 permit 2a14:7581:ff0::/48
+    seq 4083 permit 2a14:7581:1000::/48
+    seq 4084 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 4085 permit 2a14:7581:2180::/48
+    seq 4086 permit 2c0f:ec00::/32 le 48
+    seq 4087 permit 2c0f:edb0::/32 le 48
+    seq 4088 permit 2c0f:f530::/32 le 48
+    seq 4089 permit 2c0f:f7a8::/29 le 48
+    seq 4090 permit 2c0f:fc88::/31 le 48
+    seq 4091 permit 2c0f:fc88::/63 ge 64 le 64
+    seq 4092 permit 2c0f:fc88:0:2::/64
+    seq 4093 permit 2c0f:fc88:4:7::/64
+    seq 4094 permit 2c0f:fc88:4:41::/64
+    seq 4095 permit 2c0f:fc88:4:42::/64
+    seq 4096 permit 2c0f:fc89:0:b::/64
+    seq 4097 permit 2c0f:fc89:0:17::/64
+    seq 4098 permit 2c0f:fc89:0:4a::/64
+    seq 4099 permit 2c0f:fc89:0:4d::/64
+    seq 4100 permit 2c0f:fc89:0:70::/64
+    seq 4101 permit 2c0f:fc89:0:80::/64

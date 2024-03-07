@@ -3222,11 +3222,13 @@
     seq 3220 permit 2a14:7580:8888::/48
     seq 3221 permit 2a14:7581::/44 le 48
     seq 3222 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 3223 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 3224 permit 2a14:7581:2180::/48
-    seq 3225 permit 2a14:7e00::/29 le 48
-    seq 3226 permit 2c0f:4e00::/32 le 48
-    seq 3227 permit 2c0f:ec00::/32 le 48
-    seq 3228 permit 2c0f:f530::/32 le 48
-    seq 3229 permit 2c0f:fee0::/32 le 48
-    seq 3230 permit 2c0f:fee0::/64
+    seq 3223 permit 2a14:7581:ff0::/48
+    seq 3224 permit 2a14:7581:1000::/48
+    seq 3225 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 3226 permit 2a14:7581:2180::/48
+    seq 3227 permit 2a14:7e00::/29 le 48
+    seq 3228 permit 2c0f:4e00::/32 le 48
+    seq 3229 permit 2c0f:ec00::/32 le 48
+    seq 3230 permit 2c0f:f530::/32 le 48
+    seq 3231 permit 2c0f:fee0::/32 le 48
+    seq 3232 permit 2c0f:fee0::/64
