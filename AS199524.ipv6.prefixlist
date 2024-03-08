@@ -4541,24 +4541,25 @@
     seq 4539 permit 2a14:6380::/29 le 48
     seq 4540 permit 2a14:6680:1000::/48
     seq 4541 permit 2a14:6680:2000::/47 ge 48 le 48
-    seq 4542 permit 2a14:7580:a::/48
+    seq 4542 permit 2a14:7580:a::/47 ge 48 le 48
     seq 4543 permit 2a14:7580:c::/47 ge 48 le 48
     seq 4544 permit 2a14:7580:f::/48
     seq 4545 permit 2a14:7580:8888::/48
-    seq 4546 permit 2a14:7581::/44 le 48
-    seq 4547 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 4548 permit 2a14:7581:ff0::/48
-    seq 4549 permit 2a14:7581:1000::/48
-    seq 4550 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 4551 permit 2a14:7581:2180::/48
-    seq 4552 permit 2a14:7e00::/29 le 48
-    seq 4553 permit 2c0f:f00::/32 le 48
-    seq 4554 permit 2c0f:4e00::/32 le 48
-    seq 4555 permit 2c0f:5c00::/32 le 48
-    seq 4556 permit 2c0f:ec00::/32 le 48
-    seq 4557 permit 2c0f:f530::/32 le 48
-    seq 4558 permit 2c0f:f7d8::/32 le 48
-    seq 4559 permit 2c0f:fd20::/32 le 48
-    seq 4560 permit 2c0f:fda8::/32 le 48
-    seq 4561 permit 2c0f:fee0::/32 le 48
-    seq 4562 permit 2c0f:fee0::/64
+    seq 4546 permit 2a14:7580:beef::/48
+    seq 4547 permit 2a14:7581::/44 le 48
+    seq 4548 permit 2a14:7581:100::/46 ge 48 le 48
+    seq 4549 permit 2a14:7581:ff0::/48
+    seq 4550 permit 2a14:7581:1000::/48
+    seq 4551 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 4552 permit 2a14:7581:2180::/48
+    seq 4553 permit 2a14:7e00::/29 le 48
+    seq 4554 permit 2c0f:f00::/32 le 48
+    seq 4555 permit 2c0f:4e00::/32 le 48
+    seq 4556 permit 2c0f:5c00::/32 le 48
+    seq 4557 permit 2c0f:ec00::/32 le 48
+    seq 4558 permit 2c0f:f530::/32 le 48
+    seq 4559 permit 2c0f:f7d8::/32 le 48
+    seq 4560 permit 2c0f:fd20::/32 le 48
+    seq 4561 permit 2c0f:fda8::/32 le 48
+    seq 4562 permit 2c0f:fee0::/32 le 48
+    seq 4563 permit 2c0f:fee0::/64
