@@ -7589,13 +7589,13 @@
     seq 7587 permit 2605:9cc0:2110::/44 le 48
     seq 7588 permit 2605:9cc0:f001::/48
     seq 7589 permit 2605:9cc0:f002::/48
-    seq 7590 permit 2605:9cc0:f005::/48
+    seq 7590 permit 2605:9cc0:f004::/47 ge 48 le 48
     seq 7591 permit 2605:9cc0:f006::/48
-    seq 7592 permit 2605:9cc0:f013::/48
-    seq 7593 permit 2605:9cc0:f014::/46 ge 48 le 48
-    seq 7594 permit 2605:9cc0:f018::/45 ge 48 le 48
-    seq 7595 permit 2605:9cc0:f020::/47 ge 48 le 48
-    seq 7596 permit 2605:9cc0:f022::/48
+    seq 7592 permit 2605:9cc0:f015::/48
+    seq 7593 permit 2605:9cc0:f019::/48
+    seq 7594 permit 2605:9cc0:f01b::/48
+    seq 7595 permit 2605:9cc0:f01d::/48
+    seq 7596 permit 2605:9cc0:f021::/48
     seq 7597 permit 2605:9cc0:f03d::/48
     seq 7598 permit 2605:9cc0:f03e::/48
     seq 7599 permit 2605:9cc0:ffff::/48

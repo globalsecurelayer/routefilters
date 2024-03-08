@@ -7131,13 +7131,13 @@
     seq 7129 permit 2605:9cc0:2110::/44 le 48
     seq 7130 permit 2605:9cc0:f001::/48
     seq 7131 permit 2605:9cc0:f002::/48
-    seq 7132 permit 2605:9cc0:f005::/48
+    seq 7132 permit 2605:9cc0:f004::/47 ge 48 le 48
     seq 7133 permit 2605:9cc0:f006::/48
-    seq 7134 permit 2605:9cc0:f013::/48
-    seq 7135 permit 2605:9cc0:f014::/46 ge 48 le 48
-    seq 7136 permit 2605:9cc0:f018::/45 ge 48 le 48
-    seq 7137 permit 2605:9cc0:f020::/47 ge 48 le 48
-    seq 7138 permit 2605:9cc0:f022::/48
+    seq 7134 permit 2605:9cc0:f015::/48
+    seq 7135 permit 2605:9cc0:f019::/48
+    seq 7136 permit 2605:9cc0:f01b::/48
+    seq 7137 permit 2605:9cc0:f01d::/48
+    seq 7138 permit 2605:9cc0:f021::/48
     seq 7139 permit 2605:9cc0:f03d::/48
     seq 7140 permit 2605:9cc0:f03e::/48
     seq 7141 permit 2605:9cc0:ffff::/48
