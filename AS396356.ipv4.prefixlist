@@ -977,7 +977,7 @@
     seq 975 permit 62.100.208.0/24
     seq 976 permit 62.105.192.0/18 le 24
     seq 977 permit 62.122.24.0/22 le 24
-    seq 978 permit 62.122.188.0/23 ge 24 le 24
+    seq 978 permit 62.122.188.0/24
     seq 979 permit 62.132.0.0/22 le 24
     seq 980 permit 62.132.16.0/22 le 24
     seq 981 permit 62.132.24.0/23 le 24
@@ -1741,11 +1741,11 @@
     seq 1739 permit 91.123.8.0/21 ge 22 le 24
     seq 1740 permit 91.124.16.0/24
     seq 1741 permit 91.124.18.0/23 le 24
-    seq 1742 permit 91.124.20.0/22 le 24
-    seq 1743 permit 91.124.24.0/24
-    seq 1744 permit 91.124.26.0/23 le 24
-    seq 1745 permit 91.124.28.0/22 le 24
-    seq 1746 permit 91.124.32.0/19 le 24
+    seq 1742 permit 91.124.24.0/24
+    seq 1743 permit 91.124.26.0/23 le 24
+    seq 1744 permit 91.124.28.0/22 le 24
+    seq 1745 permit 91.124.32.0/21 le 24
+    seq 1746 permit 91.124.48.0/20 le 24
     seq 1747 permit 91.124.64.0/18 le 24
     seq 1748 permit 91.124.149.0/24
     seq 1749 permit 91.124.150.0/23 le 24
