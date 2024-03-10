@@ -7593,16 +7593,16 @@
     seq 7591 permit 2605:9cc0:c20::/48
     seq 7592 permit 2605:9cc0:2110::/44 le 48
     seq 7593 permit 2605:9cc0:f001::/48
-    seq 7594 permit 2605:9cc0:f002::/48
+    seq 7594 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7595 permit 2605:9cc0:f004::/46 le 48
     seq 7596 permit 2605:9cc0:f008::/45 le 48
-    seq 7597 permit 2605:9cc0:f013::/48
-    seq 7598 permit 2605:9cc0:f014::/46 ge 48 le 48
-    seq 7599 permit 2605:9cc0:f018::/45 ge 48 le 48
-    seq 7600 permit 2605:9cc0:f020::/47 ge 48 le 48
-    seq 7601 permit 2605:9cc0:f022::/48
-    seq 7602 permit 2605:9cc0:f028::/46 le 48
-    seq 7603 permit 2605:9cc0:f02c::/47 le 48
+    seq 7597 permit 2605:9cc0:f010::/48
+    seq 7598 permit 2605:9cc0:f023::/48
+    seq 7599 permit 2605:9cc0:f025::/48
+    seq 7600 permit 2605:9cc0:f027::/48
+    seq 7601 permit 2605:9cc0:f028::/46 le 48
+    seq 7602 permit 2605:9cc0:f02c::/47 le 48
+    seq 7603 permit 2605:9cc0:f02f::/48
     seq 7604 permit 2605:9cc0:f030::/45 le 48
     seq 7605 permit 2605:9cc0:f038::/46 le 48
     seq 7606 permit 2605:9cc0:f03d::/48
