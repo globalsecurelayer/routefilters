@@ -7343,7 +7343,7 @@
     seq 7341 permit 45.148.116.0/22 le 24
     seq 7342 permit 45.148.128.0/22 le 24
     seq 7343 permit 45.148.133.0/24
-    seq 7344 permit 45.148.135.0/24
+    seq 7344 permit 45.148.134.0/23 ge 24 le 24
     seq 7345 permit 45.148.136.0/23 le 24
     seq 7346 permit 45.148.138.0/23 ge 24 le 24
     seq 7347 permit 45.148.141.0/24
@@ -32011,7 +32011,7 @@
     seq 32009 permit 108.165.90.0/23 ge 24 le 24
     seq 32010 permit 108.165.92.0/22 ge 24 le 24
     seq 32011 permit 108.165.97.0/24
-    seq 32012 permit 108.165.98.0/23 ge 24 le 24
+    seq 32012 permit 108.165.98.0/23 le 24
     seq 32013 permit 108.165.100.0/24
     seq 32014 permit 108.165.102.0/23 ge 24 le 24
     seq 32015 permit 108.165.104.0/22 le 24
