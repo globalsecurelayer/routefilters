@@ -3111,7 +3111,7 @@
     seq 3109 permit 2400:17a0:8::/47 ge 48 le 48
     seq 3110 permit 2400:1960::/32 le 48
     seq 3111 permit 2400:1a00::/32 le 48
-    seq 3112 permit 2400:1a60::/44 ge 48 le 48
+    seq 3112 permit 2400:1a60::/32 le 48
     seq 3113 permit 2400:1a80::/32 le 48
     seq 3114 permit 2400:1c20::/32 le 48
     seq 3115 permit 2400:1ca0::/32 le 48
@@ -7135,13 +7135,13 @@
     seq 7133 permit 2605:9cc0:c20::/48
     seq 7134 permit 2605:9cc0:2110::/44 le 48
     seq 7135 permit 2605:9cc0:f001::/48
-    seq 7136 permit 2605:9cc0:f002::/47 ge 48 le 48
+    seq 7136 permit 2605:9cc0:f002::/48
     seq 7137 permit 2605:9cc0:f004::/46 le 48
     seq 7138 permit 2605:9cc0:f008::/45 le 48
-    seq 7139 permit 2605:9cc0:f010::/48
-    seq 7140 permit 2605:9cc0:f023::/48
-    seq 7141 permit 2605:9cc0:f025::/48
-    seq 7142 permit 2605:9cc0:f027::/48
+    seq 7139 permit 2605:9cc0:f012::/47 ge 48 le 48
+    seq 7140 permit 2605:9cc0:f014::/46 ge 48 le 48
+    seq 7141 permit 2605:9cc0:f018::/45 ge 48 le 48
+    seq 7142 permit 2605:9cc0:f020::/45 ge 48 le 48
     seq 7143 permit 2605:9cc0:f028::/46 le 48
     seq 7144 permit 2605:9cc0:f02c::/47 le 48
     seq 7145 permit 2605:9cc0:f02f::/48
