@@ -443,7 +443,7 @@
     seq 441 permit 2a0f:85c1:366::/48
     seq 442 permit 2a0f:85c1:368::/47 ge 48 le 48
     seq 443 permit 2a0f:85c1:36a::/48
-    seq 444 permit 2a0f:85c1:36c::/48
+    seq 444 permit 2a0f:85c1:36c::/47 ge 48 le 48
     seq 445 permit 2a0f:85c1:380::/44 le 48
     seq 446 permit 2a0f:85c1:391::/48
     seq 447 permit 2a0f:85c1:600::/40 le 48
