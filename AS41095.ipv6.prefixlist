@@ -1619,7 +1619,7 @@
     seq 1617 permit 2403:2c00:7:1::/126
     seq 1618 permit 2403:2c00:7:2::/126
     seq 1619 permit 2403:2c00:cfff::/111 ge 112 le 112
-    seq 1620 permit 2403:2c80::/31 ge 32 le 48
+    seq 1620 permit 2403:2c80::/31 le 48
     seq 1621 permit 2403:2e80::/32 le 48
     seq 1622 permit 2403:3a40::/32 le 48
     seq 1623 permit 2403:3b40::/32 le 48

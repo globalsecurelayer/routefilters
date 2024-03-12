@@ -708,7 +708,7 @@
     seq 706 permit 2402:e380:308::/47 ge 48 le 48
     seq 707 permit 2402:e380:310::/48
     seq 708 permit 2402:e380:312::/48
-    seq 709 permit 2403:2c80::/31 ge 32 le 48
+    seq 709 permit 2403:2c80::/31 le 48
     seq 710 permit 2403:2e80::/32 le 48
     seq 711 permit 2403:5180:1::/48
     seq 712 permit 2403:5180:5::/48
@@ -3451,7 +3451,7 @@
     seq 3449 permit 2a0f:9400:6907::/48
     seq 3450 permit 2a0f:9400:6908::/47 ge 48 le 48
     seq 3451 permit 2a0f:9400:690d::/48
-    seq 3452 permit 2a0f:9400:690e::/47 ge 48 le 48
+    seq 3452 permit 2a0f:9400:690f::/48
     seq 3453 permit 2a0f:9400:6910::/44 le 48
     seq 3454 permit 2a0f:9400:693a::/48
     seq 3455 permit 2a0f:9400:6a00::/40 le 48
