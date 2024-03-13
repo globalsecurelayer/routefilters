@@ -7612,14 +7612,14 @@
     seq 7610 permit 2605:9cc0:f002::/48
     seq 7611 permit 2605:9cc0:f004::/46 le 48
     seq 7612 permit 2605:9cc0:f008::/45 le 48
-    seq 7613 permit 2605:9cc0:f012::/47 ge 48 le 48
+    seq 7613 permit 2605:9cc0:f013::/48
     seq 7614 permit 2605:9cc0:f014::/46 ge 48 le 48
     seq 7615 permit 2605:9cc0:f018::/45 ge 48 le 48
-    seq 7616 permit 2605:9cc0:f020::/46 ge 48 le 48
-    seq 7617 permit 2605:9cc0:f027::/48
-    seq 7618 permit 2605:9cc0:f028::/46 le 48
-    seq 7619 permit 2605:9cc0:f02c::/47 le 48
-    seq 7620 permit 2605:9cc0:f02f::/48
+    seq 7616 permit 2605:9cc0:f020::/47 ge 48 le 48
+    seq 7617 permit 2605:9cc0:f022::/48
+    seq 7618 permit 2605:9cc0:f024::/48
+    seq 7619 permit 2605:9cc0:f028::/46 le 48
+    seq 7620 permit 2605:9cc0:f02c::/47 le 48
     seq 7621 permit 2605:9cc0:f030::/45 le 48
     seq 7622 permit 2605:9cc0:f038::/46 le 48
     seq 7623 permit 2605:9cc0:f03d::/48
