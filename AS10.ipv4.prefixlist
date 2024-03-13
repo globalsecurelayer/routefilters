@@ -5611,7 +5611,7 @@
     seq 5609 permit 147.79.32.0/22 le 24
     seq 5610 permit 147.79.40.0/22 le 24
     seq 5611 permit 147.79.48.0/22 le 24
-    seq 5612 permit 147.79.56.0/22 le 24
+    seq 5612 permit 147.79.56.0/21 ge 22 le 24
     seq 5613 permit 147.114.248.0/22 le 24
     seq 5614 permit 147.128.251.0/24
     seq 5615 permit 147.136.88.0/22 le 24
