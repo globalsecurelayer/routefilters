@@ -610,7 +610,7 @@
     seq 608 permit 64.130.0.0/19 le 24
     seq 609 permit 64.130.32.0/20 le 24
     seq 610 permit 64.130.48.0/22 ge 24 le 24
-    seq 611 permit 64.130.52.0/24
+    seq 611 permit 64.130.52.0/23 ge 24 le 24
     seq 612 permit 64.130.63.0/24
     seq 613 permit 64.152.136.0/21 le 24
     seq 614 permit 64.234.232.0/22 le 24
