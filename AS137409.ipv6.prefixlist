@@ -7626,21 +7626,21 @@
     seq 7624 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7625 permit 2605:9cc0:f004::/46 le 48
     seq 7626 permit 2605:9cc0:f008::/45 le 48
-    seq 7627 permit 2605:9cc0:f010::/48
+    seq 7627 permit 2605:9cc0:f010::/47 ge 48 le 48
     seq 7628 permit 2605:9cc0:f012::/47 le 48
     seq 7629 permit 2605:9cc0:f014::/46 le 48
     seq 7630 permit 2605:9cc0:f018::/47 le 48
-    seq 7631 permit 2605:9cc0:f01c::/46 le 48
-    seq 7632 permit 2605:9cc0:f020::/47 le 48
-    seq 7633 permit 2605:9cc0:f023::/48
-    seq 7634 permit 2605:9cc0:f025::/48
-    seq 7635 permit 2605:9cc0:f027::/48
+    seq 7631 permit 2605:9cc0:f01a::/47 ge 48 le 48
+    seq 7632 permit 2605:9cc0:f01c::/46 le 48
+    seq 7633 permit 2605:9cc0:f020::/47 le 48
+    seq 7634 permit 2605:9cc0:f022::/47 ge 48 le 48
+    seq 7635 permit 2605:9cc0:f024::/46 ge 48 le 48
     seq 7636 permit 2605:9cc0:f028::/46 le 48
     seq 7637 permit 2605:9cc0:f02c::/47 le 48
-    seq 7638 permit 2605:9cc0:f02f::/48
+    seq 7638 permit 2605:9cc0:f02e::/47 ge 48 le 48
     seq 7639 permit 2605:9cc0:f030::/45 le 48
     seq 7640 permit 2605:9cc0:f038::/46 le 48
-    seq 7641 permit 2605:9cc0:f03d::/48
+    seq 7641 permit 2605:9cc0:f03c::/47 ge 48 le 48
     seq 7642 permit 2605:9cc0:f03e::/48
     seq 7643 permit 2605:9cc0:ffff::/48
     seq 7644 permit 2605:9d80:9000::/36 le 48
