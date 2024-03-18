@@ -652,7 +652,7 @@
     seq 650 permit 43.228.146.0/23 le 24
     seq 651 permit 43.229.16.0/22 le 24
     seq 652 permit 43.229.36.0/22 le 24
-    seq 653 permit 43.229.112.0/22 le 24
+    seq 653 permit 43.229.112.0/22 ge 23 le 24
     seq 654 permit 43.229.120.0/22 le 24
     seq 655 permit 43.229.153.0/24
     seq 656 permit 43.229.155.0/24

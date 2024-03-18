@@ -571,7 +571,7 @@
     seq 569 permit 43.228.146.0/23 le 24
     seq 570 permit 43.229.16.0/22 le 24
     seq 571 permit 43.229.36.0/22 le 24
-    seq 572 permit 43.229.112.0/22 le 24
+    seq 572 permit 43.229.112.0/22 ge 23 le 24
     seq 573 permit 43.229.120.0/22 le 24
     seq 574 permit 43.229.153.0/24
     seq 575 permit 43.229.155.0/24
