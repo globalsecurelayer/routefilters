@@ -7640,15 +7640,15 @@
     seq 7638 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7639 permit 2605:9cc0:f004::/46 le 48
     seq 7640 permit 2605:9cc0:f008::/45 le 48
-    seq 7641 permit 2605:9cc0:f010::/47 ge 48 le 48
+    seq 7641 permit 2605:9cc0:f010::/48
     seq 7642 permit 2605:9cc0:f012::/47 le 48
     seq 7643 permit 2605:9cc0:f014::/46 le 48
     seq 7644 permit 2605:9cc0:f018::/47 le 48
-    seq 7645 permit 2605:9cc0:f01c::/46 le 48
-    seq 7646 permit 2605:9cc0:f020::/47 le 48
-    seq 7647 permit 2605:9cc0:f023::/48
-    seq 7648 permit 2605:9cc0:f024::/48
-    seq 7649 permit 2605:9cc0:f027::/48
+    seq 7645 permit 2605:9cc0:f01a::/47 ge 48 le 48
+    seq 7646 permit 2605:9cc0:f01c::/46 le 48
+    seq 7647 permit 2605:9cc0:f020::/47 le 48
+    seq 7648 permit 2605:9cc0:f022::/47 ge 48 le 48
+    seq 7649 permit 2605:9cc0:f024::/46 ge 48 le 48
     seq 7650 permit 2605:9cc0:f028::/46 le 48
     seq 7651 permit 2605:9cc0:f02c::/47 le 48
     seq 7652 permit 2605:9cc0:f02e::/47 ge 48 le 48
