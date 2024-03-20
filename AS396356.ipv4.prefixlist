@@ -1087,7 +1087,7 @@
     seq 1085 permit 66.55.128.0/19 le 24
     seq 1086 permit 66.59.66.0/24
     seq 1087 permit 66.71.240.0/20 le 24
-    seq 1088 permit 66.78.36.0/22 le 24
+    seq 1088 permit 66.78.36.0/22 ge 23 le 24
     seq 1089 permit 66.78.46.0/24
     seq 1090 permit 66.80.0.0/16 le 24
     seq 1091 permit 66.84.88.0/21 le 24
@@ -1960,12 +1960,12 @@
     seq 1958 permit 102.129.136.0/24
     seq 1959 permit 102.129.157.0/24
     seq 1960 permit 102.129.158.0/24
-    seq 1961 permit 102.129.168.0/24
-    seq 1962 permit 102.129.182.0/23 le 24
-    seq 1963 permit 102.129.184.0/23 le 24
-    seq 1964 permit 102.129.191.0/24
-    seq 1965 permit 102.129.194.0/24
-    seq 1966 permit 102.129.206.0/23 le 24
+    seq 1961 permit 102.129.182.0/23 le 24
+    seq 1962 permit 102.129.184.0/23 le 24
+    seq 1963 permit 102.129.191.0/24
+    seq 1964 permit 102.129.194.0/24
+    seq 1965 permit 102.129.206.0/23 le 24
+    seq 1966 permit 102.129.220.0/24
     seq 1967 permit 102.129.244.0/24
     seq 1968 permit 102.129.247.0/24
     seq 1969 permit 102.129.255.0/24
