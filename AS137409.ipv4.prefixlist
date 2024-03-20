@@ -18311,8 +18311,8 @@
     seq 18309 permit 91.124.82.0/23 le 24
     seq 18310 permit 91.124.84.0/22 le 24
     seq 18311 permit 91.124.88.0/21 le 24
-    seq 18312 permit 91.124.96.0/20 le 24
-    seq 18313 permit 91.124.112.0/21 le 24
+    seq 18312 permit 91.124.96.0/20 ge 22 le 24
+    seq 18313 permit 91.124.112.0/21 ge 22 le 24
     seq 18314 permit 91.124.120.0/22 le 24
     seq 18315 permit 91.124.124.0/23 le 24
     seq 18316 permit 91.124.126.0/24
@@ -18327,8 +18327,8 @@
     seq 18325 permit 91.124.146.0/24
     seq 18326 permit 91.124.149.0/24
     seq 18327 permit 91.124.150.0/23 le 24
-    seq 18328 permit 91.124.152.0/21 le 24
-    seq 18329 permit 91.124.160.0/21 le 24
+    seq 18328 permit 91.124.152.0/21 ge 22 le 24
+    seq 18329 permit 91.124.160.0/21 ge 22 le 24
     seq 18330 permit 91.124.168.0/22 le 24
     seq 18331 permit 91.124.172.0/24
     seq 18332 permit 91.124.174.0/23 le 24
@@ -18351,7 +18351,7 @@
     seq 18349 permit 91.124.218.0/23 le 24
     seq 18350 permit 91.124.220.0/24
     seq 18351 permit 91.124.222.0/23 le 24
-    seq 18352 permit 91.124.224.0/21 le 24
+    seq 18352 permit 91.124.224.0/21 ge 22 le 24
     seq 18353 permit 91.124.232.0/22 le 24
     seq 18354 permit 91.124.237.0/24
     seq 18355 permit 91.124.238.0/24
