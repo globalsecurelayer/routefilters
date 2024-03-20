@@ -6476,7 +6476,7 @@
     seq 6474 permit 2a0d:6d00::/29 le 48
     seq 6475 permit 2a0d:6e00::/29 le 48
     seq 6476 permit 2a0d:70c0::/29 le 48
-    seq 6477 permit 2a0d:7100:c::/48
+    seq 6477 permit 2a0d:7100:c::/47 ge 48 le 48
     seq 6478 permit 2a0d:7540::/29 le 48
     seq 6479 permit 2a0d:7740::/31 ge 32 le 48
     seq 6480 permit 2a0d:7742::/32 le 48
