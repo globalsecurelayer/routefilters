@@ -6520,7 +6520,7 @@
     seq 6518 permit 2602:fa6d:200::/47 le 48
     seq 6519 permit 2602:fa6d:300::/48
     seq 6520 permit 2602:fa6e::/39 ge 40 le 48
-    seq 6521 permit 2602:fa6e:200::/44 le 48
+    seq 6521 permit 2602:fa6e:200::/40 le 48
     seq 6522 permit 2602:fa76::/40 le 48
     seq 6523 permit 2602:fa78::/40 le 48
     seq 6524 permit 2602:fa7a::/40 le 48
@@ -7206,24 +7206,24 @@
     seq 7204 permit 2605:9cc0:c20::/48
     seq 7205 permit 2605:9cc0:2110::/44 le 48
     seq 7206 permit 2605:9cc0:f001::/48
-    seq 7207 permit 2605:9cc0:f002::/47 ge 48 le 48
+    seq 7207 permit 2605:9cc0:f002::/48
     seq 7208 permit 2605:9cc0:f004::/46 le 48
     seq 7209 permit 2605:9cc0:f008::/45 le 48
-    seq 7210 permit 2605:9cc0:f010::/47 ge 48 le 48
+    seq 7210 permit 2605:9cc0:f011::/48
     seq 7211 permit 2605:9cc0:f012::/47 le 48
     seq 7212 permit 2605:9cc0:f014::/46 le 48
     seq 7213 permit 2605:9cc0:f018::/47 le 48
-    seq 7214 permit 2605:9cc0:f01c::/46 le 48
-    seq 7215 permit 2605:9cc0:f020::/47 le 48
-    seq 7216 permit 2605:9cc0:f023::/48
-    seq 7217 permit 2605:9cc0:f025::/48
-    seq 7218 permit 2605:9cc0:f027::/48
+    seq 7214 permit 2605:9cc0:f01a::/47 ge 48 le 48
+    seq 7215 permit 2605:9cc0:f01c::/46 le 48
+    seq 7216 permit 2605:9cc0:f020::/47 le 48
+    seq 7217 permit 2605:9cc0:f022::/47 ge 48 le 48
+    seq 7218 permit 2605:9cc0:f024::/46 ge 48 le 48
     seq 7219 permit 2605:9cc0:f028::/46 le 48
     seq 7220 permit 2605:9cc0:f02c::/47 le 48
-    seq 7221 permit 2605:9cc0:f02f::/48
+    seq 7221 permit 2605:9cc0:f02e::/47 ge 48 le 48
     seq 7222 permit 2605:9cc0:f030::/45 le 48
     seq 7223 permit 2605:9cc0:f038::/46 le 48
-    seq 7224 permit 2605:9cc0:f03d::/48
+    seq 7224 permit 2605:9cc0:f03c::/47 ge 48 le 48
     seq 7225 permit 2605:9cc0:f03e::/48
     seq 7226 permit 2605:9cc0:ffff::/48
     seq 7227 permit 2605:9d80:9000::/36 le 48
