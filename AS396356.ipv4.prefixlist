@@ -3055,7 +3055,7 @@
     seq 3053 permit 166.1.48.0/21 le 24
     seq 3054 permit 166.1.64.0/21 le 24
     seq 3055 permit 166.1.80.0/20 le 24
-    seq 3056 permit 166.1.96.0/21 le 24
+    seq 3056 permit 166.1.96.0/20 ge 21 le 24
     seq 3057 permit 166.1.112.0/21 le 24
     seq 3058 permit 166.1.173.0/24
     seq 3059 permit 166.88.45.0/24

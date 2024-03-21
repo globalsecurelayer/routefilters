@@ -535,7 +535,7 @@
     seq 533 permit 2602:f9df:110::/44 le 48
     seq 534 permit 2602:f9f6::/40 le 48
     seq 535 permit 2602:f9f6:410::/44 le 48
-    seq 536 permit 2602:f9f6:420::/44 le 48
+    seq 536 permit 2602:f9f6:420::/43 ge 44 le 48
     seq 537 permit 2602:f9f6:800::/41 ge 42 le 48
     seq 538 permit 2602:f9f6:c00::/38 le 48
     seq 539 permit 2602:fa02::/46 ge 48 le 48
