@@ -1127,7 +1127,7 @@
     seq 1125 permit 103.136.60.0/23 le 24
     seq 1126 permit 103.136.124.0/22 le 24
     seq 1127 permit 103.136.144.0/22 le 24
-    seq 1128 permit 103.136.178.0/23 le 24
+    seq 1128 permit 103.136.178.0/23 ge 24 le 24
     seq 1129 permit 103.136.184.0/23 ge 24 le 24
     seq 1130 permit 103.136.186.0/23 le 24
     seq 1131 permit 103.136.210.0/23 le 24
