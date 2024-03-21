@@ -20671,10 +20671,10 @@
     seq 20669 permit 102.130.254.0/23 le 24
     seq 20670 permit 102.131.56.0/22 le 24
     seq 20671 permit 102.132.16.0/23 le 24
-    seq 20672 permit 102.132.18.0/24
+    seq 20672 permit 102.132.18.0/23 ge 24 le 24
     seq 20673 permit 102.132.20.0/22 le 24
     seq 20674 permit 102.132.24.0/23 le 24
-    seq 20675 permit 102.132.26.0/24
+    seq 20675 permit 102.132.26.0/23 ge 24 le 24
     seq 20676 permit 102.132.28.0/22 le 24
     seq 20677 permit 102.132.96.0/20 le 24
     seq 20678 permit 102.132.112.0/20 ge 24 le 24
@@ -45544,7 +45544,7 @@
     seq 45542 permit 185.126.138.0/23 ge 24 le 24
     seq 45543 permit 185.126.140.0/22 le 24
     seq 45544 permit 185.126.148.0/22 le 24
-    seq 45545 permit 185.126.158.0/23 le 24
+    seq 45545 permit 185.126.156.0/22 ge 23 le 24
     seq 45546 permit 185.126.160.0/22 le 24
     seq 45547 permit 185.126.164.0/22 ge 23 le 24
     seq 45548 permit 185.126.172.0/22 le 24
@@ -47553,7 +47553,7 @@
     seq 47551 permit 185.219.236.0/22 le 24
     seq 47552 permit 185.219.248.0/22 ge 24 le 24
     seq 47553 permit 185.220.21.0/24
-    seq 47554 permit 185.220.22.0/24
+    seq 47554 permit 185.220.22.0/23 ge 24 le 24
     seq 47555 permit 185.220.36.0/22 le 24
     seq 47556 permit 185.220.52.0/23 ge 24 le 24
     seq 47557 permit 185.220.56.0/23 ge 24 le 24
