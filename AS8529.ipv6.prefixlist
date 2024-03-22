@@ -15059,7 +15059,7 @@
     seq 15057 permit 2a12:9080::/29 le 48
     seq 15058 permit 2a12:90c0:a0::/48
     seq 15059 permit 2a12:90c0:b0::/48
-    seq 15060 permit 2a12:90c1:a::/48
+    seq 15060 permit 2a12:90c1::/39 ge 40 le 48
     seq 15061 permit 2a12:9340::/29 le 48
     seq 15062 permit 2a12:93c0::/29 le 48
     seq 15063 permit 2a12:94c0::/29 le 48
