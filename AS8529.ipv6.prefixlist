@@ -7226,11 +7226,11 @@
     seq 7224 permit 2605:9cc0:f018::/47 le 48
     seq 7225 permit 2605:9cc0:f01c::/46 le 48
     seq 7226 permit 2605:9cc0:f020::/47 le 48
-    seq 7227 permit 2605:9cc0:f024::/48
-    seq 7228 permit 2605:9cc0:f026::/48
+    seq 7227 permit 2605:9cc0:f023::/48
+    seq 7228 permit 2605:9cc0:f024::/46 ge 48 le 48
     seq 7229 permit 2605:9cc0:f028::/46 le 48
     seq 7230 permit 2605:9cc0:f02c::/47 le 48
-    seq 7231 permit 2605:9cc0:f02e::/48
+    seq 7231 permit 2605:9cc0:f02e::/47 ge 48 le 48
     seq 7232 permit 2605:9cc0:f030::/45 le 48
     seq 7233 permit 2605:9cc0:f038::/46 le 48
     seq 7234 permit 2605:9cc0:f03c::/47 ge 48 le 48

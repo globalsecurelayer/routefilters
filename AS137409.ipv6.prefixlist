@@ -7686,11 +7686,11 @@
     seq 7684 permit 2605:9cc0:f018::/47 le 48
     seq 7685 permit 2605:9cc0:f01c::/46 le 48
     seq 7686 permit 2605:9cc0:f020::/47 le 48
-    seq 7687 permit 2605:9cc0:f024::/48
-    seq 7688 permit 2605:9cc0:f026::/48
+    seq 7687 permit 2605:9cc0:f023::/48
+    seq 7688 permit 2605:9cc0:f024::/46 ge 48 le 48
     seq 7689 permit 2605:9cc0:f028::/46 le 48
     seq 7690 permit 2605:9cc0:f02c::/47 le 48
-    seq 7691 permit 2605:9cc0:f02e::/48
+    seq 7691 permit 2605:9cc0:f02e::/47 ge 48 le 48
     seq 7692 permit 2605:9cc0:f030::/45 le 48
     seq 7693 permit 2605:9cc0:f038::/46 le 48
     seq 7694 permit 2605:9cc0:f03c::/47 ge 48 le 48
