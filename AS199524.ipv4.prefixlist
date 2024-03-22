@@ -7722,7 +7722,7 @@
     seq 7720 permit 194.110.85.0/24
     seq 7721 permit 194.110.86.0/24
     seq 7722 permit 194.110.152.0/23 le 24
-    seq 7723 permit 194.110.175.0/24
+    seq 7723 permit 194.110.174.0/23 ge 24 le 24
     seq 7724 permit 194.110.253.0/24
     seq 7725 permit 194.113.34.0/24
     seq 7726 permit 194.113.36.0/22 le 24
