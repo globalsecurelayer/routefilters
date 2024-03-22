@@ -353,7 +353,7 @@
     seq 351 permit 23.160.104.0/24
     seq 352 permit 23.160.152.0/24
     seq 353 permit 23.160.192.0/22 le 24
-    seq 354 permit 23.160.200.0/24
+    seq 354 permit 23.160.200.0/23 ge 24 le 24
     seq 355 permit 23.161.8.0/24
     seq 356 permit 23.161.40.0/24
     seq 357 permit 23.161.80.0/24
