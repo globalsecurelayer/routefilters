@@ -271,7 +271,7 @@
     seq 269 permit 2001:df1:bd80::/48
     seq 270 permit 2001:df1:e000::/48
     seq 271 permit 2001:df2:2140::/48
-    seq 272 permit 2001:df2:45c1::/48
+    seq 272 permit 2001:df2:45c0::/47 le 48
     seq 273 permit 2001:df2:50c0::/48
     seq 274 permit 2001:df2:79c0::/48
     seq 275 permit 2001:df2:7cc0::/48
@@ -1986,7 +1986,7 @@
     seq 1984 permit 2a0f:85c1:392::/48
     seq 1985 permit 2a0f:85c1:395::/48
     seq 1986 permit 2a0f:85c1:396::/48
-    seq 1987 permit 2a0f:85c1:398::/48
+    seq 1987 permit 2a0f:85c1:398::/47 ge 48 le 48
     seq 1988 permit 2a0f:85c1:39d::/48
     seq 1989 permit 2a0f:85c1:600::/40 le 48
     seq 1990 permit 2a0f:85c1:beef::/48

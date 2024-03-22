@@ -555,7 +555,7 @@
     seq 553 permit 2001:df2:16c0::/48
     seq 554 permit 2001:df2:2140::/48
     seq 555 permit 2001:df2:2ec0::/48
-    seq 556 permit 2001:df2:45c1::/48
+    seq 556 permit 2001:df2:45c0::/47 le 48
     seq 557 permit 2001:df2:50c0::/48
     seq 558 permit 2001:df2:5740::/48
     seq 559 permit 2001:df2:65c0::/48
@@ -3420,7 +3420,7 @@
     seq 3418 permit 2a0f:85c1:392::/48
     seq 3419 permit 2a0f:85c1:395::/48
     seq 3420 permit 2a0f:85c1:396::/48
-    seq 3421 permit 2a0f:85c1:398::/48
+    seq 3421 permit 2a0f:85c1:398::/47 ge 48 le 48
     seq 3422 permit 2a0f:85c1:39c::/47 ge 48 le 48
     seq 3423 permit 2a0f:85c1:600::/40 le 48
     seq 3424 permit 2a0f:85c1:beef::/48
