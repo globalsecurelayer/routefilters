@@ -7681,7 +7681,7 @@
     seq 7679 permit 2605:9cc0:c20::/48
     seq 7680 permit 2605:9cc0:2110::/44 le 48
     seq 7681 permit 2605:9cc0:f001::/48
-    seq 7682 permit 2605:9cc0:f002::/48
+    seq 7682 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7683 permit 2605:9cc0:f004::/46 le 48
     seq 7684 permit 2605:9cc0:f008::/45 le 48
     seq 7685 permit 2605:9cc0:f010::/47 ge 48 le 48
