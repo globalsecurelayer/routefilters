@@ -4617,14 +4617,15 @@
     seq 4615 permit 2a14:7581:2100::/47 ge 48 le 48
     seq 4616 permit 2a14:7581:2180::/48
     seq 4617 permit 2a14:7581:2199::/48
-    seq 4618 permit 2a14:7e00::/29 le 48
-    seq 4619 permit 2c0f:f00::/32 le 48
-    seq 4620 permit 2c0f:4e00::/32 le 48
-    seq 4621 permit 2c0f:5c00::/32 le 48
-    seq 4622 permit 2c0f:ec00::/32 le 48
-    seq 4623 permit 2c0f:f530::/32 le 48
-    seq 4624 permit 2c0f:f7d8::/32 le 48
-    seq 4625 permit 2c0f:fd20::/32 le 48
-    seq 4626 permit 2c0f:fda8::/32 le 48
-    seq 4627 permit 2c0f:fee0::/32 le 48
-    seq 4628 permit 2c0f:fee0::/64
+    seq 4618 permit 2a14:7581:4000::/36 le 48
+    seq 4619 permit 2a14:7e00::/29 le 48
+    seq 4620 permit 2c0f:f00::/32 le 48
+    seq 4621 permit 2c0f:4e00::/32 le 48
+    seq 4622 permit 2c0f:5c00::/32 le 48
+    seq 4623 permit 2c0f:ec00::/32 le 48
+    seq 4624 permit 2c0f:f530::/32 le 48
+    seq 4625 permit 2c0f:f7d8::/32 le 48
+    seq 4626 permit 2c0f:fd20::/32 le 48
+    seq 4627 permit 2c0f:fda8::/32 le 48
+    seq 4628 permit 2c0f:fee0::/32 le 48
+    seq 4629 permit 2c0f:fee0::/64
