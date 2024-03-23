@@ -22382,7 +22382,7 @@
     seq 22380 permit 178.21.112.0/21 le 24
     seq 22381 permit 178.21.160.0/21 le 24
     seq 22382 permit 178.21.216.0/21 le 24
-    seq 22383 permit 178.22.30.0/24
+    seq 22383 permit 178.22.30.0/23 ge 24 le 24
     seq 22384 permit 178.22.40.0/23 le 24
     seq 22385 permit 178.22.44.0/22 le 24
     seq 22386 permit 178.22.90.0/23 le 24
