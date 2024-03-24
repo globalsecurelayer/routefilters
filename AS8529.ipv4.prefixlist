@@ -17223,7 +17223,7 @@
     seq 17221 permit 91.109.0.0/20 le 24
     seq 17222 permit 91.109.64.0/19 le 24
     seq 17223 permit 91.109.104.0/21 le 24
-    seq 17224 permit 91.109.216.0/24
+    seq 17224 permit 91.109.216.0/23 ge 24 le 24
     seq 17225 permit 91.109.218.0/24
     seq 17226 permit 91.109.248.0/22 ge 24 le 24
     seq 17227 permit 91.109.252.0/23 ge 24 le 24
@@ -43759,7 +43759,7 @@
     seq 43757 permit 185.23.228.0/23 le 24
     seq 43758 permit 185.23.230.0/23 ge 24 le 24
     seq 43759 permit 185.23.237.0/24
-    seq 43760 permit 185.23.240.0/24
+    seq 43760 permit 185.23.240.0/23 ge 24 le 24
     seq 43761 permit 185.23.248.0/22 le 24
     seq 43762 permit 185.23.254.0/23 le 24
     seq 43763 permit 185.24.8.0/22 ge 24 le 24
