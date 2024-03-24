@@ -916,7 +916,7 @@
     seq 914 permit 103.1.158.0/24
     seq 915 permit 103.1.220.0/22 le 24
     seq 916 permit 103.5.54.0/23 le 24
-    seq 917 permit 103.6.124.0/22 ge 23 le 24
+    seq 917 permit 103.6.126.0/23 le 24
     seq 918 permit 103.10.196.0/24
     seq 919 permit 103.10.198.0/24
     seq 920 permit 103.11.228.0/22 le 24
@@ -2650,7 +2650,7 @@
     seq 2648 permit 213.176.126.0/23 le 24
     seq 2649 permit 213.217.9.0/24
     seq 2650 permit 213.218.250.0/24
-    seq 2651 permit 213.218.255.0/24
+    seq 2651 permit 213.218.254.0/23 ge 24 le 24
     seq 2652 permit 213.232.112.0/22 le 24
     seq 2653 permit 216.24.176.0/20 le 24
     seq 2654 permit 216.38.169.0/24

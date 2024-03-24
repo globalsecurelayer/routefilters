@@ -2683,7 +2683,7 @@
     seq 2681 permit 103.5.218.0/23 le 24
     seq 2682 permit 103.6.72.0/24
     seq 2683 permit 103.6.88.0/24
-    seq 2684 permit 103.6.124.0/22 ge 23 le 24
+    seq 2684 permit 103.6.126.0/23 le 24
     seq 2685 permit 103.6.216.0/22 le 24
     seq 2686 permit 103.7.32.0/22 le 24
     seq 2687 permit 103.9.192.0/22 le 24
@@ -7641,7 +7641,7 @@
     seq 7639 permit 213.176.126.0/23 le 24
     seq 7640 permit 213.217.9.0/24
     seq 7641 permit 213.218.250.0/24
-    seq 7642 permit 213.218.255.0/24
+    seq 7642 permit 213.218.254.0/23 ge 24 le 24
     seq 7643 permit 213.232.112.0/22 le 24
     seq 7644 permit 216.0.106.0/24
     seq 7645 permit 216.1.90.0/24
