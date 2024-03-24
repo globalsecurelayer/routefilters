@@ -7234,7 +7234,7 @@
     seq 7232 permit 2605:9cc0:c20::/48
     seq 7233 permit 2605:9cc0:2110::/44 le 48
     seq 7234 permit 2605:9cc0:f001::/48
-    seq 7235 permit 2605:9cc0:f002::/48
+    seq 7235 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7236 permit 2605:9cc0:f004::/46 le 48
     seq 7237 permit 2605:9cc0:f008::/45 le 48
     seq 7238 permit 2605:9cc0:f010::/47 ge 48 le 48
@@ -14798,7 +14798,7 @@
     seq 14796 permit 2a11:29c0:20::/48
     seq 14797 permit 2a11:29c0:29::/48
     seq 14798 permit 2a11:29c0:2c::/48
-    seq 14799 permit 2a11:29c0:2f::/48
+    seq 14799 permit 2a11:29c0:2e::/47 ge 48 le 48
     seq 14800 permit 2a11:29c0:34::/46 ge 48 le 48
     seq 14801 permit 2a11:29c0:3a::/48
     seq 14802 permit 2a11:29c0:3e::/48
