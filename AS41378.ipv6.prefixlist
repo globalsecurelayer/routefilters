@@ -1234,7 +1234,7 @@
     seq 1232 permit 2604:a100:100::/48
     seq 1233 permit 2604:a100:200::/48
     seq 1234 permit 2604:a840::/32 le 48
-    seq 1235 permit 2604:b480:fffd::/48
+    seq 1235 permit 2604:b480::/32 le 48
     seq 1236 permit 2604:c800:ffff::/48
     seq 1237 permit 2604:d6c0::/32 le 48
     seq 1238 permit 2604:e040::/32 le 48
