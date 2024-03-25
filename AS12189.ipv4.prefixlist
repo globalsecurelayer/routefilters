@@ -531,7 +531,7 @@
     seq 529 permit 166.0.165.0/24
     seq 530 permit 166.0.186.0/24
     seq 531 permit 166.0.249.0/24
-    seq 532 permit 166.1.48.0/21 le 24
+    seq 532 permit 166.1.48.0/20 ge 21 le 24
     seq 533 permit 166.1.104.0/21 le 24
     seq 534 permit 166.90.186.0/24
     seq 535 permit 167.94.168.0/24
