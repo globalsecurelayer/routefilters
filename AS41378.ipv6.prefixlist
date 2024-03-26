@@ -3008,11 +3008,11 @@
     seq 3006 permit 2a12:bec0:380::/43 ge 44 le 48
     seq 3007 permit 2a12:bec0:430::/44 le 48
     seq 3008 permit 2a12:bec0:470::/44 le 48
-    seq 3009 permit 2a12:bec0:500::/47 ge 48 le 48
-    seq 3010 permit 2a12:bec0:502::/48
+    seq 3009 permit 2a12:bec0:500::/47 le 48
+    seq 3010 permit 2a12:bec0:502::/47 ge 48 le 48
     seq 3011 permit 2a12:bec0:507::/48
     seq 3012 permit 2a12:bec0:509::/48
-    seq 3013 permit 2a12:bec0:50b::/48
+    seq 3013 permit 2a12:bec0:50a::/47 ge 48 le 48
     seq 3014 permit 2a12:bec0:50c::/46 le 48
     seq 3015 permit 2a12:bec0:540::/44 le 48
     seq 3016 permit 2a12:bec0:560::/44 le 48

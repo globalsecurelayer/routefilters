@@ -4245,11 +4245,11 @@
     seq 4243 permit 2a12:bec0:450::/44 le 48
     seq 4244 permit 2a12:bec0:470::/44 le 48
     seq 4245 permit 2a12:bec0:480::/44 le 48
-    seq 4246 permit 2a12:bec0:500::/47 ge 48 le 48
-    seq 4247 permit 2a12:bec0:502::/48
+    seq 4246 permit 2a12:bec0:500::/47 le 48
+    seq 4247 permit 2a12:bec0:502::/47 ge 48 le 48
     seq 4248 permit 2a12:bec0:507::/48
     seq 4249 permit 2a12:bec0:509::/48
-    seq 4250 permit 2a12:bec0:50b::/48
+    seq 4250 permit 2a12:bec0:50a::/47 ge 48 le 48
     seq 4251 permit 2a12:bec0:50c::/46 le 48
     seq 4252 permit 2a12:bec0:510::/44 le 48
     seq 4253 permit 2a12:bec0:540::/44 le 48

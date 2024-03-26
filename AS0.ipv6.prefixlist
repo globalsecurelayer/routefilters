@@ -4801,11 +4801,11 @@
     seq 4799 permit 2a12:bec0:410::/44 le 48
     seq 4800 permit 2a12:bec0:430::/44 le 48
     seq 4801 permit 2a12:bec0:470::/44 le 48
-    seq 4802 permit 2a12:bec0:500::/47 ge 48 le 48
-    seq 4803 permit 2a12:bec0:502::/48
+    seq 4802 permit 2a12:bec0:500::/47 le 48
+    seq 4803 permit 2a12:bec0:502::/47 ge 48 le 48
     seq 4804 permit 2a12:bec0:507::/48
     seq 4805 permit 2a12:bec0:509::/48
-    seq 4806 permit 2a12:bec0:50b::/48
+    seq 4806 permit 2a12:bec0:50a::/47 ge 48 le 48
     seq 4807 permit 2a12:bec0:50c::/46 le 48
     seq 4808 permit 2a12:bec0:540::/44 le 48
     seq 4809 permit 2a12:bec0:560::/44 le 48

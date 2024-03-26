@@ -2559,11 +2559,11 @@
     seq 2557 permit 2a12:bec0:410::/44 le 48
     seq 2558 permit 2a12:bec0:430::/44 le 48
     seq 2559 permit 2a12:bec0:450::/44 le 48
-    seq 2560 permit 2a12:bec0:500::/47 ge 48 le 48
-    seq 2561 permit 2a12:bec0:502::/48
+    seq 2560 permit 2a12:bec0:500::/47 le 48
+    seq 2561 permit 2a12:bec0:502::/47 ge 48 le 48
     seq 2562 permit 2a12:bec0:507::/48
     seq 2563 permit 2a12:bec0:509::/48
-    seq 2564 permit 2a12:bec0:50b::/48
+    seq 2564 permit 2a12:bec0:50a::/47 ge 48 le 48
     seq 2565 permit 2a12:bec0:50c::/46 le 48
     seq 2566 permit 2a12:bec0:510::/44 le 48
     seq 2567 permit 2a12:bec0:540::/44 le 48

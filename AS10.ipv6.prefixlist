@@ -4216,11 +4216,11 @@
     seq 4214 permit 2a12:bec0:410::/44 le 48
     seq 4215 permit 2a12:bec0:430::/44 le 48
     seq 4216 permit 2a12:bec0:470::/44 le 48
-    seq 4217 permit 2a12:bec0:500::/47 ge 48 le 48
-    seq 4218 permit 2a12:bec0:502::/48
+    seq 4217 permit 2a12:bec0:500::/47 le 48
+    seq 4218 permit 2a12:bec0:502::/47 ge 48 le 48
     seq 4219 permit 2a12:bec0:507::/48
     seq 4220 permit 2a12:bec0:509::/48
-    seq 4221 permit 2a12:bec0:50b::/48
+    seq 4221 permit 2a12:bec0:50a::/47 ge 48 le 48
     seq 4222 permit 2a12:bec0:50c::/46 le 48
     seq 4223 permit 2a12:bec0:540::/44 le 48
     seq 4224 permit 2a12:bec0:560::/44 le 48

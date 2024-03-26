@@ -3030,11 +3030,11 @@
     seq 3028 permit 2a12:bec0:430::/44 le 48
     seq 3029 permit 2a12:bec0:470::/44 le 48
     seq 3030 permit 2a12:bec0:480::/44 le 48
-    seq 3031 permit 2a12:bec0:500::/47 ge 48 le 48
-    seq 3032 permit 2a12:bec0:502::/48
+    seq 3031 permit 2a12:bec0:500::/47 le 48
+    seq 3032 permit 2a12:bec0:502::/47 ge 48 le 48
     seq 3033 permit 2a12:bec0:507::/48
     seq 3034 permit 2a12:bec0:509::/48
-    seq 3035 permit 2a12:bec0:50b::/48
+    seq 3035 permit 2a12:bec0:50a::/47 ge 48 le 48
     seq 3036 permit 2a12:bec0:50c::/46 le 48
     seq 3037 permit 2a12:bec0:540::/44 le 48
     seq 3038 permit 2a12:bec0:5d0::/44 le 48
