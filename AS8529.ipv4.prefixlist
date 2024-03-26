@@ -37594,7 +37594,7 @@
     seq 37592 permit 157.20.150.0/23 le 24
     seq 37593 permit 157.20.168.0/23 le 24
     seq 37594 permit 157.20.192.0/24
-    seq 37595 permit 157.20.248.0/24
+    seq 37595 permit 157.20.248.0/23 ge 24 le 24
     seq 37596 permit 157.23.242.0/24
     seq 37597 permit 157.23.248.0/23 ge 24 le 24
     seq 37598 permit 157.30.0.0/15 le 24
