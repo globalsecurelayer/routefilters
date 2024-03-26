@@ -7704,10 +7704,10 @@
     seq 7702 permit 2605:9cc0:c20::/48
     seq 7703 permit 2605:9cc0:2110::/44 le 48
     seq 7704 permit 2605:9cc0:f001::/48
-    seq 7705 permit 2605:9cc0:f002::/48
+    seq 7705 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7706 permit 2605:9cc0:f004::/46 le 48
     seq 7707 permit 2605:9cc0:f008::/45 le 48
-    seq 7708 permit 2605:9cc0:f011::/48
+    seq 7708 permit 2605:9cc0:f010::/48
     seq 7709 permit 2605:9cc0:f012::/47 le 48
     seq 7710 permit 2605:9cc0:f014::/46 le 48
     seq 7711 permit 2605:9cc0:f018::/47 le 48
