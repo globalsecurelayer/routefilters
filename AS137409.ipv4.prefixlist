@@ -39793,7 +39793,7 @@
     seq 39791 permit 157.20.150.0/23 le 24
     seq 39792 permit 157.20.168.0/23 le 24
     seq 39793 permit 157.20.192.0/24
-    seq 39794 permit 157.20.248.0/24
+    seq 39794 permit 157.20.248.0/23 ge 24 le 24
     seq 39795 permit 157.23.242.0/24
     seq 39796 permit 157.23.248.0/23 ge 24 le 24
     seq 39797 permit 157.30.0.0/15 le 24
