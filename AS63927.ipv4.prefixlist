@@ -716,7 +716,7 @@
     seq 714 permit 170.251.252.0/23 le 24
     seq 715 permit 170.252.6.0/24
     seq 716 permit 170.252.108.0/24
-    seq 717 permit 170.252.148.0/24
+    seq 717 permit 170.252.148.0/23 ge 24 le 24
     seq 718 permit 170.252.159.0/24
     seq 719 permit 170.252.190.0/24
     seq 720 permit 170.252.214.0/23 le 24
