@@ -90,7 +90,7 @@
     seq 88 permit 140.99.0.0/23 le 24
     seq 89 permit 141.11.36.0/24
     seq 90 permit 141.11.194.0/23 le 24
-    seq 91 permit 141.195.99.0/24
+    seq 91 permit 141.195.98.0/23 ge 24 le 24
     seq 92 permit 144.48.36.0/22 ge 24 le 24
     seq 93 permit 144.48.164.0/22 le 24
     seq 94 permit 149.18.84.0/24
