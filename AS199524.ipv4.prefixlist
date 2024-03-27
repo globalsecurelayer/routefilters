@@ -2626,7 +2626,7 @@
     seq 2624 permit 85.239.148.0/24
     seq 2625 permit 85.254.47.0/24
     seq 2626 permit 85.254.62.0/24
-    seq 2627 permit 85.254.104.0/21 le 24
+    seq 2627 permit 85.254.104.0/21 ge 24 le 24
     seq 2628 permit 85.254.116.0/24
     seq 2629 permit 85.254.122.0/24
     seq 2630 permit 86.38.2.0/24
