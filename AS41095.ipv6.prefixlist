@@ -3074,7 +3074,7 @@
     seq 3072 permit 2607:8140::/32 le 48
     seq 3073 permit 2607:8680::/32 le 48
     seq 3074 permit 2607:8700::/32 le 48
-    seq 3075 permit 2607:8940:2000::/35 ge 44 le 48
+    seq 3075 permit 2607:8940:2000::/35 le 48
     seq 3076 permit 2607:9280::/32 le 48
     seq 3077 permit 2607:9340::/32 le 48
     seq 3078 permit 2607:a0c0::/32 le 48
@@ -7436,7 +7436,7 @@
     seq 7434 permit 2a0e:b107:27c8::/45 ge 46 le 48
     seq 7435 permit 2a0e:b107:27d0::/45 ge 46 le 48
     seq 7436 permit 2a0e:b107:27d9::/48
-    seq 7437 permit 2a0e:b107:27da::/47 ge 48 le 48
+    seq 7437 permit 2a0e:b107:27db::/48
     seq 7438 permit 2a0e:b107:27dc::/47 ge 48 le 48
     seq 7439 permit 2a0e:b107:27de::/48
     seq 7440 permit 2a0e:b107:27e8::/45 le 48
