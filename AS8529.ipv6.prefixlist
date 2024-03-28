@@ -7046,7 +7046,7 @@
     seq 7044 permit 2604:bc0:1::/48
     seq 7045 permit 2604:bc0:2::/48
     seq 7046 permit 2604:bc0:5::/48
-    seq 7047 permit 2604:bc0:6::/47 ge 48 le 48
+    seq 7047 permit 2604:bc0:7::/48
     seq 7048 permit 2604:c00::/32 le 48
     seq 7049 permit 2604:1300::/48
     seq 7050 permit 2604:16c0::/32 le 48
@@ -7247,7 +7247,7 @@
     seq 7245 permit 2605:9cc0:c20::/48
     seq 7246 permit 2605:9cc0:2110::/44 le 48
     seq 7247 permit 2605:9cc0:f001::/48
-    seq 7248 permit 2605:9cc0:f002::/47 ge 48 le 48
+    seq 7248 permit 2605:9cc0:f002::/48
     seq 7249 permit 2605:9cc0:f004::/46 le 48
     seq 7250 permit 2605:9cc0:f008::/45 le 48
     seq 7251 permit 2605:9cc0:f011::/48
@@ -10492,7 +10492,7 @@
     seq 10490 permit 2a04:b040::/47 ge 48 le 48
     seq 10491 permit 2a04:b040:2::/48
     seq 10492 permit 2a04:b0c0::/44 ge 45 le 48
-    seq 10493 permit 2a04:b0c0:10::/48
+    seq 10493 permit 2a04:b0c0:10::/46 ge 48 le 48
     seq 10494 permit 2a04:b140::/29 le 48
     seq 10495 permit 2a04:b300::/29 le 48
     seq 10496 permit 2a04:b480:20::/44 le 48
