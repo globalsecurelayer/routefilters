@@ -5582,7 +5582,7 @@
     seq 5580 permit 50.114.53.0/24
     seq 5581 permit 50.114.55.0/24
     seq 5582 permit 50.114.59.0/24
-    seq 5583 permit 50.114.65.0/24
+    seq 5583 permit 50.114.64.0/23 ge 24 le 24
     seq 5584 permit 50.114.76.0/22 le 24
     seq 5585 permit 50.114.81.0/24
     seq 5586 permit 50.114.90.0/24

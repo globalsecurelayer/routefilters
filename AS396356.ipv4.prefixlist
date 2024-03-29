@@ -914,7 +914,7 @@
     seq 912 permit 50.114.48.0/24
     seq 913 permit 50.114.61.0/24
     seq 914 permit 50.114.62.0/24
-    seq 915 permit 50.114.65.0/24
+    seq 915 permit 50.114.64.0/23 ge 24 le 24
     seq 916 permit 50.114.76.0/22 le 24
     seq 917 permit 50.114.81.0/24
     seq 918 permit 50.114.90.0/24
