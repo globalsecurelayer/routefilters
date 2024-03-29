@@ -2202,7 +2202,7 @@
     seq 2200 permit 88.216.211.0/24
     seq 2201 permit 88.216.212.0/22 le 24
     seq 2202 permit 88.218.40.0/24
-    seq 2203 permit 88.218.42.0/24
+    seq 2203 permit 88.218.42.0/23 ge 24 le 24
     seq 2204 permit 88.218.192.0/22 le 24
     seq 2205 permit 89.22.192.0/22 le 24
     seq 2206 permit 89.23.123.0/24

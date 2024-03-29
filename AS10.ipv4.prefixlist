@@ -3129,7 +3129,7 @@
     seq 3127 permit 88.216.211.0/24
     seq 3128 permit 88.216.212.0/22 le 24
     seq 3129 permit 88.218.40.0/24
-    seq 3130 permit 88.218.42.0/24
+    seq 3130 permit 88.218.42.0/23 ge 24 le 24
     seq 3131 permit 88.218.166.0/23 le 24
     seq 3132 permit 88.218.192.0/22 le 24
     seq 3133 permit 88.218.204.0/24
