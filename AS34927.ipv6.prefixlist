@@ -2711,16 +2711,15 @@
     seq 2709 permit 2a14:7580:f::/48
     seq 2710 permit 2a14:7580:8888::/48
     seq 2711 permit 2a14:7580:ffff::/48
-    seq 2712 permit 2a14:7581::/44 le 48
-    seq 2713 permit 2a14:7581:20::/44 le 48
-    seq 2714 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 2715 permit 2a14:7581:104::/48
-    seq 2716 permit 2a14:7581:300::/40 le 48
-    seq 2717 permit 2a14:7581:ff0::/48
-    seq 2718 permit 2a14:7581:1000::/48
-    seq 2719 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 2720 permit 2a14:7581:2180::/48
-    seq 2721 permit 2a14:7581:2199::/48
-    seq 2722 permit 2a14:7581:4000::/36 le 48
-    seq 2723 permit 2a14:7582::/32 le 48
-    seq 2724 permit 2c0f:f530::/32 le 48
+    seq 2712 permit 2a14:7581::/40 le 48
+    seq 2713 permit 2a14:7581:100::/46 ge 48 le 48
+    seq 2714 permit 2a14:7581:104::/48
+    seq 2715 permit 2a14:7581:300::/40 le 48
+    seq 2716 permit 2a14:7581:ff0::/48
+    seq 2717 permit 2a14:7581:1000::/48
+    seq 2718 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 2719 permit 2a14:7581:2180::/48
+    seq 2720 permit 2a14:7581:2199::/48
+    seq 2721 permit 2a14:7581:4000::/36 le 48
+    seq 2722 permit 2a14:7582::/32 le 48
+    seq 2723 permit 2c0f:f530::/32 le 48

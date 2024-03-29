@@ -1601,6 +1601,5 @@
     seq 1599 permit 2a14:1f80::/29 le 48
     seq 1600 permit 2a14:3001::/32 le 48
     seq 1601 permit 2a14:4d00::/29 le 48
-    seq 1602 permit 2a14:7581::/44 le 48
-    seq 1603 permit 2a14:7581:20::/44 le 48
-    seq 1604 permit 2c0f:ec00::/32 le 48
+    seq 1602 permit 2a14:7581::/40 le 48
+    seq 1603 permit 2c0f:ec00::/32 le 48
