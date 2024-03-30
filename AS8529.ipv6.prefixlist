@@ -7249,14 +7249,14 @@
     seq 7247 permit 2605:9cc0:f002::/48
     seq 7248 permit 2605:9cc0:f004::/46 le 48
     seq 7249 permit 2605:9cc0:f008::/45 le 48
-    seq 7250 permit 2605:9cc0:f010::/48
+    seq 7250 permit 2605:9cc0:f011::/48
     seq 7251 permit 2605:9cc0:f012::/47 le 48
     seq 7252 permit 2605:9cc0:f014::/46 le 48
     seq 7253 permit 2605:9cc0:f018::/47 le 48
-    seq 7254 permit 2605:9cc0:f01a::/48
+    seq 7254 permit 2605:9cc0:f01b::/48
     seq 7255 permit 2605:9cc0:f01c::/46 le 48
     seq 7256 permit 2605:9cc0:f020::/47 le 48
-    seq 7257 permit 2605:9cc0:f023::/48
+    seq 7257 permit 2605:9cc0:f022::/47 ge 48 le 48
     seq 7258 permit 2605:9cc0:f024::/46 ge 48 le 48
     seq 7259 permit 2605:9cc0:f028::/46 le 48
     seq 7260 permit 2605:9cc0:f02c::/47 le 48
