@@ -2257,7 +2257,7 @@
     seq 2255 permit 79.110.239.0/25
     seq 2256 permit 79.124.8.0/24
     seq 2257 permit 79.132.195.0/24
-    seq 2258 permit 79.132.196.0/22 le 24
+    seq 2258 permit 79.132.196.0/22 ge 24 le 24
     seq 2259 permit 79.133.106.0/23 le 24
     seq 2260 permit 79.133.108.0/22 ge 24 le 24
     seq 2261 permit 79.133.112.0/21 le 24
