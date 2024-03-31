@@ -64169,7 +64169,7 @@
     seq 64167 permit 202.75.76.0/22 le 24
     seq 64168 permit 202.75.90.0/24
     seq 64169 permit 202.75.100.0/22 le 24
-    seq 64170 permit 202.75.242.0/24
+    seq 64170 permit 202.75.242.0/23 ge 24 le 24
     seq 64171 permit 202.76.0.0/17 le 24
     seq 64172 permit 202.76.128.0/18 ge 19 le 24
     seq 64173 permit 202.76.240.0/23 ge 24 le 24
