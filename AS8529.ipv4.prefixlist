@@ -60563,7 +60563,7 @@
     seq 60561 permit 202.75.76.0/22 le 24
     seq 60562 permit 202.75.90.0/24
     seq 60563 permit 202.75.100.0/22 le 24
-    seq 60564 permit 202.75.242.0/24
+    seq 60564 permit 202.75.242.0/23 ge 24 le 24
     seq 60565 permit 202.76.0.0/17 le 24
     seq 60566 permit 202.76.128.0/18 ge 19 le 24
     seq 60567 permit 202.76.240.0/23 ge 24 le 24
