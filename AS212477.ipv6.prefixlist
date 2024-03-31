@@ -1548,7 +1548,7 @@
     seq 1546 permit 2a14:7c1:b00b::/48
     seq 1547 permit 2a14:7c7::/32 le 48
     seq 1548 permit 2a14:1ec7:f000::/40 le 48
-    seq 1549 permit 2a14:1ec7:fffd::/48
+    seq 1549 permit 2a14:1ec7:fffc::/47 ge 48 le 48
     seq 1550 permit 2a14:1ec7:ffff::/48
     seq 1551 permit 2a14:4b80::/29 le 48
     seq 1552 permit 2a14:5200::/29 le 48
