@@ -3019,7 +3019,7 @@
     seq 3017 permit 89.23.110.0/24
     seq 3018 permit 89.23.113.0/24
     seq 3019 permit 89.23.123.0/24
-    seq 3020 permit 89.28.237.0/24
+    seq 3020 permit 89.28.236.0/23 ge 24 le 24
     seq 3021 permit 89.31.80.0/21 le 24
     seq 3022 permit 89.32.40.0/24
     seq 3023 permit 89.32.132.0/22 le 24
