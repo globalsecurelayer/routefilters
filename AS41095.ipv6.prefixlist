@@ -9049,7 +9049,7 @@
     seq 9047 permit 2a12:bec1::/32 le 48
     seq 9048 permit 2a12:bec2::/32 le 48
     seq 9049 permit 2a12:bec3:b00b::/48
-    seq 9050 permit 2a12:bec4:100::/44 le 48
+    seq 9050 permit 2a12:bec4:100::/43 ge 44 le 48
     seq 9051 permit 2a12:bec4:1010::/44 le 48
     seq 9052 permit 2a12:bec4:1020::/45 ge 48 le 48
     seq 9053 permit 2a12:bec4:1028::/47 ge 48 le 48

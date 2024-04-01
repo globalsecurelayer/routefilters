@@ -4350,7 +4350,7 @@
     seq 4348 permit 2a12:bec1::/32 le 48
     seq 4349 permit 2a12:bec2::/32 le 48
     seq 4350 permit 2a12:bec3:b00b::/48
-    seq 4351 permit 2a12:bec4:100::/44 le 48
+    seq 4351 permit 2a12:bec4:100::/43 ge 44 le 48
     seq 4352 permit 2a12:bec4:1010::/44 le 48
     seq 4353 permit 2a12:bec4:1020::/45 ge 48 le 48
     seq 4354 permit 2a12:bec4:1028::/47 ge 48 le 48
