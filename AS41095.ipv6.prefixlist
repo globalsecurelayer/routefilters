@@ -6633,7 +6633,7 @@
     seq 6631 permit 2a0d:c7c0::/29 le 48
     seq 6632 permit 2a0d:cd40::/29 le 48
     seq 6633 permit 2a0d:cdc0::/30 le 48
-    seq 6634 permit 2a0d:cdc5::/32 le 48
+    seq 6634 permit 2a0d:cdc4::/31 ge 32 le 48
     seq 6635 permit 2a0d:ce00::/29 le 48
     seq 6636 permit 2a0d:d580::/32 le 48
     seq 6637 permit 2a0d:d740::/48
@@ -6798,7 +6798,7 @@
     seq 6796 permit 2a0e:5100::/29 le 48
     seq 6797 permit 2a0e:52c5::/32 le 48
     seq 6798 permit 2a0e:52c7::/32 le 48
-    seq 6799 permit 2a0e:5383::/32 le 48
+    seq 6799 permit 2a0e:5382::/31 ge 32 le 48
     seq 6800 permit 2a0e:5384::/32 le 48
     seq 6801 permit 2a0e:5386::/32 le 48
     seq 6802 permit 2a0e:5700::/32 le 48
