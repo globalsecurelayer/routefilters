@@ -800,7 +800,7 @@
     seq 798 permit 2a13:c007:80b0::/44 le 48
     seq 799 permit 2a13:d8c0::/29 ge 32 le 48
     seq 800 permit 2a13:df80:9c00::/40 le 48
-    seq 801 permit 2a13:df81::/32 le 48
+    seq 801 permit 2a13:df81::/47 ge 48 le 48
     seq 802 permit 2a13:df85:bf00::/40 le 48
     seq 803 permit 2a13:df85:dc00::/38 ge 39 le 48
     seq 804 permit 2a13:df87:a000::/38 le 48
