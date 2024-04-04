@@ -7274,7 +7274,7 @@
     seq 7272 permit 2605:9cc0:c20::/48
     seq 7273 permit 2605:9cc0:2110::/44 le 48
     seq 7274 permit 2605:9cc0:f001::/48
-    seq 7275 permit 2605:9cc0:f002::/48
+    seq 7275 permit 2605:9cc0:f002::/47 ge 48 le 48
     seq 7276 permit 2605:9cc0:f004::/46 le 48
     seq 7277 permit 2605:9cc0:f008::/45 le 48
     seq 7278 permit 2605:9cc0:f010::/46 ge 47 le 48
