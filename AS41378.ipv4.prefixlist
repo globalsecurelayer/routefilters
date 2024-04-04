@@ -2445,7 +2445,7 @@
     seq 2443 permit 87.254.17.0/24
     seq 2444 permit 87.254.23.0/24
     seq 2445 permit 87.254.29.0/24
-    seq 2446 permit 88.80.134.0/23 le 24
+    seq 2446 permit 88.80.134.0/23 ge 24 le 24
     seq 2447 permit 88.80.141.0/24
     seq 2448 permit 88.151.56.0/23 le 24
     seq 2449 permit 88.204.80.0/20 le 24
