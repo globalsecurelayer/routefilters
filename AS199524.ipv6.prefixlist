@@ -4589,7 +4589,7 @@
     seq 4587 permit 2a13:cd00::/29 le 48
     seq 4588 permit 2a13:ce40:6667::/48
     seq 4589 permit 2a13:d040::/48
-    seq 4590 permit 2a13:d040:2::/48
+    seq 4590 permit 2a13:d040:2::/47 ge 48 le 48
     seq 4591 permit 2a13:d046:fffc::/46 ge 48 le 48
     seq 4592 permit 2a13:d047::/48
     seq 4593 permit 2a13:d6c0:1::/48

@@ -9310,7 +9310,7 @@
     seq 9308 permit 2a13:cd00::/29 le 48
     seq 9309 permit 2a13:ce40:6666::/47 ge 48 le 48
     seq 9310 permit 2a13:d040::/48
-    seq 9311 permit 2a13:d040:2::/48
+    seq 9311 permit 2a13:d040:2::/47 ge 48 le 48
     seq 9312 permit 2a13:d046:fffc::/46 ge 48 le 48
     seq 9313 permit 2a13:d047::/48
     seq 9314 permit 2a13:d207::/32 le 48
