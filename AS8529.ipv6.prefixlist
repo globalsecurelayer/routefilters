@@ -14033,7 +14033,7 @@
     seq 14031 permit 2a0f:85c1:39c::/47 ge 48 le 48
     seq 14032 permit 2a0f:85c1:3a4::/48
     seq 14033 permit 2a0f:85c1:3a6::/47 ge 48 le 48
-    seq 14034 permit 2a0f:85c1:3a8::/48
+    seq 14034 permit 2a0f:85c1:3a8::/47 ge 48 le 48
     seq 14035 permit 2a0f:85c1:3ab::/48
     seq 14036 permit 2a0f:85c1:600::/40 le 48
     seq 14037 permit 2a0f:85c1:701::/48
@@ -15707,7 +15707,7 @@
     seq 15705 permit 2a14:7581:100::/46 ge 48 le 48
     seq 15706 permit 2a14:7581:104::/48
     seq 15707 permit 2a14:7581:ff0::/48
-    seq 15708 permit 2a14:7581:1000::/45 le 48
+    seq 15708 permit 2a14:7581:1000::/45 ge 48 le 48
     seq 15709 permit 2a14:7581:1008::/48
     seq 15710 permit 2a14:7581:2100::/47 ge 48 le 48
     seq 15711 permit 2a14:7581:2102::/48
