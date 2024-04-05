@@ -8772,7 +8772,7 @@
     seq 8770 permit 185.49.142.0/24
     seq 8771 permit 185.51.23.0/24
     seq 8772 permit 185.53.8.0/22 le 24
-    seq 8773 permit 185.54.12.0/23 le 24
+    seq 8773 permit 185.54.12.0/22 ge 23 le 24
     seq 8774 permit 185.54.240.0/22 le 24
     seq 8775 permit 185.55.220.0/22 le 24
     seq 8776 permit 185.56.28.0/22 le 24
