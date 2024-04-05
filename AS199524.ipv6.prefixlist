@@ -4422,7 +4422,7 @@
     seq 4420 permit 2a11:f2c0:ffc3::/48
     seq 4421 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 4422 permit 2a11:f2c0:ffc9::/48
-    seq 4423 permit 2a11:f2c0:ffca::/48
+    seq 4423 permit 2a11:f2c0:ffca::/47 ge 48 le 48
     seq 4424 permit 2a11:f2c0:ffcc::/47 ge 48 le 48
     seq 4425 permit 2a11:f2c0:ffce::/48
     seq 4426 permit 2a11:f2c0:ffe0::/44 le 48

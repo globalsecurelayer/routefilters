@@ -3065,7 +3065,7 @@
     seq 3063 permit 2a11:f2c0::/48
     seq 3064 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 3065 permit 2a11:f2c0:ffc9::/48
-    seq 3066 permit 2a11:f2c0:ffca::/48
+    seq 3066 permit 2a11:f2c0:ffca::/47 ge 48 le 48
     seq 3067 permit 2a11:f2c0:ffcd::/48
     seq 3068 permit 2a11:f2c0:ffce::/48
     seq 3069 permit 2a12:7c7::/32 le 48

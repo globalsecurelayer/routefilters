@@ -8997,7 +8997,7 @@
     seq 8995 permit 2a11:f2c0:ffc3::/48
     seq 8996 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 8997 permit 2a11:f2c0:ffc9::/48
-    seq 8998 permit 2a11:f2c0:ffca::/48
+    seq 8998 permit 2a11:f2c0:ffca::/47 ge 48 le 48
     seq 8999 permit 2a11:f2c0:ffcc::/47 ge 48 le 48
     seq 9000 permit 2a11:f2c0:ffce::/48
     seq 9001 permit 2a11:f2c0:ffe0::/44 le 48
