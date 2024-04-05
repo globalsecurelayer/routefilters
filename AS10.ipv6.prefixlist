@@ -3993,7 +3993,7 @@
     seq 3991 permit 2a11:f2c0::/48
     seq 3992 permit 2a11:f2c0:ffc4::/47 ge 48 le 48
     seq 3993 permit 2a11:f2c0:ffc9::/48
-    seq 3994 permit 2a11:f2c0:ffca::/48
+    seq 3994 permit 2a11:f2c0:ffca::/47 ge 48 le 48
     seq 3995 permit 2a11:f2c0:ffcd::/48
     seq 3996 permit 2a11:f2c0:ffce::/48
     seq 3997 permit 2a12:7c7::/32 le 48
