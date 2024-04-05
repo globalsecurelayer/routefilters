@@ -6201,7 +6201,7 @@
     seq 6199 permit 185.49.92.0/22 le 24
     seq 6200 permit 185.49.126.0/23 le 24
     seq 6201 permit 185.53.8.0/22 le 24
-    seq 6202 permit 185.54.12.0/23 le 24
+    seq 6202 permit 185.54.12.0/22 ge 23 le 24
     seq 6203 permit 185.56.28.0/22 le 24
     seq 6204 permit 185.64.78.0/23 ge 24 le 24
     seq 6205 permit 185.65.62.0/24
