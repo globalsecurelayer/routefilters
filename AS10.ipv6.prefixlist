@@ -2439,7 +2439,7 @@
     seq 2437 permit 2a05:dfc1:9a00::/40 le 48
     seq 2438 permit 2a05:dfc1:a000::/39 ge 40 le 48
     seq 2439 permit 2a05:dfc1:a400::/40 le 48
-    seq 2440 permit 2a05:dfc1:a800::/40 le 48
+    seq 2440 permit 2a05:dfc1:a800::/39 ge 40 le 48
     seq 2441 permit 2a05:dfc1:ad00::/40 le 48
     seq 2442 permit 2a05:dfc1:ae00::/39 ge 40 le 48
     seq 2443 permit 2a05:dfc1:b00b::/48
@@ -3608,7 +3608,7 @@
     seq 3606 permit 2a0f:85c1:363::/48
     seq 3607 permit 2a0f:85c1:368::/48
     seq 3608 permit 2a0f:85c1:36d::/48
-    seq 3609 permit 2a0f:85c1:391::/48
+    seq 3609 permit 2a0f:85c1:390::/47 ge 48 le 48
     seq 3610 permit 2a0f:85c1:395::/48
     seq 3611 permit 2a0f:85c1:396::/48
     seq 3612 permit 2a0f:85c1:398::/48
