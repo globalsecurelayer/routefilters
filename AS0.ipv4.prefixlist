@@ -2360,7 +2360,7 @@
     seq 2358 permit 62.106.72.0/24
     seq 2359 permit 62.112.128.0/20 le 24
     seq 2360 permit 62.112.204.0/24
-    seq 2361 permit 62.112.206.0/23 le 24
+    seq 2361 permit 62.112.206.0/24
     seq 2362 permit 62.114.0.0/16 le 24
     seq 2363 permit 62.114.214.142/32
     seq 2364 permit 62.114.216.46/32
@@ -8765,7 +8765,7 @@
     seq 8763 permit 185.49.142.0/24
     seq 8764 permit 185.51.23.0/24
     seq 8765 permit 185.53.8.0/22 le 24
-    seq 8766 permit 185.54.12.0/22 ge 23 le 24
+    seq 8766 permit 185.54.14.0/23 le 24
     seq 8767 permit 185.54.240.0/22 le 24
     seq 8768 permit 185.55.220.0/22 le 24
     seq 8769 permit 185.56.28.0/22 le 24
