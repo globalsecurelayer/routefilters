@@ -5663,7 +5663,7 @@
     seq 5661 permit 45.42.24.0/22 le 24
     seq 5662 permit 45.42.32.0/22 le 24
     seq 5663 permit 45.42.42.0/23 le 24
-    seq 5664 permit 45.42.44.0/23 ge 24 le 24
+    seq 5664 permit 45.42.44.0/24
     seq 5665 permit 45.42.46.0/24
     seq 5666 permit 45.42.136.0/22 ge 24 le 24
     seq 5667 permit 45.42.140.0/24
@@ -10065,7 +10065,7 @@
     seq 10063 permit 62.112.28.0/24
     seq 10064 permit 62.112.128.0/19 le 24
     seq 10065 permit 62.112.204.0/23 ge 24 le 24
-    seq 10066 permit 62.112.206.0/23 le 24
+    seq 10066 permit 62.112.206.0/24
     seq 10067 permit 62.112.216.0/21 ge 24 le 24
     seq 10068 permit 62.112.224.0/19 le 24
     seq 10069 permit 62.113.32.0/20 le 24
@@ -40274,7 +40274,7 @@
     seq 40272 permit 157.254.16.0/22 ge 23 le 24
     seq 40273 permit 157.254.20.0/22 le 24
     seq 40274 permit 157.254.26.0/23 le 24
-    seq 40275 permit 157.254.32.0/22 ge 23 le 24
+    seq 40275 permit 157.254.32.0/23 le 24
     seq 40276 permit 157.254.38.0/23 le 24
     seq 40277 permit 157.254.48.0/22 le 24
     seq 40278 permit 157.254.52.0/23 le 24
@@ -40299,7 +40299,7 @@
     seq 40297 permit 157.254.217.0/24
     seq 40298 permit 157.254.219.0/24
     seq 40299 permit 157.254.220.0/24
-    seq 40300 permit 157.254.222.0/23 ge 24 le 24
+    seq 40300 permit 157.254.223.0/24
     seq 40301 permit 157.254.224.0/22 le 24
     seq 40302 permit 157.254.229.0/24
     seq 40303 permit 157.254.230.0/23 ge 24 le 24
@@ -47544,7 +47544,7 @@
     seq 47542 permit 185.53.242.0/23 le 24
     seq 47543 permit 185.53.244.0/22 le 24
     seq 47544 permit 185.53.249.0/24
-    seq 47545 permit 185.54.12.0/22 ge 23 le 24
+    seq 47545 permit 185.54.14.0/23 le 24
     seq 47546 permit 185.54.20.0/22 le 24
     seq 47547 permit 185.54.24.0/22 le 24
     seq 47548 permit 185.54.72.0/22 le 24
@@ -67230,7 +67230,7 @@
     seq 67228 permit 203.170.71.59/32
     seq 67229 permit 203.170.71.87/32
     seq 67230 permit 203.170.71.93/32
-    seq 67231 permit 203.170.90.0/23 ge 24 le 24
+    seq 67231 permit 203.170.90.0/23 le 24
     seq 67232 permit 203.171.5.0/24
     seq 67233 permit 203.171.16.0/20 le 24
     seq 67234 permit 203.171.32.0/19 le 24
