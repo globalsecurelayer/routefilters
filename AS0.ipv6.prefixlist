@@ -1788,7 +1788,7 @@
     seq 1786 permit 2602:fd6f:2::/48
     seq 1787 permit 2602:fd6f:1e::/48
     seq 1788 permit 2602:fd6f:20::/43 ge 44 le 48
-    seq 1789 permit 2602:fd6f:40::/44 le 48
+    seq 1789 permit 2602:fd6f:40::/43 ge 44 le 48
     seq 1790 permit 2602:fd6f:aaa::/47 ge 48 le 48
     seq 1791 permit 2602:fd6f:aac::/46 ge 48 le 48
     seq 1792 permit 2602:fd6f:aba::/47 ge 48 le 48
