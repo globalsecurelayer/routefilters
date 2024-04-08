@@ -1035,14 +1035,16 @@
     seq 1033 permit 2a13:d8c0::/29 ge 32 le 48
     seq 1034 permit 2a13:df80:1200::/40 le 48
     seq 1035 permit 2a13:df80:5900::/40 le 48
-    seq 1036 permit 2a13:df80:9c00::/40 le 48
-    seq 1037 permit 2a13:df80:c000::/38 le 48
-    seq 1038 permit 2a13:df82:ff00::/40 le 48
-    seq 1039 permit 2a13:df84:7003::/48
-    seq 1040 permit 2a13:df87:a000::/38 le 48
-    seq 1041 permit 2a14:7c0:b00b::/48
-    seq 1042 permit 2a14:7c1:b00b::/48
-    seq 1043 permit 2a14:7c7:b00b::/48
-    seq 1044 permit 2a14:1ec7:ffff::/48
-    seq 1045 permit 2a14:7581:6000::/36 le 48
-    seq 1046 permit 2a14:7582::/32 le 48
+    seq 1036 permit 2a13:df80:7d30::/44 le 48
+    seq 1037 permit 2a13:df80:7e00::/44 le 48
+    seq 1038 permit 2a13:df80:9c00::/40 le 48
+    seq 1039 permit 2a13:df80:c000::/38 le 48
+    seq 1040 permit 2a13:df82:ff00::/40 le 48
+    seq 1041 permit 2a13:df84:7003::/48
+    seq 1042 permit 2a13:df87:a000::/38 le 48
+    seq 1043 permit 2a14:7c0:b00b::/48
+    seq 1044 permit 2a14:7c1:b00b::/48
+    seq 1045 permit 2a14:7c7:b00b::/48
+    seq 1046 permit 2a14:1ec7:ffff::/48
+    seq 1047 permit 2a14:7581:6000::/36 le 48
+    seq 1048 permit 2a14:7582::/32 le 48
