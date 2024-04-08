@@ -8160,7 +8160,7 @@
     seq 8158 permit 45.231.24.0/22 le 24
     seq 8159 permit 45.231.60.0/22 le 24
     seq 8160 permit 45.231.112.0/22 le 24
-    seq 8161 permit 45.231.207.0/24
+    seq 8161 permit 45.231.206.0/23 ge 24 le 24
     seq 8162 permit 45.232.46.0/23 le 24
     seq 8163 permit 45.232.48.0/22 le 24
     seq 8164 permit 45.232.60.0/22 le 24
@@ -15390,7 +15390,7 @@
     seq 15388 permit 82.163.44.0/22 le 24
     seq 15389 permit 82.163.48.0/23 ge 24 le 24
     seq 15390 permit 82.163.51.0/24
-    seq 15391 permit 82.163.52.0/22 ge 23 le 24
+    seq 15391 permit 82.163.52.0/22 le 24
     seq 15392 permit 82.163.56.0/22 le 24
     seq 15393 permit 82.163.96.0/21 le 24
     seq 15394 permit 82.163.112.0/21 le 24
@@ -50550,7 +50550,7 @@
     seq 50548 permit 185.192.0.0/22 le 24
     seq 50549 permit 185.192.8.0/22 le 24
     seq 50550 permit 185.192.15.0/24
-    seq 50551 permit 185.192.16.0/23 ge 24 le 24
+    seq 50551 permit 185.192.17.0/24
     seq 50552 permit 185.192.18.0/23 le 24
     seq 50553 permit 185.192.21.0/24
     seq 50554 permit 185.192.22.0/23 le 24
