@@ -7827,12 +7827,12 @@
     seq 7825 permit 2a0f:1640::/29 ge 30 le 48
     seq 7826 permit 2a0f:16c0::/29 ge 30 le 48
     seq 7827 permit 2a0f:1740::/29 ge 30 le 48
-    seq 7828 permit 2a0f:17c0::/29 ge 30 le 48
+    seq 7828 permit 2a0f:17c0::/29 le 48
     seq 7829 permit 2a0f:1840::/29 ge 30 le 48
     seq 7830 permit 2a0f:18c0::/29 ge 30 le 48
     seq 7831 permit 2a0f:1940::/29 ge 30 le 48
     seq 7832 permit 2a0f:19c0::/29 ge 30 le 48
-    seq 7833 permit 2a0f:1a40::/29 ge 30 le 48
+    seq 7833 permit 2a0f:1a40::/29 le 48
     seq 7834 permit 2a0f:1ac0::/29 ge 30 le 48
     seq 7835 permit 2a0f:1e00:123::/48
     seq 7836 permit 2a0f:1e00:456::/48
@@ -7855,7 +7855,7 @@
     seq 7853 permit 2a0f:2480::/29 le 48
     seq 7854 permit 2a0f:2500::/29 le 48
     seq 7855 permit 2a0f:25c0::/29 le 48
-    seq 7856 permit 2a0f:27c0::/29 ge 30 le 48
+    seq 7856 permit 2a0f:27c0::/29 le 48
     seq 7857 permit 2a0f:2840::/29 ge 30 le 48
     seq 7858 permit 2a0f:2880::/32 le 48
     seq 7859 permit 2a0f:28c0::/29 ge 30 le 48
