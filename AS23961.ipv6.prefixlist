@@ -1596,7 +1596,7 @@
     seq 1594 permit 2a13:c000::/29 le 48
     seq 1595 permit 2a13:ce40:6666::/48
     seq 1596 permit 2a13:d8c0::/29 ge 32 le 48
-    seq 1597 permit 2a13:df80:100::/48
+    seq 1597 permit 2a13:df80:100::/40 le 48
     seq 1598 permit 2a13:df80:3806::/48
     seq 1599 permit 2a13:df80:3e00::/40 le 48
     seq 1600 permit 2a13:df80:7e00::/44 le 48

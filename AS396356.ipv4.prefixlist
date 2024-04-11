@@ -2520,7 +2520,7 @@
     seq 2518 permit 147.78.204.0/24
     seq 2519 permit 147.78.220.0/22 le 24
     seq 2520 permit 147.79.28.0/24
-    seq 2521 permit 147.79.30.0/23 le 24
+    seq 2521 permit 147.79.31.0/24
     seq 2522 permit 147.79.56.0/23 le 24
     seq 2523 permit 147.79.58.0/24
     seq 2524 permit 147.92.52.0/22 le 24
@@ -3432,7 +3432,7 @@
     seq 3430 permit 181.214.195.0/24
     seq 3431 permit 181.214.196.0/24
     seq 3432 permit 181.214.204.0/24
-    seq 3433 permit 181.214.206.0/24
+    seq 3433 permit 181.214.206.0/23 ge 24 le 24
     seq 3434 permit 181.214.211.0/24
     seq 3435 permit 181.214.212.0/23 ge 24 le 24
     seq 3436 permit 181.214.221.0/24
@@ -3578,7 +3578,7 @@
     seq 3576 permit 185.97.0.0/22 ge 23 le 24
     seq 3577 permit 185.98.43.0/24
     seq 3578 permit 185.99.18.0/23 le 24
-    seq 3579 permit 185.100.215.0/24
+    seq 3579 permit 185.100.214.0/23 le 24
     seq 3580 permit 185.101.14.0/24
     seq 3581 permit 185.101.203.0/24
     seq 3582 permit 185.102.112.0/23 le 24
@@ -5186,44 +5186,45 @@
     seq 5184 permit 216.238.64.0/18 le 24
     seq 5185 permit 216.245.154.0/23 le 24
     seq 5186 permit 216.246.0.0/17 le 24
-    seq 5187 permit 216.254.0.0/17 le 24
-    seq 5188 permit 217.8.192.0/19 le 24
-    seq 5189 permit 217.9.253.0/24
-    seq 5190 permit 217.22.224.0/19 le 24
-    seq 5191 permit 217.26.216.0/21 le 24
-    seq 5192 permit 217.31.192.0/20 le 24
-    seq 5193 permit 217.69.0.0/20 le 24
-    seq 5194 permit 217.69.121.0/24
-    seq 5195 permit 217.69.125.0/24
-    seq 5196 permit 217.69.126.0/23 ge 24 le 24
-    seq 5197 permit 217.77.16.0/21 le 24
-    seq 5198 permit 217.79.96.0/19 le 24
-    seq 5199 permit 217.79.160.0/20 le 24
-    seq 5200 permit 217.114.112.0/20 le 24
-    seq 5201 permit 217.117.160.0/20 le 24
-    seq 5202 permit 217.118.112.0/20 le 24
-    seq 5203 permit 217.144.52.0/24
-    seq 5204 permit 217.144.55.0/24
-    seq 5205 permit 217.145.71.0/24
-    seq 5206 permit 217.145.112.0/20 le 24
-    seq 5207 permit 217.145.236.0/24
-    seq 5208 permit 217.145.238.0/23 ge 24 le 24
-    seq 5209 permit 217.146.6.0/23 ge 24 le 24
-    seq 5210 permit 217.163.11.0/24
-    seq 5211 permit 217.163.22.0/23 le 24
-    seq 5212 permit 217.163.28.0/23 le 24
-    seq 5213 permit 217.163.30.0/24
-    seq 5214 permit 217.195.224.0/19 le 24
-    seq 5215 permit 217.204.0.0/14 le 24
-    seq 5216 permit 218.33.80.0/20 le 24
-    seq 5217 permit 218.33.96.0/19 le 24
-    seq 5218 permit 218.42.0.0/17 le 24
-    seq 5219 permit 218.100.80.0/22 le 24
-    seq 5220 permit 218.227.0.0/16 le 24
-    seq 5221 permit 219.107.0.0/16 le 24
-    seq 5222 permit 220.102.0.0/16 le 24
-    seq 5223 permit 220.144.0.0/16 le 24
-    seq 5224 permit 221.170.0.0/15 le 24
-    seq 5225 permit 223.27.96.0/21 le 24
-    seq 5226 permit 223.29.252.0/24
-    seq 5227 permit 223.165.4.0/24
+    seq 5187 permit 216.247.108.0/24
+    seq 5188 permit 216.254.0.0/17 le 24
+    seq 5189 permit 217.8.192.0/19 le 24
+    seq 5190 permit 217.9.253.0/24
+    seq 5191 permit 217.22.224.0/19 le 24
+    seq 5192 permit 217.26.216.0/21 le 24
+    seq 5193 permit 217.31.192.0/20 le 24
+    seq 5194 permit 217.69.0.0/20 le 24
+    seq 5195 permit 217.69.121.0/24
+    seq 5196 permit 217.69.125.0/24
+    seq 5197 permit 217.69.126.0/23 ge 24 le 24
+    seq 5198 permit 217.77.16.0/21 le 24
+    seq 5199 permit 217.79.96.0/19 le 24
+    seq 5200 permit 217.79.160.0/20 le 24
+    seq 5201 permit 217.114.112.0/20 le 24
+    seq 5202 permit 217.117.160.0/20 le 24
+    seq 5203 permit 217.118.112.0/20 le 24
+    seq 5204 permit 217.144.52.0/24
+    seq 5205 permit 217.144.55.0/24
+    seq 5206 permit 217.145.71.0/24
+    seq 5207 permit 217.145.112.0/20 le 24
+    seq 5208 permit 217.145.236.0/24
+    seq 5209 permit 217.145.238.0/23 ge 24 le 24
+    seq 5210 permit 217.146.6.0/23 ge 24 le 24
+    seq 5211 permit 217.163.11.0/24
+    seq 5212 permit 217.163.22.0/23 le 24
+    seq 5213 permit 217.163.28.0/23 le 24
+    seq 5214 permit 217.163.30.0/24
+    seq 5215 permit 217.195.224.0/19 le 24
+    seq 5216 permit 217.204.0.0/14 le 24
+    seq 5217 permit 218.33.80.0/20 le 24
+    seq 5218 permit 218.33.96.0/19 le 24
+    seq 5219 permit 218.42.0.0/17 le 24
+    seq 5220 permit 218.100.80.0/22 le 24
+    seq 5221 permit 218.227.0.0/16 le 24
+    seq 5222 permit 219.107.0.0/16 le 24
+    seq 5223 permit 220.102.0.0/16 le 24
+    seq 5224 permit 220.144.0.0/16 le 24
+    seq 5225 permit 221.170.0.0/15 le 24
+    seq 5226 permit 223.27.96.0/21 le 24
+    seq 5227 permit 223.29.252.0/24
+    seq 5228 permit 223.165.4.0/24

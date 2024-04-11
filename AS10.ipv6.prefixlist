@@ -4202,7 +4202,7 @@
     seq 4200 permit 2a13:df80:71::/48
     seq 4201 permit 2a13:df80:80::/44 le 48
     seq 4202 permit 2a13:df80:c0::/44 le 48
-    seq 4203 permit 2a13:df80:100::/48
+    seq 4203 permit 2a13:df80:100::/40 le 48
     seq 4204 permit 2a13:df80:3b5::/48
     seq 4205 permit 2a13:df80:3f0::/44 le 48
     seq 4206 permit 2a13:df80:400::/38 le 48
