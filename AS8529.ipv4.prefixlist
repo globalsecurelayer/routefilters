@@ -46509,7 +46509,7 @@
     seq 46507 permit 185.128.176.0/22 ge 23 le 24
     seq 46508 permit 185.128.184.0/22 le 24
     seq 46509 permit 185.128.192.0/22 le 24
-    seq 46510 permit 185.128.206.0/23 ge 24 le 24
+    seq 46510 permit 185.128.206.0/23 le 24
     seq 46511 permit 185.128.208.0/23 le 24
     seq 46512 permit 185.128.211.0/24
     seq 46513 permit 185.128.220.0/22 le 24
@@ -47519,7 +47519,7 @@
     seq 47517 permit 185.173.167.0/24
     seq 47518 permit 185.173.168.0/22 le 24
     seq 47519 permit 185.173.176.0/22 ge 24 le 24
-    seq 47520 permit 185.173.184.0/24
+    seq 47520 permit 185.173.184.0/23 ge 24 le 24
     seq 47521 permit 185.173.204.0/22 le 24
     seq 47522 permit 185.173.224.0/24
     seq 47523 permit 185.173.227.0/24
@@ -61419,7 +61419,7 @@
     seq 61417 permit 202.88.128.0/17 le 24
     seq 61418 permit 202.89.0.0/21 ge 22 le 24
     seq 61419 permit 202.89.64.0/20 le 24
-    seq 61420 permit 202.89.109.0/24
+    seq 61420 permit 202.89.108.0/22 le 24
     seq 61421 permit 202.89.160.0/19 le 24
     seq 61422 permit 202.89.224.0/21 le 24
     seq 61423 permit 202.90.8.0/22 le 24
@@ -66666,7 +66666,7 @@
     seq 66664 permit 208.162.36.0/22 le 24
     seq 66665 permit 208.162.40.0/24
     seq 66666 permit 208.164.0.0/15 le 24
-    seq 66667 permit 208.166.48.0/20 le 24
+    seq 66667 permit 208.166.0.0/16 le 24
     seq 66668 permit 208.167.224.0/19 le 24
     seq 66669 permit 208.168.188.0/23 le 24
     seq 66670 permit 208.170.6.0/24
