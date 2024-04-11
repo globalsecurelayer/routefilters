@@ -3166,7 +3166,7 @@
     seq 3164 permit 2a0e:97c0:780::/44 le 48
     seq 3165 permit 2a0e:97c0:791::/48
     seq 3166 permit 2a0e:97c0:792::/48
-    seq 3167 permit 2a0e:97c0:7b0::/44 le 48
+    seq 3167 permit 2a0e:97c0:7a0::/43 ge 44 le 48
     seq 3168 permit 2a0e:97c0:7c0::/43 ge 44 le 48
     seq 3169 permit 2a0e:97c0:7e0::/44 le 48
     seq 3170 permit 2a0e:97c0:810::/44 le 48
@@ -5093,15 +5093,15 @@
     seq 5091 permit 2a14:7581:104::/48
     seq 5092 permit 2a14:7581:500::/40 le 48
     seq 5093 permit 2a14:7581:ff0::/48
-    seq 5094 permit 2a14:7581:1000::/46 ge 48 le 48
-    seq 5095 permit 2a14:7581:1004::/47 ge 48 le 48
-    seq 5096 permit 2a14:7581:1006::/48
-    seq 5097 permit 2a14:7581:2000::/48
-    seq 5098 permit 2a14:7581:2010::/48
-    seq 5099 permit 2a14:7581:2068::/48
-    seq 5100 permit 2a14:7581:2100::/47 ge 48 le 48
-    seq 5101 permit 2a14:7581:2102::/48
-    seq 5102 permit 2a14:7581:2111::/48
+    seq 5094 permit 2a14:7581:1000::/45 ge 48 le 48
+    seq 5095 permit 2a14:7581:1008::/48
+    seq 5096 permit 2a14:7581:2000::/48
+    seq 5097 permit 2a14:7581:2010::/48
+    seq 5098 permit 2a14:7581:2068::/48
+    seq 5099 permit 2a14:7581:2100::/47 ge 48 le 48
+    seq 5100 permit 2a14:7581:2102::/48
+    seq 5101 permit 2a14:7581:2111::/48
+    seq 5102 permit 2a14:7581:2153::/48
     seq 5103 permit 2a14:7581:2180::/48
     seq 5104 permit 2a14:7581:2199::/48
     seq 5105 permit 2a14:7581:4000::/36 le 48
