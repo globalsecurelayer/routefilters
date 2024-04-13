@@ -3314,7 +3314,7 @@
     seq 3312 permit 83.229.120.0/21 le 24
     seq 3313 permit 84.21.174.0/23 le 24
     seq 3314 permit 84.32.7.0/24
-    seq 3315 permit 84.32.8.0/24
+    seq 3315 permit 84.32.8.0/23 le 24
     seq 3316 permit 84.32.20.0/22 le 24
     seq 3317 permit 84.32.24.0/22 le 24
     seq 3318 permit 84.32.44.0/22 ge 24 le 24
@@ -11594,7 +11594,7 @@
     seq 11592 permit 206.206.90.0/23 ge 24 le 24
     seq 11593 permit 206.206.96.0/22 ge 23 le 24
     seq 11594 permit 206.206.100.0/22 le 24
-    seq 11595 permit 206.206.106.0/23 le 24
+    seq 11595 permit 206.206.106.0/23 ge 24 le 24
     seq 11596 permit 206.206.108.0/24
     seq 11597 permit 206.206.110.0/24
     seq 11598 permit 206.206.112.0/22 le 24
