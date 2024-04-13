@@ -1401,7 +1401,7 @@
     seq 1399 permit 84.21.170.0/24
     seq 1400 permit 84.22.151.0/24
     seq 1401 permit 84.32.7.0/24
-    seq 1402 permit 84.32.8.0/24
+    seq 1402 permit 84.32.8.0/23 le 24
     seq 1403 permit 84.32.20.0/22 le 24
     seq 1404 permit 84.32.24.0/22 le 24
     seq 1405 permit 84.32.46.0/23 ge 24 le 24
@@ -4832,7 +4832,7 @@
     seq 4830 permit 206.206.92.0/22 ge 24 le 24
     seq 4831 permit 206.206.96.0/22 ge 23 le 24
     seq 4832 permit 206.206.100.0/22 le 24
-    seq 4833 permit 206.206.106.0/23 le 24
+    seq 4833 permit 206.206.106.0/23 ge 24 le 24
     seq 4834 permit 206.206.108.0/24
     seq 4835 permit 206.206.110.0/24
     seq 4836 permit 206.206.112.0/22 le 24
