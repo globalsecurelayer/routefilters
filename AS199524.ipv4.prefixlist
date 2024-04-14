@@ -8750,7 +8750,7 @@
     seq 8748 permit 192.177.22.0/24
     seq 8749 permit 192.177.28.0/24
     seq 8750 permit 192.177.31.0/24
-    seq 8751 permit 192.177.38.0/24
+    seq 8751 permit 192.177.38.0/23 ge 24 le 24
     seq 8752 permit 192.177.41.0/24
     seq 8753 permit 192.177.42.0/23 ge 24 le 24
     seq 8754 permit 192.177.46.0/23 ge 24 le 24

@@ -2474,7 +2474,7 @@
     seq 2472 permit 192.177.22.0/24
     seq 2473 permit 192.177.28.0/24
     seq 2474 permit 192.177.31.0/24
-    seq 2475 permit 192.177.38.0/24
+    seq 2475 permit 192.177.38.0/23 ge 24 le 24
     seq 2476 permit 192.177.41.0/24
     seq 2477 permit 192.177.42.0/23 ge 24 le 24
     seq 2478 permit 192.177.46.0/23 ge 24 le 24
