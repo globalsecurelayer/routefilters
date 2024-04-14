@@ -9281,7 +9281,7 @@
     seq 9279 permit 85.29.18.0/24
     seq 9280 permit 85.29.33.0/24
     seq 9281 permit 85.29.128.0/18 le 24
-    seq 9282 permit 85.31.40.0/22 ge 24 le 24
+    seq 9282 permit 85.31.40.0/22 le 24
     seq 9283 permit 85.31.44.0/23 ge 24 le 24
     seq 9284 permit 85.31.46.0/24
     seq 9285 permit 85.31.120.0/22 ge 24 le 24
@@ -33492,7 +33492,7 @@
     seq 33490 permit 199.48.52.0/22 le 24
     seq 33491 permit 199.48.92.0/22 le 24
     seq 33492 permit 199.48.177.0/24
-    seq 33493 permit 199.48.178.0/23 ge 24 le 24
+    seq 33493 permit 199.48.178.0/24
     seq 33494 permit 199.48.180.0/24
     seq 33495 permit 199.48.182.0/24
     seq 33496 permit 199.48.228.0/23 le 24
