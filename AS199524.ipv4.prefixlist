@@ -6261,7 +6261,7 @@
     seq 6259 permit 154.16.225.0/24
     seq 6260 permit 154.16.230.0/24
     seq 6261 permit 154.16.232.0/24
-    seq 6262 permit 154.16.240.0/23 ge 24 le 24
+    seq 6262 permit 154.16.241.0/24
     seq 6263 permit 154.16.248.0/24
     seq 6264 permit 154.17.0.0/16 le 24
     seq 6265 permit 154.18.68.0/24
@@ -9900,7 +9900,7 @@
     seq 9898 permit 195.88.86.0/24
     seq 9899 permit 195.88.120.0/23 le 24
     seq 9900 permit 195.88.170.0/24
-    seq 9901 permit 195.88.190.0/23 le 24
+    seq 9901 permit 195.88.190.0/23 ge 24 le 24
     seq 9902 permit 195.88.208.0/24
     seq 9903 permit 195.88.210.0/23 le 24
     seq 9904 permit 195.88.240.0/23 le 24
