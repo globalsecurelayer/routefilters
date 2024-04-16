@@ -20436,7 +20436,7 @@
     seq 20434 permit 95.107.208.0/20 le 24
     seq 20435 permit 95.107.224.0/19 ge 20 le 24
     seq 20436 permit 95.111.0.0/17 le 24
-    seq 20437 permit 95.111.128.0/19 ge 20 le 24
+    seq 20437 permit 95.111.128.0/20 le 24
     seq 20438 permit 95.128.48.0/21 le 24
     seq 20439 permit 95.128.80.0/21 le 24
     seq 20440 permit 95.128.152.0/24
@@ -52768,7 +52768,7 @@
     seq 52766 permit 193.29.139.0/24
     seq 52767 permit 193.29.144.0/20 le 24
     seq 52768 permit 193.29.177.0/24
-    seq 52769 permit 193.29.183.0/24
+    seq 52769 permit 193.29.182.0/23 ge 24 le 24
     seq 52770 permit 193.29.184.0/23 le 24
     seq 52771 permit 193.29.185.0/32
     seq 52772 permit 193.29.190.0/23 le 24
