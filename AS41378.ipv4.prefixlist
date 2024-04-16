@@ -5108,7 +5108,7 @@
     seq 5106 permit 154.16.152.0/23 le 24
     seq 5107 permit 154.16.154.0/24
     seq 5108 permit 154.16.161.0/24
-    seq 5109 permit 154.16.166.0/23 le 24
+    seq 5109 permit 154.16.166.0/23 ge 24 le 24
     seq 5110 permit 154.16.174.0/23 le 24
     seq 5111 permit 154.16.179.0/24
     seq 5112 permit 154.16.181.0/24
