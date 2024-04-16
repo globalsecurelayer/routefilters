@@ -4242,7 +4242,7 @@
     seq 4240 permit 2a13:df80:3d00::/40 le 48
     seq 4241 permit 2a13:df80:3e00::/40 le 48
     seq 4242 permit 2a13:df80:4600::/40 le 48
-    seq 4243 permit 2a13:df80:5700::/47 le 48
+    seq 4243 permit 2a13:df80:5700::/47 ge 48 le 48
     seq 4244 permit 2a13:df80:5800::/48
     seq 4245 permit 2a13:df80:5802::/47 ge 48 le 48
     seq 4246 permit 2a13:df80:5900::/40 le 48
