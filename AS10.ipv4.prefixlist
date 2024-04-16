@@ -6570,7 +6570,7 @@
     seq 6568 permit 154.16.152.0/23 le 24
     seq 6569 permit 154.16.154.0/24
     seq 6570 permit 154.16.161.0/24
-    seq 6571 permit 154.16.166.0/23 le 24
+    seq 6571 permit 154.16.166.0/23 ge 24 le 24
     seq 6572 permit 154.16.174.0/23 le 24
     seq 6573 permit 154.16.179.0/24
     seq 6574 permit 154.16.181.0/24
