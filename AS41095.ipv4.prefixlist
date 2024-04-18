@@ -21511,8 +21511,8 @@
     seq 21509 permit 154.205.184.0/23 le 24
     seq 21510 permit 154.205.192.0/19 ge 24 le 24
     seq 21511 permit 154.205.224.0/19 le 24
-    seq 21512 permit 154.206.4.0/22 le 24
-    seq 21513 permit 154.206.8.0/22 le 24
+    seq 21512 permit 154.206.4.0/22 ge 24 le 24
+    seq 21513 permit 154.206.8.0/22 ge 24 le 24
     seq 21514 permit 154.206.12.0/24
     seq 21515 permit 154.206.128.0/18 le 24
     seq 21516 permit 154.207.0.0/22 ge 24 le 24
@@ -21861,7 +21861,7 @@
     seq 21859 permit 156.246.20.0/24
     seq 21860 permit 156.246.22.0/24
     seq 21861 permit 156.247.16.0/20 le 24
-    seq 21862 permit 156.248.78.0/23 ge 24 le 24
+    seq 21862 permit 156.248.72.0/21 le 24
     seq 21863 permit 156.249.19.0/24
     seq 21864 permit 156.249.28.0/22 le 24
     seq 21865 permit 156.249.32.0/20 le 24
