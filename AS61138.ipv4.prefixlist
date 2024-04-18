@@ -10,7 +10,7 @@
     seq 8 permit 23.140.248.0/24
     seq 9 permit 23.142.24.0/22 le 24
     seq 10 permit 23.146.88.0/24
-    seq 11 permit 23.154.8.0/24
+    seq 11 permit 23.154.8.0/23 ge 24 le 24
     seq 12 permit 23.156.200.0/24
     seq 13 permit 23.168.232.0/24
     seq 14 permit 27.0.232.0/22 le 24
