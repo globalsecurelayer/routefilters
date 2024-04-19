@@ -3359,7 +3359,7 @@
     seq 3357 permit 89.28.237.0/24
     seq 3358 permit 89.28.239.0/24
     seq 3359 permit 89.31.192.0/21 le 24
-    seq 3360 permit 89.32.131.0/24
+    seq 3360 permit 89.32.130.0/23 ge 24 le 24
     seq 3361 permit 89.32.132.0/22 le 24
     seq 3362 permit 89.33.117.0/24
     seq 3363 permit 89.33.118.0/24
