@@ -6709,7 +6709,7 @@
     seq 6707 permit 2a0c:79c0:5::/48
     seq 6708 permit 2a0c:7b00::/29 le 48
     seq 6709 permit 2a0c:7b80::/32 le 48
-    seq 6710 permit 2a0c:7b83::/32 le 48
+    seq 6710 permit 2a0c:7b82::/31 ge 32 le 48
     seq 6711 permit 2a0c:7b87::/32 le 48
     seq 6712 permit 2a0c:7bc0::/29 le 48
     seq 6713 permit 2a0c:7d00::/29 le 48
@@ -7096,7 +7096,7 @@
     seq 7094 permit 2a0d:b8c0::/29 le 48
     seq 7095 permit 2a0d:b9c1::/32 le 48
     seq 7096 permit 2a0d:b9c3::/32 le 48
-    seq 7097 permit 2a0d:b9c5::/32 le 48
+    seq 7097 permit 2a0d:b9c4::/31 ge 32 le 48
     seq 7098 permit 2a0d:ba44::/30 le 48
     seq 7099 permit 2a0d:bb40::/32 le 48
     seq 7100 permit 2a0d:bcc0::/29 le 48
@@ -7339,7 +7339,7 @@
     seq 7337 permit 2a0e:7e40::/29 le 48
     seq 7338 permit 2a0e:7f41::/32 le 48
     seq 7339 permit 2a0e:7f42::/32 le 48
-    seq 7340 permit 2a0e:7f45::/32 le 48
+    seq 7340 permit 2a0e:7f44::/31 ge 32 le 48
     seq 7341 permit 2a0e:8081::/32 le 48
     seq 7342 permit 2a0e:8084::/31 ge 32 le 48
     seq 7343 permit 2a0e:8087::/32 le 48
