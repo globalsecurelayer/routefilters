@@ -532,7 +532,7 @@
     seq 530 permit 45.91.79.0/24
     seq 531 permit 45.91.139.0/24
     seq 532 permit 45.91.164.0/22 le 24
-    seq 533 permit 45.93.44.0/23 ge 24 le 24
+    seq 533 permit 45.93.45.0/24
     seq 534 permit 45.93.47.0/24
     seq 535 permit 45.93.62.0/23 le 24
     seq 536 permit 45.93.116.0/22 le 24
@@ -2406,7 +2406,7 @@
     seq 2404 permit 140.150.152.0/21 le 24
     seq 2405 permit 140.228.16.0/22 le 24
     seq 2406 permit 140.228.23.0/24
-    seq 2407 permit 140.233.190.0/23 le 24
+    seq 2407 permit 140.233.191.0/24
     seq 2408 permit 141.0.32.0/19 le 24
     seq 2409 permit 141.0.192.0/21 le 24
     seq 2410 permit 141.11.2.0/23 ge 24 le 24
@@ -3381,51 +3381,51 @@
     seq 3379 permit 181.191.40.0/22 le 24
     seq 3380 permit 181.191.196.0/22 le 24
     seq 3381 permit 181.191.204.0/22 le 24
-    seq 3382 permit 181.214.4.0/22 ge 24 le 24
-    seq 3383 permit 181.214.8.0/24
-    seq 3384 permit 181.214.11.0/24
-    seq 3385 permit 181.214.37.0/24
-    seq 3386 permit 181.214.39.0/24
-    seq 3387 permit 181.214.41.0/24
-    seq 3388 permit 181.214.44.0/23 ge 24 le 24
-    seq 3389 permit 181.214.48.0/24
-    seq 3390 permit 181.214.62.0/24
-    seq 3391 permit 181.214.70.0/23 ge 24 le 24
-    seq 3392 permit 181.214.76.0/24
-    seq 3393 permit 181.214.95.0/24
-    seq 3394 permit 181.214.122.0/24
-    seq 3395 permit 181.214.127.0/24
-    seq 3396 permit 181.214.128.0/23 le 24
-    seq 3397 permit 181.214.131.0/24
-    seq 3398 permit 181.214.150.0/23 le 24
-    seq 3399 permit 181.214.158.0/23 le 24
-    seq 3400 permit 181.214.170.0/24
-    seq 3401 permit 181.214.179.0/24
-    seq 3402 permit 181.214.186.0/23 le 24
-    seq 3403 permit 181.214.188.0/22 ge 23 le 24
-    seq 3404 permit 181.214.192.0/23 le 24
-    seq 3405 permit 181.214.195.0/24
-    seq 3406 permit 181.214.196.0/24
-    seq 3407 permit 181.214.204.0/24
-    seq 3408 permit 181.214.206.0/23 ge 24 le 24
-    seq 3409 permit 181.214.211.0/24
-    seq 3410 permit 181.214.212.0/23 ge 24 le 24
-    seq 3411 permit 181.214.221.0/24
-    seq 3412 permit 181.214.226.0/24
-    seq 3413 permit 181.214.229.0/24
-    seq 3414 permit 181.214.230.0/24
-    seq 3415 permit 181.214.234.0/24
-    seq 3416 permit 181.214.245.0/24
-    seq 3417 permit 181.214.247.0/24
-    seq 3418 permit 181.214.248.0/24
-    seq 3419 permit 181.214.251.0/24
-    seq 3420 permit 181.215.0.0/24
-    seq 3421 permit 181.215.28.0/24
-    seq 3422 permit 181.215.30.0/24
-    seq 3423 permit 181.215.34.0/24
-    seq 3424 permit 181.215.36.0/24
-    seq 3425 permit 181.215.40.0/24
-    seq 3426 permit 181.215.45.0/24
+    seq 3382 permit 181.214.5.0/24
+    seq 3383 permit 181.214.6.0/23 ge 24 le 24
+    seq 3384 permit 181.214.8.0/24
+    seq 3385 permit 181.214.11.0/24
+    seq 3386 permit 181.214.37.0/24
+    seq 3387 permit 181.214.39.0/24
+    seq 3388 permit 181.214.41.0/24
+    seq 3389 permit 181.214.44.0/23 ge 24 le 24
+    seq 3390 permit 181.214.48.0/24
+    seq 3391 permit 181.214.62.0/24
+    seq 3392 permit 181.214.70.0/23 ge 24 le 24
+    seq 3393 permit 181.214.76.0/24
+    seq 3394 permit 181.214.95.0/24
+    seq 3395 permit 181.214.122.0/24
+    seq 3396 permit 181.214.127.0/24
+    seq 3397 permit 181.214.128.0/23 le 24
+    seq 3398 permit 181.214.131.0/24
+    seq 3399 permit 181.214.150.0/23 le 24
+    seq 3400 permit 181.214.158.0/23 le 24
+    seq 3401 permit 181.214.170.0/24
+    seq 3402 permit 181.214.179.0/24
+    seq 3403 permit 181.214.186.0/23 le 24
+    seq 3404 permit 181.214.188.0/22 ge 23 le 24
+    seq 3405 permit 181.214.192.0/23 le 24
+    seq 3406 permit 181.214.195.0/24
+    seq 3407 permit 181.214.196.0/24
+    seq 3408 permit 181.214.204.0/24
+    seq 3409 permit 181.214.206.0/23 ge 24 le 24
+    seq 3410 permit 181.214.211.0/24
+    seq 3411 permit 181.214.212.0/23 ge 24 le 24
+    seq 3412 permit 181.214.221.0/24
+    seq 3413 permit 181.214.226.0/24
+    seq 3414 permit 181.214.229.0/24
+    seq 3415 permit 181.214.230.0/24
+    seq 3416 permit 181.214.234.0/24
+    seq 3417 permit 181.214.245.0/24
+    seq 3418 permit 181.214.247.0/24
+    seq 3419 permit 181.214.248.0/24
+    seq 3420 permit 181.214.251.0/24
+    seq 3421 permit 181.215.0.0/24
+    seq 3422 permit 181.215.28.0/24
+    seq 3423 permit 181.215.30.0/24
+    seq 3424 permit 181.215.34.0/24
+    seq 3425 permit 181.215.36.0/24
+    seq 3426 permit 181.215.40.0/24
     seq 3427 permit 181.215.48.0/24
     seq 3428 permit 181.215.70.0/24
     seq 3429 permit 181.215.73.0/24
@@ -3941,7 +3941,7 @@
     seq 3939 permit 191.96.58.0/24
     seq 3940 permit 191.96.64.0/24
     seq 3941 permit 191.96.99.0/24
-    seq 3942 permit 191.96.102.0/23 ge 24 le 24
+    seq 3942 permit 191.96.103.0/24
     seq 3943 permit 191.96.122.0/24
     seq 3944 permit 191.96.137.0/24
     seq 3945 permit 191.96.169.0/24
