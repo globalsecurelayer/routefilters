@@ -13530,7 +13530,7 @@
     seq 13528 permit 2a0a:79c0:200::/40 le 48
     seq 13529 permit 2a0a:79c7:f000::/37 le 48
     seq 13530 permit 2a0a:79c7:f800::/38 le 48
-    seq 13531 permit 2a0a:79c7:ff00::/40 le 48
+    seq 13531 permit 2a0a:79c7:fe00::/39 ge 40 le 48
     seq 13532 permit 2a0a:7a00::/29 le 48
     seq 13533 permit 2a0a:7d00::/29 le 48
     seq 13534 permit 2a0a:7d40::/32 le 48
