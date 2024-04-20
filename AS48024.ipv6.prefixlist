@@ -447,8 +447,10 @@
     seq 445 permit 2a13:df80:3e00::/40 le 48
     seq 446 permit 2a13:df80:7e00::/44 le 48
     seq 447 permit 2a13:df80:8800::/44 le 48
-    seq 448 permit 2a13:df80:c000::/38 le 48
-    seq 449 permit 2a13:df87:4001::/48
-    seq 450 permit 2a13:df87:b40c::/48
-    seq 451 permit 2a13:e2c3::/32 le 48
-    seq 452 permit 2a14:7581:6000::/36 le 48
+    seq 448 permit 2a13:df80:8880::/44 le 48
+    seq 449 permit 2a13:df80:c000::/38 le 48
+    seq 450 permit 2a13:df80:e800::/38 le 48
+    seq 451 permit 2a13:df87:4001::/48
+    seq 452 permit 2a13:df87:b40c::/48
+    seq 453 permit 2a13:e2c3::/32 le 48
+    seq 454 permit 2a14:7581:6000::/36 le 48
