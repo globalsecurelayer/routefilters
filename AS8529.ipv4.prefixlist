@@ -40547,7 +40547,7 @@
     seq 40545 permit 166.1.190.0/24
     seq 40546 permit 166.1.201.0/24
     seq 40547 permit 166.1.218.0/24
-    seq 40548 permit 166.1.220.0/24
+    seq 40548 permit 166.1.220.0/23 ge 24 le 24
     seq 40549 permit 166.1.232.0/24
     seq 40550 permit 166.19.0.0/16 le 24
     seq 40551 permit 166.62.0.0/17 le 24

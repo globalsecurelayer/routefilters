@@ -42793,7 +42793,7 @@
     seq 42791 permit 166.1.190.0/24
     seq 42792 permit 166.1.201.0/24
     seq 42793 permit 166.1.218.0/24
-    seq 42794 permit 166.1.220.0/24
+    seq 42794 permit 166.1.220.0/23 ge 24 le 24
     seq 42795 permit 166.1.232.0/24
     seq 42796 permit 166.19.0.0/16 le 24
     seq 42797 permit 166.62.0.0/17 le 24
