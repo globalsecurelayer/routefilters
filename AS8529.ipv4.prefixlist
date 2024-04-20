@@ -5132,7 +5132,7 @@
     seq 5130 permit 45.12.185.0/24
     seq 5131 permit 45.12.186.0/23 le 24
     seq 5132 permit 45.12.196.0/22 le 24
-    seq 5133 permit 45.12.200.0/24
+    seq 5133 permit 45.12.200.0/23 ge 24 le 24
     seq 5134 permit 45.12.203.0/24
     seq 5135 permit 45.12.204.0/23 ge 24 le 24
     seq 5136 permit 45.12.212.0/22 ge 24 le 24
@@ -50475,7 +50475,7 @@
     seq 50473 permit 190.93.72.0/22 le 24
     seq 50474 permit 190.93.76.0/24
     seq 50475 permit 190.93.85.0/24
-    seq 50476 permit 190.93.88.0/24
+    seq 50476 permit 190.93.88.0/23 ge 24 le 24
     seq 50477 permit 190.93.92.0/22 ge 24 le 24
     seq 50478 permit 190.93.160.0/20 le 24
     seq 50479 permit 190.93.240.0/20 le 24
