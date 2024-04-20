@@ -1939,7 +1939,7 @@
     seq 1937 permit 2a0a:79c0:200::/40 le 48
     seq 1938 permit 2a0a:79c7:f000::/37 ge 38 le 48
     seq 1939 permit 2a0a:79c7:f800::/38 le 48
-    seq 1940 permit 2a0a:79c7:ff00::/40 le 48
+    seq 1940 permit 2a0a:79c7:fe00::/39 ge 40 le 48
     seq 1941 permit 2a0a:8887:1::/48
     seq 1942 permit 2a0a:8e00::/29 le 48
     seq 1943 permit 2a0a:9f40::/29 le 48

@@ -1305,7 +1305,7 @@
     seq 1303 permit 2a0a:79c0:200::/40 le 48
     seq 1304 permit 2a0a:79c7:f000::/37 ge 38 le 48
     seq 1305 permit 2a0a:79c7:f800::/38 le 48
-    seq 1306 permit 2a0a:79c7:ff00::/40 le 48
+    seq 1306 permit 2a0a:79c7:fe00::/39 ge 40 le 48
     seq 1307 permit 2a0a:8581:bb29::/48
     seq 1308 permit 2a0a:8887:1::/48
     seq 1309 permit 2a0a:8d80:1::/48
