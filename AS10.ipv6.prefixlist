@@ -4344,7 +4344,7 @@
     seq 4342 permit 2a14:7580:ffff::/48
     seq 4343 permit 2a14:7581::/40 le 48
     seq 4344 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 4345 permit 2a14:7581:104::/48
+    seq 4345 permit 2a14:7581:104::/47 ge 48 le 48
     seq 4346 permit 2a14:7581:500::/40 le 48
     seq 4347 permit 2a14:7581:ff0::/48
     seq 4348 permit 2a14:7581:1000::/45 ge 48 le 48
