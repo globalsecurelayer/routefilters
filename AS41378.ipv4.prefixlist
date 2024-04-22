@@ -2378,7 +2378,7 @@
     seq 2376 permit 83.229.40.0/21 le 24
     seq 2377 permit 83.229.120.0/21 le 24
     seq 2378 permit 84.32.7.0/24
-    seq 2379 permit 84.32.8.0/23 le 24
+    seq 2379 permit 84.32.8.0/23 ge 24 le 24
     seq 2380 permit 84.32.20.0/22 le 24
     seq 2381 permit 84.32.24.0/22 le 24
     seq 2382 permit 84.32.44.0/22 ge 24 le 24
