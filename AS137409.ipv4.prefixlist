@@ -29406,7 +29406,7 @@
     seq 29404 permit 103.184.154.0/23 le 24
     seq 29405 permit 103.184.166.0/24
     seq 29406 permit 103.184.168.0/23 le 24
-    seq 29407 permit 103.184.172.0/23 le 24
+    seq 29407 permit 103.184.172.0/22 ge 23 le 24
     seq 29408 permit 103.184.176.0/22 ge 23 le 24
     seq 29409 permit 103.184.192.0/22 ge 23 le 24
     seq 29410 permit 103.184.196.0/22 le 24
