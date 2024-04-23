@@ -718,7 +718,7 @@
     seq 716 permit 2602:fcd3:8::/48
     seq 717 permit 2602:fcd3:10::/44 le 48
     seq 718 permit 2602:fcd3:100::/48
-    seq 719 permit 2602:fcd3:103::/48
+    seq 719 permit 2602:fcd3:102::/47 ge 48 le 48
     seq 720 permit 2602:fcd3:124::/48
     seq 721 permit 2602:fcd3:130::/46 ge 48 le 48
     seq 722 permit 2602:fcd3:152::/47 ge 48 le 48
