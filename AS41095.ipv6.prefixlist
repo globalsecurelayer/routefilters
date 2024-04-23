@@ -6176,7 +6176,7 @@
     seq 6174 permit 2a09:e240:22::/48
     seq 6175 permit 2a09:e240:1337::/48
     seq 6176 permit 2a09:e244::/33 le 48
-    seq 6177 permit 2a09:e2c0::/29 ge 30 le 48
+    seq 6177 permit 2a09:e2c0::/30 le 48
     seq 6178 permit 2a09:e440::/40 le 48
     seq 6179 permit 2a09:e683:1::/48
     seq 6180 permit 2a09:e685::/48
@@ -8414,7 +8414,7 @@
     seq 8412 permit 2a0f:85c1:3ab::/48
     seq 8413 permit 2a0f:85c1:3ac::/47 ge 48 le 48
     seq 8414 permit 2a0f:85c1:3ae::/48
-    seq 8415 permit 2a0f:85c1:3b0::/48
+    seq 8415 permit 2a0f:85c1:3b0::/47 ge 48 le 48
     seq 8416 permit 2a0f:85c1:3b2::/48
     seq 8417 permit 2a0f:85c1:3b5::/48
     seq 8418 permit 2a0f:85c1:3b7::/48
