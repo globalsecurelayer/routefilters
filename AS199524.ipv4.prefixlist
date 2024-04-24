@@ -3450,7 +3450,7 @@
     seq 3448 permit 89.23.110.0/24
     seq 3449 permit 89.23.113.0/24
     seq 3450 permit 89.23.123.0/24
-    seq 3451 permit 89.28.236.0/24
+    seq 3451 permit 89.28.236.0/23 ge 24 le 24
     seq 3452 permit 89.28.239.0/24
     seq 3453 permit 89.28.240.0/21 le 24
     seq 3454 permit 89.31.80.0/21 le 24
