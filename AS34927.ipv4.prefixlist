@@ -2119,7 +2119,7 @@
     seq 2117 permit 178.18.148.0/24
     seq 2118 permit 178.18.152.0/22 le 24
     seq 2119 permit 178.23.190.0/24
-    seq 2120 permit 178.218.144.0/24
+    seq 2120 permit 178.218.144.0/23 ge 24 le 24
     seq 2121 permit 178.248.79.0/24
     seq 2122 permit 178.250.186.0/23 ge 24 le 24
     seq 2123 permit 178.250.189.0/24
