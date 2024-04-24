@@ -37556,7 +37556,7 @@
     seq 37554 permit 154.16.215.0/24
     seq 37555 permit 154.16.217.0/24
     seq 37556 permit 154.16.218.0/23 ge 24 le 24
-    seq 37557 permit 154.16.222.0/23 le 24
+    seq 37557 permit 154.16.222.0/23 ge 24 le 24
     seq 37558 permit 154.16.225.0/24
     seq 37559 permit 154.16.226.0/23 le 24
     seq 37560 permit 154.16.229.0/24
@@ -50536,7 +50536,7 @@
     seq 50534 permit 190.93.72.0/22 le 24
     seq 50535 permit 190.93.76.0/24
     seq 50536 permit 190.93.85.0/24
-    seq 50537 permit 190.93.88.0/23 ge 24 le 24
+    seq 50537 permit 190.93.88.0/24
     seq 50538 permit 190.93.92.0/22 ge 24 le 24
     seq 50539 permit 190.93.160.0/20 le 24
     seq 50540 permit 190.93.240.0/20 le 24
