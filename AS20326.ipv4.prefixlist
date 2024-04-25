@@ -515,7 +515,7 @@
     seq 513 permit 45.195.76.0/24
     seq 514 permit 45.195.96.0/20 le 24
     seq 515 permit 45.195.146.0/24
-    seq 516 permit 45.195.206.0/24
+    seq 516 permit 45.195.206.0/23 ge 24 le 24
     seq 517 permit 45.200.0.0/22 le 24
     seq 518 permit 45.200.12.0/22 ge 23 le 24
     seq 519 permit 45.200.16.0/22 ge 23 le 24
