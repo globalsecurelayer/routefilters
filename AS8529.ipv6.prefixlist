@@ -1353,7 +1353,7 @@
     seq 1351 permit 2001:dc8:c000::/36 le 48
     seq 1352 permit 2001:dc8:d000::/48
     seq 1353 permit 2001:dca:1000::/36 le 48
-    seq 1354 permit 2001:dca:2000::/35 le 48
+    seq 1354 permit 2001:dca:2000::/35 ge 36 le 48
     seq 1355 permit 2001:dca:4000::/36 le 48
     seq 1356 permit 2001:dcd:1::/48
     seq 1357 permit 2001:dcd:2::/47 ge 48 le 48
@@ -7714,8 +7714,8 @@
     seq 7712 permit 2607:e600::/32 le 48
     seq 7713 permit 2607:e680::/32 le 48
     seq 7714 permit 2607:ea00:100::/40 le 48
-    seq 7715 permit 2607:ea00:200::/39 le 48
-    seq 7716 permit 2607:ea00:400::/39 le 48
+    seq 7715 permit 2607:ea00:200::/39 ge 40 le 48
+    seq 7716 permit 2607:ea00:400::/39 ge 40 le 48
     seq 7717 permit 2607:ea00:600::/40 le 48
     seq 7718 permit 2607:f000::/32 le 48
     seq 7719 permit 2607:f010::/32 le 48
@@ -7759,7 +7759,7 @@
     seq 7757 permit 2607:f188::/32 le 48
     seq 7758 permit 2607:f208::/32 le 48
     seq 7759 permit 2607:f220:411::/48
-    seq 7760 permit 2607:f220:41e::/47 le 48
+    seq 7760 permit 2607:f220:41e::/47 ge 48 le 48
     seq 7761 permit 2607:f220:610::/48
     seq 7762 permit 2607:f250:e000::/44 le 48
     seq 7763 permit 2607:f368:804::/47 le 48
@@ -7894,7 +7894,7 @@
     seq 7892 permit 2620:0:150::/44 le 48
     seq 7893 permit 2620:0:260::/48
     seq 7894 permit 2620:0:2b0::/48
-    seq 7895 permit 2620:0:360::/47 le 48
+    seq 7895 permit 2620:0:360::/47 ge 48 le 48
     seq 7896 permit 2620:0:3b0::/48
     seq 7897 permit 2620:0:500::/41 le 48
     seq 7898 permit 2620:0:860::/46 le 48
@@ -7903,7 +7903,7 @@
     seq 7901 permit 2620:0:c10::/44 le 48
     seq 7902 permit 2620:0:c80::/48
     seq 7903 permit 2620:0:cc0::/44 le 48
-    seq 7904 permit 2620:0:e00::/47 le 48
+    seq 7904 permit 2620:0:e00::/47 ge 48 le 48
     seq 7905 permit 2620:0:e10::/48
     seq 7906 permit 2620:0:ef0::/48
     seq 7907 permit 2620:0:1000::/40 le 48
@@ -8072,7 +8072,7 @@
     seq 8070 permit 2620:f8:4000::/48
     seq 8071 permit 2620:f9::/44 le 48
     seq 8072 permit 2620:fe::/48
-    seq 8073 permit 2620:100:4000::/46 le 48
+    seq 8073 permit 2620:100:4000::/46 ge 48 le 48
     seq 8074 permit 2620:100:4010::/48
     seq 8075 permit 2620:100:403e::/47 le 48
     seq 8076 permit 2620:100:6000::/40 le 48
@@ -8348,7 +8348,7 @@
     seq 8346 permit 2801:80:1d30::/49
     seq 8347 permit 2801:80:3aa0::/43 le 48
     seq 8348 permit 2801:96:fff7::/48
-    seq 8349 permit 2801:96:fff8::/47 le 48
+    seq 8349 permit 2801:96:fff8::/47 ge 48 le 48
     seq 8350 permit 2801:96:fffe::/48
     seq 8351 permit 2801:ac::/32 le 48
     seq 8352 permit 2801:c4:10::/48
@@ -10578,7 +10578,7 @@
     seq 10576 permit 2a04:4680::/29 le 48
     seq 10577 permit 2a04:4720::/30 le 48
     seq 10578 permit 2a04:48c0::/29 le 48
-    seq 10579 permit 2a04:4a44:4::/47 le 48
+    seq 10579 permit 2a04:4a44:4::/47 ge 48 le 48
     seq 10580 permit 2a04:4ac0::/29 le 48
     seq 10581 permit 2a04:4b80::/29 le 48
     seq 10582 permit 2a04:4cc0::/29 le 48
@@ -12024,11 +12024,11 @@
     seq 12022 permit 2a0a:3440::/29 le 48
     seq 12023 permit 2a0a:3640::/29 le 48
     seq 12024 permit 2a0a:37c0::/29 le 48
-    seq 12025 permit 2a0a:3980::/46 le 48
+    seq 12025 permit 2a0a:3980::/46 ge 48 le 48
     seq 12026 permit 2a0a:3980:2:100::/56
     seq 12027 permit 2a0a:3980:4::/48
     seq 12028 permit 2a0a:3980:9::/48
-    seq 12029 permit 2a0a:3980:100::/47 le 48
+    seq 12029 permit 2a0a:3980:100::/47 ge 48 le 48
     seq 12030 permit 2a0a:3980:105::/48
     seq 12031 permit 2a0a:3980:ffff::/48
     seq 12032 permit 2a0a:3a40::/32 le 48
