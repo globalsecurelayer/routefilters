@@ -68,90 +68,94 @@
     seq 66 permit 2602:f96c::/40 le 48
     seq 67 permit 2602:f9a9:101::/48
     seq 68 permit 2602:fa4f::/38 ge 40 le 48
-    seq 69 permit 2602:faad:3::/48
-    seq 70 permit 2602:faad:4::/48
-    seq 71 permit 2602:fbda::/38 le 48
-    seq 72 permit 2602:fbf1::/32 le 48
-    seq 73 permit 2602:fc23:110::/48
-    seq 74 permit 2602:fc23:11d::/48
-    seq 75 permit 2602:feda:a80::/44 le 48
-    seq 76 permit 2602:feda:ae4::/48
-    seq 77 permit 2602:feda:b88::/47 le 48
-    seq 78 permit 2602:feda:cb0::/44 le 48
-    seq 79 permit 2602:feda:d40::/44 le 48
-    seq 80 permit 2602:feda:d91::/48
-    seq 81 permit 2607:8140::/32 le 48
-    seq 82 permit 2a03:5840:f6::/48
-    seq 83 permit 2a03:5840:110::/48
-    seq 84 permit 2a05:dfc1:6700::/40 le 48
-    seq 85 permit 2a05:dfc1:91a4::/48
-    seq 86 permit 2a05:dfc1:91a8::/48
-    seq 87 permit 2a06:a005:160::/44 le 48
-    seq 88 permit 2a06:a005:200::/43 ge 44 le 48
-    seq 89 permit 2a06:a005:45e::/48
-    seq 90 permit 2a06:a005:500::/44 le 48
-    seq 91 permit 2a06:a005:600::/44 le 48
-    seq 92 permit 2a06:a005:860::/44 le 48
-    seq 93 permit 2a07:54c1:c200::/40 le 48
-    seq 94 permit 2a0a:6040:8100::/40 le 48
-    seq 95 permit 2a0b:4340:570::/44 le 48
-    seq 96 permit 2a0c:9a40:8440::/44 le 48
-    seq 97 permit 2a0c:9a40:9200::/40 le 48
-    seq 98 permit 2a0c:9a40:9600::/40 le 48
-    seq 99 permit 2a0c:9a40:9f00::/40 le 48
-    seq 100 permit 2a0d:2905::/32 le 48
-    seq 101 permit 2a0e:800:ff20::/47 ge 48 le 48
-    seq 102 permit 2a0e:800:ff40::/42 le 48
-    seq 103 permit 2a0e:8f02:f03c::/48
-    seq 104 permit 2a0e:8f02:f046::/48
-    seq 105 permit 2a0e:8f02:f062::/48
-    seq 106 permit 2a0e:97c0:7d0::/44 le 48
-    seq 107 permit 2a0e:aa02::/32 le 48
-    seq 108 permit 2a0e:aa07:e011::/48
-    seq 109 permit 2a0e:aa07:e040::/48
-    seq 110 permit 2a0e:b107:1070::/44 le 48
-    seq 111 permit 2a0e:b107:1310::/44 le 48
-    seq 112 permit 2a0e:b107:1480::/48
-    seq 113 permit 2a0e:b107:1950::/44 le 48
-    seq 114 permit 2a0e:b107:1c60::/44 le 48
-    seq 115 permit 2a0e:b107:2710::/44 le 48
-    seq 116 permit 2a0e:b107:28b8::/45 le 48
-    seq 117 permit 2a0e:b107:28c0::/45 le 48
-    seq 118 permit 2a0f:607:1000::/40 le 48
-    seq 119 permit 2a0f:607:1400::/44 le 48
-    seq 120 permit 2a0f:7803:fb30::/44 le 48
-    seq 121 permit 2a0f:7803:fe20::/44 le 48
-    seq 122 permit 2a0f:7803:ffb1::/48
-    seq 123 permit 2a0f:9400:6164::/48
-    seq 124 permit 2a0f:9400:6166::/48
-    seq 125 permit 2a0f:9400:6800::/40 le 48
-    seq 126 permit 2a0f:9400:8016::/48
-    seq 127 permit 2a11:29c0:35::/48
-    seq 128 permit 2a12:3fc2:dd00::/40 le 48
-    seq 129 permit 2a12:8fc5:190::/44 le 48
-    seq 130 permit 2a12:bec0:160::/47 ge 48 le 48
-    seq 131 permit 2a12:bec0:162::/48
-    seq 132 permit 2a12:bec0:165::/48
-    seq 133 permit 2a12:bec0:166::/48
-    seq 134 permit 2a12:bec0:168::/48
-    seq 135 permit 2a12:bec0:16b::/48
-    seq 136 permit 2a12:bec0:16d::/48
-    seq 137 permit 2a12:bec0:16e::/47 ge 48 le 48
-    seq 138 permit 2a12:bec0:50c::/47 le 48
-    seq 139 permit 2a12:bec0:50e::/48
-    seq 140 permit 2a12:bec0:680::/45 le 48
-    seq 141 permit 2a12:bec0:68f::/48
-    seq 142 permit 2a12:dd46:1000::/36 le 48
-    seq 143 permit 2a12:dd47:200::/40 le 48
-    seq 144 permit 2a12:dd47:8001::/48
-    seq 145 permit 2a12:dd47:8161::/48
-    seq 146 permit 2a12:dd47:8240::/43 le 48
-    seq 147 permit 2a12:dd47:8370::/44 le 48
-    seq 148 permit 2a12:dd47:a000::/36 le 48
-    seq 149 permit 2a12:dd47:f200::/40 le 48
-    seq 150 permit 2a12:f8c1:40::/44 le 48
-    seq 151 permit 2a13:b487:1600::/40 le 48
-    seq 152 permit 2a13:b487:4f00::/40 le 48
-    seq 153 permit 2a13:b487:5000::/40 le 48
-    seq 154 permit 2a13:df80:4600::/40 le 48
-    seq 155 permit 2a13:df80:7c00::/40 le 48
+    seq 69 permit 2602:faa8:410::/44 le 48
+    seq 70 permit 2602:faad:3::/48
+    seq 71 permit 2602:faad:4::/48
+    seq 72 permit 2602:faad:a1::/48
+    seq 73 permit 2602:fbda::/38 le 48
+    seq 74 permit 2602:fbf1::/32 le 48
+    seq 75 permit 2602:fc23:110::/48
+    seq 76 permit 2602:fc23:11d::/48
+    seq 77 permit 2602:feda:a80::/44 le 48
+    seq 78 permit 2602:feda:ae4::/48
+    seq 79 permit 2602:feda:b88::/47 le 48
+    seq 80 permit 2602:feda:cb0::/44 le 48
+    seq 81 permit 2602:feda:d40::/44 le 48
+    seq 82 permit 2602:feda:d91::/48
+    seq 83 permit 2607:8140::/32 le 48
+    seq 84 permit 2a03:5840:f6::/48
+    seq 85 permit 2a03:5840:110::/48
+    seq 86 permit 2a05:dfc1:6700::/40 le 48
+    seq 87 permit 2a05:dfc1:91a4::/48
+    seq 88 permit 2a05:dfc1:91a8::/48
+    seq 89 permit 2a05:dfc1:a900::/40 le 48
+    seq 90 permit 2a06:a005:160::/44 le 48
+    seq 91 permit 2a06:a005:200::/43 ge 44 le 48
+    seq 92 permit 2a06:a005:45e::/48
+    seq 93 permit 2a06:a005:500::/44 le 48
+    seq 94 permit 2a06:a005:600::/44 le 48
+    seq 95 permit 2a06:a005:860::/44 le 48
+    seq 96 permit 2a07:54c1:c200::/40 le 48
+    seq 97 permit 2a0a:6040:8100::/40 le 48
+    seq 98 permit 2a0b:4340:570::/44 le 48
+    seq 99 permit 2a0c:9a40:8440::/44 le 48
+    seq 100 permit 2a0c:9a40:9200::/40 le 48
+    seq 101 permit 2a0c:9a40:9600::/40 le 48
+    seq 102 permit 2a0c:9a40:9f00::/40 le 48
+    seq 103 permit 2a0d:2905::/32 le 48
+    seq 104 permit 2a0e:800:ff20::/47 ge 48 le 48
+    seq 105 permit 2a0e:800:ff40::/42 le 48
+    seq 106 permit 2a0e:8f02:f03c::/48
+    seq 107 permit 2a0e:8f02:f046::/48
+    seq 108 permit 2a0e:8f02:f062::/48
+    seq 109 permit 2a0e:97c0:7d0::/44 le 48
+    seq 110 permit 2a0e:aa02::/32 le 48
+    seq 111 permit 2a0e:aa07:e011::/48
+    seq 112 permit 2a0e:aa07:e040::/48
+    seq 113 permit 2a0e:b107:1070::/44 le 48
+    seq 114 permit 2a0e:b107:1310::/44 le 48
+    seq 115 permit 2a0e:b107:1480::/48
+    seq 116 permit 2a0e:b107:1950::/44 le 48
+    seq 117 permit 2a0e:b107:1c60::/44 le 48
+    seq 118 permit 2a0e:b107:2710::/44 le 48
+    seq 119 permit 2a0e:b107:28b8::/45 le 48
+    seq 120 permit 2a0e:b107:28c0::/45 le 48
+    seq 121 permit 2a0f:607:1000::/40 le 48
+    seq 122 permit 2a0f:607:1400::/44 le 48
+    seq 123 permit 2a0f:7803:fb30::/44 le 48
+    seq 124 permit 2a0f:7803:fe20::/44 le 48
+    seq 125 permit 2a0f:7803:ffb1::/48
+    seq 126 permit 2a0f:9400:6164::/48
+    seq 127 permit 2a0f:9400:6166::/48
+    seq 128 permit 2a0f:9400:6800::/40 le 48
+    seq 129 permit 2a0f:9400:8016::/48
+    seq 130 permit 2a11:29c0:35::/48
+    seq 131 permit 2a12:3fc2:dd00::/40 le 48
+    seq 132 permit 2a12:8fc5:190::/44 le 48
+    seq 133 permit 2a12:bec0:160::/47 ge 48 le 48
+    seq 134 permit 2a12:bec0:162::/48
+    seq 135 permit 2a12:bec0:165::/48
+    seq 136 permit 2a12:bec0:166::/48
+    seq 137 permit 2a12:bec0:168::/48
+    seq 138 permit 2a12:bec0:16b::/48
+    seq 139 permit 2a12:bec0:16d::/48
+    seq 140 permit 2a12:bec0:16e::/47 ge 48 le 48
+    seq 141 permit 2a12:bec0:50c::/47 le 48
+    seq 142 permit 2a12:bec0:50e::/48
+    seq 143 permit 2a12:bec0:680::/45 le 48
+    seq 144 permit 2a12:bec0:68f::/48
+    seq 145 permit 2a12:dd46:1000::/36 le 48
+    seq 146 permit 2a12:dd47:200::/40 le 48
+    seq 147 permit 2a12:dd47:3026::/48
+    seq 148 permit 2a12:dd47:8001::/48
+    seq 149 permit 2a12:dd47:8161::/48
+    seq 150 permit 2a12:dd47:8240::/43 le 48
+    seq 151 permit 2a12:dd47:8370::/44 le 48
+    seq 152 permit 2a12:dd47:a000::/36 le 48
+    seq 153 permit 2a12:dd47:f200::/40 le 48
+    seq 154 permit 2a12:f8c1:40::/44 le 48
+    seq 155 permit 2a13:b487:1600::/40 le 48
+    seq 156 permit 2a13:b487:4f00::/40 le 48
+    seq 157 permit 2a13:b487:5000::/40 le 48
+    seq 158 permit 2a13:df80:4600::/40 le 48
+    seq 159 permit 2a13:df80:7c00::/40 le 48
