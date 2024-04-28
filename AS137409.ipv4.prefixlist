@@ -53607,7 +53607,7 @@
     seq 53605 permit 191.96.83.0/24
     seq 53606 permit 191.96.88.0/22 le 24
     seq 53607 permit 191.96.92.0/23 le 24
-    seq 53608 permit 191.96.95.0/24
+    seq 53608 permit 191.96.94.0/23 ge 24 le 24
     seq 53609 permit 191.96.96.0/22 ge 24 le 24
     seq 53610 permit 191.96.100.0/23 le 24
     seq 53611 permit 191.96.103.0/24
