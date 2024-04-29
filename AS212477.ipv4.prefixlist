@@ -82,7 +82,7 @@
     seq 80 permit 27.127.192.0/19 le 24
     seq 81 permit 27.127.224.0/20 le 24
     seq 82 permit 31.6.2.0/24
-    seq 83 permit 31.6.15.0/24
+    seq 83 permit 31.6.14.0/23 ge 24 le 24
     seq 84 permit 31.6.28.0/23 le 24
     seq 85 permit 31.129.22.0/24
     seq 86 permit 31.187.64.0/24
