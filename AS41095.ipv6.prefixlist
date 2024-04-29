@@ -9943,7 +9943,7 @@
     seq 9941 permit 2a14:7c0:b00b::/48
     seq 9942 permit 2a14:7c1:b00b::/48
     seq 9943 permit 2a14:7c2::/31 ge 32 le 48
-    seq 9944 permit 2a14:7c4::/32 le 48
+    seq 9944 permit 2a14:7c4::/31 ge 32 le 48
     seq 9945 permit 2a14:7c7::/32 le 48
     seq 9946 permit 2a14:800::/29 le 48
     seq 9947 permit 2a14:880::/32 le 48
