@@ -755,7 +755,7 @@
     seq 753 permit 2401:11a0:150::/44 le 48
     seq 754 permit 2401:11a0:1500::/40 le 48
     seq 755 permit 2401:11a0:d150::/44 le 48
-    seq 756 permit 2401:1640::/32 le 48
+    seq 756 permit 2401:1640:10::/44 ge 48 le 48
     seq 757 permit 2401:16a0::/32 le 48
     seq 758 permit 2401:1700::/32 le 48
     seq 759 permit 2401:20e0::/32 le 48
