@@ -3809,7 +3809,7 @@
     seq 3807 permit 103.203.148.0/22 le 24
     seq 3808 permit 103.203.242.0/23 le 24
     seq 3809 permit 103.204.172.0/22 ge 24 le 24
-    seq 3810 permit 103.204.180.0/22 ge 24 le 24
+    seq 3810 permit 103.204.180.0/22 le 24
     seq 3811 permit 103.205.8.0/23 ge 24 le 24
     seq 3812 permit 103.205.11.0/24
     seq 3813 permit 103.205.120.0/22 le 24
@@ -7579,7 +7579,7 @@
     seq 7577 permit 202.177.240.0/21 le 24
     seq 7578 permit 202.178.112.0/20 le 24
     seq 7579 permit 202.179.152.0/22 le 24
-    seq 7580 permit 202.181.0.0/23 ge 24 le 24
+    seq 7580 permit 202.181.0.0/22 le 24
     seq 7581 permit 202.181.24.0/22 le 24
     seq 7582 permit 202.182.96.0/19 ge 20 le 24
     seq 7583 permit 202.182.96.0/23 ge 25 le 25
