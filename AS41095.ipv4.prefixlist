@@ -10582,7 +10582,7 @@
     seq 10580 permit 89.46.3.0/24
     seq 10581 permit 89.46.4.0/24
     seq 10582 permit 89.46.9.0/24
-    seq 10583 permit 89.46.10.0/24
+    seq 10583 permit 89.46.10.0/23 ge 24 le 24
     seq 10584 permit 89.46.33.0/24
     seq 10585 permit 89.46.34.0/24
     seq 10586 permit 89.46.40.0/23 le 24
