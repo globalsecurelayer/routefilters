@@ -509,7 +509,7 @@
     seq 507 permit 23.163.152.0/24
     seq 508 permit 23.163.176.0/24
     seq 509 permit 23.164.56.0/24
-    seq 510 permit 23.164.152.0/24
+    seq 510 permit 23.164.152.0/23 ge 24 le 24
     seq 511 permit 23.164.184.0/24
     seq 512 permit 23.164.232.0/24
     seq 513 permit 23.164.240.0/24

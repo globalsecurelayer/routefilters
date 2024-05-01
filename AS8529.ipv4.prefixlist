@@ -2350,7 +2350,7 @@
     seq 2348 permit 23.164.56.0/24
     seq 2349 permit 23.164.88.0/24
     seq 2350 permit 23.164.128.0/24
-    seq 2351 permit 23.164.152.0/24
+    seq 2351 permit 23.164.152.0/23 ge 24 le 24
     seq 2352 permit 23.164.160.0/24
     seq 2353 permit 23.164.184.0/24
     seq 2354 permit 23.164.200.0/24
@@ -59584,7 +59584,7 @@
     seq 59582 permit 199.36.4.0/24
     seq 59583 permit 199.36.7.0/24
     seq 59584 permit 199.36.104.0/21 le 24
-    seq 59585 permit 199.36.121.0/24
+    seq 59585 permit 199.36.120.0/23 ge 24 le 24
     seq 59586 permit 199.36.122.0/23 le 24
     seq 59587 permit 199.36.128.0/22 le 24
     seq 59588 permit 199.36.154.0/23 le 24
