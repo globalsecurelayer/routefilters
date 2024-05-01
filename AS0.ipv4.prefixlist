@@ -3582,7 +3582,7 @@
     seq 3580 permit 89.44.247.0/24
     seq 3581 permit 89.46.3.0/24
     seq 3582 permit 89.46.4.0/24
-    seq 3583 permit 89.46.10.0/24
+    seq 3583 permit 89.46.10.0/23 ge 24 le 24
     seq 3584 permit 89.46.43.0/24
     seq 3585 permit 89.46.152.0/21 le 24
     seq 3586 permit 89.46.242.0/24
