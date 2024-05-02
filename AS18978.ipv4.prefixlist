@@ -2,16 +2,16 @@
 
     seq 1 permit 5.180.20.0/22 le 24
     seq 2 permit 5.180.24.0/21 ge 22 le 24
-    seq 3 permit 5.180.40.0/21 ge 22 le 24
-    seq 4 permit 5.180.52.0/22 le 24
-    seq 5 permit 5.180.144.0/22 le 24
-    seq 6 permit 5.253.28.0/22 le 24
-    seq 7 permit 5.253.40.0/22 le 24
-    seq 8 permit 38.34.160.0/19 le 24
-    seq 9 permit 38.145.192.0/19 le 24
-    seq 10 permit 45.38.24.0/24
-    seq 11 permit 45.66.156.0/22 le 24
-    seq 12 permit 45.66.164.0/22 le 24
+    seq 3 permit 5.180.40.0/22 ge 23 le 24
+    seq 4 permit 5.180.44.0/22 le 24
+    seq 5 permit 5.180.52.0/22 le 24
+    seq 6 permit 5.180.144.0/22 le 24
+    seq 7 permit 5.253.28.0/22 le 24
+    seq 8 permit 5.253.40.0/22 le 24
+    seq 9 permit 38.34.160.0/19 le 24
+    seq 10 permit 38.145.192.0/19 le 24
+    seq 11 permit 45.38.24.0/24
+    seq 12 permit 45.66.156.0/22 le 24
     seq 13 permit 45.128.60.0/22 le 24
     seq 14 permit 45.136.112.0/21 ge 22 le 24
     seq 15 permit 45.136.128.0/22 le 24
@@ -42,15 +42,10 @@
     seq 40 permit 194.59.244.0/23 le 24
     seq 41 permit 194.76.146.0/23 le 24
     seq 42 permit 194.124.244.0/23 le 24
-    seq 43 permit 198.98.96.0/20 le 24
-    seq 44 permit 198.98.112.0/21 le 24
-    seq 45 permit 198.98.120.0/22 le 24
-    seq 46 permit 198.98.124.0/23 ge 24 le 24
-    seq 47 permit 198.98.126.0/23 le 24
-    seq 48 permit 199.48.68.0/22 le 24
-    seq 49 permit 199.188.72.0/22 le 24
-    seq 50 permit 199.193.248.0/21 le 24
-    seq 51 permit 199.229.232.0/22 le 24
-    seq 52 permit 199.231.208.0/21 le 24
-    seq 53 permit 213.244.143.0/24
-    seq 54 permit 216.152.224.0/20 le 24
+    seq 43 permit 199.48.68.0/22 le 24
+    seq 44 permit 199.188.72.0/22 le 24
+    seq 45 permit 199.193.248.0/21 le 24
+    seq 46 permit 199.229.232.0/22 le 24
+    seq 47 permit 199.231.208.0/21 le 24
+    seq 48 permit 213.244.143.0/24
+    seq 49 permit 216.152.224.0/20 le 24
