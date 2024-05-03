@@ -1707,7 +1707,7 @@
     seq 1705 permit 89.251.25.0/24
     seq 1706 permit 89.251.192.0/20 le 24
     seq 1707 permit 91.103.120.0/21 le 24
-    seq 1708 permit 91.108.64.0/19 ge 20 le 24
+    seq 1708 permit 91.108.64.0/19 le 24
     seq 1709 permit 91.108.192.0/22 ge 24 le 24
     seq 1710 permit 91.108.196.0/22 le 24
     seq 1711 permit 91.108.200.0/21 ge 22 le 24
@@ -3092,7 +3092,7 @@
     seq 3090 permit 172.98.29.0/24
     seq 3091 permit 172.98.33.0/24
     seq 3092 permit 172.98.64.0/19 le 24
-    seq 3093 permit 172.99.22.0/23 ge 24 le 24
+    seq 3093 permit 172.99.23.0/24
     seq 3094 permit 172.102.128.0/20 le 24
     seq 3095 permit 172.102.200.0/24
     seq 3096 permit 172.103.32.0/22 ge 24 le 24
