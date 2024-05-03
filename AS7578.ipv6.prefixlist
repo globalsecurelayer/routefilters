@@ -43,9 +43,10 @@
     seq 41 permit 2a0e:4201::/32 le 48
     seq 42 permit 2a0e:4202::/32 le 48
     seq 43 permit 2a0e:4205::/32 le 48
-    seq 44 permit 2a0e:d785::/32 le 48
-    seq 45 permit 2a0e:d786::/32 le 48
-    seq 46 permit 2a0f:2740::/29 le 48
-    seq 47 permit 2a0f:e383::/32 le 48
-    seq 48 permit 2a0f:e384::/31 ge 32 le 48
-    seq 49 permit 2a0f:e387::/32 le 48
+    seq 44 permit 2a0e:97c0:290::/44 le 48
+    seq 45 permit 2a0e:d785::/32 le 48
+    seq 46 permit 2a0e:d786::/32 le 48
+    seq 47 permit 2a0f:2740::/29 le 48
+    seq 48 permit 2a0f:e383::/32 le 48
+    seq 49 permit 2a0f:e384::/31 ge 32 le 48
+    seq 50 permit 2a0f:e387::/32 le 48
