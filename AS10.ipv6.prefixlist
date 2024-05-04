@@ -4320,38 +4320,37 @@
     seq 4318 permit 2a14:7580:ffff::/48
     seq 4319 permit 2a14:7581::/40 le 48
     seq 4320 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 4321 permit 2a14:7581:104::/47 ge 48 le 48
+    seq 4321 permit 2a14:7581:104::/48
     seq 4322 permit 2a14:7581:500::/40 le 48
     seq 4323 permit 2a14:7581:700::/48
     seq 4324 permit 2a14:7581:ff0::/48
     seq 4325 permit 2a14:7581:1000::/45 ge 48 le 48
-    seq 4326 permit 2a14:7581:1008::/47 ge 48 le 48
+    seq 4326 permit 2a14:7581:1009::/48
     seq 4327 permit 2a14:7581:2000::/48
     seq 4328 permit 2a14:7581:2010::/48
     seq 4329 permit 2a14:7581:2068::/48
     seq 4330 permit 2a14:7581:2100::/47 ge 48 le 48
     seq 4331 permit 2a14:7581:2102::/48
     seq 4332 permit 2a14:7581:2111::/48
-    seq 4333 permit 2a14:7581:2153::/48
-    seq 4334 permit 2a14:7581:2180::/48
-    seq 4335 permit 2a14:7581:2199::/48
-    seq 4336 permit 2a14:7581:4000::/36 le 48
-    seq 4337 permit 2a14:7581:6000::/36 le 48
-    seq 4338 permit 2a14:7582::/31 ge 32 le 48
-    seq 4339 permit 2c0f:2800::/32 le 48
-    seq 4340 permit 2c0f:ec00::/32 le 48
-    seq 4341 permit 2c0f:edb0::/32 le 48
-    seq 4342 permit 2c0f:f530::/32 le 48
-    seq 4343 permit 2c0f:f7a8::/29 le 48
-    seq 4344 permit 2c0f:fc88::/31 le 48
-    seq 4345 permit 2c0f:fc88::/63 ge 64 le 64
-    seq 4346 permit 2c0f:fc88:0:2::/64
-    seq 4347 permit 2c0f:fc88:4:7::/64
-    seq 4348 permit 2c0f:fc88:4:41::/64
-    seq 4349 permit 2c0f:fc88:4:42::/64
-    seq 4350 permit 2c0f:fc89:0:b::/64
-    seq 4351 permit 2c0f:fc89:0:17::/64
-    seq 4352 permit 2c0f:fc89:0:4a::/64
-    seq 4353 permit 2c0f:fc89:0:4d::/64
-    seq 4354 permit 2c0f:fc89:0:70::/64
-    seq 4355 permit 2c0f:fc89:0:80::/64
+    seq 4333 permit 2a14:7581:2180::/48
+    seq 4334 permit 2a14:7581:2199::/48
+    seq 4335 permit 2a14:7581:4000::/36 le 48
+    seq 4336 permit 2a14:7581:6000::/36 le 48
+    seq 4337 permit 2a14:7582::/31 ge 32 le 48
+    seq 4338 permit 2c0f:2800::/32 le 48
+    seq 4339 permit 2c0f:ec00::/32 le 48
+    seq 4340 permit 2c0f:edb0::/32 le 48
+    seq 4341 permit 2c0f:f530::/32 le 48
+    seq 4342 permit 2c0f:f7a8::/29 le 48
+    seq 4343 permit 2c0f:fc88::/31 le 48
+    seq 4344 permit 2c0f:fc88::/63 ge 64 le 64
+    seq 4345 permit 2c0f:fc88:0:2::/64
+    seq 4346 permit 2c0f:fc88:4:7::/64
+    seq 4347 permit 2c0f:fc88:4:41::/64
+    seq 4348 permit 2c0f:fc88:4:42::/64
+    seq 4349 permit 2c0f:fc89:0:b::/64
+    seq 4350 permit 2c0f:fc89:0:17::/64
+    seq 4351 permit 2c0f:fc89:0:4a::/64
+    seq 4352 permit 2c0f:fc89:0:4d::/64
+    seq 4353 permit 2c0f:fc89:0:70::/64
+    seq 4354 permit 2c0f:fc89:0:80::/64

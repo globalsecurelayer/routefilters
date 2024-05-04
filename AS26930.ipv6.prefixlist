@@ -1689,21 +1689,20 @@
     seq 1687 permit 2a14:7580:ffff::/48
     seq 1688 permit 2a14:7581::/40 le 48
     seq 1689 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 1690 permit 2a14:7581:104::/47 ge 48 le 48
+    seq 1690 permit 2a14:7581:104::/48
     seq 1691 permit 2a14:7581:500::/40 le 48
     seq 1692 permit 2a14:7581:ff0::/48
     seq 1693 permit 2a14:7581:1000::/45 ge 48 le 48
-    seq 1694 permit 2a14:7581:1008::/47 ge 48 le 48
+    seq 1694 permit 2a14:7581:1009::/48
     seq 1695 permit 2a14:7581:2000::/48
     seq 1696 permit 2a14:7581:2010::/48
     seq 1697 permit 2a14:7581:2068::/48
     seq 1698 permit 2a14:7581:2100::/47 ge 48 le 48
     seq 1699 permit 2a14:7581:2102::/48
     seq 1700 permit 2a14:7581:2111::/48
-    seq 1701 permit 2a14:7581:2153::/48
-    seq 1702 permit 2a14:7581:2180::/48
-    seq 1703 permit 2a14:7581:2199::/48
-    seq 1704 permit 2a14:7581:4000::/36 le 48
-    seq 1705 permit 2a14:7581:6000::/36 le 48
-    seq 1706 permit 2a14:7582::/31 ge 32 le 48
-    seq 1707 permit 2c0f:f530::/32 le 48
+    seq 1701 permit 2a14:7581:2180::/48
+    seq 1702 permit 2a14:7581:2199::/48
+    seq 1703 permit 2a14:7581:4000::/36 le 48
+    seq 1704 permit 2a14:7581:6000::/36 le 48
+    seq 1705 permit 2a14:7582::/31 ge 32 le 48
+    seq 1706 permit 2c0f:f530::/32 le 48

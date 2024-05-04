@@ -5169,36 +5169,35 @@
     seq 5167 permit 2a14:7580:ffff::/48
     seq 5168 permit 2a14:7581::/40 le 48
     seq 5169 permit 2a14:7581:100::/46 ge 48 le 48
-    seq 5170 permit 2a14:7581:104::/47 ge 48 le 48
+    seq 5170 permit 2a14:7581:104::/48
     seq 5171 permit 2a14:7581:500::/40 le 48
     seq 5172 permit 2a14:7581:700::/48
     seq 5173 permit 2a14:7581:ff0::/48
     seq 5174 permit 2a14:7581:1000::/45 ge 48 le 48
-    seq 5175 permit 2a14:7581:1008::/47 ge 48 le 48
+    seq 5175 permit 2a14:7581:1009::/48
     seq 5176 permit 2a14:7581:2000::/48
     seq 5177 permit 2a14:7581:2010::/48
     seq 5178 permit 2a14:7581:2068::/48
     seq 5179 permit 2a14:7581:2100::/47 ge 48 le 48
     seq 5180 permit 2a14:7581:2102::/48
     seq 5181 permit 2a14:7581:2111::/48
-    seq 5182 permit 2a14:7581:2153::/48
-    seq 5183 permit 2a14:7581:2180::/48
-    seq 5184 permit 2a14:7581:2199::/48
-    seq 5185 permit 2a14:7581:4000::/36 le 48
-    seq 5186 permit 2a14:7581:6000::/36 le 48
-    seq 5187 permit 2a14:7582::/31 ge 32 le 48
-    seq 5188 permit 2a14:7980::/32 le 48
-    seq 5189 permit 2a14:7b80::/29 ge 32 le 48
-    seq 5190 permit 2a14:7e00::/29 le 48
-    seq 5191 permit 2c0f:f00::/32 le 48
-    seq 5192 permit 2c0f:4e00::/32 le 48
-    seq 5193 permit 2c0f:5c00::/32 le 48
-    seq 5194 permit 2c0f:ec00::/32 le 48
-    seq 5195 permit 2c0f:ed60::/32 le 48
-    seq 5196 permit 2c0f:f3c8::/32 le 48
-    seq 5197 permit 2c0f:f530::/32 le 48
-    seq 5198 permit 2c0f:f7d8::/32 le 48
-    seq 5199 permit 2c0f:fd20::/32 le 48
-    seq 5200 permit 2c0f:fda8::/32 le 48
-    seq 5201 permit 2c0f:fee0::/32 le 48
-    seq 5202 permit 2c0f:fee0::/64
+    seq 5182 permit 2a14:7581:2180::/48
+    seq 5183 permit 2a14:7581:2199::/48
+    seq 5184 permit 2a14:7581:4000::/36 le 48
+    seq 5185 permit 2a14:7581:6000::/36 le 48
+    seq 5186 permit 2a14:7582::/31 ge 32 le 48
+    seq 5187 permit 2a14:7980::/32 le 48
+    seq 5188 permit 2a14:7b80::/29 ge 32 le 48
+    seq 5189 permit 2a14:7e00::/29 le 48
+    seq 5190 permit 2c0f:f00::/32 le 48
+    seq 5191 permit 2c0f:4e00::/32 le 48
+    seq 5192 permit 2c0f:5c00::/32 le 48
+    seq 5193 permit 2c0f:ec00::/32 le 48
+    seq 5194 permit 2c0f:ed60::/32 le 48
+    seq 5195 permit 2c0f:f3c8::/32 le 48
+    seq 5196 permit 2c0f:f530::/32 le 48
+    seq 5197 permit 2c0f:f7d8::/32 le 48
+    seq 5198 permit 2c0f:fd20::/32 le 48
+    seq 5199 permit 2c0f:fda8::/32 le 48
+    seq 5200 permit 2c0f:fee0::/32 le 48
+    seq 5201 permit 2c0f:fee0::/64
