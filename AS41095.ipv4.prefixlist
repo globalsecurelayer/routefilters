@@ -12797,7 +12797,7 @@
     seq 12795 permit 92.70.0.0/16 le 24
     seq 12796 permit 92.71.192.0/18 le 24
     seq 12797 permit 92.100.0.0/15 le 24
-    seq 12798 permit 92.112.0.0/16 le 24
+    seq 12798 permit 92.112.0.0/16 ge 17 le 24
     seq 12799 permit 92.114.4.0/24
     seq 12800 permit 92.114.7.0/24
     seq 12801 permit 92.114.32.0/24
